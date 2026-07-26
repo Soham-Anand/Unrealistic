@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "unrealistic"
+version = "0.1.0"
+description = "Unrealistic - A 187M parameter LLM built from scratch for Apple Silicon"
+requires-python = ">=3.11"
+dependencies = [
+    "mlx>=0.31.2",
+    "mlx-lm>=0.31.3",
+    "sentencepiece>=0.2.0",
+    "datasets>=3.0.0",
+    "huggingface-hub>=0.24.0",
+    "numpy>=1.26.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.5.0",
+]
+track = [
+    "wandb>=0.17.0",
+]
+
+[project.scripts]
+unrealistic-train = "scripts.train:main"
+unrealistic-generate = "scripts.generate:main"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
