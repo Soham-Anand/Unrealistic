@@ -1,0 +1,53 @@
+Checkpoint: checkpoints/step_324848
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=55
+============================================================
+--- 'What is 8 + 7?' ---
+Step 1: 8/3 = 64/90 Step 2: 7/5 = 41/90 Step 3: 64/90 + 41/90 = 105/90
+
+--- 'What is 12 x 4?' ---
+Step 1: C(5, 3) = 90 Answer: 90
+
+--- 'What is 15 - 9?' ---
+Step 1: Common denominator = 3 × 7 + 6 = 84 Answer: 84
+
+--- 'What is 42 / 6?' ---
+Step 1: 3/5 = 9/6 Answer: 9/6
+
+--- 'What is 7 + 7?' ---
+Step 1: Common denominator = 8 × 6 = 48 Step 2: 7/8 = 53/48 Answer: 53/48
+
+--- 'What is 3^4?' ---
+Step 1: Common denominator = 6 × 5 = 20 Step 2: 3 - 20 = 9 Answer: 9
+
+--- 'What is 2^10?' ---
+Step 1:  Find the determinant of a quadratic equation. Step 2: The square root of this system can be written as follows for any pair $(x_a,y)$ in $[-3]$. Find two numbers that multiply to -5
+
+--- 'What is 9 + 6?' ---
+Step 1: Common denominator = 8/40=72/40 Answer: 72/40
+
+--- 'What is 100 - 37?' ---
+Step 2: C(9, 5) = 6 Answer: 6
+
+--- 'What is 18 / 3?' ---
+Step 1: Common denominator = 6 + (2 - 4)x >= 0 Answer: x <= 5
+
+--- 'What is 6^2?' ---
+Step 1: 6 × (7 + 3) = ? Answer: 54
+
+--- 'What is the square root of 49?' ---
+Step 1: Common denominator = 36 - 28 = 7 Answer: 5
+
+--- 'What is 2 + 2?' ---
+Step 1: Common denominator = 3 × 4 = 16 Step 2: 2/7 = 8/16 Step 3: 50/16 = 90/16 Answer: 90/
+
+--- 'What is 10 x 10?' ---
+Step 2: 6x + 3 = 9 Answer: x = 5
+
+--- 'What is 64 / 8?' ---
+Step 1: 7/9 = 53/8 Answer: 53/8
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

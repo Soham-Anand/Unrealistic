@@ -1,0 +1,50 @@
+Checkpoint: checkpoints/step_349790
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is 8 + 7?' ---
+Assistant: To find the number of people who need to work together, we first calculate how many more people are working on each day.  First, let's convert this time into hours (hours) and then add that amount in minutes (10 * 2 = <<9*2=36>>36 seconds). Then subtract these
+
+--- 'What is 12 x 4?' ---
+Assistant: To find out how many times a number of people can be divided by the numbers in meters, we need to divide both sides of an equation using their respective ratios.  First, let's convert these fractions into decimal form and then subtract that from each other to make it easier for us to see if they are correct or not (since
+
+--- 'What is the square root of 49?' ---
+Assistant: To find the total number of squares that can be divided by its prime factors, we need to divide both numbers equally.  So, for example, if a = (1 - b) * n + (-b), then there are two possible solutions in this case! For x^2 and y^3 with three powers such as f
+
+--- 'What is 2 + 2?' ---
+Assistant: To find the total number of apples that can be found, we need to calculate how many oranges are in each row.  150 x (4/3) = <<9*(8=6>>6 bananas The remaining fruit will have a remainder when they eat one banana and then there must also be enough for them to get
+
+--- 'What is 64 / 8?' ---
+Assistant: To find the total number of people who are not in charge, we need to determine how many days they will be on average for their entire life.  Since there were a certain amount of time during this period and some day it would take them approximately $10 + (2 * x) = <<(-x)^3=5
+
+--- 'What is 15 - 7?' ---
+Assistant: To find out how many people can be divided by the number of ways to choose from, we need to divide both numbers equally and then add up all their values.  First, let's calculate what percentages are needed for each person in a particular order so that they have equal amounts together as possible (since there are only two groups
+
+--- 'What is 7 x 8?' ---
+Assistant: To find the total number of books that a book can buy, we need to know how many people are willing and able to afford them.  First, let's calculate the cost price for each person in one week with $10 per hour or more than what they have paid on their daily earnings from school days (since there are
+
+--- 'What is 100 divided by 10?' ---
+Assistant: To find the total number of items that can be sold, we need to calculate how many pieces it will cost for all three types.  Firstly, let's add up these amounts with each item in one pack and then subtract them from both together. We know there are a certain amount (3/4) - so when you
+
+--- 'The capital of France is' ---
+the third largest country in Europe.
+
+--- 'Water is made of hydrogen and' ---
+oxygen (H2O).
+
+--- 'The largest planet in the Solar System is' ---
+120, and it has a total of more than half as many stars.
+
+--- 'Linkin Park is a' ---
+2018 American independent science drama film directed by J. A, and starring Nina Laughlin (D-Minehart) as well:  "The Moon of the Rainy Rock", which premiered at the Cannes Film Festival on July 5th in April 2016 with an additional $439 million
+
+--- 'The lead singer of Linkin Park was' ---
+10 years old.
+
+--- 'Complete: The sun rises in the' ---
+water, and it is 16 inches long. What's this average of all three times? Assistant: First find out how many feet (height) equals to fill up a circle with each floor filled by one square meter divided into two squares using their respective distances from left to right as well  First calculate the area covered by both sides
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

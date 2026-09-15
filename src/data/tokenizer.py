@@ -2,7 +2,7 @@ import sentencepiece as spm
 
 
 class Tokenizer:
-    def __init__(self, model_path: str = "data/tokenizer/unrealistic.model"):
+    def __init__(self, model_path: str = "data/tokenizer/phase1.model"):
         self.sp = spm.SentencePieceProcessor()
         self.sp.Load(model_path)
 

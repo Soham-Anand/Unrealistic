@@ -1,0 +1,1015 @@
+[
+ {
+  "domain": "geography",
+  "prompt": "The capital of France is",
+  "prompt_ids": [
+   342,
+   2535,
+   281,
+   2642,
+   338
+  ],
+  "targets": [
+   {
+    "text": "Paris",
+    "kind": "tok",
+    "ids": [
+     4128
+    ]
+   },
+   {
+    "text": "France",
+    "kind": "tok",
+    "ids": [
+     2642
+    ]
+   },
+   {
+    "text": "United",
+    "kind": "tok",
+    "ids": [
+     1033
+    ]
+   },
+   {
+    "text": "Kingdom",
+    "kind": "tok",
+    "ids": [
+     3088
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "geography",
+  "prompt": "The capital of Japan is",
+  "prompt_ids": [
+   342,
+   2535,
+   281,
+   2071,
+   338
+  ],
+  "targets": [
+   {
+    "text": "Tokyo",
+    "kind": "tok",
+    "ids": [
+     14367
+    ]
+   },
+   {
+    "text": "Japan",
+    "kind": "tok",
+    "ids": [
+     2071
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "geography",
+  "prompt": "The capital of Germany is",
+  "prompt_ids": [
+   342,
+   2535,
+   281,
+   2847,
+   338
+  ],
+  "targets": [
+   {
+    "text": "Berlin",
+    "kind": "tok",
+    "ids": [
+     4693
+    ]
+   },
+   {
+    "text": "Germany",
+    "kind": "tok",
+    "ids": [
+     2847
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "geography",
+  "prompt": "The capital of India is",
+  "prompt_ids": [
+   342,
+   2535,
+   281,
+   2673,
+   338
+  ],
+  "targets": [
+   {
+    "text": "Delhi",
+    "kind": "tok",
+    "ids": [
+     12534
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "geography",
+  "prompt": "The largest planet in the Solar System is",
+  "prompt_ids": [
+   342,
+   2249,
+   5281,
+   287,
+   265,
+   11723,
+   3774,
+   338
+  ],
+  "targets": [
+   {
+    "text": "Jupiter",
+    "kind": "tok",
+    "ids": [
+     14127
+    ]
+   },
+   {
+    "text": "Saturn",
+    "kind": "tok",
+    "ids": [
+     12052
+    ]
+   },
+   {
+    "text": "Neptune",
+    "kind": "tok",
+    "ids": [
+     30501
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "geography",
+  "prompt": "The Nile is the longest",
+  "prompt_ids": [
+   342,
+   14420,
+   338,
+   265,
+   9704
+  ],
+  "targets": [
+   {
+    "text": "river",
+    "kind": "tok",
+    "ids": [
+     3474
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "geography",
+  "prompt": "Mount Everest is the highest",
+  "prompt_ids": [
+   3785,
+   31151,
+   338,
+   265,
+   3539
+  ],
+  "targets": [
+   {
+    "text": "mountain",
+    "kind": "tok",
+    "ids": [
+     5179
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "geography",
+  "prompt": "The Eiffel Tower is located in",
+  "prompt_ids": [
+   342,
+   373,
+   2371,
+   311,
+   11600,
+   338,
+   2700,
+   287
+  ],
+  "targets": [
+   {
+    "text": "Paris",
+    "kind": "tok",
+    "ids": [
+     4128
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "history",
+  "prompt": "Albert Einstein was born in",
+  "prompt_ids": [
+   3945,
+   8913,
+   362,
+   3009,
+   287
+  ],
+  "targets": [
+   {
+    "text": "1879",
+    "kind": "seq",
+    "ids": [
+     31866,
+     31893,
+     31920,
+     31927,
+     31904
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "history",
+  "prompt": "The Second World War ended in",
+  "prompt_ids": [
+   342,
+   3712,
+   1298,
+   1268,
+   4282,
+   287
+  ],
+  "targets": [
+   {
+    "text": "1945",
+    "kind": "seq",
+    "ids": [
+     31866,
+     31893,
+     31904,
+     31925,
+     31922
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "history",
+  "prompt": "The French Revolution began in",
+  "prompt_ids": [
+   342,
+   1559,
+   5061,
+   1411,
+   287
+  ],
+  "targets": [
+   {
+    "text": "1789",
+    "kind": "seq",
+    "ids": [
+     31866,
+     31893,
+     31927,
+     31920,
+     31904
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "history",
+  "prompt": "Abraham Lincoln was the",
+  "prompt_ids": [
+   8160,
+   5655,
+   362,
+   265
+  ],
+  "targets": [
+   {
+    "text": "president",
+    "kind": "tok",
+    "ids": [
+     2812
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "history",
+  "prompt": "Napoleon was a famous",
+  "prompt_ids": [
+   11039,
+   362,
+   260,
+   3964
+  ],
+  "targets": [
+   {
+    "text": "emperor",
+    "kind": "tok",
+    "ids": [
+     7266
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "history",
+  "prompt": "Julius Caesar was a",
+  "prompt_ids": [
+   13793,
+   11580,
+   362,
+   260
+  ],
+  "targets": [
+   {
+    "text": "Roman",
+    "kind": "tok",
+    "ids": [
+     1933
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "science",
+  "prompt": "Water is made of hydrogen and",
+  "prompt_ids": [
+   5098,
+   338,
+   932,
+   281,
+   5831,
+   289
+  ],
+  "targets": [
+   {
+    "text": "oxygen",
+    "kind": "tok",
+    "ids": [
+     5101
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "science",
+  "prompt": "The force that pulls objects toward the Earth is",
+  "prompt_ids": [
+   342,
+   2665,
+   355,
+   30463,
+   4111,
+   4480,
+   265,
+   2657,
+   338
+  ],
+  "targets": [
+   {
+    "text": "gravity",
+    "kind": "tok",
+    "ids": [
+     9772
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "science",
+  "prompt": "The Earth revolves around the",
+  "prompt_ids": [
+   342,
+   2657,
+   12412,
+   1308,
+   1104,
+   265
+  ],
+  "targets": [
+   {
+    "text": "Sun",
+    "kind": "tok",
+    "ids": [
+     2670
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "science",
+  "prompt": "The Moon orbits the",
+  "prompt_ids": [
+   342,
+   5652,
+   17232,
+   265
+  ],
+  "targets": [
+   {
+    "text": "Earth",
+    "kind": "tok",
+    "ids": [
+     2657
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "science",
+  "prompt": "Photosynthesis produces",
+  "prompt_ids": [
+   28174,
+   14869,
+   8199
+  ],
+  "targets": [
+   {
+    "text": "oxygen",
+    "kind": "tok",
+    "ids": [
+     5101
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "science",
+  "prompt": "DNA is a",
+  "prompt_ids": [
+   5374,
+   338,
+   260
+  ],
+  "targets": [
+   {
+    "text": "molecule",
+    "kind": "tok",
+    "ids": [
+     12752
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "science",
+  "prompt": "Light travels faster than",
+  "prompt_ids": [
+   8107,
+   12777,
+   6723,
+   663
+  ],
+  "targets": [
+   {
+    "text": "sound",
+    "kind": "tok",
+    "ids": [
+     2844
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "science",
+  "prompt": "Atoms are made of protons, neutrons and",
+  "prompt_ids": [
+   909,
+   1828,
+   400,
+   932,
+   281,
+   20104,
+   31887,
+   18739,
+   289
+  ],
+  "targets": [
+   {
+    "text": "electrons",
+    "kind": "tok",
+    "ids": [
+     8269
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "math",
+  "prompt": "Twelve divided by four equals",
+  "prompt_ids": [
+   19714,
+   4326,
+   381,
+   1276,
+   16415
+  ],
+  "targets": [
+   {
+    "text": "three",
+    "kind": "tok",
+    "ids": [
+     1032
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "math",
+  "prompt": "The square root of nine is",
+  "prompt_ids": [
+   342,
+   5113,
+   6592,
+   281,
+   5086,
+   338
+  ],
+  "targets": [
+   {
+    "text": "three",
+    "kind": "tok",
+    "ids": [
+     1032
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "math",
+  "prompt": "Two plus two equals",
+  "prompt_ids": [
+   3729,
+   7008,
+   690,
+   16415
+  ],
+  "targets": [
+   {
+    "text": "four",
+    "kind": "tok",
+    "ids": [
+     1276
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "math",
+  "prompt": "The sum of three and four is",
+  "prompt_ids": [
+   342,
+   2092,
+   281,
+   1032,
+   289,
+   1276,
+   338
+  ],
+  "targets": [
+   {
+    "text": "seven",
+    "kind": "tok",
+    "ids": [
+     3598
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "biology",
+  "prompt": "The largest animal on Earth is the",
+  "prompt_ids": [
+   342,
+   2249,
+   4146,
+   341,
+   2657,
+   338,
+   265
+  ],
+  "targets": [
+   {
+    "text": "whale",
+    "kind": "tok",
+    "ids": [
+     15533
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "biology",
+  "prompt": "A tiger is a",
+  "prompt_ids": [
+   300,
+   30466,
+   338,
+   260
+  ],
+  "targets": [
+   {
+    "text": "species",
+    "kind": "tok",
+    "ids": [
+     1802
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "biology",
+  "prompt": "Birds are",
+  "prompt_ids": [
+   16069,
+   400
+  ],
+  "targets": [
+   {
+    "text": "species",
+    "kind": "tok",
+    "ids": [
+     1802
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "culture",
+  "prompt": "William Shakespeare was a famous",
+  "prompt_ids": [
+   2293,
+   12991,
+   362,
+   260,
+   3964
+  ],
+  "targets": [
+   {
+    "text": "playwright",
+    "kind": "tok",
+    "ids": [
+     12756
+    ]
+   },
+   {
+    "text": "poet",
+    "kind": "tok",
+    "ids": [
+     3919
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "culture",
+  "prompt": "The Mona Lisa was painted by",
+  "prompt_ids": [
+   342,
+   1843,
+   31869,
+   15882,
+   362,
+   9940,
+   381
+  ],
+  "targets": [
+   {
+    "text": "Leonardo",
+    "kind": "tok",
+    "ids": [
+     25962
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "culture",
+  "prompt": "Egypt is a country in",
+  "prompt_ids": [
+   3141,
+   338,
+   260,
+   1370,
+   287
+  ],
+  "targets": [
+   {
+    "text": "Africa",
+    "kind": "tok",
+    "ids": [
+     2578
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "math",
+  "prompt": "2 + 2 =",
+  "prompt_ids": [
+   31866,
+   31901,
+   2303,
+   31866,
+   31901,
+   1073
+  ],
+  "targets": [
+   {
+    "text": "4",
+    "kind": "tok",
+    "ids": [
+     31866,
+     31925
+    ]
+   },
+   {
+    "text": "five",
+    "kind": "tok",
+    "ids": [
+     1932
+    ]
+   },
+   {
+    "text": "six",
+    "kind": "tok",
+    "ids": [
+     2014
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "math",
+  "prompt": "12 / 4 =",
+  "prompt_ids": [
+   31866,
+   31893,
+   31901,
+   2292,
+   31866,
+   31925,
+   1073
+  ],
+  "targets": [
+   {
+    "text": "3",
+    "kind": "tok",
+    "ids": [
+     31866,
+     31921
+    ]
+   },
+   {
+    "text": "four",
+    "kind": "tok",
+    "ids": [
+     1276
+    ]
+   },
+   {
+    "text": "two",
+    "kind": "tok",
+    "ids": [
+     690
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "math",
+  "prompt": "3 * 5 =",
+  "prompt_ids": [
+   31866,
+   31921,
+   3079,
+   31866,
+   31922,
+   1073
+  ],
+  "targets": [
+   {
+    "text": "15",
+    "kind": "tok",
+    "ids": [
+     31866,
+     31893,
+     31922
+    ]
+   },
+   {
+    "text": "twelve",
+    "kind": "tok",
+    "ids": [
+     8267
+    ]
+   },
+   {
+    "text": "twenty",
+    "kind": "tok",
+    "ids": [
+     6457
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "math",
+  "prompt": "10 - 7 =",
+  "prompt_ids": [
+   31866,
+   31893,
+   31896,
+   590,
+   31866,
+   31927,
+   1073
+  ],
+  "targets": [
+   {
+    "text": "3",
+    "kind": "tok",
+    "ids": [
+     31866,
+     31921
+    ]
+   },
+   {
+    "text": "two",
+    "kind": "tok",
+    "ids": [
+     690
+    ]
+   },
+   {
+    "text": "four",
+    "kind": "tok",
+    "ids": [
+     1276
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "math",
+  "prompt": "sqrt(9) =",
+  "prompt_ids": [
+   23007,
+   18179,
+   31906,
+   31904,
+   31905,
+   1073
+  ],
+  "targets": [
+   {
+    "text": "3",
+    "kind": "tok",
+    "ids": [
+     31866,
+     31921
+    ]
+   },
+   {
+    "text": "three",
+    "kind": "tok",
+    "ids": [
+     1032
+    ]
+   },
+   {
+    "text": "nine",
+    "kind": "tok",
+    "ids": [
+     5086
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "math",
+  "prompt": "2^3 =",
+  "prompt_ids": [
+   31866,
+   31901,
+   31985,
+   31921,
+   1073
+  ],
+  "targets": [
+   {
+    "text": "8",
+    "kind": "tok",
+    "ids": [
+     31866,
+     31920
+    ]
+   },
+   {
+    "text": "six",
+    "kind": "tok",
+    "ids": [
+     2014
+    ]
+   },
+   {
+    "text": "sixteen",
+    "kind": "tok",
+    "ids": [
+     18807
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "math",
+  "prompt": "100 / 10 =",
+  "prompt_ids": [
+   31866,
+   31893,
+   31896,
+   31896,
+   2292,
+   31866,
+   31893,
+   31896,
+   1073
+  ],
+  "targets": [
+   {
+    "text": "10",
+    "kind": "tok",
+    "ids": [
+     31866,
+     31893,
+     31896
+    ]
+   },
+   {
+    "text": "five",
+    "kind": "tok",
+    "ids": [
+     1932
+    ]
+   },
+   {
+    "text": "twenty",
+    "kind": "tok",
+    "ids": [
+     6457
+    ]
+   }
+  ]
+ },
+ {
+  "domain": "math",
+  "prompt": "7 + 8 =",
+  "prompt_ids": [
+   31866,
+   31927,
+   2303,
+   31866,
+   31920,
+   1073
+  ],
+  "targets": [
+   {
+    "text": "15",
+    "kind": "tok",
+    "ids": [
+     31866,
+     31893,
+     31922
+    ]
+   },
+   {
+    "text": "twelve",
+    "kind": "tok",
+    "ids": [
+     8267
+    ]
+   },
+   {
+    "text": "sixteen",
+    "kind": "tok",
+    "ids": [
+     18807
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,50 @@
+Checkpoint: checkpoints/step_344186
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is 8 + 7?' ---
+Assistant: 8 + 7 = 15
+
+--- 'What is 12 * 4?' ---
+Assistant: 12 - 4 = 8
+
+--- 'What is the square root of 49?' ---
+Assistant: The square root of 49 is 7.
+
+--- 'What is 2 + 2?' ---
+Assistant: Common denominator 4. 2/3 = 6/4. 3 / 4 = 8/4
+
+--- '64 divided by 2' ---
+? Assistant: Step 1: 30 - 64 = 8. Answer: 8
+
+--- 'The capital of France is' ---
+Paris.
+
+--- 'Water is made of hydrogen and' ---
+oxygen (H2O).
+
+--- 'Photosynthesis produces' ---
+the chemical symbol for water.
+
+--- 'The largest planet in the Solar System is' ---
+Jupiter.
+
+--- 'Albert Einstein was born in the year' ---
+147.
+
+--- 'What is the opposite of hot' ---
+? Assistant: The opposite of hot is cold.
+
+--- 'We have seasons because' ---
+Earth's axis is tilted, changing sunlight through the year.
+
+--- 'Complete: The sun rises in the' ---
+Assistant: The sun rises in the east.
+
+--- 'Hey' ---
+'s Birthday is 1964.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

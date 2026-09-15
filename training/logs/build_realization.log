@@ -1,0 +1,25 @@
+[FULL] Realization build  scale=1.0000  total=30,000,000 tok
+  real slice budget = 12,000,000 tok (code/english/gk)
+  synthetic judgement budget = 18,000,000 tok (negation/contradict/correct)
+
+Slicing REAL content (code / english / gk)...
+  code        4,000,537/4,000,000 tok -> realization_real_code.bin
+  english     4,000,024/4,000,000 tok -> realization_real_english.bin
+  gk          4,001,495/4,000,000 tok -> realization_real_gk.bin
+
+Generating synthetic judgement tasks...
+  negation              3,256,924/4,000,000 tok -> realization_negation_syn.bin
+  negation_m            2,000,000/2,000,000 tok -> realization_negation_m_syn.bin
+  contradiction         3,256,554/4,000,000 tok -> realization_contradiction_syn.bin
+  contradiction_m       2,000,000/2,000,000 tok -> realization_contradiction_m_syn.bin
+  correction            3,256,553/4,000,000 tok -> realization_correction_syn.bin
+  correction_m          2,000,000/2,000,000 tok -> realization_correction_m_syn.bin
+
+Merging all 9 parts -> realization_train.bin ...
+  merged 27,772,087 tok -> realization_train.bin  6s
+Slicing eval head...
+  eval -> 1,500,114 tok -> realization_eval.bin
+
+Realization dataset build complete:
+  data/phase6/realization_train.bin (train)
+  data/phase6/realization_eval.bin (eval)

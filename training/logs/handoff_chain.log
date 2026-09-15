@@ -1,0 +1,15 @@
+[20:57:54] Chain watcher started. Gate 1: SFT -> 346791 (accepts >= 346790)
+[20:57:54] Gate 346791 passed: trainer exited, latest=checkpoints/step_346790
+[20:57:54] SFT final: checkpoints/step_346790
+[20:57:58] Archived post_phase7 + pre_phase7b from step_346790.
+[20:57:58] Wiki data present:  26M. Launching Phase 7b...
+[20:58:28] Phase 7b training live -> training_phase7b.log
+[20:58:28] Gate 2: Wiki -> 349791 (accepts >= 349790)
+scripts/handoff_chain.sh: line 23: 28111 Terminated: 15          PYTHONUNBUFFERED=1 PYTHONPATH=. nohup /opt/homebrew/bin/python3 -u scripts/train.py --train-config configs/phase7b_wiki_config.json --model-config configs/model_config.json --reset-optimizer >> training_phase7b.log 2>&1
+[22:08:30] WARNING: no train.py but latest step 347372 < 349790 — crashed early? check training_phase7b.log
+[12:30:18] Chain watcher started. Gate 1: SFT -> 346791 (accepts >= 346790)
+[12:30:18] Gate 346791 passed: trainer exited, latest=checkpoints/step_349790
+[12:30:18] SFT final: checkpoints/step_349790
+[12:30:19] Archived post_phase7 + pre_phase7b from step_349790.
+[12:30:19] Wiki data present:  26M. Launching Phase 7b...
+[12:30:49] ERROR: Phase 7b exited immediately. Check training_phase7b.log

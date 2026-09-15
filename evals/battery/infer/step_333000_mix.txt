@@ -1,0 +1,53 @@
+Checkpoint: checkpoints/step_333000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is 8 + 7?' ---
+The answer is 10.
+
+--- 'What is 12 x 4?' ---
+The answer is 9.
+
+--- 'What is the square root of 49?' ---
+The answer is -13.
+
+--- 'What is 2 + 2?' ---
+The answer is 4.
+
+--- 'What is 64 / 8?' ---
+The answer is 3.
+
+--- 'The capital of France is' ---
+the 19th century.  History In this period, there were a number of cities in Europe and Germany that had become part of European domination during World War II (20 years ago), but it was not until about two centuries after their founding; however, as we know from some historians who have been called "the Republic" or “
+
+--- 'Water is made of hydrogen and' ---
+water, which are the main source for energy. The heat capacity in this system depends on how much you have to use it (and what they do) that will be needed from a certain amount or volume per second at 10-25% efficiency with an average temperature above . This means your thermal power consumption can vary depending upon where we
+
+--- 'Photosynthesis produces' ---
+a number of different types. The first thing that you can do is to get your friends together, and then buy them from the store (and they will be able to find out what their name means).  In addition it also gives us an idea for how many people are there in this world: we have 20-35% fewer
+
+--- 'The largest planet in the Solar System is' ---
+Earth. It has a 10,546-meter diameter star that orbits around its centre of mass and orbits about one million miles (32 kilometers) from Mars to Jupiter on April 9th.  Initially it was discovered by NASA's Ames Research Laboratory at UCLA for their work with ESA’s Goddard Space
+
+--- 'Albert Einstein was born in' ---
+1879, and his father died on the same day.  He studied law at Cambridge University from which he taught mathematics for a number of years before graduating with an apprentice to study chemistry (the first two were: "The Science Of Chemistry", as well as other science papers). He became interested only when they had been enrolled by
+
+--- 'Write a Python function to add two numbers:' ---
+1, -2 and +3. (x-y) = <<(0+((a/b))*\dots).append([i]);    return x;  }
+
+--- 'def factorial(n):' ---
+    """      Release a list of all the elements in an array.      Args:         n (int) Define if it should be empty, and its value is not divisible by 10          Args:             partition_dict[str]          Returns:              """.format(self._get
+
+--- 'What is the opposite of hot is' ---
+called a cold. The temperature in this case can be reduced by 20 degrees Celsius, and it has been found to increase with an average temperature between -45°C (198 °F).  Solution: In addition to being warmed up or dry-out on heat transfer from one person to another via steam engines as
+
+--- 'Why do we have seasons?' ---
+The answer is the Sahara Desert. That answer is wrong. The correct answer is the Pacific Ocean, not the Atlantic ocean.
+
+--- 'Complete: The sun rises in the' ---
+sky, and is a bright red light. It can be seen on an image of Earth or Venus as it reaches Mars's surface for 10 minutes to reach its peak eclipse (25 degrees).  In addition to this one-dimensional view from our satellite, there are two different types of stars that may appear at any given time
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

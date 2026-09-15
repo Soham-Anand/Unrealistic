@@ -1,0 +1,114 @@
+FineWeb-Edu build: 820,000,000 train + 10,000,000 eval = 830,000,000 total
+Streaming from HuggingFaceFW/fineweb-edu (sample-10BT)...
+Tokenizer loaded (vocab=32000)
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/resolve/87f09149ef4734204d70ed1d046ddc9ca3f2b8f9/sample/10BT/000_00000.parquet
+Retrying in 1s [Retry 1/5].
+     9,374 docs    10,000,546 tokens    1.2%   208,112 tok/s  ETA    3940s
+    18,937 docs    20,000,826 tokens    2.4%   311,442 tok/s  ETA    2601s
+    27,097 docs    30,002,894 tokens    3.6%   397,492 tok/s  ETA    2013s
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/resolve/87f09149ef4734204d70ed1d046ddc9ca3f2b8f9/sample/10BT/000_00000.parquet
+Retrying in 1s [Retry 1/5].
+    36,872 docs    40,003,548 tokens    4.8%   395,056 tok/s  ETA    2000s
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/resolve/87f09149ef4734204d70ed1d046ddc9ca3f2b8f9/sample/10BT/000_00000.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/resolve/87f09149ef4734204d70ed1d046ddc9ca3f2b8f9/sample/10BT/000_00000.parquet
+Retrying in 2s [Retry 2/5].
+    46,086 docs    50,004,620 tokens    6.0%   356,413 tok/s  ETA    2188s
+    55,171 docs    60,004,685 tokens    7.2%   362,675 tok/s  ETA    2123s
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/resolve/87f09149ef4734204d70ed1d046ddc9ca3f2b8f9/sample/10BT/000_00000.parquet
+Retrying in 1s [Retry 1/5].
+    64,518 docs    70,004,795 tokens    8.4%   381,809 tok/s  ETA    1991s
+    73,563 docs    80,004,932 tokens    9.6%   400,694 tok/s  ETA    1872s
+    82,983 docs    90,008,566 tokens   10.8%   427,522 tok/s  ETA    1731s
+    92,815 docs   100,009,075 tokens   12.0%   450,210 tok/s  ETA    1621s
+   102,284 docs   110,015,392 tokens   13.3%   451,981 tok/s  ETA    1593s
+   111,826 docs   120,015,942 tokens   14.5%   454,379 tok/s  ETA    1563s
+   120,672 docs   130,016,765 tokens   15.7%   455,743 tok/s  ETA    1536s
+   130,556 docs   140,020,763 tokens   16.9%   468,796 tok/s  ETA    1472s
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/resolve/87f09149ef4734204d70ed1d046ddc9ca3f2b8f9/sample/10BT/000_00000.parquet
+Retrying in 1s [Retry 1/5].
+   140,251 docs   150,021,730 tokens   18.1%   460,348 tok/s  ETA    1477s
+   149,269 docs   160,022,096 tokens   19.3%   475,843 tok/s  ETA    1408s
+   158,988 docs   170,024,001 tokens   20.5%   483,294 tok/s  ETA    1366s
+   168,174 docs   180,026,099 tokens   21.7%   491,664 tok/s  ETA    1322s
+   177,919 docs   190,027,959 tokens   22.9%   503,779 tok/s  ETA    1270s
+   187,602 docs   200,028,351 tokens   24.1%   514,876 tok/s  ETA    1224s
+   197,263 docs   210,029,034 tokens   25.3%   525,563 tok/s  ETA    1180s
+   206,852 docs   220,029,328 tokens   26.5%   535,229 tok/s  ETA    1140s
+   215,824 docs   230,031,235 tokens   27.7%   544,352 tok/s  ETA    1102s
+   225,540 docs   240,031,278 tokens   28.9%   553,103 tok/s  ETA    1067s
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/resolve/87f09149ef4734204d70ed1d046ddc9ca3f2b8f9/sample/10BT/000_00000.parquet
+Retrying in 1s [Retry 1/5].
+   235,088 docs   250,032,914 tokens   30.1%   528,840 tok/s  ETA    1097s
+   244,535 docs   260,034,326 tokens   31.3%   535,865 tok/s  ETA    1064s
+   254,335 docs   270,034,416 tokens   32.5%   532,937 tok/s  ETA    1051s
+   263,634 docs   280,034,550 tokens   33.7%   533,639 tok/s  ETA    1031s
+   273,336 docs   290,042,545 tokens   34.9%   526,160 tok/s  ETA    1026s
+   282,732 docs   300,043,284 tokens   36.1%   533,018 tok/s  ETA     994s
+   291,959 docs   310,056,234 tokens   37.4%   540,413 tok/s  ETA     962s
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/resolve/87f09149ef4734204d70ed1d046ddc9ca3f2b8f9/sample/10BT/000_00000.parquet
+Retrying in 1s [Retry 1/5].
+   302,206 docs   320,056,771 tokens   38.6%   526,364 tok/s  ETA     969s
+   311,425 docs   330,065,945 tokens   39.8%   529,769 tok/s  ETA     944s
+   320,858 docs   340,066,323 tokens   41.0%   532,840 tok/s  ETA     919s
+   330,239 docs   350,068,723 tokens   42.2%   536,017 tok/s  ETA     895s
+   339,224 docs   360,071,893 tokens   43.4%   539,382 tok/s  ETA     871s
+   348,742 docs   370,082,485 tokens   44.6%   532,142 tok/s  ETA     864s
+   357,750 docs   380,083,024 tokens   45.8%   529,462 tok/s  ETA     850s
+   366,663 docs   390,083,433 tokens   47.0%   535,451 tok/s  ETA     822s
+   376,040 docs   400,085,751 tokens   48.2%   539,502 tok/s  ETA     797s
+   385,123 docs   410,086,297 tokens   49.4%   544,533 tok/s  ETA     771s
+   394,676 docs   420,089,972 tokens   50.6%   546,449 tok/s  ETA     750s
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/resolve/87f09149ef4734204d70ed1d046ddc9ca3f2b8f9/sample/10BT/000_00000.parquet
+Retrying in 1s [Retry 1/5].
+   403,558 docs   430,090,750 tokens   51.8%   539,716 tok/s  ETA     741s
+   412,992 docs   440,093,969 tokens   53.0%   545,667 tok/s  ETA     715s
+   422,019 docs   450,099,593 tokens   54.2%   553,360 tok/s  ETA     687s
+   431,229 docs   460,103,839 tokens   55.4%   559,341 tok/s  ETA     661s
+   440,725 docs   470,103,882 tokens   56.6%   558,423 tok/s  ETA     644s
+   449,737 docs   480,104,487 tokens   57.8%   556,508 tok/s  ETA     629s
+   458,625 docs   490,105,574 tokens   59.0%   554,135 tok/s  ETA     613s
+   468,071 docs   500,114,163 tokens   60.3%   551,712 tok/s  ETA     598s
+   476,978 docs   510,116,271 tokens   61.5%   557,437 tok/s  ETA     574s
+   486,599 docs   520,116,327 tokens   62.7%   564,225 tok/s  ETA     549s
+   495,708 docs   530,117,227 tokens   63.9%   569,679 tok/s  ETA     526s
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/resolve/87f09149ef4734204d70ed1d046ddc9ca3f2b8f9/sample/10BT/000_00000.parquet
+Retrying in 1s [Retry 1/5].
+   505,369 docs   540,117,303 tokens   65.1%   566,996 tok/s  ETA     511s
+   514,912 docs   550,118,673 tokens   66.3%   563,986 tok/s  ETA     496s
+   524,075 docs   560,120,520 tokens   67.5%   563,421 tok/s  ETA     479s
+   533,734 docs   570,124,323 tokens   68.7%   566,931 tok/s  ETA     458s
+   542,680 docs   580,124,475 tokens   69.9%   568,339 tok/s  ETA     440s
+   552,179 docs   590,125,830 tokens   71.1%   574,412 tok/s  ETA     418s
+   561,908 docs   600,126,028 tokens   72.3%   576,867 tok/s  ETA     398s
+   571,033 docs   610,126,212 tokens   73.5%   580,333 tok/s  ETA     379s
+   580,463 docs   620,135,740 tokens   74.7%   583,344 tok/s  ETA     360s
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/resolve/87f09149ef4734204d70ed1d046ddc9ca3f2b8f9/sample/10BT/000_00000.parquet
+Retrying in 1s [Retry 1/5].
+   589,300 docs   630,136,592 tokens   75.9%   580,463 tok/s  ETA     344s
+   599,075 docs   640,148,960 tokens   77.1%   585,316 tok/s  ETA     324s
+   608,498 docs   650,150,183 tokens   78.3%   589,797 tok/s  ETA     305s
+   617,658 docs   660,152,325 tokens   79.5%   595,245 tok/s  ETA     285s
+   627,448 docs   670,152,567 tokens   80.7%   599,467 tok/s  ETA     267s
+   636,168 docs   680,153,011 tokens   81.9%   603,316 tok/s  ETA     248s
+   645,851 docs   690,155,260 tokens   83.2%   606,129 tok/s  ETA     231s
+   655,088 docs   700,156,709 tokens   84.4%   608,929 tok/s  ETA     213s
+   663,706 docs   710,157,975 tokens   85.6%   613,367 tok/s  ETA     195s
+   673,668 docs   720,158,749 tokens   86.8%   613,827 tok/s  ETA     179s
+   682,567 docs   730,159,787 tokens   88.0%   618,752 tok/s  ETA     161s
+   692,100 docs   740,160,266 tokens   89.2%   620,801 tok/s  ETA     145s
+   701,606 docs   750,160,415 tokens   90.4%   622,431 tok/s  ETA     128s
+   710,471 docs   760,160,744 tokens   91.6%   624,457 tok/s  ETA     112s
+   720,441 docs   770,161,349 tokens   92.8%   625,866 tok/s  ETA      96s
+   729,327 docs   780,162,386 tokens   94.0%   623,477 tok/s  ETA      80s
+   738,518 docs   790,162,640 tokens   95.2%   624,149 tok/s  ETA      64s
+   748,378 docs   800,162,861 tokens   96.4%   625,756 tok/s  ETA      48s
+   757,511 docs   810,163,525 tokens   97.6%   629,302 tok/s  ETA      32s
+   767,101 docs   820,164,019 tokens   98.8%   633,729 tok/s  ETA      16s
+
+Done in 1306s
+  Train: 767,101 docs, 819,997,170 tokens -> data/phase2/fwe_train.bin
+  Eval:  9,460 docs, 10,000,771 tokens -> data/phase2/fwe_eval.bin
+  Files: 1641 MB + 20 MB
+'[Errno 9] Bad file descriptor' thrown while requesting GET https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/resolve/87f09149ef4734204d70ed1d046ddc9ca3f2b8f9/sample/10BT/001_00000.parquet
+Retrying in 1s [Retry 1/5].

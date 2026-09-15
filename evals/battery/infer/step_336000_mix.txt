@@ -1,0 +1,56 @@
+Checkpoint: checkpoints/step_336000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is 8 + 7?' ---
+The answer is 12.
+
+--- 'What is 12 x 4?' ---
+The answer is 56. If someone claims the answer is 70, that is incorrect, because 12 - 9 = <<8>>8
+
+--- 'What is the square root of 49?' ---
+The answer is 7.
+
+--- 'What is 2 + 2?' ---
+The answer is 4.
+
+--- 'What is 64 / 8?' ---
+The answer is 3.
+
+--- 'The capital of France is' ---
+the 19th-century Italian composer, and has been regarded as one of his greatest achievements.  Life He was born in Paris on September 26, 1845 at a farm near Munich where he worked for several years before returning to Switzerland after graduating from high school with two brothers: Erich von Schönen (
+
+--- 'Water is made of hydrogen and' ---
+water, which are used to make a large amount of energy. The greenhouse gas production in the United States has been estimated at 105 million tonnes per year since its inception; however this trend continues until about two years later with more than one-third carbon emissions from fossil fuels (RWC). In addition to fuel consumption by renewable sources
+
+--- 'Photosynthesis produces' ---
+a number of different types. The most common type is the first, second and third-party characters in which they are used to convey information about their own lives through word recognition (the last one).  In 2016, it was announced that this new version will be available for downloading on Amazon's website: http://www
+
+--- 'The largest planet in the Solar System is' ---
+Earth. It has a 10,546-foot diameter star and its orbiter (the Mars Observatory) was named after him as one of his favorite stars on Venus during this time period for two years before he became known to have been born at Jupiter's core near Saturn.  On July 23th, it had
+
+--- 'Albert Einstein was born in' ---
+1879, and became a member of the New York State Assembly. He attended Trinity College at Cambridge University from which he taught mathematics for four years before graduating with his first degree (MIT) as an assistant professor on computer science during World War II when she enrolled to Harvard Medical School where her father worked until retiring while attending Yale'
+
+--- 'Write a Python function to add two numbers:' ---
+1, -2 and +3. (x = Math.sqrt(this._log_basis))  Find the value of x for each number in this variable using our calculator or by looking at its values on top left corner? The answer is $0$ because it will be equal with one another instead of an integer that equals zero
+
+--- 'def factorial(n):' ---
+    """   __classPrivateFieldSet$1274:3568  @property (non-functions)  class MockGenerator extends Component {      /**          * The base of this object. If it's a string, then the user is required to check for an error         * in order
+
+--- 'What is the opposite of hot is' ---
+a weak point. The tip and sharp corner are two points in each side, with no signs at all!
+
+--- 'Why do we have seasons?' ---
+The answer is summer. If someone claims the answer is winter, that is incorrect. The true answer is season, not autumn.
+
+--- 'Complete: The sun rises in the' ---
+sky, and it is a bright red light. It’s not unusual to see stars like Venus or Jupiter that are darkened by Earth but because of its very natureful appearance on Mars as well; this evening he will be able to find out what was left for him if his eyes were too large with no visible lights (and all these days
+
+--- 'Hey Dude' ---
+, I'm a newbie. My son is in the middle of his life and he has been around for many years now when we are at school to be on our way home from where you can get it out! Upvotes: 4 [selected_answer]<issue_comment>username_2: You
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

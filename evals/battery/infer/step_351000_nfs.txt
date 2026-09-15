@@ -1,0 +1,20 @@
+Checkpoint: checkpoints/step_351000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'Need for Speed is a' ---
+1987 American silent drama film.
+
+--- 'Need for Speed was developed by' ---
+the American Academy of Engineering (AU) in 2017.
+
+--- 'Need for Speed Most Wanted was released in' ---
+the United States on September 14, 2017.
+
+--- 'EA makes' ---
+60% of the world's population happy.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

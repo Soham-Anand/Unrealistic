@@ -1,0 +1,38 @@
+Checkpoint: checkpoints/step_350000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is 8 + 7?' ---
+Assistant: 8 + 7 = 15
+
+--- 'What is 2 + 2?' ---
+Assistant: Common denominator 4. 2/3 = 6/4. 2/5  So, 2 + 2 has a common denominator of 8 and can be expressed as the square root of 100.
+
+--- 'What is the square root of 49?' ---
+Assistant: The square root of 49 is 7.
+
+--- 'The capital of France is' ---
+Paris.
+
+--- 'Water is made of hydrogen and' ---
+what? Assistant: The water in the tank can be found by dividing it into 10 parts. Each part contains a certain number, so there are 2 pieces/parts left to fill up with your needs.
+
+--- 'The largest planet in the Solar System is' ---
+Jupiter.
+
+--- 'Linkin Park is a' ---
+non-profit organization that focuses on building and maintaining the environment.
+
+--- 'The lead singer of Linkin Park was' ---
+Brian R.
+
+--- 'Complete: The sun rises in the' ---
+east.
+
+--- 'def factorial(n):' ---
+    result = 1     for i in range(2, n + 1):         result *= i     return result ```
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

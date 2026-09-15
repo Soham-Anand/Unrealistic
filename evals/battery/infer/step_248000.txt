@@ -1,0 +1,23 @@
+Checkpoint: checkpoints/step_248000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=120
+============================================================
+--- 'Once upon a time,' ---
+you're 120.
+
+--- 'The capital of France is' ---
+19.
+
+--- 'The opposite of hot is' ---
+1.
+
+--- 'Albert Einstein was born in' ---
+15.
+
+--- 'The water cycle' ---
+is 180.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

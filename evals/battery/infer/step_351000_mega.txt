@@ -1,0 +1,80 @@
+Checkpoint: checkpoints/step_351000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is 6 x 7?' ---
+Assistant: 6 × 7 = 42
+
+--- 'What is 20 - 7?' ---
+Assistant: 20 - 7 = 13
+
+--- 'What is 2 to the power 3?' ---
+Assistant: 2^3 = 8
+
+--- 'What is the square root of 64?' ---
+Assistant: The square root of 64 is 8.
+
+--- 'What is 5 x 6?' ---
+Assistant: 5^3 = 125
+
+--- 'What is 10 + 10?' ---
+Assistant: 10+10 = 20
+
+--- 'If you have 3 apples and get 4 more, how many do you have?' ---
+Assistant: Step 1: Start = 3 Step 2: Add 5. 3 + 5 = 8. Answer: 8
+
+--- 'A dozen eggs, and you use 5. How many are left?' ---
+Assistant: Step 1: 20% of the total = 40! / (3 * 6) = 20 Answer: 20
+
+--- 'Who wrote the Indian national anthem?' ---
+Assistant: Rabindranath Tagore wrote the Indian national anthem (Jana Gana Mana).
+
+--- 'What is the national animal of India?' ---
+Assistant: The Bengal tiger is the national animal of India.
+
+--- 'The capital of Germany is' ---
+Paris.
+
+--- 'The Eiffel Tower is located in' ---
+the Great Wall.
+
+--- 'Napoleon was a famous' ---
+Venetian nobleman.
+
+--- 'Julius Caesar was a' ---
+French mathematician, astronomer and physicist.
+
+--- 'The force that pulls objects toward the Earth is' ---
+365.
+
+--- 'Light travels faster than' ---
+in the first 30 minutes? Assistant: Step 1: Speed = Distance / Time = 60 / 2 = 30. Answer: 30 km/h
+
+--- 'Shakespeare was a famous' ---
+musician.
+
+--- 'The Mona Lisa was painted by' ---
+the artist.
+
+--- 'Egypt is a country in' ---
+the world.
+
+--- 'Chester Bennington was' ---
+the first Prime Minister of India.
+
+--- 'In the End is a song by' ---
+American rapper, songwriter and producer.
+
+--- 'Titanic is a film directed by' ---
+William Shakespeare.
+
+--- 'def fibonacci(n):' ---
+    a, b = 0, 1     for _ in range(n):         a, b = b, a + b     return a ```
+
+--- 'Hey Dude' ---
+, let's find out how many children in the world are born.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

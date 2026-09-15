@@ -1,0 +1,1576 @@
+Resuming from checkpoint: checkpoints/step_011000
+  Resumed at step 11000
+
+============================================================
+  Unrealistic 187M — Training
+  Parameters: 189,748,992
+  Dtype: bfloat16
+  Optimizer: AdamW (mlx)
+  Micro-batch: 1 × 8 accum
+  Effective batch: 8
+  Memory: 536 MB
+============================================================
+
+step 11,000 | loss 4.7000 | lr 1.75e-04 | 0 tok/s | fwd_bwd 9ms clip 21ms optim 341ms step 5283ms mem 1493/2587MB
+  [eval] step 11000 | val_loss 4.5816 | ppl 97.67
+Checkpoint saved: checkpoints/step_011000
+  [samples] wrote checkpoints/step_011000/samples.txt
+step 11,010 | loss 4.8976 | lr 1.75e-04 | 435 tok/s | fwd_bwd 16ms clip 20ms optim 111ms step 6083ms mem 1493/3928MB
+step 11,020 | loss 4.7831 | lr 1.75e-04 | 1331 tok/s | fwd_bwd 14ms clip 20ms optim 111ms step 6152ms mem 1493/3928MB
+step 11,030 | loss 4.0269 | lr 1.75e-04 | 1330 tok/s | fwd_bwd 17ms clip 23ms optim 119ms step 6212ms mem 1493/3928MB
+step 11,040 | loss 4.1130 | lr 1.74e-04 | 1333 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6156ms mem 1493/3928MB
+step 11,050 | loss 4.6191 | lr 1.74e-04 | 1330 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6137ms mem 1493/3928MB
+step 11,060 | loss 4.6885 | lr 1.74e-04 | 1334 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6109ms mem 1493/3928MB
+step 11,070 | loss 4.5495 | lr 1.74e-04 | 1336 tok/s | fwd_bwd 10ms clip 23ms optim 118ms step 6194ms mem 1493/3928MB
+step 11,080 | loss 4.2832 | lr 1.74e-04 | 1332 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6123ms mem 1452/3928MB
+step 11,090 | loss 4.6309 | lr 1.73e-04 | 1333 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6107ms mem 1493/3928MB
+step 11,100 | loss 5.1442 | lr 1.73e-04 | 1337 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6153ms mem 1493/3928MB
+step 11,110 | loss 4.3466 | lr 1.73e-04 | 1335 tok/s | fwd_bwd 19ms clip 23ms optim 118ms step 6191ms mem 1493/3928MB
+step 11,120 | loss 4.0436 | lr 1.73e-04 | 1340 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6099ms mem 1493/3928MB
+step 11,130 | loss 4.1114 | lr 1.73e-04 | 1343 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6063ms mem 1493/3928MB
+step 11,140 | loss 4.4328 | lr 1.72e-04 | 1338 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6089ms mem 1493/3928MB
+step 11,150 | loss 3.7342 | lr 1.72e-04 | 1342 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 5994ms mem 1493/3928MB
+step 11,160 | loss 4.2566 | lr 1.72e-04 | 1340 tok/s | fwd_bwd 17ms clip 23ms optim 120ms step 6319ms mem 1493/3928MB
+step 11,170 | loss 4.3305 | lr 1.72e-04 | 1345 tok/s | fwd_bwd 19ms clip 23ms optim 120ms step 6077ms mem 1493/3928MB
+step 11,180 | loss 4.1307 | lr 1.72e-04 | 1350 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6058ms mem 1452/3928MB
+step 11,190 | loss 3.7269 | lr 1.71e-04 | 1344 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6099ms mem 1452/3928MB
+step 11,200 | loss 3.9271 | lr 1.71e-04 | 1341 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 6083ms mem 1452/3928MB
+step 11,210 | loss 4.3267 | lr 1.71e-04 | 1321 tok/s | fwd_bwd 8ms clip 20ms optim 113ms step 6225ms mem 1493/3928MB
+step 11,220 | loss 4.4929 | lr 1.71e-04 | 1328 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6144ms mem 1493/3928MB
+step 11,230 | loss 4.3214 | lr 1.71e-04 | 1335 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6040ms mem 1493/3928MB
+step 11,240 | loss 4.0905 | lr 1.71e-04 | 1340 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 6098ms mem 1452/3928MB
+step 11,250 | loss 4.3164 | lr 1.70e-04 | 1338 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6044ms mem 1493/3928MB
+step 11,260 | loss 4.1699 | lr 1.70e-04 | 1341 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6101ms mem 1493/3928MB
+step 11,270 | loss 4.7832 | lr 1.70e-04 | 1339 tok/s | fwd_bwd 19ms clip 21ms optim 112ms step 6163ms mem 1493/3928MB
+step 11,280 | loss 4.3896 | lr 1.70e-04 | 1345 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6094ms mem 1493/3928MB
+step 11,290 | loss 3.9928 | lr 1.70e-04 | 1339 tok/s | fwd_bwd 14ms clip 20ms optim 111ms step 6132ms mem 1493/3928MB
+step 11,300 | loss 4.4369 | lr 1.69e-04 | 1340 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 6094ms mem 1493/3928MB
+step 11,310 | loss 3.9320 | lr 1.69e-04 | 1337 tok/s | fwd_bwd 6ms clip 20ms optim 110ms step 6117ms mem 1493/3928MB
+step 11,320 | loss 4.2698 | lr 1.69e-04 | 1338 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6112ms mem 1493/3928MB
+step 11,330 | loss 4.4758 | lr 1.69e-04 | 1337 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6126ms mem 1493/3928MB
+step 11,340 | loss 4.3159 | lr 1.69e-04 | 1337 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6100ms mem 1452/3928MB
+step 11,350 | loss 4.4018 | lr 1.68e-04 | 1339 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6091ms mem 1452/3928MB
+step 11,360 | loss 3.8842 | lr 1.68e-04 | 1343 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6080ms mem 1493/3928MB
+step 11,370 | loss 4.1514 | lr 1.68e-04 | 1343 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6095ms mem 1452/3928MB
+step 11,380 | loss 3.9654 | lr 1.68e-04 | 1339 tok/s | fwd_bwd 8ms clip 20ms optim 110ms step 6118ms mem 1493/3928MB
+step 11,390 | loss 4.2350 | lr 1.68e-04 | 1333 tok/s | fwd_bwd 19ms clip 22ms optim 122ms step 6117ms mem 1493/3928MB
+step 11,400 | loss 4.0159 | lr 1.67e-04 | 1332 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6113ms mem 1493/3928MB
+step 11,410 | loss 4.1921 | lr 1.67e-04 | 1338 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6091ms mem 1493/3928MB
+step 11,420 | loss 4.5370 | lr 1.67e-04 | 1342 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6089ms mem 1493/3928MB
+step 11,430 | loss 3.9489 | lr 1.67e-04 | 1340 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6098ms mem 1493/3928MB
+step 11,440 | loss 3.9392 | lr 1.67e-04 | 1338 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 6132ms mem 1493/3928MB
+step 11,450 | loss 4.6288 | lr 1.66e-04 | 1338 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6103ms mem 1452/3928MB
+step 11,460 | loss 4.4182 | lr 1.66e-04 | 1341 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6086ms mem 1452/3928MB
+step 11,470 | loss 2.5393 | lr 1.66e-04 | 1341 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6102ms mem 1493/3928MB
+step 11,480 | loss 4.6952 | lr 1.66e-04 | 1335 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6102ms mem 1452/3928MB
+step 11,490 | loss 4.6614 | lr 1.66e-04 | 1337 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6100ms mem 1493/3928MB
+step 11,500 | loss 3.1336 | lr 1.66e-04 | 1341 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6084ms mem 1493/3928MB
+  [eval] step 11500 | val_loss 4.5934 | ppl 98.83
+step 11,510 | loss 4.4999 | lr 1.65e-04 | 523 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6136ms mem 1493/3928MB
+step 11,520 | loss 4.6611 | lr 1.65e-04 | 1333 tok/s | fwd_bwd 19ms clip 20ms optim 111ms step 6191ms mem 1452/3928MB
+step 11,530 | loss 4.3299 | lr 1.65e-04 | 1334 tok/s | fwd_bwd 17ms clip 20ms optim 111ms step 6162ms mem 1493/3928MB
+step 11,540 | loss 4.3630 | lr 1.65e-04 | 1330 tok/s | fwd_bwd 19ms clip 24ms optim 118ms step 6225ms mem 1493/3928MB
+step 11,550 | loss 4.6928 | lr 1.65e-04 | 1332 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6135ms mem 1493/3928MB
+Checkpoint saved: checkpoints/step_011551
+step 11,560 | loss 3.4564 | lr 1.64e-04 | 1291 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6194ms mem 1493/3928MB
+step 11,570 | loss 5.0820 | lr 1.64e-04 | 1323 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6168ms mem 1493/3928MB
+step 11,580 | loss 4.1729 | lr 1.64e-04 | 1332 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6011ms mem 1493/3928MB
+step 11,590 | loss 4.0875 | lr 1.64e-04 | 1338 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6094ms mem 1493/3928MB
+step 11,600 | loss 4.0463 | lr 1.64e-04 | 1338 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6112ms mem 1452/3928MB
+step 11,610 | loss 4.3971 | lr 1.63e-04 | 1333 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6143ms mem 1493/3928MB
+step 11,620 | loss 4.4701 | lr 1.63e-04 | 1334 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6116ms mem 1493/3928MB
+step 11,630 | loss 4.3139 | lr 1.63e-04 | 1337 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6109ms mem 1493/3928MB
+step 11,640 | loss 4.2876 | lr 1.63e-04 | 1336 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6035ms mem 1493/3928MB
+step 11,650 | loss 4.4032 | lr 1.63e-04 | 1337 tok/s | fwd_bwd 19ms clip 23ms optim 120ms step 6160ms mem 1493/3928MB
+step 11,660 | loss 4.5423 | lr 1.62e-04 | 1342 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6089ms mem 1493/3928MB
+step 11,670 | loss 4.6063 | lr 1.62e-04 | 1340 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6102ms mem 1493/3928MB
+step 11,680 | loss 4.1831 | lr 1.62e-04 | 1333 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6106ms mem 1493/3928MB
+step 11,690 | loss 4.0126 | lr 1.62e-04 | 1340 tok/s | fwd_bwd 17ms clip 20ms optim 111ms step 6106ms mem 1493/3928MB
+step 11,700 | loss 4.1671 | lr 1.62e-04 | 1343 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6091ms mem 1493/3928MB
+step 11,710 | loss 4.6758 | lr 1.61e-04 | 1340 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6093ms mem 1493/3928MB
+step 11,720 | loss 4.0820 | lr 1.61e-04 | 1341 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6083ms mem 1452/3928MB
+step 11,730 | loss 4.3450 | lr 1.61e-04 | 1341 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6084ms mem 1451/3928MB
+step 11,740 | loss 4.4244 | lr 1.61e-04 | 1343 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6082ms mem 1493/3928MB
+step 11,750 | loss 4.7464 | lr 1.61e-04 | 1341 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6086ms mem 1452/3928MB
+step 11,760 | loss 4.3187 | lr 1.60e-04 | 1345 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 6078ms mem 1493/3928MB
+step 11,770 | loss 4.4150 | lr 1.60e-04 | 1337 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6106ms mem 1493/3928MB
+step 11,780 | loss 3.8117 | lr 1.60e-04 | 1340 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6041ms mem 1493/3928MB
+step 11,790 | loss 4.5793 | lr 1.60e-04 | 1342 tok/s | fwd_bwd 11ms clip 20ms optim 110ms step 6072ms mem 1493/3928MB
+step 11,800 | loss 5.1086 | lr 1.60e-04 | 1346 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6099ms mem 1452/3928MB
+step 11,810 | loss 3.4996 | lr 1.59e-04 | 1344 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6087ms mem 1452/3928MB
+step 11,820 | loss 5.3584 | lr 1.59e-04 | 1343 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6090ms mem 1493/3928MB
+step 11,830 | loss 4.3857 | lr 1.59e-04 | 1342 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6098ms mem 1493/3928MB
+step 11,840 | loss 4.4440 | lr 1.59e-04 | 1342 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6085ms mem 1452/3928MB
+step 11,850 | loss 4.2289 | lr 1.59e-04 | 1345 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6085ms mem 1452/3928MB
+step 11,860 | loss 4.3768 | lr 1.59e-04 | 1346 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6090ms mem 1493/3928MB
+step 11,870 | loss 4.7452 | lr 1.58e-04 | 1344 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6084ms mem 1493/3928MB
+step 11,880 | loss 4.3008 | lr 1.58e-04 | 1343 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6111ms mem 1493/3928MB
+step 11,890 | loss 4.3209 | lr 1.58e-04 | 1342 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6086ms mem 1493/3928MB
+step 11,900 | loss 3.7316 | lr 1.58e-04 | 1342 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6106ms mem 1493/3928MB
+step 11,910 | loss 4.5299 | lr 1.58e-04 | 1343 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6090ms mem 1493/3928MB
+step 11,920 | loss 4.6949 | lr 1.57e-04 | 1343 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6074ms mem 1493/3928MB
+step 11,930 | loss 4.7022 | lr 1.57e-04 | 1348 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6059ms mem 1452/3928MB
+step 11,940 | loss 4.4093 | lr 1.57e-04 | 1347 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6074ms mem 1493/3928MB
+step 11,950 | loss 4.8661 | lr 1.57e-04 | 1348 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6054ms mem 1493/3928MB
+step 11,960 | loss 4.0500 | lr 1.57e-04 | 1348 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6066ms mem 1493/3928MB
+step 11,970 | loss 4.1561 | lr 1.56e-04 | 1342 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6076ms mem 1452/3928MB
+step 11,980 | loss 4.6034 | lr 1.56e-04 | 1345 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6064ms mem 1493/3928MB
+step 11,990 | loss 4.2237 | lr 1.56e-04 | 1350 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6039ms mem 1493/3928MB
+step 12,000 | loss 4.4407 | lr 1.56e-04 | 1351 tok/s | fwd_bwd 17ms clip 20ms optim 111ms step 6067ms mem 1451/3928MB
+  [eval] step 12000 | val_loss 4.5736 | ppl 96.89
+Checkpoint saved: checkpoints/step_012000
+  [samples] wrote checkpoints/step_012000/samples.txt
+step 12,010 | loss 4.5640 | lr 1.56e-04 | 469 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6072ms mem 1452/3928MB
+step 12,020 | loss 4.0082 | lr 1.55e-04 | 1336 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6070ms mem 1493/3928MB
+step 12,030 | loss 1.6218 | lr 1.55e-04 | 1348 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6054ms mem 1451/3928MB
+step 12,040 | loss 4.4753 | lr 1.55e-04 | 1351 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6034ms mem 1493/3928MB
+step 12,050 | loss 4.2575 | lr 1.55e-04 | 1351 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6056ms mem 1452/3928MB
+step 12,060 | loss 4.7876 | lr 1.55e-04 | 1345 tok/s | fwd_bwd 9ms clip 20ms optim 112ms step 6072ms mem 1451/3928MB
+step 12,070 | loss 4.4760 | lr 1.54e-04 | 1349 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6051ms mem 1493/3928MB
+step 12,080 | loss 4.6167 | lr 1.54e-04 | 1347 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6070ms mem 1493/3928MB
+step 12,090 | loss 4.1930 | lr 1.54e-04 | 1350 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6041ms mem 1452/3928MB
+step 12,100 | loss 4.2003 | lr 1.54e-04 | 1353 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6053ms mem 1493/3928MB
+step 12,110 | loss 4.3421 | lr 1.54e-04 | 1355 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6036ms mem 1493/3928MB
+step 12,120 | loss 4.6489 | lr 1.53e-04 | 1354 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6053ms mem 1493/3928MB
+Checkpoint saved: checkpoints/step_012123
+step 12,130 | loss 4.5517 | lr 1.53e-04 | 1332 tok/s | fwd_bwd 9ms clip 23ms optim 118ms step 6293ms mem 1493/3928MB
+step 12,140 | loss 4.2947 | lr 1.53e-04 | 1131 tok/s | fwd_bwd 19ms clip 22ms optim 121ms step 6251ms mem 1448/3928MB
+step 12,150 | loss 4.1175 | lr 1.53e-04 | 1179 tok/s | fwd_bwd 6ms clip 34ms optim 190ms step 8434ms mem 1448/3928MB
+step 12,160 | loss 4.1479 | lr 1.53e-04 | 1081 tok/s | fwd_bwd 6ms clip 21ms optim 115ms step 7634ms mem 1493/3928MB
+step 12,170 | loss 4.7112 | lr 1.52e-04 | 1311 tok/s | fwd_bwd 20ms clip 23ms optim 121ms step 6226ms mem 1452/3928MB
+step 12,180 | loss 4.2588 | lr 1.52e-04 | 1339 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6081ms mem 1452/3928MB
+step 12,190 | loss 4.3598 | lr 1.52e-04 | 1341 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6065ms mem 1493/3928MB
+step 12,200 | loss 4.3088 | lr 1.52e-04 | 1343 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6094ms mem 1493/3928MB
+step 12,210 | loss 4.6552 | lr 1.52e-04 | 1343 tok/s | fwd_bwd 17ms clip 20ms optim 111ms step 6066ms mem 1493/3928MB
+step 12,220 | loss 4.1306 | lr 1.52e-04 | 1343 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 5987ms mem 1493/3928MB
+step 12,230 | loss 4.3596 | lr 1.51e-04 | 1344 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6089ms mem 1493/3928MB
+step 12,240 | loss 4.6325 | lr 1.51e-04 | 1337 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6106ms mem 1493/3928MB
+step 12,250 | loss 4.4241 | lr 1.51e-04 | 1337 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 6034ms mem 1493/3928MB
+step 12,260 | loss 4.6792 | lr 1.51e-04 | 1345 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6072ms mem 1493/3928MB
+step 12,270 | loss 5.0633 | lr 1.51e-04 | 1344 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 5980ms mem 1493/3928MB
+step 12,280 | loss 4.9143 | lr 1.50e-04 | 1339 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6115ms mem 1493/3928MB
+step 12,290 | loss 4.6852 | lr 1.50e-04 | 1340 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6104ms mem 1493/3928MB
+step 12,300 | loss 4.5843 | lr 1.50e-04 | 1339 tok/s | fwd_bwd 18ms clip 20ms optim 111ms step 6132ms mem 1493/3928MB
+step 12,310 | loss 4.6754 | lr 1.50e-04 | 1341 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6100ms mem 1493/3928MB
+step 12,320 | loss 4.9494 | lr 1.50e-04 | 1334 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6410ms mem 1493/3928MB
+step 12,330 | loss 4.0739 | lr 1.49e-04 | 1338 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6085ms mem 1452/3928MB
+step 12,340 | loss 4.6936 | lr 1.49e-04 | 1338 tok/s | fwd_bwd 19ms clip 20ms optim 111ms step 6072ms mem 1493/3928MB
+step 12,350 | loss 4.6849 | lr 1.49e-04 | 1352 tok/s | fwd_bwd 16ms clip 20ms optim 111ms step 6029ms mem 1493/3928MB
+step 12,360 | loss 5.3911 | lr 1.49e-04 | 1358 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6005ms mem 1493/3928MB
+step 12,370 | loss 4.0352 | lr 1.49e-04 | 1358 tok/s | fwd_bwd 17ms clip 23ms optim 119ms step 6007ms mem 1493/3928MB
+step 12,380 | loss 4.4899 | lr 1.48e-04 | 1364 tok/s | fwd_bwd 20ms clip 23ms optim 119ms step 6050ms mem 1493/3928MB
+step 12,390 | loss 4.2263 | lr 1.48e-04 | 1361 tok/s | fwd_bwd 19ms clip 23ms optim 119ms step 6001ms mem 1493/3928MB
+step 12,400 | loss 4.6008 | lr 1.48e-04 | 1367 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 5987ms mem 1448/3928MB
+step 12,410 | loss 4.2614 | lr 1.48e-04 | 1367 tok/s | fwd_bwd 12ms clip 20ms optim 110ms step 5970ms mem 1493/3928MB
+step 12,420 | loss 3.8383 | lr 1.48e-04 | 1361 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 5972ms mem 1493/3928MB
+step 12,430 | loss 4.0056 | lr 1.47e-04 | 1354 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 5973ms mem 1493/3928MB
+step 12,440 | loss 3.3135 | lr 1.47e-04 | 1363 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 5990ms mem 1493/3928MB
+step 12,450 | loss 4.1240 | lr 1.47e-04 | 1360 tok/s | fwd_bwd 20ms clip 23ms optim 119ms step 6006ms mem 1493/3928MB
+step 12,460 | loss 4.8670 | lr 1.47e-04 | 1366 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 5996ms mem 1493/3928MB
+step 12,470 | loss 4.7974 | lr 1.47e-04 | 1364 tok/s | fwd_bwd 19ms clip 23ms optim 119ms step 5970ms mem 1493/3928MB
+step 12,480 | loss 4.2831 | lr 1.46e-04 | 1369 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 5977ms mem 1493/3928MB
+step 12,490 | loss 4.0703 | lr 1.46e-04 | 1365 tok/s | fwd_bwd 17ms clip 21ms optim 115ms step 6004ms mem 1493/3928MB
+step 12,500 | loss 4.9344 | lr 1.46e-04 | 1370 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 5956ms mem 1452/3928MB
+  [eval] step 12500 | val_loss 4.6143 | ppl 100.92
+step 12,510 | loss 4.4839 | lr 1.46e-04 | 535 tok/s | fwd_bwd 20ms clip 23ms optim 121ms step 6017ms mem 1493/3928MB
+step 12,520 | loss 4.6963 | lr 1.46e-04 | 1364 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 5989ms mem 1493/3928MB
+step 12,530 | loss 4.5567 | lr 1.45e-04 | 1358 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 6029ms mem 1493/3928MB
+step 12,540 | loss 4.5107 | lr 1.45e-04 | 1353 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6053ms mem 1493/3928MB
+step 12,550 | loss 4.4087 | lr 1.45e-04 | 1350 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6076ms mem 1493/3928MB
+step 12,560 | loss 4.1039 | lr 1.45e-04 | 1345 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6083ms mem 1493/3928MB
+step 12,570 | loss 4.6866 | lr 1.45e-04 | 1345 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6067ms mem 1493/3928MB
+step 12,580 | loss 4.6567 | lr 1.45e-04 | 1346 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6080ms mem 1452/3928MB
+step 12,590 | loss 4.7071 | lr 1.44e-04 | 1341 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6094ms mem 1493/3928MB
+step 12,600 | loss 4.3930 | lr 1.44e-04 | 1341 tok/s | fwd_bwd 20ms clip 23ms optim 121ms step 6196ms mem 1493/3928MB
+step 12,610 | loss 4.6663 | lr 1.44e-04 | 1343 tok/s | fwd_bwd 18ms clip 23ms optim 120ms step 6167ms mem 1452/3928MB
+step 12,620 | loss 4.3325 | lr 1.44e-04 | 1338 tok/s | fwd_bwd 19ms clip 23ms optim 120ms step 6185ms mem 1493/3928MB
+step 12,630 | loss 4.5521 | lr 1.44e-04 | 1337 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6096ms mem 1493/3928MB
+step 12,640 | loss 4.8809 | lr 1.43e-04 | 1331 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6159ms mem 1493/3928MB
+step 12,650 | loss 4.6899 | lr 1.43e-04 | 1323 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6189ms mem 1493/3928MB
+step 12,660 | loss 4.6991 | lr 1.43e-04 | 1328 tok/s | fwd_bwd 11ms clip 20ms optim 112ms step 6154ms mem 1493/3928MB
+step 12,670 | loss 4.1124 | lr 1.43e-04 | 1324 tok/s | fwd_bwd 19ms clip 23ms optim 121ms step 6242ms mem 1476/3928MB
+step 12,680 | loss 4.3606 | lr 1.43e-04 | 1331 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6138ms mem 1493/3928MB
+step 12,690 | loss 5.1010 | lr 1.42e-04 | 1326 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6149ms mem 1493/3928MB
+Checkpoint saved: checkpoints/step_012694
+step 12,700 | loss 4.2967 | lr 1.42e-04 | 1291 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6197ms mem 1452/3928MB
+step 12,710 | loss 4.3690 | lr 1.42e-04 | 1317 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6190ms mem 1493/3928MB
+step 12,720 | loss 4.8488 | lr 1.42e-04 | 1328 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6133ms mem 1493/3928MB
+step 12,730 | loss 4.3476 | lr 1.42e-04 | 1337 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6104ms mem 1493/3928MB
+step 12,740 | loss 4.6254 | lr 1.41e-04 | 1336 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6113ms mem 1493/3928MB
+step 12,750 | loss 4.9155 | lr 1.41e-04 | 1341 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6093ms mem 1493/3928MB
+step 12,760 | loss 4.8994 | lr 1.41e-04 | 1342 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6094ms mem 1452/3928MB
+step 12,770 | loss 5.0560 | lr 1.41e-04 | 1342 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6104ms mem 1493/3928MB
+step 12,780 | loss 4.1684 | lr 1.41e-04 | 1338 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6124ms mem 1493/3928MB
+step 12,790 | loss 4.4325 | lr 1.40e-04 | 1337 tok/s | fwd_bwd 19ms clip 23ms optim 120ms step 6168ms mem 1493/3928MB
+step 12,800 | loss 4.2203 | lr 1.40e-04 | 1342 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6071ms mem 1493/3928MB
+step 12,810 | loss 4.8800 | lr 1.40e-04 | 1340 tok/s | fwd_bwd 9ms clip 20ms optim 112ms step 6105ms mem 1493/3928MB
+step 12,820 | loss 3.9000 | lr 1.40e-04 | 1334 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6097ms mem 1493/3928MB
+step 12,830 | loss 4.5592 | lr 1.40e-04 | 1339 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6065ms mem 1493/3928MB
+step 12,840 | loss 4.1239 | lr 1.39e-04 | 1339 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6104ms mem 1493/3928MB
+step 12,850 | loss 4.5958 | lr 1.39e-04 | 1340 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6098ms mem 1493/3928MB
+step 12,860 | loss 4.4048 | lr 1.39e-04 | 1338 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6124ms mem 1493/3928MB
+step 12,870 | loss 4.9269 | lr 1.39e-04 | 1332 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6143ms mem 1493/3928MB
+step 12,880 | loss 4.4407 | lr 1.39e-04 | 1328 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6153ms mem 1493/3928MB
+step 12,890 | loss 4.7498 | lr 1.38e-04 | 1327 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6150ms mem 1490/3928MB
+step 12,900 | loss 4.0603 | lr 1.38e-04 | 1330 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6120ms mem 1493/3928MB
+step 12,910 | loss 5.2103 | lr 1.38e-04 | 1335 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6117ms mem 1452/3928MB
+step 12,920 | loss 4.6317 | lr 1.38e-04 | 1339 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6096ms mem 1452/3928MB
+step 12,930 | loss 4.4938 | lr 1.38e-04 | 1338 tok/s | fwd_bwd 11ms clip 20ms optim 112ms step 6102ms mem 1493/3928MB
+step 12,940 | loss 3.7481 | lr 1.38e-04 | 1335 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6126ms mem 1452/3928MB
+step 12,950 | loss 4.4421 | lr 1.37e-04 | 1334 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6146ms mem 1493/3928MB
+step 12,960 | loss 4.3513 | lr 1.37e-04 | 1333 tok/s | fwd_bwd 11ms clip 20ms optim 113ms step 6129ms mem 1493/3928MB
+step 12,970 | loss 4.6582 | lr 1.37e-04 | 1333 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6132ms mem 1452/3928MB
+step 12,980 | loss 4.7896 | lr 1.37e-04 | 1334 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6133ms mem 1493/3928MB
+step 12,990 | loss 5.0238 | lr 1.37e-04 | 1332 tok/s | fwd_bwd 14ms clip 20ms optim 112ms step 6152ms mem 1452/3928MB
+step 13,000 | loss 4.4251 | lr 1.36e-04 | 1329 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6154ms mem 1493/3928MB
+  [eval] step 13000 | val_loss 4.5274 | ppl 92.52
+Checkpoint saved: checkpoints/step_013000
+  [samples] wrote checkpoints/step_013000/samples.txt
+step 13,010 | loss 4.5347 | lr 1.36e-04 | 457 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6272ms mem 1458/3928MB
+step 13,020 | loss 4.5318 | lr 1.36e-04 | 1132 tok/s | fwd_bwd 6ms clip 37ms optim 175ms step 8918ms mem 1448/3928MB
+step 13,030 | loss 4.8591 | lr 1.36e-04 | 1212 tok/s | fwd_bwd 14ms clip 20ms optim 111ms step 6246ms mem 1448/3928MB
+step 13,040 | loss 4.3148 | lr 1.36e-04 | 1322 tok/s | fwd_bwd 19ms clip 23ms optim 119ms step 6226ms mem 1448/3928MB
+step 13,050 | loss 4.5945 | lr 1.35e-04 | 1331 tok/s | fwd_bwd 8ms clip 20ms optim 115ms step 6054ms mem 1448/3928MB
+step 13,060 | loss 4.2941 | lr 1.35e-04 | 1328 tok/s | fwd_bwd 19ms clip 23ms optim 119ms step 6247ms mem 1448/3928MB
+step 13,070 | loss 4.4134 | lr 1.35e-04 | 1333 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6123ms mem 1448/3928MB
+step 13,080 | loss 4.4298 | lr 1.35e-04 | 1322 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6235ms mem 1448/3928MB
+step 13,090 | loss 4.5133 | lr 1.35e-04 | 1324 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6162ms mem 1448/3928MB
+step 13,100 | loss 4.1177 | lr 1.34e-04 | 1332 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6110ms mem 1448/3928MB
+step 13,110 | loss 4.3484 | lr 1.34e-04 | 1327 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6160ms mem 1448/3928MB
+step 13,120 | loss 4.6299 | lr 1.34e-04 | 1330 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6152ms mem 1448/3928MB
+step 13,130 | loss 4.6948 | lr 1.34e-04 | 1327 tok/s | fwd_bwd 17ms clip 23ms optim 119ms step 6207ms mem 1448/3928MB
+step 13,140 | loss 4.1118 | lr 1.34e-04 | 1334 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6054ms mem 1448/3928MB
+step 13,150 | loss 4.4098 | lr 1.33e-04 | 1331 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 6163ms mem 1448/3928MB
+step 13,160 | loss 4.1943 | lr 1.33e-04 | 1328 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6155ms mem 1448/3928MB
+step 13,170 | loss 4.3271 | lr 1.33e-04 | 1323 tok/s | fwd_bwd 16ms clip 20ms optim 111ms step 6096ms mem 1448/3928MB
+step 13,180 | loss 4.6252 | lr 1.33e-04 | 1326 tok/s | fwd_bwd 18ms clip 23ms optim 119ms step 6226ms mem 1448/3928MB
+step 13,190 | loss 4.2810 | lr 1.33e-04 | 1334 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6145ms mem 1448/3928MB
+step 13,200 | loss 4.2822 | lr 1.32e-04 | 1332 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6143ms mem 1448/3928MB
+step 13,210 | loss 4.4876 | lr 1.32e-04 | 1329 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6162ms mem 1448/3928MB
+step 13,220 | loss 4.4716 | lr 1.32e-04 | 1321 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6167ms mem 1448/3928MB
+step 13,230 | loss 4.3071 | lr 1.32e-04 | 1323 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6170ms mem 1448/3928MB
+step 13,240 | loss 2.7617 | lr 1.32e-04 | 1327 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6161ms mem 1448/3928MB
+step 13,250 | loss 3.2306 | lr 1.32e-04 | 1329 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6046ms mem 1448/3928MB
+Checkpoint saved: checkpoints/step_013258
+step 13,260 | loss 4.5105 | lr 1.31e-04 | 1312 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6192ms mem 1448/3928MB
+step 13,270 | loss 1.9176 | lr 1.31e-04 | 1315 tok/s | fwd_bwd 19ms clip 20ms optim 113ms step 6285ms mem 1448/3928MB
+step 13,280 | loss 4.9685 | lr 1.31e-04 | 1113 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 7088ms mem 1493/3928MB
+step 13,290 | loss 5.0130 | lr 1.31e-04 | 1305 tok/s | fwd_bwd 17ms clip 20ms optim 111ms step 6239ms mem 1493/3928MB
+step 13,300 | loss 4.1211 | lr 1.31e-04 | 1321 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6050ms mem 1493/3928MB
+step 13,310 | loss 4.1777 | lr 1.30e-04 | 1325 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6168ms mem 1493/3928MB
+step 13,320 | loss 4.9091 | lr 1.30e-04 | 1323 tok/s | fwd_bwd 19ms clip 23ms optim 120ms step 6244ms mem 1493/3928MB
+step 13,330 | loss 4.4514 | lr 1.30e-04 | 1332 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 6142ms mem 1493/3928MB
+step 13,340 | loss 4.1886 | lr 1.30e-04 | 1321 tok/s | fwd_bwd 18ms clip 20ms optim 111ms step 6099ms mem 1493/3928MB
+step 13,350 | loss 4.2570 | lr 1.30e-04 | 1327 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6069ms mem 1493/3928MB
+step 13,360 | loss 5.0154 | lr 1.29e-04 | 1330 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6135ms mem 1452/3928MB
+step 13,370 | loss 4.4870 | lr 1.29e-04 | 1329 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6129ms mem 1493/3928MB
+step 13,380 | loss 4.8972 | lr 1.29e-04 | 1325 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6163ms mem 1493/3928MB
+step 13,390 | loss 4.4302 | lr 1.29e-04 | 1322 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6227ms mem 1493/3928MB
+step 13,400 | loss 4.2161 | lr 1.29e-04 | 1327 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6160ms mem 1493/3928MB
+step 13,410 | loss 5.1708 | lr 1.28e-04 | 1324 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6167ms mem 1493/3928MB
+step 13,420 | loss 4.9555 | lr 1.28e-04 | 1324 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6159ms mem 1493/3928MB
+step 13,430 | loss 4.5711 | lr 1.28e-04 | 1328 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6149ms mem 1493/3928MB
+step 13,440 | loss 4.2185 | lr 1.28e-04 | 1326 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6155ms mem 1452/3928MB
+step 13,450 | loss 3.8075 | lr 1.28e-04 | 1319 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6189ms mem 1452/3928MB
+step 13,460 | loss 4.3501 | lr 1.27e-04 | 1323 tok/s | fwd_bwd 18ms clip 20ms optim 111ms step 6211ms mem 1493/3928MB
+step 13,470 | loss 4.7442 | lr 1.27e-04 | 1326 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6153ms mem 1452/3928MB
+step 13,480 | loss 4.6447 | lr 1.27e-04 | 1324 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6131ms mem 1493/3928MB
+step 13,490 | loss 4.5433 | lr 1.27e-04 | 1328 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6065ms mem 1452/3928MB
+step 13,500 | loss 4.1392 | lr 1.27e-04 | 1322 tok/s | fwd_bwd 13ms clip 20ms optim 112ms step 6202ms mem 1493/3928MB
+  [eval] step 13500 | val_loss 4.5871 | ppl 98.21
+step 13,510 | loss 5.2401 | lr 1.27e-04 | 514 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6219ms mem 1464/3928MB
+step 13,520 | loss 4.5920 | lr 1.26e-04 | 1317 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6201ms mem 1493/3928MB
+step 13,530 | loss 4.4850 | lr 1.26e-04 | 1315 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6211ms mem 1493/3928MB
+step 13,540 | loss 4.2524 | lr 1.26e-04 | 1310 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6296ms mem 1493/3928MB
+step 13,550 | loss 4.5406 | lr 1.26e-04 | 1307 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6242ms mem 1493/3928MB
+step 13,560 | loss 4.1512 | lr 1.26e-04 | 1307 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6248ms mem 1493/3928MB
+step 13,570 | loss 4.9851 | lr 1.25e-04 | 1310 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6217ms mem 1493/3928MB
+step 13,580 | loss 4.8856 | lr 1.25e-04 | 1306 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6212ms mem 1493/3928MB
+step 13,590 | loss 3.8251 | lr 1.25e-04 | 1285 tok/s | fwd_bwd 18ms clip 24ms optim 120ms step 6363ms mem 1493/3928MB
+step 13,600 | loss 4.5018 | lr 1.25e-04 | 1283 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6249ms mem 1493/3928MB
+step 13,610 | loss 4.2560 | lr 1.25e-04 | 1297 tok/s | fwd_bwd 19ms clip 23ms optim 121ms step 6366ms mem 1493/3928MB
+step 13,620 | loss 4.4756 | lr 1.24e-04 | 1320 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6180ms mem 1493/3928MB
+step 13,630 | loss 2.6383 | lr 1.24e-04 | 1327 tok/s | fwd_bwd 13ms clip 20ms optim 112ms step 6161ms mem 1493/3928MB
+step 13,640 | loss 3.4963 | lr 1.24e-04 | 1332 tok/s | fwd_bwd 20ms clip 21ms optim 119ms step 6143ms mem 1493/3928MB
+step 13,650 | loss 4.0123 | lr 1.24e-04 | 1327 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6129ms mem 1493/3928MB
+step 13,660 | loss 4.1012 | lr 1.24e-04 | 1337 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6097ms mem 1493/3928MB
+step 13,670 | loss 4.4189 | lr 1.23e-04 | 1341 tok/s | fwd_bwd 20ms clip 23ms optim 120ms step 6171ms mem 1493/3928MB
+step 13,680 | loss 4.3144 | lr 1.23e-04 | 1348 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6065ms mem 1493/3928MB
+step 13,690 | loss 4.5775 | lr 1.23e-04 | 1345 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 5987ms mem 1493/3928MB
+step 13,700 | loss 4.1790 | lr 1.23e-04 | 1344 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6081ms mem 1493/3928MB
+step 13,710 | loss 4.5465 | lr 1.23e-04 | 1343 tok/s | fwd_bwd 6ms clip 20ms optim 113ms step 6142ms mem 1493/3928MB
+step 13,720 | loss 4.4088 | lr 1.22e-04 | 1346 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 5974ms mem 1493/3928MB
+step 13,730 | loss 4.9391 | lr 1.22e-04 | 1344 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6133ms mem 1493/3928MB
+step 13,740 | loss 4.1493 | lr 1.22e-04 | 1338 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6149ms mem 1492/3928MB
+step 13,750 | loss 4.9811 | lr 1.22e-04 | 1329 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6159ms mem 1490/3928MB
+step 13,760 | loss 4.6891 | lr 1.22e-04 | 1326 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6122ms mem 1493/3928MB
+step 13,770 | loss 4.2316 | lr 1.22e-04 | 1324 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6143ms mem 1493/3928MB
+step 13,780 | loss 4.5931 | lr 1.21e-04 | 1323 tok/s | fwd_bwd 16ms clip 20ms optim 111ms step 6204ms mem 1452/3928MB
+step 13,790 | loss 4.1791 | lr 1.21e-04 | 1325 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6168ms mem 1493/3928MB
+step 13,800 | loss 4.4134 | lr 1.21e-04 | 1324 tok/s | fwd_bwd 15ms clip 20ms optim 112ms step 6172ms mem 1493/3928MB
+step 13,810 | loss 4.5276 | lr 1.21e-04 | 1305 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6316ms mem 1493/3928MB
+step 13,820 | loss 4.6931 | lr 1.21e-04 | 1144 tok/s | fwd_bwd 3ms clip 20ms optim 113ms step 6454ms mem 1452/3928MB
+Checkpoint saved: checkpoints/step_013821
+step 13,830 | loss 4.5427 | lr 1.20e-04 | 1267 tok/s | fwd_bwd 16ms clip 20ms optim 111ms step 6340ms mem 1452/3928MB
+step 13,840 | loss 4.2888 | lr 1.20e-04 | 1289 tok/s | fwd_bwd 9ms clip 21ms optim 114ms step 6638ms mem 1493/3928MB
+step 13,850 | loss 4.3556 | lr 1.20e-04 | 1329 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 5937ms mem 1452/3928MB
+step 13,860 | loss 4.5069 | lr 1.20e-04 | 1382 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 5830ms mem 1493/3928MB
+step 13,870 | loss 4.4297 | lr 1.20e-04 | 1393 tok/s | fwd_bwd 19ms clip 24ms optim 125ms step 6016ms mem 1493/3928MB
+step 13,880 | loss 4.3443 | lr 1.19e-04 | 1377 tok/s | fwd_bwd 18ms clip 23ms optim 119ms step 6010ms mem 1493/3928MB
+step 13,890 | loss 4.1841 | lr 1.19e-04 | 1373 tok/s | fwd_bwd 19ms clip 20ms optim 111ms step 5938ms mem 1493/3928MB
+step 13,900 | loss 4.2560 | lr 1.19e-04 | 1374 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 5845ms mem 1493/3928MB
+step 13,910 | loss 4.2968 | lr 1.19e-04 | 1369 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 5968ms mem 1493/3928MB
+step 13,920 | loss 5.0728 | lr 1.19e-04 | 1367 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 5985ms mem 1493/3928MB
+step 13,930 | loss 4.1650 | lr 1.18e-04 | 1358 tok/s | fwd_bwd 17ms clip 20ms optim 111ms step 6030ms mem 1493/3928MB
+step 13,940 | loss 4.3265 | lr 1.18e-04 | 1361 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6009ms mem 1493/3928MB
+step 13,950 | loss 4.2395 | lr 1.18e-04 | 1346 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 5968ms mem 1493/3928MB
+step 13,960 | loss 4.4990 | lr 1.18e-04 | 1352 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6025ms mem 1493/3928MB
+step 13,970 | loss 3.9671 | lr 1.18e-04 | 1347 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6046ms mem 1452/3928MB
+step 13,980 | loss 4.7547 | lr 1.18e-04 | 1350 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 5978ms mem 1493/3928MB
+step 13,990 | loss 4.4694 | lr 1.17e-04 | 1344 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6053ms mem 1452/3928MB
+step 14,000 | loss 4.4454 | lr 1.17e-04 | 1349 tok/s | fwd_bwd 17ms clip 20ms optim 113ms step 6064ms mem 1493/3928MB
+  [eval] step 14000 | val_loss 4.5454 | ppl 94.20
+Checkpoint saved: checkpoints/step_014000
+  [samples] wrote checkpoints/step_014000/samples.txt
+step 14,010 | loss 4.3466 | lr 1.17e-04 | 469 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 5996ms mem 1492/3928MB
+step 14,020 | loss 4.6785 | lr 1.17e-04 | 1347 tok/s | fwd_bwd 16ms clip 24ms optim 125ms step 6411ms mem 1493/3928MB
+Resuming from checkpoint: checkpoints/step_014000
+  Resumed at step 14000
+
+============================================================
+  Unrealistic 187M — Training
+  Parameters: 189,748,992
+  Dtype: bfloat16
+  Optimizer: AdamW (mlx)
+  Micro-batch: 1 × 8 accum
+  Effective batch: 8
+  Memory: 535 MB
+============================================================
+
+step 14,000 | loss 4.3410 | lr 1.17e-04 | 0 tok/s | fwd_bwd 11ms clip 24ms optim 410ms step 5421ms mem 1493/2587MB
+  [eval] step 14000 | val_loss 4.5892 | ppl 98.42
+Checkpoint saved: checkpoints/step_014000
+  [samples] wrote checkpoints/step_014000/samples.txt
+step 14,010 | loss 4.3631 | lr 1.17e-04 | 555 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 4888ms mem 1493/3928MB
+step 14,020 | loss 4.6574 | lr 1.17e-04 | 1646 tok/s | fwd_bwd 18ms clip 20ms optim 112ms step 5023ms mem 1493/3928MB
+step 14,030 | loss 4.1179 | lr 1.17e-04 | 1551 tok/s | fwd_bwd 18ms clip 20ms optim 111ms step 5497ms mem 1493/3928MB
+step 14,040 | loss 3.8660 | lr 1.16e-04 | 1420 tok/s | fwd_bwd 9ms clip 20ms optim 113ms step 6142ms mem 1493/3928MB
+step 14,050 | loss 4.0437 | lr 1.16e-04 | 1382 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 5908ms mem 1448/3928MB
+step 14,060 | loss 4.2739 | lr 1.16e-04 | 1191 tok/s | fwd_bwd 12ms clip 20ms optim 120ms step 6508ms mem 1448/3928MB
+step 14,070 | loss 4.2474 | lr 1.16e-04 | 1250 tok/s | fwd_bwd 8ms clip 23ms optim 121ms step 6625ms mem 1448/3928MB
+step 14,080 | loss 4.4704 | lr 1.16e-04 | 1232 tok/s | fwd_bwd 7ms clip 22ms optim 119ms step 6562ms mem 1448/3928MB
+step 14,090 | loss 3.6158 | lr 1.15e-04 | 1180 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6715ms mem 1448/3928MB
+step 14,100 | loss 4.2265 | lr 1.15e-04 | 1314 tok/s | fwd_bwd 20ms clip 23ms optim 121ms step 6279ms mem 1448/3928MB
+step 14,110 | loss 4.7328 | lr 1.15e-04 | 1331 tok/s | fwd_bwd 15ms clip 20ms optim 112ms step 6104ms mem 1448/3928MB
+step 14,120 | loss 3.8100 | lr 1.15e-04 | 1333 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6132ms mem 1448/3928MB
+step 14,130 | loss 3.7668 | lr 1.15e-04 | 1330 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6154ms mem 1448/3928MB
+step 14,140 | loss 4.4195 | lr 1.14e-04 | 1314 tok/s | fwd_bwd 3ms clip 21ms optim 115ms step 6564ms mem 1448/3928MB
+step 14,150 | loss 4.2576 | lr 1.14e-04 | 1306 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 6293ms mem 1448/3928MB
+step 14,160 | loss 4.2175 | lr 1.14e-04 | 1312 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6217ms mem 1448/3928MB
+step 14,170 | loss 4.2415 | lr 1.14e-04 | 1306 tok/s | fwd_bwd 20ms clip 20ms optim 112ms step 6313ms mem 1448/3928MB
+step 14,180 | loss 4.4759 | lr 1.14e-04 | 1316 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6195ms mem 1448/3928MB
+step 14,190 | loss 3.8845 | lr 1.14e-04 | 1310 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6255ms mem 1448/3928MB
+step 14,200 | loss 4.3201 | lr 1.13e-04 | 1308 tok/s | fwd_bwd 9ms clip 20ms optim 112ms step 6247ms mem 1448/3928MB
+step 14,210 | loss 4.1847 | lr 1.13e-04 | 1305 tok/s | fwd_bwd 18ms clip 20ms optim 112ms step 6245ms mem 1448/3928MB
+step 14,220 | loss 4.1003 | lr 1.13e-04 | 1308 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6240ms mem 1448/3928MB
+step 14,230 | loss 4.7580 | lr 1.13e-04 | 1291 tok/s | fwd_bwd 19ms clip 23ms optim 120ms step 6377ms mem 1448/3928MB
+step 14,240 | loss 4.0548 | lr 1.13e-04 | 1300 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6295ms mem 1448/3928MB
+step 14,250 | loss 4.0998 | lr 1.12e-04 | 1297 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6322ms mem 1448/3928MB
+step 14,260 | loss 4.5227 | lr 1.12e-04 | 1298 tok/s | fwd_bwd 4ms clip 21ms optim 112ms step 6166ms mem 1448/3928MB
+step 14,270 | loss 4.2607 | lr 1.12e-04 | 1303 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6263ms mem 1448/3928MB
+step 14,280 | loss 4.5225 | lr 1.12e-04 | 1285 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6285ms mem 1448/3928MB
+step 14,290 | loss 4.2279 | lr 1.12e-04 | 1294 tok/s | fwd_bwd 19ms clip 23ms optim 120ms step 6292ms mem 1448/3928MB
+step 14,300 | loss 4.2304 | lr 1.11e-04 | 1298 tok/s | fwd_bwd 19ms clip 23ms optim 120ms step 6381ms mem 1448/3928MB
+step 14,310 | loss 4.6570 | lr 1.11e-04 | 1296 tok/s | fwd_bwd 20ms clip 23ms optim 120ms step 6361ms mem 1448/3928MB
+step 14,320 | loss 3.8950 | lr 1.11e-04 | 1301 tok/s | fwd_bwd 13ms clip 20ms optim 112ms step 6286ms mem 1448/3928MB
+step 14,330 | loss 4.4075 | lr 1.11e-04 | 1287 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6547ms mem 1448/3928MB
+step 14,340 | loss 4.3997 | lr 1.11e-04 | 1292 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6326ms mem 1448/3928MB
+step 14,350 | loss 4.2899 | lr 1.11e-04 | 1292 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6322ms mem 1448/3928MB
+step 14,360 | loss 4.3376 | lr 1.10e-04 | 1295 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6305ms mem 1448/3928MB
+step 14,370 | loss 3.8232 | lr 1.10e-04 | 1295 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6218ms mem 1448/3928MB
+step 14,380 | loss 4.2394 | lr 1.10e-04 | 1293 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6291ms mem 1448/3928MB
+step 14,390 | loss 4.2284 | lr 1.10e-04 | 1295 tok/s | fwd_bwd 20ms clip 23ms optim 119ms step 6416ms mem 1448/3928MB
+step 14,400 | loss 4.2732 | lr 1.10e-04 | 1296 tok/s | fwd_bwd 21ms clip 24ms optim 122ms step 6355ms mem 1448/3928MB
+step 14,410 | loss 4.3126 | lr 1.09e-04 | 1306 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6263ms mem 1448/3928MB
+step 14,420 | loss 4.2698 | lr 1.09e-04 | 1306 tok/s | fwd_bwd 19ms clip 23ms optim 121ms step 6334ms mem 1448/3928MB
+step 14,430 | loss 3.9165 | lr 1.09e-04 | 1312 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6267ms mem 1448/3928MB
+step 14,440 | loss 4.4307 | lr 1.09e-04 | 1317 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6199ms mem 1448/3928MB
+step 14,450 | loss 4.1379 | lr 1.09e-04 | 1315 tok/s | fwd_bwd 6ms clip 21ms optim 113ms step 6236ms mem 1448/3928MB
+step 14,460 | loss 4.3819 | lr 1.08e-04 | 1304 tok/s | fwd_bwd 8ms clip 21ms optim 112ms step 6229ms mem 1448/3928MB
+step 14,470 | loss 4.0282 | lr 1.08e-04 | 1311 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6249ms mem 1448/3928MB
+step 14,480 | loss 4.3052 | lr 1.08e-04 | 1311 tok/s | fwd_bwd 19ms clip 23ms optim 119ms step 6287ms mem 1448/3928MB
+step 14,490 | loss 3.9205 | lr 1.08e-04 | 1315 tok/s | fwd_bwd 5ms clip 21ms optim 112ms step 6262ms mem 1448/3928MB
+step 14,500 | loss 2.9690 | lr 1.08e-04 | 1313 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6222ms mem 1448/3928MB
+  [eval] step 14500 | val_loss 4.5941 | ppl 98.90
+step 14,510 | loss 3.7444 | lr 1.08e-04 | 512 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6217ms mem 1493/3928MB
+step 14,520 | loss 3.6718 | lr 1.07e-04 | 1309 tok/s | fwd_bwd 20ms clip 24ms optim 120ms step 6304ms mem 1493/3928MB
+step 14,530 | loss 4.2227 | lr 1.07e-04 | 1320 tok/s | fwd_bwd 11ms clip 20ms optim 112ms step 6188ms mem 1451/3928MB
+step 14,540 | loss 3.9357 | lr 1.07e-04 | 1319 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6178ms mem 1493/3928MB
+Checkpoint saved: checkpoints/step_014546
+step 14,550 | loss 4.7680 | lr 1.07e-04 | 1304 tok/s | fwd_bwd 10ms clip 22ms optim 115ms step 6399ms mem 1482/3928MB
+step 14,560 | loss 4.3526 | lr 1.07e-04 | 1305 tok/s | fwd_bwd 5ms clip 20ms optim 113ms step 6243ms mem 1493/3928MB
+step 14,570 | loss 4.3276 | lr 1.06e-04 | 1312 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6202ms mem 1493/3928MB
+step 14,580 | loss 4.7884 | lr 1.06e-04 | 1321 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6178ms mem 1493/3928MB
+step 14,590 | loss 3.9140 | lr 1.06e-04 | 1321 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6180ms mem 1493/3928MB
+step 14,600 | loss 4.1189 | lr 1.06e-04 | 1292 tok/s | fwd_bwd 9ms clip 23ms optim 120ms step 6358ms mem 1493/3928MB
+step 14,610 | loss 3.9150 | lr 1.06e-04 | 1296 tok/s | fwd_bwd 16ms clip 23ms optim 120ms step 6298ms mem 1493/3928MB
+step 14,620 | loss 4.6104 | lr 1.05e-04 | 1292 tok/s | fwd_bwd 19ms clip 23ms optim 120ms step 6293ms mem 1493/3928MB
+step 14,630 | loss 4.2006 | lr 1.05e-04 | 1289 tok/s | fwd_bwd 8ms clip 20ms optim 116ms step 6195ms mem 1493/3928MB
+step 14,640 | loss 4.2131 | lr 1.05e-04 | 1229 tok/s | fwd_bwd 7ms clip 24ms optim 115ms step 6316ms mem 1493/3928MB
+step 14,650 | loss 3.7458 | lr 1.05e-04 | 1249 tok/s | fwd_bwd 6ms clip 21ms optim 116ms step 6501ms mem 1493/3928MB
+step 14,660 | loss 4.1449 | lr 1.05e-04 | 1238 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6333ms mem 1493/3928MB
+step 14,670 | loss 4.5554 | lr 1.05e-04 | 1260 tok/s | fwd_bwd 7ms clip 23ms optim 117ms step 6520ms mem 1493/3928MB
+step 14,680 | loss 4.2424 | lr 1.04e-04 | 1218 tok/s | fwd_bwd 20ms clip 23ms optim 120ms step 6421ms mem 1493/3928MB
+step 14,690 | loss 5.7470 | lr 1.04e-04 | 1304 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6136ms mem 1493/3928MB
+step 14,700 | loss 4.6310 | lr 1.04e-04 | 1314 tok/s | fwd_bwd 18ms clip 23ms optim 120ms step 6203ms mem 1452/3928MB
+step 14,710 | loss 4.6182 | lr 1.04e-04 | 1317 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6187ms mem 1493/3928MB
+step 14,720 | loss 4.3493 | lr 1.04e-04 | 1314 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6167ms mem 1493/3928MB
+step 14,730 | loss 4.0548 | lr 1.03e-04 | 1308 tok/s | fwd_bwd 16ms clip 23ms optim 120ms step 6291ms mem 1493/3928MB
+step 14,740 | loss 4.3470 | lr 1.03e-04 | 1247 tok/s | fwd_bwd 16ms clip 20ms optim 111ms step 6377ms mem 1493/3928MB
+step 14,750 | loss 3.8366 | lr 1.03e-04 | 1290 tok/s | fwd_bwd 12ms clip 22ms optim 119ms step 6366ms mem 1493/3928MB
+step 14,760 | loss 4.1518 | lr 1.03e-04 | 1292 tok/s | fwd_bwd 19ms clip 23ms optim 122ms step 6285ms mem 1470/3928MB
+step 14,770 | loss 4.2756 | lr 1.03e-04 | 1251 tok/s | fwd_bwd 10ms clip 22ms optim 121ms step 6483ms mem 1452/3928MB
+step 14,780 | loss 3.3182 | lr 1.03e-04 | 1240 tok/s | fwd_bwd 5ms clip 21ms optim 116ms step 6922ms mem 1452/3928MB
+step 14,790 | loss 4.5501 | lr 1.02e-04 | 1272 tok/s | fwd_bwd 8ms clip 21ms optim 116ms step 6392ms mem 1482/3928MB
+step 14,800 | loss 3.9510 | lr 1.02e-04 | 1234 tok/s | fwd_bwd 9ms clip 20ms optim 112ms step 6298ms mem 1493/3928MB
+step 14,810 | loss 4.2222 | lr 1.02e-04 | 1220 tok/s | fwd_bwd 12ms clip 24ms optim 120ms step 6792ms mem 1493/3928MB
+step 14,820 | loss 4.0202 | lr 1.02e-04 | 1283 tok/s | fwd_bwd 5ms clip 20ms optim 113ms step 6414ms mem 1493/3928MB
+step 14,830 | loss 3.5407 | lr 1.02e-04 | 1237 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6268ms mem 1452/3928MB
+step 14,840 | loss 3.9187 | lr 1.01e-04 | 1249 tok/s | fwd_bwd 17ms clip 20ms optim 112ms step 6435ms mem 1493/3928MB
+step 14,850 | loss 4.5544 | lr 1.01e-04 | 1286 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6343ms mem 1493/3928MB
+step 14,860 | loss 4.0592 | lr 1.01e-04 | 1236 tok/s | fwd_bwd 12ms clip 23ms optim 117ms step 6472ms mem 1493/3928MB
+step 14,870 | loss 4.2112 | lr 1.01e-04 | 1230 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6291ms mem 1493/3928MB
+step 14,880 | loss 4.2597 | lr 1.01e-04 | 1108 tok/s | fwd_bwd 18ms clip 24ms optim 120ms step 6764ms mem 1448/3928MB
+step 14,890 | loss 4.4138 | lr 1.00e-04 | 1185 tok/s | fwd_bwd 20ms clip 23ms optim 118ms step 6580ms mem 1448/3928MB
+step 14,900 | loss 4.2320 | lr 1.00e-04 | 1269 tok/s | fwd_bwd 18ms clip 23ms optim 121ms step 6374ms mem 1448/3928MB
+step 14,910 | loss 4.4012 | lr 1.00e-04 | 1194 tok/s | fwd_bwd 17ms clip 20ms optim 112ms step 6538ms mem 1448/3928MB
+step 14,920 | loss 4.1341 | lr 9.99e-05 | 1203 tok/s | fwd_bwd 18ms clip 21ms optim 117ms step 6478ms mem 1448/3928MB
+step 14,930 | loss 3.9347 | lr 9.97e-05 | 1208 tok/s | fwd_bwd 6ms clip 22ms optim 121ms step 6881ms mem 1448/3928MB
+step 14,940 | loss 4.4605 | lr 9.96e-05 | 1173 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6376ms mem 1448/3928MB
+step 14,950 | loss 4.2011 | lr 9.94e-05 | 1277 tok/s | fwd_bwd 19ms clip 23ms optim 120ms step 6344ms mem 1448/3928MB
+step 14,960 | loss 4.3826 | lr 9.92e-05 | 1287 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6310ms mem 1448/3928MB
+step 14,970 | loss 4.2997 | lr 9.90e-05 | 1294 tok/s | fwd_bwd 17ms clip 20ms optim 111ms step 6337ms mem 1448/3928MB
+step 14,980 | loss 4.0379 | lr 9.88e-05 | 1298 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6291ms mem 1448/3928MB
+step 14,990 | loss 3.4664 | lr 9.87e-05 | 1294 tok/s | fwd_bwd 13ms clip 20ms optim 112ms step 6269ms mem 1448/3928MB
+step 15,000 | loss 3.8020 | lr 9.85e-05 | 1290 tok/s | fwd_bwd 13ms clip 21ms optim 111ms step 6280ms mem 1448/3928MB
+  [eval] step 15000 | val_loss 4.5057 | ppl 90.53
+Checkpoint saved: checkpoints/step_015000
+  [samples] wrote checkpoints/step_015000/samples.txt
+step 15,010 | loss 3.9564 | lr 9.83e-05 | 444 tok/s | fwd_bwd 6ms clip 20ms optim 113ms step 6306ms mem 1493/3928MB
+step 15,020 | loss 4.4953 | lr 9.81e-05 | 1296 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6290ms mem 1493/3928MB
+step 15,030 | loss 3.5180 | lr 9.79e-05 | 1279 tok/s | fwd_bwd 5ms clip 22ms optim 117ms step 6730ms mem 1493/3928MB
+step 15,040 | loss 4.2720 | lr 9.77e-05 | 1090 tok/s | fwd_bwd 16ms clip 20ms optim 112ms step 6688ms mem 1448/3928MB
+step 15,050 | loss 4.7339 | lr 9.76e-05 | 1281 tok/s | fwd_bwd 11ms clip 20ms optim 112ms step 6405ms mem 1448/3928MB
+step 15,060 | loss 4.5970 | lr 9.74e-05 | 1299 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6270ms mem 1448/3928MB
+step 15,070 | loss 4.2709 | lr 9.72e-05 | 1303 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6260ms mem 1448/3928MB
+step 15,080 | loss 4.2266 | lr 9.70e-05 | 1296 tok/s | fwd_bwd 15ms clip 20ms optim 112ms step 6317ms mem 1448/3928MB
+Checkpoint saved: checkpoints/step_015082
+step 15,090 | loss 4.3545 | lr 9.68e-05 | 1283 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6212ms mem 1448/3928MB
+step 15,100 | loss 4.4474 | lr 9.66e-05 | 1274 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6286ms mem 1448/3928MB
+step 15,110 | loss 4.2020 | lr 9.65e-05 | 1299 tok/s | fwd_bwd 13ms clip 20ms optim 112ms step 6200ms mem 1448/3928MB
+step 15,120 | loss 4.2893 | lr 9.63e-05 | 1302 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6206ms mem 1448/3928MB
+step 15,130 | loss 3.4189 | lr 9.61e-05 | 1302 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6250ms mem 1448/3928MB
+step 15,140 | loss 4.6193 | lr 9.59e-05 | 1299 tok/s | fwd_bwd 19ms clip 22ms optim 119ms step 6354ms mem 1448/3928MB
+step 15,150 | loss 3.9922 | lr 9.57e-05 | 1303 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6329ms mem 1448/3928MB
+step 15,160 | loss 4.7329 | lr 9.56e-05 | 1294 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6250ms mem 1448/3928MB
+step 15,170 | loss 4.4827 | lr 9.54e-05 | 1301 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6270ms mem 1448/3928MB
+step 15,180 | loss 4.2271 | lr 9.52e-05 | 1303 tok/s | fwd_bwd 13ms clip 20ms optim 112ms step 6281ms mem 1448/3928MB
+step 15,190 | loss 4.9837 | lr 9.50e-05 | 1301 tok/s | fwd_bwd 3ms clip 21ms optim 112ms step 6319ms mem 1448/3928MB
+step 15,200 | loss 4.6498 | lr 9.48e-05 | 1291 tok/s | fwd_bwd 10ms clip 21ms optim 115ms step 6426ms mem 1448/3928MB
+step 15,210 | loss 4.5973 | lr 9.46e-05 | 1289 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6318ms mem 1448/3928MB
+step 15,220 | loss 4.1288 | lr 9.45e-05 | 1290 tok/s | fwd_bwd 17ms clip 21ms optim 113ms step 6417ms mem 1448/3928MB
+step 15,230 | loss 4.4107 | lr 9.43e-05 | 1296 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6320ms mem 1448/3928MB
+step 15,240 | loss 4.2212 | lr 9.41e-05 | 1295 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6330ms mem 1448/3928MB
+step 15,250 | loss 5.2458 | lr 9.39e-05 | 1287 tok/s | fwd_bwd 9ms clip 20ms optim 112ms step 6350ms mem 1448/3928MB
+step 15,260 | loss 4.4110 | lr 9.37e-05 | 1284 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6321ms mem 1448/3928MB
+step 15,270 | loss 4.5566 | lr 9.36e-05 | 1288 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6293ms mem 1448/3928MB
+step 15,280 | loss 4.2860 | lr 9.34e-05 | 1289 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6320ms mem 1448/3928MB
+step 15,290 | loss 4.2956 | lr 9.32e-05 | 1289 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6355ms mem 1448/3928MB
+step 15,300 | loss 3.8052 | lr 9.30e-05 | 1288 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6259ms mem 1448/3928MB
+step 15,310 | loss 4.5160 | lr 9.28e-05 | 1277 tok/s | fwd_bwd 19ms clip 23ms optim 120ms step 6452ms mem 1448/3928MB
+step 15,320 | loss 3.8365 | lr 9.27e-05 | 1288 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6334ms mem 1448/3928MB
+step 15,330 | loss 3.7161 | lr 9.25e-05 | 1289 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6348ms mem 1448/3928MB
+step 15,340 | loss 4.4752 | lr 9.23e-05 | 1289 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6295ms mem 1448/3928MB
+step 15,350 | loss 4.6545 | lr 9.21e-05 | 1288 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6369ms mem 1448/3928MB
+step 15,360 | loss 4.3022 | lr 9.19e-05 | 1258 tok/s | fwd_bwd 16ms clip 20ms optim 112ms step 6588ms mem 1448/3928MB
+step 15,370 | loss 3.9169 | lr 9.18e-05 | 1264 tok/s | fwd_bwd 11ms clip 20ms optim 112ms step 6406ms mem 1448/3928MB
+step 15,380 | loss 4.7887 | lr 9.16e-05 | 1280 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6336ms mem 1448/3928MB
+step 15,390 | loss 4.3650 | lr 9.14e-05 | 1288 tok/s | fwd_bwd 15ms clip 20ms optim 112ms step 6353ms mem 1448/3928MB
+step 15,400 | loss 4.9323 | lr 9.12e-05 | 1288 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6350ms mem 1448/3928MB
+step 15,410 | loss 4.4748 | lr 9.11e-05 | 1281 tok/s | fwd_bwd 17ms clip 20ms optim 112ms step 6318ms mem 1448/3928MB
+step 15,420 | loss 4.0927 | lr 9.09e-05 | 1279 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6344ms mem 1448/3928MB
+step 15,430 | loss 3.9700 | lr 9.07e-05 | 1280 tok/s | fwd_bwd 11ms clip 20ms optim 112ms step 6313ms mem 1448/3928MB
+step 15,440 | loss 5.1636 | lr 9.05e-05 | 1230 tok/s | fwd_bwd 19ms clip 28ms optim 147ms step 9006ms mem 1448/3928MB
+step 15,450 | loss 4.0867 | lr 9.03e-05 | 943 tok/s | fwd_bwd 5ms clip 22ms optim 117ms step 6870ms mem 1493/3928MB
+step 15,460 | loss 4.4374 | lr 9.02e-05 | 1091 tok/s | fwd_bwd 4ms clip 21ms optim 111ms step 6950ms mem 1493/3928MB
+step 15,470 | loss 4.2299 | lr 9.00e-05 | 1193 tok/s | fwd_bwd 4ms clip 20ms optim 114ms step 6634ms mem 1448/3928MB
+step 15,480 | loss 4.5566 | lr 8.98e-05 | 1266 tok/s | fwd_bwd 17ms clip 20ms optim 111ms step 6457ms mem 1493/3928MB
+step 15,490 | loss 4.4675 | lr 8.96e-05 | 1269 tok/s | fwd_bwd 11ms clip 20ms optim 112ms step 6423ms mem 1493/3928MB
+step 15,500 | loss 4.0305 | lr 8.94e-05 | 1267 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6306ms mem 1493/3928MB
+  [eval] step 15500 | val_loss 4.5790 | ppl 97.41
+step 15,510 | loss 4.8304 | lr 8.93e-05 | 506 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6287ms mem 1493/3928MB
+step 15,520 | loss 4.3594 | lr 8.91e-05 | 1301 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6226ms mem 1493/3928MB
+step 15,530 | loss 4.6749 | lr 8.89e-05 | 1296 tok/s | fwd_bwd 8ms clip 21ms optim 112ms step 6269ms mem 1482/3928MB
+step 15,540 | loss 3.9080 | lr 8.87e-05 | 1296 tok/s | fwd_bwd 20ms clip 23ms optim 120ms step 6391ms mem 1493/3928MB
+step 15,550 | loss 4.7825 | lr 8.86e-05 | 1301 tok/s | fwd_bwd 19ms clip 23ms optim 120ms step 6234ms mem 1464/3928MB
+step 15,560 | loss 4.1636 | lr 8.84e-05 | 1305 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6231ms mem 1493/3928MB
+step 15,570 | loss 4.2903 | lr 8.82e-05 | 1302 tok/s | fwd_bwd 19ms clip 23ms optim 120ms step 6362ms mem 1493/3928MB
+step 15,580 | loss 4.3532 | lr 8.80e-05 | 1306 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6246ms mem 1493/3928MB
+step 15,590 | loss 4.6704 | lr 8.78e-05 | 1296 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6284ms mem 1493/3928MB
+step 15,600 | loss 4.4968 | lr 8.77e-05 | 1301 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6282ms mem 1451/3928MB
+step 15,610 | loss 4.1353 | lr 8.75e-05 | 1305 tok/s | fwd_bwd 20ms clip 20ms optim 112ms step 6303ms mem 1493/3928MB
+step 15,620 | loss 4.4790 | lr 8.73e-05 | 1307 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6312ms mem 1493/3928MB
+Checkpoint saved: checkpoints/step_015627
+step 15,630 | loss 3.8921 | lr 8.71e-05 | 1267 tok/s | fwd_bwd 9ms clip 20ms optim 112ms step 6259ms mem 1493/3928MB
+step 15,640 | loss 4.1290 | lr 8.70e-05 | 1297 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6270ms mem 1493/3928MB
+step 15,650 | loss 4.3308 | lr 8.68e-05 | 1304 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6240ms mem 1452/3928MB
+step 15,660 | loss 4.2929 | lr 8.66e-05 | 1311 tok/s | fwd_bwd 20ms clip 20ms optim 111ms step 6305ms mem 1493/3928MB
+step 15,670 | loss 4.2782 | lr 8.64e-05 | 1310 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6230ms mem 1493/3928MB
+step 15,680 | loss 4.1171 | lr 8.63e-05 | 1306 tok/s | fwd_bwd 20ms clip 21ms optim 114ms step 6421ms mem 1493/3928MB
+step 15,690 | loss 3.9225 | lr 8.61e-05 | 1312 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6196ms mem 1493/3928MB
+step 15,700 | loss 3.3333 | lr 8.59e-05 | 1324 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6151ms mem 1493/3928MB
+step 15,710 | loss 4.6658 | lr 8.57e-05 | 1331 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6035ms mem 1493/3928MB
+step 15,720 | loss 5.0391 | lr 8.56e-05 | 1331 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6132ms mem 1493/3928MB
+step 15,730 | loss 4.4455 | lr 8.54e-05 | 1329 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6144ms mem 1452/3928MB
+step 15,740 | loss 4.4408 | lr 8.52e-05 | 1323 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6187ms mem 1452/3928MB
+step 15,750 | loss 4.1475 | lr 8.50e-05 | 1328 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6135ms mem 1452/3928MB
+step 15,760 | loss 4.6626 | lr 8.48e-05 | 1325 tok/s | fwd_bwd 7ms clip 21ms optim 111ms step 6231ms mem 1452/3928MB
+step 15,770 | loss 4.5220 | lr 8.47e-05 | 1330 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6171ms mem 1493/3928MB
+step 15,780 | loss 4.5961 | lr 8.45e-05 | 1318 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6219ms mem 1493/3928MB
+step 15,790 | loss 4.2621 | lr 8.43e-05 | 1302 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 6385ms mem 1493/3928MB
+step 15,800 | loss 3.9928 | lr 8.41e-05 | 1298 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6262ms mem 1452/3928MB
+step 15,810 | loss 4.3594 | lr 8.40e-05 | 1308 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6197ms mem 1493/3928MB
+step 15,820 | loss 4.4536 | lr 8.38e-05 | 1323 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6150ms mem 1493/3928MB
+step 15,830 | loss 5.1555 | lr 8.36e-05 | 1326 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6174ms mem 1493/3928MB
+step 15,840 | loss 4.3831 | lr 8.35e-05 | 1322 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6175ms mem 1493/3928MB
+step 15,850 | loss 4.6947 | lr 8.33e-05 | 1317 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6171ms mem 1493/3928MB
+step 15,860 | loss 4.8265 | lr 8.31e-05 | 1318 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6180ms mem 1493/3928MB
+step 15,870 | loss 4.2268 | lr 8.29e-05 | 1322 tok/s | fwd_bwd 15ms clip 20ms optim 112ms step 6170ms mem 1493/3928MB
+step 15,880 | loss 4.1849 | lr 8.28e-05 | 1326 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6180ms mem 1493/3928MB
+step 15,890 | loss 2.4388 | lr 8.26e-05 | 1325 tok/s | fwd_bwd 13ms clip 20ms optim 112ms step 6161ms mem 1451/3928MB
+step 15,900 | loss 4.0528 | lr 8.24e-05 | 1319 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6222ms mem 1493/3928MB
+step 15,910 | loss 4.7994 | lr 8.22e-05 | 1322 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6250ms mem 1493/3928MB
+step 15,920 | loss 4.6116 | lr 8.21e-05 | 1323 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6155ms mem 1493/3928MB
+step 15,930 | loss 4.4795 | lr 8.19e-05 | 1326 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6148ms mem 1493/3928MB
+step 15,940 | loss 4.6218 | lr 8.17e-05 | 1328 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6134ms mem 1493/3928MB
+step 15,950 | loss 4.1191 | lr 8.15e-05 | 1333 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6152ms mem 1451/3928MB
+step 15,960 | loss 4.0982 | lr 8.14e-05 | 1323 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6165ms mem 1493/3928MB
+step 15,970 | loss 3.9331 | lr 8.12e-05 | 1322 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6174ms mem 1493/3928MB
+step 15,980 | loss 4.3976 | lr 8.10e-05 | 1326 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6155ms mem 1452/3928MB
+step 15,990 | loss 3.8855 | lr 8.08e-05 | 1327 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6074ms mem 1493/3928MB
+step 16,000 | loss 4.3670 | lr 8.07e-05 | 1319 tok/s | fwd_bwd 13ms clip 20ms optim 112ms step 6193ms mem 1493/3928MB
+  [eval] step 16000 | val_loss 4.5518 | ppl 94.80
+Checkpoint saved: checkpoints/step_016000
+  [samples] wrote checkpoints/step_016000/samples.txt
+step 16,010 | loss 4.0432 | lr 8.05e-05 | 454 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6170ms mem 1493/3928MB
+step 16,020 | loss 4.3631 | lr 8.03e-05 | 1328 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6139ms mem 1493/3928MB
+step 16,030 | loss 4.5786 | lr 8.02e-05 | 1327 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6147ms mem 1493/3928MB
+step 16,040 | loss 4.3124 | lr 8.00e-05 | 1321 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6172ms mem 1493/3928MB
+step 16,050 | loss 5.1114 | lr 7.98e-05 | 1316 tok/s | fwd_bwd 19ms clip 23ms optim 119ms step 6299ms mem 1493/3928MB
+step 16,060 | loss 2.9038 | lr 7.96e-05 | 1328 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6159ms mem 1452/3928MB
+step 16,070 | loss 4.7285 | lr 7.95e-05 | 1326 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6138ms mem 1451/3928MB
+step 16,080 | loss 4.2578 | lr 7.93e-05 | 1322 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 6208ms mem 1493/3928MB
+step 16,090 | loss 4.3960 | lr 7.91e-05 | 1325 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6150ms mem 1493/3928MB
+step 16,100 | loss 6.2330 | lr 7.90e-05 | 1327 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6188ms mem 1493/3928MB
+step 16,110 | loss 4.5206 | lr 7.88e-05 | 1316 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6189ms mem 1493/3928MB
+step 16,120 | loss 4.9958 | lr 7.86e-05 | 1323 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6159ms mem 1493/3928MB
+step 16,130 | loss 4.2686 | lr 7.84e-05 | 1324 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6174ms mem 1493/3928MB
+step 16,140 | loss 4.3089 | lr 7.83e-05 | 1326 tok/s | fwd_bwd 19ms clip 21ms optim 113ms step 6220ms mem 1493/3928MB
+step 16,150 | loss 4.4453 | lr 7.81e-05 | 1330 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6149ms mem 1493/3928MB
+step 16,160 | loss 4.1208 | lr 7.79e-05 | 1320 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6172ms mem 1452/3928MB
+step 16,170 | loss 4.5358 | lr 7.78e-05 | 1326 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6156ms mem 1493/3928MB
+step 16,180 | loss 3.8886 | lr 7.76e-05 | 1325 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6265ms mem 1493/3928MB
+Traceback (most recent call last):
+  File "/Users/sohamanand/Unrealistic/scripts/train.py", line 16, in <module>
+    main()
+    ~~~~^^
+  File "/Users/sohamanand/Unrealistic/scripts/train.py", line 12, in main
+    train()
+    ~~~~~^^
+  File "/Users/sohamanand/Unrealistic/scripts/../src/training/trainer.py", line 203, in train
+    save_checkpoint(params, step, cfg["save_dir"], model_cfg, optimizer.state)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sohamanand/Unrealistic/scripts/../src/training/checkpointing.py", line 19, in save_checkpoint
+    mx.savez(os.path.join(path, "model.npz"), **flat)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/zipfile/__init__.py", line 1334, in write
+    self._fileobj.write(data)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+OSError: [Errno 28] No space left on device
+Resuming from checkpoint: checkpoints/step_016000
+  Resumed at step 16000
+
+============================================================
+  Unrealistic 187M — Training
+  Parameters: 189,748,992
+  Dtype: bfloat16
+  Optimizer: AdamW (mlx)
+  Micro-batch: 1 × 8 accum
+  Effective batch: 8
+  Memory: 535 MB
+============================================================
+
+step 16,000 | loss 5.1253 | lr 8.07e-05 | 0 tok/s | fwd_bwd 9ms clip 21ms optim 599ms step 5451ms mem 1493/2587MB
+  [eval] step 16000 | val_loss 4.5388 | ppl 93.58
+Checkpoint saved: checkpoints/step_016000
+  [samples] wrote checkpoints/step_016000/samples.txt
+step 16,010 | loss 4.5960 | lr 8.05e-05 | 572 tok/s | fwd_bwd 7ms clip 20ms optim 110ms step 5136ms mem 1493/3928MB
+step 16,020 | loss 3.8650 | lr 8.03e-05 | 1467 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6081ms mem 1493/3928MB
+step 16,030 | loss 4.4219 | lr 8.01e-05 | 1361 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6007ms mem 1452/3928MB
+step 16,040 | loss 4.3419 | lr 8.00e-05 | 1372 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 5954ms mem 1493/3928MB
+step 16,050 | loss 4.6137 | lr 7.98e-05 | 1379 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 5938ms mem 1493/3928MB
+step 16,060 | loss 3.8476 | lr 7.96e-05 | 1369 tok/s | fwd_bwd 17ms clip 23ms optim 119ms step 5982ms mem 1493/3928MB
+step 16,070 | loss 3.8691 | lr 7.95e-05 | 1364 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6004ms mem 1448/3928MB
+step 16,080 | loss 4.4213 | lr 7.93e-05 | 1353 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6063ms mem 1448/3928MB
+step 16,090 | loss 4.2678 | lr 7.91e-05 | 1348 tok/s | fwd_bwd 14ms clip 20ms optim 111ms step 6093ms mem 1448/3928MB
+step 16,100 | loss 4.2664 | lr 7.89e-05 | 1344 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 6076ms mem 1448/3928MB
+step 16,110 | loss 4.8259 | lr 7.88e-05 | 1337 tok/s | fwd_bwd 18ms clip 23ms optim 119ms step 6099ms mem 1448/3928MB
+step 16,120 | loss 4.5593 | lr 7.86e-05 | 1341 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6103ms mem 1448/3928MB
+step 16,130 | loss 4.3128 | lr 7.84e-05 | 1335 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6071ms mem 1448/3928MB
+step 16,140 | loss 4.4119 | lr 7.83e-05 | 1333 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6128ms mem 1448/3928MB
+step 16,150 | loss 4.4100 | lr 7.81e-05 | 1328 tok/s | fwd_bwd 18ms clip 23ms optim 120ms step 6221ms mem 1448/3928MB
+step 16,160 | loss 3.8845 | lr 7.79e-05 | 1329 tok/s | fwd_bwd 5ms clip 20ms optim 110ms step 6171ms mem 1448/3928MB
+step 16,170 | loss 4.1346 | lr 7.77e-05 | 1310 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6223ms mem 1448/3928MB
+step 16,180 | loss 4.3478 | lr 7.76e-05 | 1310 tok/s | fwd_bwd 9ms clip 20ms optim 110ms step 6227ms mem 1448/3928MB
+step 16,190 | loss 3.9090 | lr 7.74e-05 | 1318 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6175ms mem 1448/3928MB
+step 16,200 | loss 4.0180 | lr 7.72e-05 | 1320 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6241ms mem 1448/3928MB
+step 16,210 | loss 1.7773 | lr 7.71e-05 | 1321 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6093ms mem 1448/3928MB
+step 16,220 | loss 4.6608 | lr 7.69e-05 | 1318 tok/s | fwd_bwd 17ms clip 23ms optim 119ms step 6290ms mem 1448/3928MB
+step 16,230 | loss 4.7523 | lr 7.67e-05 | 1324 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6078ms mem 1448/3928MB
+step 16,240 | loss 4.0690 | lr 7.66e-05 | 1320 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6194ms mem 1448/3928MB
+step 16,250 | loss 3.7574 | lr 7.64e-05 | 1319 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6179ms mem 1448/3928MB
+step 16,260 | loss 3.8491 | lr 7.62e-05 | 1320 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6186ms mem 1448/3928MB
+step 16,270 | loss 4.3727 | lr 7.60e-05 | 1324 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6169ms mem 1448/3928MB
+step 16,280 | loss 4.1779 | lr 7.59e-05 | 1323 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6190ms mem 1448/3928MB
+step 16,290 | loss 4.4041 | lr 7.57e-05 | 1320 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6196ms mem 1448/3928MB
+step 16,300 | loss 4.3486 | lr 7.55e-05 | 1318 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6202ms mem 1448/3928MB
+step 16,310 | loss 3.8419 | lr 7.54e-05 | 1319 tok/s | fwd_bwd 17ms clip 20ms optim 111ms step 6257ms mem 1448/3928MB
+step 16,320 | loss 4.2183 | lr 7.52e-05 | 1322 tok/s | fwd_bwd 18ms clip 23ms optim 119ms step 6260ms mem 1448/3928MB
+step 16,330 | loss 4.2907 | lr 7.50e-05 | 1320 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6203ms mem 1448/3928MB
+step 16,340 | loss 3.7591 | lr 7.49e-05 | 1319 tok/s | fwd_bwd 14ms clip 20ms optim 111ms step 6191ms mem 1448/3928MB
+step 16,350 | loss 4.5069 | lr 7.47e-05 | 1322 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6108ms mem 1448/3928MB
+step 16,360 | loss 4.2795 | lr 7.45e-05 | 1320 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6194ms mem 1448/3928MB
+step 16,370 | loss 4.2885 | lr 7.44e-05 | 1321 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6155ms mem 1448/3928MB
+step 16,380 | loss 2.7813 | lr 7.42e-05 | 1316 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6194ms mem 1448/3928MB
+step 16,390 | loss 4.3356 | lr 7.40e-05 | 1317 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6195ms mem 1448/3928MB
+step 16,400 | loss 4.1552 | lr 7.39e-05 | 1315 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6190ms mem 1448/3928MB
+step 16,410 | loss 3.7488 | lr 7.37e-05 | 1319 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6197ms mem 1448/3928MB
+step 16,420 | loss 4.3825 | lr 7.35e-05 | 1321 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6172ms mem 1448/3928MB
+step 16,430 | loss 4.4149 | lr 7.33e-05 | 1320 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6192ms mem 1448/3928MB
+step 16,440 | loss 4.1790 | lr 7.32e-05 | 1321 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6147ms mem 1448/3928MB
+step 16,450 | loss 4.1153 | lr 7.30e-05 | 1320 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6189ms mem 1448/3928MB
+step 16,460 | loss 4.3925 | lr 7.28e-05 | 1315 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6188ms mem 1448/3928MB
+step 16,470 | loss 4.3038 | lr 7.27e-05 | 1318 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6223ms mem 1448/3928MB
+step 16,480 | loss 4.3592 | lr 7.25e-05 | 1319 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6200ms mem 1448/3928MB
+step 16,490 | loss 4.2399 | lr 7.23e-05 | 1321 tok/s | fwd_bwd 9ms clip 20ms optim 112ms step 6185ms mem 1448/3928MB
+step 16,500 | loss 4.3535 | lr 7.22e-05 | 1316 tok/s | fwd_bwd 17ms clip 23ms optim 119ms step 6299ms mem 1448/3928MB
+  [eval] step 16500 | val_loss 4.5334 | ppl 93.08
+step 16,510 | loss 4.3983 | lr 7.20e-05 | 517 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6244ms mem 1452/3928MB
+step 16,520 | loss 4.3805 | lr 7.18e-05 | 1320 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 6121ms mem 1452/3928MB
+step 16,530 | loss 4.4406 | lr 7.17e-05 | 1321 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6186ms mem 1493/3928MB
+step 16,540 | loss 4.5937 | lr 7.15e-05 | 1318 tok/s | fwd_bwd 19ms clip 20ms optim 111ms step 6215ms mem 1493/3928MB
+step 16,550 | loss 4.2132 | lr 7.14e-05 | 1319 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6209ms mem 1493/3928MB
+Checkpoint saved: checkpoints/step_016555
+step 16,560 | loss 4.1249 | lr 7.12e-05 | 1302 tok/s | fwd_bwd 17ms clip 23ms optim 119ms step 6301ms mem 1464/3928MB
+step 16,570 | loss 1.3372 | lr 7.10e-05 | 1313 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6217ms mem 1493/3928MB
+step 16,580 | loss 3.7803 | lr 7.09e-05 | 1316 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6207ms mem 1493/3928MB
+step 16,590 | loss 3.6879 | lr 7.07e-05 | 1314 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6219ms mem 1493/3928MB
+step 16,600 | loss 3.6400 | lr 7.05e-05 | 1318 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6210ms mem 1493/3928MB
+step 16,610 | loss 4.3594 | lr 7.04e-05 | 1314 tok/s | fwd_bwd 7ms clip 21ms optim 113ms step 6235ms mem 1490/3928MB
+step 16,620 | loss 3.9441 | lr 7.02e-05 | 1317 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6199ms mem 1493/3928MB
+step 16,630 | loss 3.8091 | lr 7.00e-05 | 1319 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6217ms mem 1493/3928MB
+step 16,640 | loss 3.9954 | lr 6.99e-05 | 1316 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6195ms mem 1493/3928MB
+step 16,650 | loss 3.7339 | lr 6.97e-05 | 1263 tok/s | fwd_bwd 5ms clip 23ms optim 114ms step 8516ms mem 1493/3928MB
+step 16,660 | loss 4.2957 | lr 6.95e-05 | 1197 tok/s | fwd_bwd 3ms clip 21ms optim 120ms step 6716ms mem 1493/3928MB
+step 16,670 | loss 4.2933 | lr 6.94e-05 | 1166 tok/s | fwd_bwd 3ms clip 21ms optim 113ms step 6753ms mem 1493/3928MB
+step 16,680 | loss 4.3835 | lr 6.92e-05 | 1274 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6316ms mem 1493/3928MB
+step 16,690 | loss 4.0968 | lr 6.90e-05 | 1278 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6419ms mem 1493/3928MB
+step 16,700 | loss 3.8630 | lr 6.89e-05 | 1284 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6228ms mem 1452/3928MB
+step 16,710 | loss 4.6363 | lr 6.87e-05 | 1298 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6296ms mem 1493/3928MB
+step 16,720 | loss 4.0508 | lr 6.86e-05 | 1295 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6317ms mem 1452/3928MB
+step 16,730 | loss 4.2657 | lr 6.84e-05 | 1292 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6322ms mem 1493/3928MB
+step 16,740 | loss 4.2615 | lr 6.82e-05 | 1295 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6312ms mem 1452/3928MB
+step 16,750 | loss 4.5681 | lr 6.81e-05 | 1293 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6320ms mem 1452/3928MB
+step 16,760 | loss 3.8883 | lr 6.79e-05 | 1291 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6324ms mem 1493/3928MB
+step 16,770 | loss 4.3473 | lr 6.77e-05 | 1293 tok/s | fwd_bwd 8ms clip 21ms optim 112ms step 6330ms mem 1493/3928MB
+step 16,780 | loss 4.3707 | lr 6.76e-05 | 1293 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6302ms mem 1493/3928MB
+step 16,790 | loss 4.3518 | lr 6.74e-05 | 1293 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6348ms mem 1493/3928MB
+step 16,800 | loss 4.8206 | lr 6.72e-05 | 1286 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6346ms mem 1493/3928MB
+step 16,810 | loss 4.0534 | lr 6.71e-05 | 1287 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6350ms mem 1493/3928MB
+step 16,820 | loss 4.4328 | lr 6.69e-05 | 1286 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6332ms mem 1493/3928MB
+step 16,830 | loss 4.1927 | lr 6.68e-05 | 1289 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6286ms mem 1451/3928MB
+step 16,840 | loss 4.2506 | lr 6.66e-05 | 1289 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6352ms mem 1493/3928MB
+step 16,850 | loss 3.8050 | lr 6.64e-05 | 1285 tok/s | fwd_bwd 5ms clip 21ms optim 112ms step 6369ms mem 1493/3928MB
+step 16,860 | loss 4.1426 | lr 6.63e-05 | 1282 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6370ms mem 1452/3928MB
+step 16,870 | loss 3.8624 | lr 6.61e-05 | 1283 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6384ms mem 1493/3928MB
+step 16,880 | loss 4.2981 | lr 6.60e-05 | 1282 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6365ms mem 1452/3928MB
+step 16,890 | loss 4.0682 | lr 6.58e-05 | 1280 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6411ms mem 1493/3928MB
+step 16,900 | loss 3.8867 | lr 6.56e-05 | 1283 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6381ms mem 1493/3928MB
+step 16,910 | loss 3.7820 | lr 6.55e-05 | 1279 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6388ms mem 1493/3928MB
+step 16,920 | loss 4.1825 | lr 6.53e-05 | 1281 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6383ms mem 1451/3928MB
+step 16,930 | loss 4.1867 | lr 6.52e-05 | 1279 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6389ms mem 1493/3928MB
+step 16,940 | loss 4.2284 | lr 6.50e-05 | 1277 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6414ms mem 1493/3928MB
+step 16,950 | loss 4.6770 | lr 6.48e-05 | 1277 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6392ms mem 1451/3928MB
+step 16,960 | loss 4.0275 | lr 6.47e-05 | 1277 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6414ms mem 1493/3928MB
+step 16,970 | loss 4.4078 | lr 6.45e-05 | 1273 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6405ms mem 1493/3928MB
+step 16,980 | loss 4.0051 | lr 6.44e-05 | 1277 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6396ms mem 1493/3928MB
+step 16,990 | loss 4.5226 | lr 6.42e-05 | 1276 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6420ms mem 1452/3928MB
+step 17,000 | loss 4.2280 | lr 6.40e-05 | 1267 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6849ms mem 1452/3928MB
+  [eval] step 17000 | val_loss 4.5336 | ppl 93.09
+Checkpoint saved: checkpoints/step_017000
+  [samples] wrote checkpoints/step_017000/samples.txt
+step 17,010 | loss 3.7948 | lr 6.39e-05 | 439 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6449ms mem 1493/3928MB
+step 17,020 | loss 4.1472 | lr 6.37e-05 | 1270 tok/s | fwd_bwd 14ms clip 20ms optim 112ms step 6453ms mem 1493/3928MB
+step 17,030 | loss 4.4756 | lr 6.36e-05 | 1270 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6465ms mem 1452/3928MB
+step 17,040 | loss 3.6633 | lr 6.34e-05 | 1231 tok/s | fwd_bwd 7ms clip 22ms optim 118ms step 6903ms mem 1493/3928MB
+step 17,050 | loss 4.1188 | lr 6.32e-05 | 974 tok/s | fwd_bwd 10ms clip 21ms optim 112ms step 6793ms mem 1448/3928MB
+step 17,060 | loss 4.3643 | lr 6.31e-05 | 1235 tok/s | fwd_bwd 14ms clip 20ms optim 111ms step 6595ms mem 1448/3928MB
+step 17,070 | loss 4.4714 | lr 6.29e-05 | 1260 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6451ms mem 1448/3928MB
+step 17,080 | loss 4.5228 | lr 6.28e-05 | 1271 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6315ms mem 1448/3928MB
+step 17,090 | loss 4.4507 | lr 6.26e-05 | 1271 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6419ms mem 1448/3928MB
+Checkpoint saved: checkpoints/step_017096
+step 17,100 | loss 4.2283 | lr 6.24e-05 | 1222 tok/s | fwd_bwd 11ms clip 20ms optim 112ms step 6586ms mem 1448/3928MB
+step 17,110 | loss 4.2154 | lr 6.23e-05 | 1255 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6476ms mem 1448/3928MB
+step 17,120 | loss 4.6318 | lr 6.21e-05 | 1264 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6448ms mem 1448/3928MB
+step 17,130 | loss 4.6688 | lr 6.20e-05 | 1264 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6461ms mem 1448/3928MB
+step 17,140 | loss 4.6360 | lr 6.18e-05 | 1262 tok/s | fwd_bwd 17ms clip 20ms optim 111ms step 6519ms mem 1448/3928MB
+step 17,150 | loss 2.5334 | lr 6.17e-05 | 1270 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6443ms mem 1448/3928MB
+step 17,160 | loss 4.1506 | lr 6.15e-05 | 1268 tok/s | fwd_bwd 17ms clip 22ms optim 114ms step 6534ms mem 1448/3928MB
+step 17,170 | loss 3.9738 | lr 6.13e-05 | 1270 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6430ms mem 1448/3928MB
+step 17,180 | loss 4.3872 | lr 6.12e-05 | 1270 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6462ms mem 1448/3928MB
+step 17,190 | loss 4.1080 | lr 6.10e-05 | 1269 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6425ms mem 1448/3928MB
+step 17,200 | loss 4.3146 | lr 6.09e-05 | 1273 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6417ms mem 1448/3928MB
+step 17,210 | loss 4.4059 | lr 6.07e-05 | 1270 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6439ms mem 1448/3928MB
+step 17,220 | loss 4.9342 | lr 6.06e-05 | 1270 tok/s | fwd_bwd 18ms clip 20ms optim 112ms step 6514ms mem 1448/3928MB
+step 17,230 | loss 4.2236 | lr 6.04e-05 | 1274 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6400ms mem 1448/3928MB
+step 17,240 | loss 4.0755 | lr 6.02e-05 | 1273 tok/s | fwd_bwd 18ms clip 20ms optim 112ms step 6542ms mem 1448/3928MB
+step 17,250 | loss 4.4950 | lr 6.01e-05 | 1271 tok/s | fwd_bwd 7ms clip 20ms optim 113ms step 6435ms mem 1448/3928MB
+step 17,260 | loss 4.1417 | lr 5.99e-05 | 1272 tok/s | fwd_bwd 10ms clip 21ms optim 112ms step 6417ms mem 1448/3928MB
+step 17,270 | loss 4.3523 | lr 5.98e-05 | 1273 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6362ms mem 1448/3928MB
+step 17,280 | loss 4.4570 | lr 5.96e-05 | 1266 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6453ms mem 1448/3928MB
+step 17,290 | loss 4.8559 | lr 5.95e-05 | 1267 tok/s | fwd_bwd 14ms clip 20ms optim 111ms step 6425ms mem 1448/3928MB
+step 17,300 | loss 4.0308 | lr 5.93e-05 | 1273 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6412ms mem 1448/3928MB
+step 17,310 | loss 4.4115 | lr 5.92e-05 | 1270 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6439ms mem 1448/3928MB
+step 17,320 | loss 4.5664 | lr 5.90e-05 | 1275 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6408ms mem 1448/3928MB
+step 17,330 | loss 4.2383 | lr 5.88e-05 | 1273 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6417ms mem 1448/3928MB
+step 17,340 | loss 4.4602 | lr 5.87e-05 | 1273 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6422ms mem 1448/3928MB
+step 17,350 | loss 4.4310 | lr 5.85e-05 | 1272 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6400ms mem 1448/3928MB
+step 17,360 | loss 4.3348 | lr 5.84e-05 | 1270 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6418ms mem 1448/3928MB
+step 17,370 | loss 4.0584 | lr 5.82e-05 | 1276 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6402ms mem 1448/3928MB
+step 17,380 | loss 4.5111 | lr 5.81e-05 | 1278 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6395ms mem 1448/3928MB
+step 17,390 | loss 4.8338 | lr 5.79e-05 | 1275 tok/s | fwd_bwd 15ms clip 20ms optim 112ms step 6449ms mem 1448/3928MB
+step 17,400 | loss 4.2474 | lr 5.78e-05 | 1272 tok/s | fwd_bwd 14ms clip 20ms optim 111ms step 6451ms mem 1448/3928MB
+step 17,410 | loss 4.4621 | lr 5.76e-05 | 1273 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6428ms mem 1448/3928MB
+step 17,420 | loss 4.0547 | lr 5.75e-05 | 1212 tok/s | fwd_bwd 3ms clip 20ms optim 113ms step 6482ms mem 1448/3928MB
+step 17,430 | loss 4.2144 | lr 5.73e-05 | 1250 tok/s | fwd_bwd 4ms clip 21ms optim 113ms step 6785ms mem 1448/3928MB
+step 17,440 | loss 3.9475 | lr 5.72e-05 | 1190 tok/s | fwd_bwd 6ms clip 21ms optim 112ms step 6743ms mem 1448/3928MB
+step 17,450 | loss 4.3139 | lr 5.70e-05 | 1190 tok/s | fwd_bwd 4ms clip 22ms optim 116ms step 6992ms mem 1448/3928MB
+step 17,460 | loss 4.6326 | lr 5.69e-05 | 1212 tok/s | fwd_bwd 4ms clip 20ms optim 113ms step 6743ms mem 1448/3928MB
+step 17,470 | loss 3.8534 | lr 5.67e-05 | 926 tok/s | fwd_bwd 4ms clip 22ms optim 117ms step 7631ms mem 1492/3928MB
+step 17,480 | loss 4.5985 | lr 5.65e-05 | 1145 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 7704ms mem 1493/3928MB
+step 17,490 | loss 4.4662 | lr 5.64e-05 | 1172 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6561ms mem 1448/3928MB
+step 17,500 | loss 4.2430 | lr 5.62e-05 | 1257 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6434ms mem 1448/3928MB
+  [eval] step 17500 | val_loss 4.5739 | ppl 96.92
+step 17,510 | loss 4.0136 | lr 5.61e-05 | 501 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6404ms mem 1493/3928MB
+step 17,520 | loss 4.2330 | lr 5.59e-05 | 1275 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6373ms mem 1493/3928MB
+step 17,530 | loss 4.6183 | lr 5.58e-05 | 1284 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6346ms mem 1452/3928MB
+step 17,540 | loss 4.6635 | lr 5.56e-05 | 1277 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6368ms mem 1451/3928MB
+step 17,550 | loss 4.2744 | lr 5.55e-05 | 1283 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6366ms mem 1493/3928MB
+step 17,560 | loss 4.2096 | lr 5.53e-05 | 1286 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6346ms mem 1493/3928MB
+step 17,570 | loss 4.3556 | lr 5.52e-05 | 1287 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6326ms mem 1493/3928MB
+step 17,580 | loss 4.4558 | lr 5.50e-05 | 1279 tok/s | fwd_bwd 17ms clip 23ms optim 120ms step 6471ms mem 1452/3928MB
+step 17,590 | loss 3.8657 | lr 5.49e-05 | 1287 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6240ms mem 1493/3928MB
+step 17,600 | loss 4.6446 | lr 5.47e-05 | 1290 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6314ms mem 1493/3928MB
+step 17,610 | loss 4.7812 | lr 5.46e-05 | 1288 tok/s | fwd_bwd 18ms clip 23ms optim 119ms step 6322ms mem 1493/3928MB
+step 17,620 | loss 4.0330 | lr 5.44e-05 | 1292 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6243ms mem 1493/3928MB
+step 17,630 | loss 4.4172 | lr 5.43e-05 | 1287 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6304ms mem 1451/3928MB
+  Pruning old checkpoint: checkpoints/step_016000
+Checkpoint saved: checkpoints/step_017632
+step 17,640 | loss 4.2669 | lr 5.41e-05 | 1279 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6348ms mem 1493/3928MB
+step 17,650 | loss 5.2505 | lr 5.40e-05 | 1288 tok/s | fwd_bwd 6ms clip 20ms optim 113ms step 6327ms mem 1493/3928MB
+step 17,660 | loss 4.4081 | lr 5.38e-05 | 1286 tok/s | fwd_bwd 11ms clip 20ms optim 112ms step 6590ms mem 1476/3928MB
+step 17,670 | loss 4.6533 | lr 5.37e-05 | 1286 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6328ms mem 1493/3928MB
+step 17,680 | loss 4.3387 | lr 5.35e-05 | 1287 tok/s | fwd_bwd 19ms clip 20ms optim 111ms step 6332ms mem 1493/3928MB
+step 17,690 | loss 4.1739 | lr 5.34e-05 | 1293 tok/s | fwd_bwd 14ms clip 20ms optim 111ms step 6349ms mem 1493/3928MB
+step 17,700 | loss 4.4585 | lr 5.32e-05 | 1292 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6341ms mem 1493/3928MB
+step 17,710 | loss 4.0026 | lr 5.31e-05 | 1292 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6312ms mem 1493/3928MB
+step 17,720 | loss 4.5257 | lr 5.29e-05 | 1298 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6302ms mem 1452/3928MB
+step 17,730 | loss 4.1136 | lr 5.28e-05 | 1303 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6241ms mem 1493/3928MB
+step 17,740 | loss 4.9396 | lr 5.26e-05 | 1315 tok/s | fwd_bwd 9ms clip 20ms optim 112ms step 6195ms mem 1493/3928MB
+step 17,750 | loss 4.4383 | lr 5.25e-05 | 1312 tok/s | fwd_bwd 9ms clip 20ms optim 112ms step 6249ms mem 1452/3928MB
+step 17,760 | loss 3.9160 | lr 5.23e-05 | 1315 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6192ms mem 1493/3928MB
+step 17,770 | loss 4.0204 | lr 5.22e-05 | 1319 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6197ms mem 1493/3928MB
+step 17,780 | loss 4.1772 | lr 5.21e-05 | 1317 tok/s | fwd_bwd 14ms clip 20ms optim 111ms step 6199ms mem 1493/3928MB
+step 17,790 | loss 4.3732 | lr 5.19e-05 | 1322 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6183ms mem 1452/3928MB
+step 17,800 | loss 4.4629 | lr 5.18e-05 | 1322 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6193ms mem 1493/3928MB
+step 17,810 | loss 3.9028 | lr 5.16e-05 | 1320 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6192ms mem 1451/3928MB
+step 17,820 | loss 0.8028 | lr 5.15e-05 | 1324 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6187ms mem 1452/3928MB
+step 17,830 | loss 4.8506 | lr 5.13e-05 | 1325 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6132ms mem 1493/3928MB
+step 17,840 | loss 4.0304 | lr 5.12e-05 | 1325 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6154ms mem 1493/3928MB
+step 17,850 | loss 4.3464 | lr 5.10e-05 | 1333 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6108ms mem 1493/3928MB
+step 17,860 | loss 4.5702 | lr 5.09e-05 | 1338 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6109ms mem 1493/3928MB
+step 17,870 | loss 4.5151 | lr 5.07e-05 | 1331 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6144ms mem 1493/3928MB
+step 17,880 | loss 4.1017 | lr 5.06e-05 | 1331 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6101ms mem 1493/3928MB
+step 17,890 | loss 4.0930 | lr 5.04e-05 | 1331 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6143ms mem 1493/3928MB
+step 17,900 | loss 4.6739 | lr 5.03e-05 | 1328 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6156ms mem 1493/3928MB
+step 17,910 | loss 3.4870 | lr 5.02e-05 | 1330 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6129ms mem 1493/3928MB
+step 17,920 | loss 4.0415 | lr 5.00e-05 | 1340 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6070ms mem 1493/3928MB
+step 17,930 | loss 4.5896 | lr 4.99e-05 | 1344 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6081ms mem 1452/3928MB
+step 17,940 | loss 4.6127 | lr 4.97e-05 | 1339 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6106ms mem 1493/3928MB
+step 17,950 | loss 4.3119 | lr 4.96e-05 | 1333 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6128ms mem 1452/3928MB
+step 17,960 | loss 4.2142 | lr 4.94e-05 | 1331 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6139ms mem 1493/3928MB
+step 17,970 | loss 4.3803 | lr 4.93e-05 | 1330 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6134ms mem 1452/3928MB
+step 17,980 | loss 3.9578 | lr 4.91e-05 | 1331 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6135ms mem 1493/3928MB
+step 17,990 | loss 4.4743 | lr 4.90e-05 | 1325 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6150ms mem 1451/3928MB
+step 18,000 | loss 3.8639 | lr 4.89e-05 | 1328 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6152ms mem 1493/3928MB
+  [eval] step 18000 | val_loss 4.5469 | ppl 94.34
+  Pruning old checkpoint: checkpoints/step_016555
+Checkpoint saved: checkpoints/step_018000
+  [samples] wrote checkpoints/step_018000/samples.txt
+step 18,010 | loss 3.9897 | lr 4.87e-05 | 461 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6175ms mem 1493/3928MB
+step 18,020 | loss 4.4048 | lr 4.86e-05 | 1333 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6108ms mem 1493/3928MB
+step 18,030 | loss 4.5102 | lr 4.84e-05 | 1337 tok/s | fwd_bwd 17ms clip 22ms optim 118ms step 6171ms mem 1493/3928MB
+step 18,040 | loss 4.5779 | lr 4.83e-05 | 1341 tok/s | fwd_bwd 3ms clip 21ms optim 116ms step 6170ms mem 1493/3928MB
+step 18,050 | loss 3.8760 | lr 4.81e-05 | 1158 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6209ms mem 1493/3928MB
+step 18,060 | loss 3.5958 | lr 4.80e-05 | 1318 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6123ms mem 1493/3928MB
+step 18,070 | loss 4.1209 | lr 4.78e-05 | 1336 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6106ms mem 1493/3928MB
+step 18,080 | loss 4.5098 | lr 4.77e-05 | 1329 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6059ms mem 1493/3928MB
+step 18,090 | loss 4.1344 | lr 4.76e-05 | 1331 tok/s | fwd_bwd 17ms clip 21ms optim 113ms step 6123ms mem 1452/3928MB
+step 18,100 | loss 3.9117 | lr 4.74e-05 | 1336 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6098ms mem 1493/3928MB
+step 18,110 | loss 6.2975 | lr 4.73e-05 | 1341 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6091ms mem 1493/3928MB
+step 18,120 | loss 3.8809 | lr 4.71e-05 | 1340 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6094ms mem 1493/3928MB
+step 18,130 | loss 4.6503 | lr 4.70e-05 | 1337 tok/s | fwd_bwd 18ms clip 23ms optim 120ms step 6158ms mem 1493/3928MB
+step 18,140 | loss 4.4360 | lr 4.69e-05 | 1341 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6111ms mem 1493/3928MB
+step 18,150 | loss 4.5282 | lr 4.67e-05 | 1341 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6032ms mem 1493/3928MB
+step 18,160 | loss 4.8483 | lr 4.66e-05 | 1345 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6085ms mem 1452/3928MB
+step 18,170 | loss 4.2226 | lr 4.64e-05 | 1341 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6072ms mem 1493/3928MB
+step 18,180 | loss 4.4416 | lr 4.63e-05 | 1340 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6104ms mem 1493/3928MB
+step 18,190 | loss 4.9041 | lr 4.62e-05 | 1343 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6098ms mem 1493/3928MB
+  Pruning old checkpoint: checkpoints/step_017000
+Checkpoint saved: checkpoints/step_018194
+step 18,200 | loss 4.3262 | lr 4.60e-05 | 1333 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6110ms mem 1452/3928MB
+step 18,210 | loss 4.3052 | lr 4.59e-05 | 1334 tok/s | fwd_bwd 14ms clip 20ms optim 111ms step 6075ms mem 1493/3928MB
+step 18,220 | loss 4.4423 | lr 4.57e-05 | 1336 tok/s | fwd_bwd 18ms clip 21ms optim 113ms step 6185ms mem 1493/3928MB
+step 18,230 | loss 3.9949 | lr 4.56e-05 | 1337 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6100ms mem 1493/3928MB
+step 18,240 | loss 4.4194 | lr 4.55e-05 | 1344 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6050ms mem 1493/3928MB
+step 18,250 | loss 5.2368 | lr 4.53e-05 | 1344 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6091ms mem 1493/3928MB
+step 18,260 | loss 4.2706 | lr 4.52e-05 | 1342 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6072ms mem 1493/3928MB
+step 18,270 | loss 4.5066 | lr 4.50e-05 | 1347 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6068ms mem 1452/3928MB
+step 18,280 | loss 5.0633 | lr 4.49e-05 | 1346 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6064ms mem 1452/3928MB
+step 18,290 | loss 4.6066 | lr 4.48e-05 | 1346 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6085ms mem 1493/3928MB
+step 18,300 | loss 4.4892 | lr 4.46e-05 | 1347 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6036ms mem 1493/3928MB
+step 18,310 | loss 3.9944 | lr 4.45e-05 | 1357 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6008ms mem 1493/3928MB
+step 18,320 | loss 4.4178 | lr 4.43e-05 | 1352 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6012ms mem 1493/3928MB
+step 18,330 | loss 3.7801 | lr 4.42e-05 | 1356 tok/s | fwd_bwd 18ms clip 20ms optim 111ms step 6074ms mem 1451/3928MB
+step 18,340 | loss 4.1529 | lr 4.41e-05 | 1352 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6070ms mem 1493/3928MB
+step 18,350 | loss 4.4238 | lr 4.39e-05 | 1345 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6080ms mem 1493/3928MB
+step 18,360 | loss 4.3851 | lr 4.38e-05 | 1345 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6079ms mem 1451/3928MB
+step 18,370 | loss 5.2196 | lr 4.37e-05 | 1337 tok/s | fwd_bwd 9ms clip 20ms optim 112ms step 6110ms mem 1493/3928MB
+step 18,380 | loss 4.7713 | lr 4.35e-05 | 1341 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6093ms mem 1493/3928MB
+step 18,390 | loss 4.2444 | lr 4.34e-05 | 1347 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6036ms mem 1493/3928MB
+step 18,400 | loss 4.4296 | lr 4.32e-05 | 1352 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6075ms mem 1493/3928MB
+step 18,410 | loss 4.7819 | lr 4.31e-05 | 1348 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6073ms mem 1452/3928MB
+step 18,420 | loss 4.2080 | lr 4.30e-05 | 1341 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 6028ms mem 1493/3928MB
+step 18,430 | loss 4.4935 | lr 4.28e-05 | 1339 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6101ms mem 1493/3928MB
+step 18,440 | loss 3.6956 | lr 4.27e-05 | 1334 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6187ms mem 1452/3928MB
+step 18,450 | loss 4.0002 | lr 4.26e-05 | 1334 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6120ms mem 1452/3928MB
+step 18,460 | loss 4.0620 | lr 4.24e-05 | 1326 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 6133ms mem 1493/3928MB
+step 18,470 | loss 3.7843 | lr 4.23e-05 | 1332 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6112ms mem 1493/3928MB
+step 18,480 | loss 4.1982 | lr 4.22e-05 | 1334 tok/s | fwd_bwd 9ms clip 20ms optim 112ms step 6125ms mem 1452/3928MB
+step 18,490 | loss 4.5602 | lr 4.20e-05 | 1333 tok/s | fwd_bwd 14ms clip 20ms optim 112ms step 6148ms mem 1493/3928MB
+step 18,500 | loss 3.8888 | lr 4.19e-05 | 1333 tok/s | fwd_bwd 18ms clip 23ms optim 120ms step 6123ms mem 1493/3928MB
+  [eval] step 18500 | val_loss 4.5518 | ppl 94.80
+step 18,510 | loss 4.6948 | lr 4.17e-05 | 522 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6134ms mem 1493/3928MB
+step 18,520 | loss 4.3441 | lr 4.16e-05 | 1335 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6064ms mem 1452/3928MB
+step 18,530 | loss 4.2510 | lr 4.15e-05 | 1315 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6168ms mem 1493/3928MB
+step 18,540 | loss 4.7407 | lr 4.13e-05 | 1318 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6176ms mem 1493/3928MB
+step 18,550 | loss 4.4924 | lr 4.12e-05 | 1323 tok/s | fwd_bwd 17ms clip 20ms optim 112ms step 6240ms mem 1493/3928MB
+step 18,560 | loss 4.2983 | lr 4.11e-05 | 1332 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6134ms mem 1493/3928MB
+step 18,570 | loss 3.8317 | lr 4.09e-05 | 1331 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6154ms mem 1493/3928MB
+step 18,580 | loss 4.2214 | lr 4.08e-05 | 1327 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6112ms mem 1493/3928MB
+step 18,590 | loss 4.5759 | lr 4.07e-05 | 1336 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6130ms mem 1493/3928MB
+step 18,600 | loss 4.6956 | lr 4.05e-05 | 1330 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6171ms mem 1493/3928MB
+step 18,610 | loss 4.5647 | lr 4.04e-05 | 1324 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6082ms mem 1493/3928MB
+step 18,620 | loss 4.6546 | lr 4.03e-05 | 1322 tok/s | fwd_bwd 14ms clip 20ms optim 111ms step 6187ms mem 1458/3928MB
+step 18,630 | loss 4.3494 | lr 4.01e-05 | 1321 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6196ms mem 1451/3928MB
+step 18,640 | loss 3.8722 | lr 4.00e-05 | 1317 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6228ms mem 1493/3928MB
+step 18,650 | loss 4.4349 | lr 3.99e-05 | 1293 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6270ms mem 1493/3928MB
+step 18,660 | loss 3.9319 | lr 3.97e-05 | 1306 tok/s | fwd_bwd 18ms clip 20ms optim 112ms step 6284ms mem 1493/3928MB
+step 18,670 | loss 3.9725 | lr 3.96e-05 | 1316 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6223ms mem 1493/3928MB
+step 18,680 | loss 4.1677 | lr 3.95e-05 | 1315 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6226ms mem 1493/3928MB
+step 18,690 | loss 4.2379 | lr 3.94e-05 | 1309 tok/s | fwd_bwd 17ms clip 23ms optim 118ms step 6312ms mem 1493/3928MB
+step 18,700 | loss 4.1319 | lr 3.92e-05 | 1310 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6253ms mem 1493/3928MB
+step 18,710 | loss 4.6587 | lr 3.91e-05 | 1310 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6247ms mem 1493/3928MB
+step 18,720 | loss 4.6067 | lr 3.90e-05 | 1308 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6237ms mem 1493/3928MB
+step 18,730 | loss 4.3883 | lr 3.88e-05 | 1309 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6252ms mem 1493/3928MB
+step 18,740 | loss 4.0175 | lr 3.87e-05 | 1305 tok/s | fwd_bwd 13ms clip 20ms optim 112ms step 6289ms mem 1493/3928MB
+step 18,750 | loss 4.2430 | lr 3.86e-05 | 1310 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6240ms mem 1452/3928MB
+step 18,760 | loss 4.7110 | lr 3.84e-05 | 1307 tok/s | fwd_bwd 17ms clip 20ms optim 112ms step 6322ms mem 1493/3928MB
+  Pruning old checkpoint: checkpoints/step_017096
+Checkpoint saved: checkpoints/step_018764
+step 18,770 | loss 4.1570 | lr 3.83e-05 | 1303 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6237ms mem 1452/3928MB
+step 18,780 | loss 4.4606 | lr 3.82e-05 | 1305 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6244ms mem 1493/3928MB
+step 18,790 | loss 4.4812 | lr 3.80e-05 | 1309 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6267ms mem 1493/3928MB
+step 18,800 | loss 4.5045 | lr 3.79e-05 | 1309 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6235ms mem 1493/3928MB
+step 18,810 | loss 4.4480 | lr 3.78e-05 | 1313 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6229ms mem 1493/3928MB
+step 18,820 | loss 4.4394 | lr 3.77e-05 | 1311 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6217ms mem 1493/3928MB
+step 18,830 | loss 3.9960 | lr 3.75e-05 | 1311 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6230ms mem 1493/3928MB
+step 18,840 | loss 4.3752 | lr 3.74e-05 | 1312 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6212ms mem 1493/3928MB
+step 18,850 | loss 4.8136 | lr 3.73e-05 | 1315 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6208ms mem 1451/3928MB
+step 18,860 | loss 4.4185 | lr 3.71e-05 | 1314 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6222ms mem 1493/3928MB
+step 18,870 | loss 4.3286 | lr 3.70e-05 | 1312 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6200ms mem 1493/3928MB
+step 18,880 | loss 4.2669 | lr 3.69e-05 | 1313 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6228ms mem 1452/3928MB
+step 18,890 | loss 4.5265 | lr 3.68e-05 | 1312 tok/s | fwd_bwd 8ms clip 20ms optim 113ms step 6219ms mem 1493/3928MB
+step 18,900 | loss 4.5269 | lr 3.66e-05 | 1311 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6213ms mem 1493/3928MB
+step 18,910 | loss 3.5010 | lr 3.65e-05 | 1317 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6202ms mem 1493/3928MB
+step 18,920 | loss 4.3301 | lr 3.64e-05 | 1315 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6216ms mem 1493/3928MB
+step 18,930 | loss 4.1800 | lr 3.63e-05 | 1315 tok/s | fwd_bwd 3ms clip 21ms optim 112ms step 6202ms mem 1493/3928MB
+step 18,940 | loss 4.4518 | lr 3.61e-05 | 1314 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6214ms mem 1493/3928MB
+step 18,950 | loss 4.5111 | lr 3.60e-05 | 1315 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6226ms mem 1470/3928MB
+step 18,960 | loss 3.8289 | lr 3.59e-05 | 1316 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6199ms mem 1493/3928MB
+step 18,970 | loss 4.5251 | lr 3.57e-05 | 1314 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6283ms mem 1493/3928MB
+step 18,980 | loss 4.5991 | lr 3.56e-05 | 1314 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6215ms mem 1493/3928MB
+step 18,990 | loss 4.0489 | lr 3.55e-05 | 1315 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6216ms mem 1452/3928MB
+step 19,000 | loss 4.2198 | lr 3.54e-05 | 1315 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6206ms mem 1493/3928MB
+  [eval] step 19000 | val_loss 4.7077 | ppl 110.80
+  Pruning old checkpoint: checkpoints/step_017632
+Checkpoint saved: checkpoints/step_019000
+  [samples] wrote checkpoints/step_019000/samples.txt
+step 19,010 | loss 4.7167 | lr 3.52e-05 | 457 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6220ms mem 1452/3928MB
+step 19,020 | loss 4.2073 | lr 3.51e-05 | 1316 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6188ms mem 1452/3928MB
+step 19,030 | loss 4.1806 | lr 3.50e-05 | 1322 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6191ms mem 1493/3928MB
+step 19,040 | loss 4.7654 | lr 3.49e-05 | 1321 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6193ms mem 1493/3928MB
+step 19,050 | loss 4.4258 | lr 3.47e-05 | 1321 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6193ms mem 1493/3928MB
+step 19,060 | loss 4.1433 | lr 3.46e-05 | 1322 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6189ms mem 1451/3928MB
+step 19,070 | loss 4.3086 | lr 3.45e-05 | 1318 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6214ms mem 1493/3928MB
+step 19,080 | loss 4.5960 | lr 3.44e-05 | 1317 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6208ms mem 1452/3928MB
+step 19,090 | loss 4.3802 | lr 3.42e-05 | 1314 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6214ms mem 1464/3928MB
+step 19,100 | loss 4.5342 | lr 3.41e-05 | 1303 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6235ms mem 1493/3928MB
+step 19,110 | loss 4.0254 | lr 3.40e-05 | 1308 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6243ms mem 1493/3928MB
+step 19,120 | loss 4.0880 | lr 3.39e-05 | 1309 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6241ms mem 1493/3928MB
+step 19,130 | loss 4.7167 | lr 3.38e-05 | 1304 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6241ms mem 1493/3928MB
+step 19,140 | loss 4.3094 | lr 3.36e-05 | 1297 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6272ms mem 1493/3928MB
+step 19,150 | loss 4.4234 | lr 3.35e-05 | 1307 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6268ms mem 1452/3928MB
+step 19,160 | loss 4.2662 | lr 3.34e-05 | 1303 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6251ms mem 1493/3928MB
+step 19,170 | loss 4.4535 | lr 3.33e-05 | 1306 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6250ms mem 1452/3928MB
+step 19,180 | loss 4.0311 | lr 3.31e-05 | 1310 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6233ms mem 1452/3928MB
+step 19,190 | loss 4.0252 | lr 3.30e-05 | 1310 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6239ms mem 1493/3928MB
+step 19,200 | loss 4.6016 | lr 3.29e-05 | 1310 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6225ms mem 1493/3928MB
+step 19,210 | loss 4.1871 | lr 3.28e-05 | 1303 tok/s | fwd_bwd 4ms clip 21ms optim 112ms step 6242ms mem 1493/3928MB
+step 19,220 | loss 4.3715 | lr 3.27e-05 | 1306 tok/s | fwd_bwd 14ms clip 20ms optim 112ms step 6257ms mem 1452/3928MB
+step 19,230 | loss 4.3251 | lr 3.25e-05 | 1309 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6237ms mem 1452/3928MB
+step 19,240 | loss 4.6344 | lr 3.24e-05 | 1305 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6296ms mem 1452/3928MB
+step 19,250 | loss 4.2047 | lr 3.23e-05 | 1302 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6266ms mem 1493/3928MB
+step 19,260 | loss 4.6037 | lr 3.22e-05 | 1313 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6186ms mem 1452/3928MB
+step 19,270 | loss 4.4261 | lr 3.21e-05 | 1333 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6096ms mem 1493/3928MB
+step 19,280 | loss 4.6108 | lr 3.19e-05 | 1347 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6034ms mem 1493/3928MB
+step 19,290 | loss 4.9747 | lr 3.18e-05 | 1350 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6037ms mem 1493/3928MB
+step 19,300 | loss 5.9670 | lr 3.17e-05 | 1353 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 5990ms mem 1493/3928MB
+step 19,310 | loss 4.5501 | lr 3.16e-05 | 1356 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6032ms mem 1493/3928MB
+step 19,320 | loss 4.7711 | lr 3.15e-05 | 1351 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6038ms mem 1493/3928MB
+  Pruning old checkpoint: checkpoints/step_018000
+Checkpoint saved: checkpoints/step_019324
+step 19,330 | loss 5.3555 | lr 3.13e-05 | 1347 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6027ms mem 1452/3928MB
+step 19,340 | loss 4.4242 | lr 3.12e-05 | 1352 tok/s | fwd_bwd 17ms clip 23ms optim 120ms step 6133ms mem 1493/3928MB
+step 19,350 | loss 4.1314 | lr 3.11e-05 | 1354 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6047ms mem 1452/3928MB
+step 19,360 | loss 3.1947 | lr 3.10e-05 | 1352 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6052ms mem 1493/3928MB
+step 19,370 | loss 4.6186 | lr 3.09e-05 | 1347 tok/s | fwd_bwd 13ms clip 20ms optim 112ms step 6069ms mem 1452/3928MB
+step 19,380 | loss 5.1849 | lr 3.07e-05 | 1343 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6083ms mem 1493/3928MB
+step 19,390 | loss 4.5164 | lr 3.06e-05 | 1340 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6097ms mem 1452/3928MB
+step 19,400 | loss 4.9369 | lr 3.05e-05 | 1339 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6091ms mem 1493/3928MB
+step 19,410 | loss 4.2317 | lr 3.04e-05 | 1338 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6114ms mem 1493/3928MB
+step 19,420 | loss 4.7441 | lr 3.03e-05 | 1343 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6066ms mem 1493/3928MB
+step 19,430 | loss 3.7940 | lr 3.02e-05 | 1340 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6104ms mem 1493/3928MB
+step 19,440 | loss 4.7544 | lr 3.00e-05 | 1338 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6099ms mem 1493/3928MB
+step 19,450 | loss 4.2118 | lr 2.99e-05 | 1337 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6111ms mem 1452/3928MB
+step 19,460 | loss 4.3627 | lr 2.98e-05 | 1336 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6105ms mem 1493/3928MB
+step 19,470 | loss 4.4419 | lr 2.97e-05 | 1342 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6071ms mem 1493/3928MB
+step 19,480 | loss 4.5933 | lr 2.96e-05 | 1343 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6077ms mem 1493/3928MB
+step 19,490 | loss 4.7645 | lr 2.95e-05 | 1340 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6083ms mem 1493/3928MB
+step 19,500 | loss 4.5031 | lr 2.93e-05 | 1337 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6110ms mem 1493/3928MB
+  [eval] step 19500 | val_loss 4.4898 | ppl 89.11
+step 19,510 | loss 4.4481 | lr 2.92e-05 | 523 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6192ms mem 1493/3928MB
+step 19,520 | loss 4.5606 | lr 2.91e-05 | 1316 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6194ms mem 1493/3928MB
+step 19,530 | loss 4.6391 | lr 2.90e-05 | 1313 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6213ms mem 1493/3928MB
+step 19,540 | loss 4.7191 | lr 2.89e-05 | 1311 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6227ms mem 1493/3928MB
+step 19,550 | loss 4.3715 | lr 2.88e-05 | 1311 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6247ms mem 1493/3928MB
+step 19,560 | loss 4.5093 | lr 2.86e-05 | 1304 tok/s | fwd_bwd 14ms clip 20ms optim 111ms step 6254ms mem 1464/3928MB
+step 19,570 | loss 4.4737 | lr 2.85e-05 | 1307 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6237ms mem 1493/3928MB
+step 19,580 | loss 4.4473 | lr 2.84e-05 | 1302 tok/s | fwd_bwd 17ms clip 21ms optim 114ms step 6462ms mem 1493/3928MB
+step 19,590 | loss 4.2634 | lr 2.83e-05 | 1303 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6272ms mem 1493/3928MB
+step 19,600 | loss 4.5749 | lr 2.82e-05 | 1301 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6270ms mem 1493/3928MB
+step 19,610 | loss 3.7837 | lr 2.81e-05 | 1301 tok/s | fwd_bwd 16ms clip 20ms optim 111ms step 6315ms mem 1493/3928MB
+step 19,620 | loss 4.3377 | lr 2.80e-05 | 1301 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6280ms mem 1452/3928MB
+step 19,630 | loss 4.2692 | lr 2.79e-05 | 1305 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6255ms mem 1493/3928MB
+step 19,640 | loss 4.1750 | lr 2.77e-05 | 1308 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6212ms mem 1493/3928MB
+step 19,650 | loss 4.3875 | lr 2.76e-05 | 1317 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6179ms mem 1493/3928MB
+step 19,660 | loss 4.9678 | lr 2.75e-05 | 1322 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6147ms mem 1493/3928MB
+step 19,670 | loss 3.9390 | lr 2.74e-05 | 1325 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6146ms mem 1493/3928MB
+step 19,680 | loss 5.0431 | lr 2.73e-05 | 1326 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6145ms mem 1493/3928MB
+step 19,690 | loss 3.6656 | lr 2.72e-05 | 1333 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6115ms mem 1493/3928MB
+step 19,700 | loss 4.4968 | lr 2.71e-05 | 1333 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6127ms mem 1493/3928MB
+step 19,710 | loss 4.3505 | lr 2.70e-05 | 1333 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6120ms mem 1452/3928MB
+step 19,720 | loss 4.5443 | lr 2.68e-05 | 1336 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6108ms mem 1493/3928MB
+step 19,730 | loss 4.6293 | lr 2.67e-05 | 1339 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6020ms mem 1493/3928MB
+step 19,740 | loss 4.6811 | lr 2.66e-05 | 1342 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6088ms mem 1493/3928MB
+step 19,750 | loss 4.4117 | lr 2.65e-05 | 1341 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6005ms mem 1493/3928MB
+step 19,760 | loss 4.9030 | lr 2.64e-05 | 1340 tok/s | fwd_bwd 17ms clip 20ms optim 111ms step 6118ms mem 1493/3928MB
+step 19,770 | loss 4.4594 | lr 2.63e-05 | 1340 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6095ms mem 1493/3928MB
+step 19,780 | loss 4.6629 | lr 2.62e-05 | 1337 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6068ms mem 1493/3928MB
+step 19,790 | loss 4.4886 | lr 2.61e-05 | 1338 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6112ms mem 1493/3928MB
+step 19,800 | loss 4.4890 | lr 2.60e-05 | 1341 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6077ms mem 1493/3928MB
+step 19,810 | loss 4.5271 | lr 2.59e-05 | 1345 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6068ms mem 1493/3928MB
+step 19,820 | loss 4.5784 | lr 2.57e-05 | 1341 tok/s | fwd_bwd 18ms clip 23ms optim 120ms step 6150ms mem 1493/3928MB
+step 19,830 | loss 4.4218 | lr 2.56e-05 | 1340 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6028ms mem 1493/3928MB
+step 19,840 | loss 4.0679 | lr 2.55e-05 | 1338 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6109ms mem 1493/3928MB
+step 19,850 | loss 4.0917 | lr 2.54e-05 | 1336 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6111ms mem 1493/3928MB
+step 19,860 | loss 4.5725 | lr 2.53e-05 | 1337 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6079ms mem 1493/3928MB
+step 19,870 | loss 4.2888 | lr 2.52e-05 | 1336 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6115ms mem 1493/3928MB
+step 19,880 | loss 4.3338 | lr 2.51e-05 | 1335 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6107ms mem 1493/3928MB
+step 19,890 | loss 4.5486 | lr 2.50e-05 | 1335 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6135ms mem 1493/3928MB
+  Pruning old checkpoint: checkpoints/step_018194
+Checkpoint saved: checkpoints/step_019894
+step 19,900 | loss 3.8170 | lr 2.49e-05 | 1321 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6131ms mem 1493/3928MB
+step 19,910 | loss 4.9420 | lr 2.48e-05 | 1333 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6131ms mem 1493/3928MB
+step 19,920 | loss 4.1587 | lr 2.47e-05 | 1326 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6139ms mem 1493/3928MB
+step 19,930 | loss 3.7017 | lr 2.46e-05 | 1327 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6151ms mem 1452/3928MB
+step 19,940 | loss 5.0545 | lr 2.45e-05 | 1327 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6147ms mem 1493/3928MB
+step 19,950 | loss 4.4010 | lr 2.43e-05 | 1327 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6156ms mem 1493/3928MB
+step 19,960 | loss 2.6077 | lr 2.42e-05 | 1328 tok/s | fwd_bwd 11ms clip 20ms optim 112ms step 6164ms mem 1493/3928MB
+step 19,970 | loss 4.2402 | lr 2.41e-05 | 1329 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6138ms mem 1452/3928MB
+step 19,980 | loss 3.3807 | lr 2.40e-05 | 1333 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6127ms mem 1493/3928MB
+step 19,990 | loss 4.3780 | lr 2.39e-05 | 1331 tok/s | fwd_bwd 14ms clip 20ms optim 111ms step 6146ms mem 1493/3928MB
+step 20,000 | loss 4.5000 | lr 2.38e-05 | 1328 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6154ms mem 1493/3928MB
+  [eval] step 20000 | val_loss 4.5403 | ppl 93.72
+  Pruning old checkpoint: checkpoints/step_018764
+Checkpoint saved: checkpoints/step_020000
+  [samples] wrote checkpoints/step_020000/samples.txt
+step 20,010 | loss 4.5949 | lr 2.37e-05 | 461 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6199ms mem 1493/3928MB
+step 20,020 | loss 4.2942 | lr 2.36e-05 | 1326 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6157ms mem 1493/3928MB
+step 20,030 | loss 4.4683 | lr 2.35e-05 | 1328 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6147ms mem 1493/3928MB
+step 20,040 | loss 3.8047 | lr 2.34e-05 | 1328 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6145ms mem 1452/3928MB
+step 20,050 | loss 4.2230 | lr 2.33e-05 | 1319 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6317ms mem 1452/3928MB
+step 20,060 | loss 4.3036 | lr 2.32e-05 | 1310 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6205ms mem 1493/3928MB
+step 20,070 | loss 4.8728 | lr 2.31e-05 | 1161 tok/s | fwd_bwd 5ms clip 38ms optim 168ms step 8971ms mem 1448/3928MB
+step 20,080 | loss 5.5898 | lr 2.30e-05 | 1225 tok/s | fwd_bwd 16ms clip 23ms optim 120ms step 6355ms mem 1448/3928MB
+step 20,090 | loss 4.4044 | lr 2.29e-05 | 1313 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6186ms mem 1448/3928MB
+step 20,100 | loss 4.4425 | lr 2.28e-05 | 1316 tok/s | fwd_bwd 18ms clip 23ms optim 120ms step 6236ms mem 1448/3928MB
+step 20,110 | loss 4.6813 | lr 2.27e-05 | 1323 tok/s | fwd_bwd 19ms clip 23ms optim 119ms step 6159ms mem 1448/3928MB
+step 20,120 | loss 3.9529 | lr 2.26e-05 | 1321 tok/s | fwd_bwd 18ms clip 23ms optim 119ms step 6177ms mem 1448/3928MB
+step 20,130 | loss 4.7939 | lr 2.25e-05 | 1330 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6141ms mem 1448/3928MB
+step 20,140 | loss 4.8958 | lr 2.24e-05 | 1330 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6138ms mem 1448/3928MB
+step 20,150 | loss 4.7362 | lr 2.23e-05 | 1330 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6125ms mem 1448/3928MB
+step 20,160 | loss 4.4115 | lr 2.22e-05 | 1332 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6123ms mem 1448/3928MB
+step 20,170 | loss 4.3784 | lr 2.21e-05 | 1331 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6146ms mem 1448/3928MB
+step 20,180 | loss 4.4248 | lr 2.20e-05 | 1327 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6148ms mem 1448/3928MB
+step 20,190 | loss 4.2885 | lr 2.19e-05 | 1328 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6149ms mem 1448/3928MB
+step 20,200 | loss 3.9904 | lr 2.18e-05 | 1328 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6146ms mem 1448/3928MB
+step 20,210 | loss 4.7650 | lr 2.17e-05 | 1329 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6133ms mem 1448/3928MB
+step 20,220 | loss 4.5375 | lr 2.16e-05 | 1331 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6055ms mem 1448/3928MB
+step 20,230 | loss 4.3544 | lr 2.15e-05 | 1333 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6056ms mem 1448/3928MB
+step 20,240 | loss 4.6421 | lr 2.14e-05 | 1332 tok/s | fwd_bwd 14ms clip 23ms optim 119ms step 6187ms mem 1448/3928MB
+step 20,250 | loss 4.4005 | lr 2.13e-05 | 1334 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6118ms mem 1448/3928MB
+step 20,260 | loss 4.4289 | lr 2.12e-05 | 1337 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6115ms mem 1448/3928MB
+step 20,270 | loss 4.4176 | lr 2.11e-05 | 1335 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6120ms mem 1448/3928MB
+step 20,280 | loss 4.5009 | lr 2.10e-05 | 1335 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6130ms mem 1448/3928MB
+step 20,290 | loss 4.2459 | lr 2.09e-05 | 1332 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6111ms mem 1448/3928MB
+step 20,300 | loss 5.1185 | lr 2.08e-05 | 1336 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6111ms mem 1448/3928MB
+step 20,310 | loss 3.6411 | lr 2.07e-05 | 1337 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6099ms mem 1448/3928MB
+step 20,320 | loss 4.2421 | lr 2.06e-05 | 1336 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 6128ms mem 1448/3928MB
+step 20,330 | loss 5.0356 | lr 2.05e-05 | 1331 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6162ms mem 1448/3928MB
+step 20,340 | loss 4.6542 | lr 2.04e-05 | 1323 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6127ms mem 1448/3928MB
+step 20,350 | loss 4.8554 | lr 2.03e-05 | 1331 tok/s | fwd_bwd 9ms clip 20ms optim 112ms step 6126ms mem 1448/3928MB
+step 20,360 | loss 4.0554 | lr 2.02e-05 | 1336 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6105ms mem 1448/3928MB
+step 20,370 | loss 4.5551 | lr 2.01e-05 | 1335 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6044ms mem 1448/3928MB
+step 20,380 | loss 4.3501 | lr 2.00e-05 | 1331 tok/s | fwd_bwd 18ms clip 23ms optim 119ms step 6211ms mem 1448/3928MB
+step 20,390 | loss 4.3596 | lr 1.99e-05 | 1336 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6108ms mem 1448/3928MB
+step 20,400 | loss 4.5070 | lr 1.98e-05 | 1334 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6153ms mem 1448/3928MB
+step 20,410 | loss 4.4929 | lr 1.97e-05 | 1332 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6140ms mem 1448/3928MB
+step 20,420 | loss 4.3802 | lr 1.96e-05 | 1329 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6145ms mem 1448/3928MB
+step 20,430 | loss 4.3917 | lr 1.95e-05 | 1320 tok/s | fwd_bwd 18ms clip 23ms optim 120ms step 6243ms mem 1448/3928MB
+step 20,440 | loss 4.6062 | lr 1.94e-05 | 1321 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6166ms mem 1448/3928MB
+step 20,450 | loss 4.5716 | lr 1.93e-05 | 1322 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6141ms mem 1448/3928MB
+  Pruning old checkpoint: checkpoints/step_019000
+Checkpoint saved: checkpoints/step_020457
+step 20,460 | loss 5.0829 | lr 1.92e-05 | 1317 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6048ms mem 1448/3928MB
+step 20,470 | loss 4.5601 | lr 1.91e-05 | 1331 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6082ms mem 1448/3928MB
+step 20,480 | loss 4.7401 | lr 1.90e-05 | 1337 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6092ms mem 1448/3928MB
+step 20,490 | loss 4.5917 | lr 1.89e-05 | 1340 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6013ms mem 1448/3928MB
+step 20,500 | loss 4.2417 | lr 1.88e-05 | 1336 tok/s | fwd_bwd 9ms clip 20ms optim 112ms step 6113ms mem 1448/3928MB
+  [eval] step 20500 | val_loss 4.5480 | ppl 94.44
+step 20,510 | loss 4.5235 | lr 1.87e-05 | 525 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6103ms mem 1493/3928MB
+step 20,520 | loss 4.2515 | lr 1.86e-05 | 1340 tok/s | fwd_bwd 11ms clip 20ms optim 112ms step 6091ms mem 1493/3928MB
+step 20,530 | loss 4.2255 | lr 1.85e-05 | 1338 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6101ms mem 1493/3928MB
+step 20,540 | loss 4.1118 | lr 1.84e-05 | 1335 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6111ms mem 1493/3928MB
+step 20,550 | loss 4.1278 | lr 1.84e-05 | 1329 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6114ms mem 1493/3928MB
+step 20,560 | loss 4.5431 | lr 1.83e-05 | 1333 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6104ms mem 1493/3928MB
+step 20,570 | loss 4.5272 | lr 1.82e-05 | 1334 tok/s | fwd_bwd 19ms clip 23ms optim 122ms step 6210ms mem 1493/3928MB
+step 20,580 | loss 4.5960 | lr 1.81e-05 | 1339 tok/s | fwd_bwd 18ms clip 23ms optim 122ms step 6156ms mem 1493/3928MB
+step 20,590 | loss 4.5992 | lr 1.80e-05 | 1345 tok/s | fwd_bwd 14ms clip 20ms optim 111ms step 6073ms mem 1493/3928MB
+step 20,600 | loss 4.5376 | lr 1.79e-05 | 1344 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6083ms mem 1493/3928MB
+step 20,610 | loss 4.2037 | lr 1.78e-05 | 1342 tok/s | fwd_bwd 17ms clip 21ms optim 114ms step 6140ms mem 1493/3928MB
+step 20,620 | loss 5.3159 | lr 1.77e-05 | 1343 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6075ms mem 1493/3928MB
+step 20,630 | loss 4.0665 | lr 1.76e-05 | 1344 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 5982ms mem 1493/3928MB
+step 20,640 | loss 4.3248 | lr 1.75e-05 | 1344 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6082ms mem 1493/3928MB
+step 20,650 | loss 4.0639 | lr 1.74e-05 | 1341 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6078ms mem 1493/3928MB
+step 20,660 | loss 4.7272 | lr 1.73e-05 | 1338 tok/s | fwd_bwd 16ms clip 20ms optim 112ms step 6151ms mem 1493/3928MB
+step 20,670 | loss 4.4110 | lr 1.73e-05 | 1329 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6064ms mem 1493/3928MB
+step 20,680 | loss 4.8165 | lr 1.72e-05 | 1317 tok/s | fwd_bwd 18ms clip 22ms optim 119ms step 6306ms mem 1493/3928MB
+step 20,690 | loss 4.4345 | lr 1.71e-05 | 1317 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6207ms mem 1476/3928MB
+step 20,700 | loss 5.0668 | lr 1.70e-05 | 1307 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6246ms mem 1493/3928MB
+step 20,710 | loss 4.3865 | lr 1.69e-05 | 1303 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6269ms mem 1493/3928MB
+step 20,720 | loss 4.9358 | lr 1.68e-05 | 1303 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6262ms mem 1493/3928MB
+step 20,730 | loss 4.8729 | lr 1.67e-05 | 1302 tok/s | fwd_bwd 11ms clip 20ms optim 112ms step 6273ms mem 1493/3928MB
+step 20,740 | loss 4.3326 | lr 1.66e-05 | 1301 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6268ms mem 1493/3928MB
+step 20,750 | loss 4.3792 | lr 1.65e-05 | 1299 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6296ms mem 1493/3928MB
+step 20,760 | loss 4.6714 | lr 1.64e-05 | 1294 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6328ms mem 1493/3928MB
+step 20,770 | loss 4.1912 | lr 1.64e-05 | 1296 tok/s | fwd_bwd 11ms clip 20ms optim 112ms step 6307ms mem 1493/3928MB
+step 20,780 | loss 4.5688 | lr 1.63e-05 | 1295 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6312ms mem 1493/3928MB
+step 20,790 | loss 4.1234 | lr 1.62e-05 | 1294 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6311ms mem 1493/3928MB
+step 20,800 | loss 4.6533 | lr 1.61e-05 | 1293 tok/s | fwd_bwd 13ms clip 20ms optim 112ms step 6329ms mem 1493/3928MB
+step 20,810 | loss 3.6945 | lr 1.60e-05 | 1291 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6311ms mem 1493/3928MB
+step 20,820 | loss 5.0911 | lr 1.59e-05 | 1293 tok/s | fwd_bwd 11ms clip 20ms optim 112ms step 6302ms mem 1451/3928MB
+step 20,830 | loss 4.6568 | lr 1.58e-05 | 1294 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6325ms mem 1451/3928MB
+step 20,840 | loss 4.5521 | lr 1.57e-05 | 1291 tok/s | fwd_bwd 19ms clip 21ms optim 114ms step 6425ms mem 1493/3928MB
+step 20,850 | loss 5.2522 | lr 1.57e-05 | 1291 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6311ms mem 1489/3928MB
+step 20,860 | loss 4.1819 | lr 1.56e-05 | 1291 tok/s | fwd_bwd 17ms clip 23ms optim 122ms step 6425ms mem 1493/3928MB
+step 20,870 | loss 4.4622 | lr 1.55e-05 | 1293 tok/s | fwd_bwd 18ms clip 23ms optim 122ms step 6442ms mem 1493/3928MB
+step 20,880 | loss 1.3205 | lr 1.54e-05 | 1291 tok/s | fwd_bwd 8ms clip 21ms optim 111ms step 6320ms mem 1493/3928MB
+step 20,890 | loss 4.2492 | lr 1.53e-05 | 1293 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6300ms mem 1493/3928MB
+step 20,900 | loss 4.4535 | lr 1.52e-05 | 1288 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6328ms mem 1493/3928MB
+step 20,910 | loss 4.4350 | lr 1.51e-05 | 1286 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6329ms mem 1452/3928MB
+step 20,920 | loss 4.3595 | lr 1.51e-05 | 1289 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6328ms mem 1492/3928MB
+step 20,930 | loss 4.4221 | lr 1.50e-05 | 1290 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6340ms mem 1493/3928MB
+step 20,940 | loss 4.4457 | lr 1.49e-05 | 1288 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6342ms mem 1493/3928MB
+step 20,950 | loss 4.7037 | lr 1.48e-05 | 1289 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6319ms mem 1493/3928MB
+step 20,960 | loss 4.3291 | lr 1.47e-05 | 1290 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6326ms mem 1493/3928MB
+step 20,970 | loss 5.0607 | lr 1.46e-05 | 1287 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6333ms mem 1493/3928MB
+step 20,980 | loss 4.1841 | lr 1.46e-05 | 1290 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6319ms mem 1493/3928MB
+step 20,990 | loss 4.6293 | lr 1.45e-05 | 1287 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6346ms mem 1493/3928MB
+step 21,000 | loss 4.8911 | lr 1.44e-05 | 1287 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6358ms mem 1493/3928MB
+  [eval] step 21000 | val_loss 4.5462 | ppl 94.28
+  Pruning old checkpoint: checkpoints/step_019324
+Checkpoint saved: checkpoints/step_021000
+  [samples] wrote checkpoints/step_021000/samples.txt
+  Pruning old checkpoint: checkpoints/step_019894
+Checkpoint saved: checkpoints/step_021000
+step 21,010 | loss 4.3327 | lr 1.43e-05 | 445 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6407ms mem 1452/3928MB
+step 21,020 | loss 4.2622 | lr 1.42e-05 | 1280 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6366ms mem 1470/3928MB
+step 21,030 | loss 3.7994 | lr 1.41e-05 | 1267 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6757ms mem 1493/3928MB
+step 21,040 | loss 4.7244 | lr 1.41e-05 | 1281 tok/s | fwd_bwd 11ms clip 20ms optim 112ms step 6377ms mem 1452/3928MB
+step 21,050 | loss 5.0861 | lr 1.40e-05 | 1282 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6347ms mem 1452/3928MB
+step 21,060 | loss 4.7646 | lr 1.39e-05 | 1287 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6344ms mem 1452/3928MB
+step 21,070 | loss 4.4039 | lr 1.38e-05 | 1283 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6376ms mem 1452/3928MB
+step 21,080 | loss 4.3555 | lr 1.37e-05 | 1282 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6379ms mem 1452/3928MB
+step 21,090 | loss 5.2240 | lr 1.36e-05 | 1285 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6343ms mem 1493/3928MB
+step 21,100 | loss 4.1414 | lr 1.36e-05 | 1286 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6344ms mem 1493/3928MB
+step 21,110 | loss 4.5270 | lr 1.35e-05 | 1288 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6339ms mem 1493/3928MB
+step 21,120 | loss 3.9827 | lr 1.34e-05 | 1288 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 6368ms mem 1493/3928MB
+step 21,130 | loss 4.6348 | lr 1.33e-05 | 1284 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6349ms mem 1493/3928MB
+step 21,140 | loss 4.3494 | lr 1.32e-05 | 1286 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6336ms mem 1452/3928MB
+step 21,150 | loss 4.7689 | lr 1.32e-05 | 1290 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6347ms mem 1493/3928MB
+step 21,160 | loss 4.7642 | lr 1.31e-05 | 1276 tok/s | fwd_bwd 3ms clip 21ms optim 115ms step 6575ms mem 1493/3928MB
+step 21,170 | loss 4.3509 | lr 1.30e-05 | 1274 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6358ms mem 1493/3928MB
+step 21,180 | loss 4.5173 | lr 1.29e-05 | 1284 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6358ms mem 1452/3928MB
+step 21,190 | loss 4.6797 | lr 1.28e-05 | 1291 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6322ms mem 1493/3928MB
+step 21,200 | loss 4.8176 | lr 1.28e-05 | 1290 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6336ms mem 1451/3928MB
+step 21,210 | loss 3.8599 | lr 1.27e-05 | 1290 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6321ms mem 1493/3928MB
+step 21,220 | loss 4.9629 | lr 1.26e-05 | 1288 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6352ms mem 1493/3928MB
+step 21,230 | loss 2.0791 | lr 1.25e-05 | 1287 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6340ms mem 1493/3928MB
+step 21,240 | loss 4.8015 | lr 1.25e-05 | 1287 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6350ms mem 1452/3928MB
+step 21,250 | loss 4.5979 | lr 1.24e-05 | 1285 tok/s | fwd_bwd 18ms clip 23ms optim 120ms step 6466ms mem 1493/3928MB
+step 21,260 | loss 4.6950 | lr 1.23e-05 | 1290 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6340ms mem 1493/3928MB
+step 21,270 | loss 4.2139 | lr 1.22e-05 | 1292 tok/s | fwd_bwd 11ms clip 20ms optim 112ms step 6333ms mem 1493/3928MB
+step 21,280 | loss 4.6712 | lr 1.21e-05 | 1290 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6335ms mem 1493/3928MB
+step 21,290 | loss 4.4841 | lr 1.21e-05 | 1289 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6327ms mem 1493/3928MB
+step 21,300 | loss 4.5334 | lr 1.20e-05 | 1292 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6338ms mem 1451/3928MB
+step 21,310 | loss 4.1434 | lr 1.19e-05 | 1290 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6343ms mem 1493/3928MB
+step 21,320 | loss 4.8532 | lr 1.18e-05 | 1287 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6345ms mem 1451/3928MB
+step 21,330 | loss 5.1470 | lr 1.18e-05 | 1287 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6331ms mem 1452/3928MB
+step 21,340 | loss 5.2363 | lr 1.17e-05 | 1291 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6321ms mem 1452/3928MB
+step 21,350 | loss 5.2379 | lr 1.16e-05 | 1290 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6325ms mem 1493/3928MB
+step 21,360 | loss 4.1204 | lr 1.15e-05 | 1289 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6314ms mem 1452/3928MB
+step 21,370 | loss 4.6333 | lr 1.15e-05 | 1293 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6349ms mem 1493/3928MB
+step 21,380 | loss 4.7541 | lr 1.14e-05 | 1289 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6335ms mem 1452/3928MB
+step 21,390 | loss 4.4531 | lr 1.13e-05 | 1291 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6325ms mem 1493/3928MB
+step 21,400 | loss 4.4378 | lr 1.12e-05 | 1293 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6309ms mem 1493/3928MB
+step 21,410 | loss 3.8000 | lr 1.12e-05 | 1299 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6280ms mem 1493/3928MB
+step 21,420 | loss 4.4212 | lr 1.11e-05 | 1300 tok/s | fwd_bwd 19ms clip 20ms optim 111ms step 6345ms mem 1493/3928MB
+step 21,430 | loss 4.6533 | lr 1.10e-05 | 1304 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6281ms mem 1493/3928MB
+step 21,440 | loss 4.5748 | lr 1.09e-05 | 1303 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6269ms mem 1493/3928MB
+step 21,450 | loss 4.1042 | lr 1.09e-05 | 1299 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6261ms mem 1493/3928MB
+step 21,460 | loss 4.2564 | lr 1.08e-05 | 1302 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6275ms mem 1493/3928MB
+step 21,470 | loss 4.4135 | lr 1.07e-05 | 1306 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6159ms mem 1493/3928MB
+step 21,480 | loss 4.1896 | lr 1.07e-05 | 1303 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6268ms mem 1493/3928MB
+step 21,490 | loss 4.6049 | lr 1.06e-05 | 1305 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6244ms mem 1493/3928MB
+step 21,500 | loss 5.0285 | lr 1.05e-05 | 1307 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6244ms mem 1451/3928MB
+  [eval] step 21500 | val_loss 4.5465 | ppl 94.30
+step 21,510 | loss 4.4995 | lr 1.04e-05 | 515 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6278ms mem 1493/3928MB
+step 21,520 | loss 4.4255 | lr 1.04e-05 | 1305 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6268ms mem 1493/3928MB
+step 21,530 | loss 4.3958 | lr 1.03e-05 | 1309 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6251ms mem 1452/3928MB
+step 21,540 | loss 4.1301 | lr 1.02e-05 | 1308 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6246ms mem 1493/3928MB
+step 21,550 | loss 4.6667 | lr 1.02e-05 | 1308 tok/s | fwd_bwd 18ms clip 23ms optim 119ms step 6329ms mem 1493/3928MB
+Checkpoint saved: checkpoints/step_021553
+step 21,560 | loss 4.7878 | lr 1.01e-05 | 1300 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6258ms mem 1493/3928MB
+step 21,570 | loss 4.7725 | lr 1.00e-05 | 1308 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6229ms mem 1493/3928MB
+step 21,580 | loss 4.0593 | lr 9.95e-06 | 1312 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6240ms mem 1452/3928MB
+step 21,590 | loss 4.7903 | lr 9.88e-06 | 1309 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6173ms mem 1452/3928MB
+step 21,600 | loss 4.7569 | lr 9.81e-06 | 1310 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6239ms mem 1493/3928MB
+step 21,610 | loss 4.4091 | lr 9.74e-06 | 1310 tok/s | fwd_bwd 3ms clip 21ms optim 113ms step 6241ms mem 1493/3928MB
+step 21,620 | loss 4.6873 | lr 9.67e-06 | 1309 tok/s | fwd_bwd 16ms clip 20ms optim 111ms step 6264ms mem 1493/3928MB
+step 21,630 | loss 4.6850 | lr 9.60e-06 | 1312 tok/s | fwd_bwd 14ms clip 20ms optim 111ms step 6251ms mem 1452/3928MB
+step 21,640 | loss 4.5366 | lr 9.54e-06 | 1312 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6239ms mem 1452/3928MB
+step 21,650 | loss 4.7461 | lr 9.47e-06 | 1306 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6278ms mem 1493/3928MB
+step 21,660 | loss 4.4573 | lr 9.40e-06 | 1292 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6673ms mem 1493/3928MB
+step 21,670 | loss 4.3170 | lr 9.33e-06 | 1304 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6270ms mem 1452/3928MB
+step 21,680 | loss 4.6245 | lr 9.26e-06 | 1304 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6244ms mem 1493/3928MB
+step 21,690 | loss 4.6251 | lr 9.20e-06 | 1310 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6220ms mem 1493/3928MB
+step 21,700 | loss 4.3413 | lr 9.13e-06 | 1312 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6231ms mem 1493/3928MB
+step 21,710 | loss 4.1564 | lr 9.06e-06 | 1312 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6219ms mem 1476/3928MB
+step 21,720 | loss 4.7225 | lr 9.00e-06 | 1311 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6179ms mem 1493/3928MB
+step 21,730 | loss 4.8122 | lr 8.93e-06 | 1328 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6148ms mem 1448/3928MB
+step 21,740 | loss 4.5410 | lr 8.86e-06 | 1335 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6100ms mem 1493/3928MB
+step 21,750 | loss 4.6370 | lr 8.80e-06 | 1343 tok/s | fwd_bwd 18ms clip 23ms optim 119ms step 6129ms mem 1493/3928MB
+step 21,760 | loss 4.4260 | lr 8.73e-06 | 1357 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6016ms mem 1493/3928MB
+step 21,770 | loss 5.0549 | lr 8.67e-06 | 1361 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6010ms mem 1493/3928MB
+step 21,780 | loss 4.5936 | lr 8.60e-06 | 1363 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 5995ms mem 1493/3928MB
+step 21,790 | loss 3.9412 | lr 8.54e-06 | 1363 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6009ms mem 1493/3928MB
+step 21,800 | loss 4.3082 | lr 8.47e-06 | 1364 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6000ms mem 1493/3928MB
+step 21,810 | loss 4.7537 | lr 8.41e-06 | 1362 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6002ms mem 1452/3928MB
+step 21,820 | loss 5.0958 | lr 8.34e-06 | 1363 tok/s | fwd_bwd 14ms clip 20ms optim 112ms step 5992ms mem 1493/3928MB
+step 21,830 | loss 4.5045 | lr 8.28e-06 | 1366 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6008ms mem 1493/3928MB
+step 21,840 | loss 4.3217 | lr 8.22e-06 | 1360 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6030ms mem 1493/3928MB
+step 21,850 | loss 4.2231 | lr 8.15e-06 | 1360 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6019ms mem 1452/3928MB
+step 21,860 | loss 4.9476 | lr 8.09e-06 | 1366 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 5986ms mem 1493/3928MB
+step 21,870 | loss 4.5310 | lr 8.03e-06 | 1366 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 5990ms mem 1448/3928MB
+step 21,880 | loss 4.5101 | lr 7.96e-06 | 1365 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 5987ms mem 1493/3928MB
+step 21,890 | loss 4.4364 | lr 7.90e-06 | 1368 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 5962ms mem 1493/3928MB
+step 21,900 | loss 4.3814 | lr 7.84e-06 | 1373 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 5971ms mem 1452/3928MB
+step 21,910 | loss 4.3039 | lr 7.78e-06 | 1372 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 5963ms mem 1493/3928MB
+step 21,920 | loss 4.8870 | lr 7.72e-06 | 1370 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 5981ms mem 1493/3928MB
+step 21,930 | loss 5.1960 | lr 7.66e-06 | 1369 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 5950ms mem 1452/3928MB
+step 21,940 | loss 4.2638 | lr 7.59e-06 | 1372 tok/s | fwd_bwd 14ms clip 20ms optim 111ms step 5974ms mem 1493/3928MB
+step 21,950 | loss 3.1603 | lr 7.53e-06 | 1372 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 5953ms mem 1493/3928MB
+step 21,960 | loss 4.5886 | lr 7.47e-06 | 1372 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 5970ms mem 1452/3928MB
+step 21,970 | loss 4.0361 | lr 7.41e-06 | 1370 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 5968ms mem 1493/3928MB
+step 21,980 | loss 4.9642 | lr 7.35e-06 | 1361 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 6011ms mem 1493/3928MB
+step 21,990 | loss 4.5947 | lr 7.29e-06 | 1356 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6027ms mem 1493/3928MB
+step 22,000 | loss 4.2533 | lr 7.23e-06 | 1354 tok/s | fwd_bwd 3ms clip 21ms optim 112ms step 6059ms mem 1493/3928MB
+  [eval] step 22000 | val_loss 4.4798 | ppl 88.22
+  Pruning old checkpoint: checkpoints/step_020000
+Checkpoint saved: checkpoints/step_022000
+  [samples] wrote checkpoints/step_022000/samples.txt
+step 22,010 | loss 5.1526 | lr 7.17e-06 | 462 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6096ms mem 1493/3928MB
+step 22,020 | loss 4.5434 | lr 7.11e-06 | 1346 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6047ms mem 1493/3928MB
+step 22,030 | loss 5.0142 | lr 7.05e-06 | 1347 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6077ms mem 1493/3928MB
+step 22,040 | loss 3.8228 | lr 6.99e-06 | 1345 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6083ms mem 1493/3928MB
+step 22,050 | loss 4.4920 | lr 6.94e-06 | 1343 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6090ms mem 1493/3928MB
+step 22,060 | loss 4.9828 | lr 6.88e-06 | 1347 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 5989ms mem 1493/3928MB
+step 22,070 | loss 4.6115 | lr 6.82e-06 | 1348 tok/s | fwd_bwd 16ms clip 20ms optim 111ms step 6087ms mem 1451/3928MB
+step 22,080 | loss 3.9795 | lr 6.76e-06 | 1350 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6078ms mem 1493/3928MB
+step 22,090 | loss 4.5393 | lr 6.70e-06 | 1345 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6100ms mem 1470/3928MB
+step 22,100 | loss 4.7301 | lr 6.65e-06 | 1344 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6067ms mem 1452/3928MB
+step 22,110 | loss 4.6096 | lr 6.59e-06 | 1346 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6051ms mem 1493/3928MB
+step 22,120 | loss 4.2725 | lr 6.53e-06 | 1357 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 5999ms mem 1493/3928MB
+  Pruning old checkpoint: checkpoints/step_020457
+Checkpoint saved: checkpoints/step_022124
+step 22,130 | loss 4.2305 | lr 6.48e-06 | 1352 tok/s | fwd_bwd 18ms clip 20ms optim 111ms step 6072ms mem 1493/3928MB
+step 22,140 | loss 4.3558 | lr 6.42e-06 | 1358 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6006ms mem 1493/3928MB
+step 22,150 | loss 4.3714 | lr 6.36e-06 | 1358 tok/s | fwd_bwd 11ms clip 20ms optim 112ms step 5996ms mem 1493/3928MB
+step 22,160 | loss 3.9077 | lr 6.31e-06 | 1365 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 5962ms mem 1452/3928MB
+step 22,170 | loss 5.3254 | lr 6.25e-06 | 1370 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 5981ms mem 1493/3928MB
+step 22,180 | loss 4.3946 | lr 6.20e-06 | 1371 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 5941ms mem 1493/3928MB
+step 22,190 | loss 4.6926 | lr 6.14e-06 | 1372 tok/s | fwd_bwd 9ms clip 20ms optim 111ms step 5941ms mem 1452/3928MB
+step 22,200 | loss 4.7440 | lr 6.09e-06 | 1368 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 5980ms mem 1452/3928MB
+step 22,210 | loss 4.3487 | lr 6.03e-06 | 1367 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 5969ms mem 1451/3928MB
+Resuming from checkpoint: checkpoints/step_022124
+  Resumed at step 22124
+
+============================================================
+  Unrealistic 187M — Training
+  Parameters: 189,748,992
+  Dtype: bfloat16
+  Optimizer: AdamW (mlx)
+  Micro-batch: 1 × 8 accum
+  Effective batch: 8
+  Memory: 537 MB
+============================================================
+
+step 22,130 | loss 2.1297 | lr 6.47e-06 | 1413 tok/s | fwd_bwd 5ms clip 21ms optim 116ms step 4937ms mem 1448/3311MB
+step 22,140 | loss 4.2076 | lr 6.41e-06 | 1653 tok/s | fwd_bwd 5ms clip 21ms optim 118ms step 4976ms mem 1493/3311MB
+step 22,150 | loss 4.6729 | lr 6.36e-06 | 1631 tok/s | fwd_bwd 17ms clip 22ms optim 118ms step 4942ms mem 1448/3311MB
+step 22,160 | loss 4.4034 | lr 6.30e-06 | 1459 tok/s | fwd_bwd 6ms clip 21ms optim 116ms step 6445ms mem 1493/3311MB
+step 22,170 | loss 4.1861 | lr 6.25e-06 | 1237 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6625ms mem 1493/3311MB
+step 22,180 | loss 4.1989 | lr 6.19e-06 | 1287 tok/s | fwd_bwd 18ms clip 21ms optim 113ms step 6055ms mem 1493/3311MB
+step 22,190 | loss 3.9839 | lr 6.14e-06 | 1311 tok/s | fwd_bwd 11ms clip 22ms optim 118ms step 6378ms mem 1452/3311MB
+step 22,200 | loss 4.2548 | lr 6.08e-06 | 1277 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6514ms mem 1493/3311MB
+step 22,210 | loss 4.1232 | lr 6.03e-06 | 1299 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6317ms mem 1493/3311MB
+step 22,220 | loss 4.0101 | lr 5.97e-06 | 1280 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6482ms mem 1493/3311MB
+step 22,230 | loss 4.4227 | lr 5.92e-06 | 1312 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 5991ms mem 1493/3311MB
+step 22,240 | loss 4.9445 | lr 5.86e-06 | 1272 tok/s | fwd_bwd 5ms clip 20ms optim 113ms step 6587ms mem 1493/3311MB
+step 22,250 | loss 3.8591 | lr 5.81e-06 | 1289 tok/s | fwd_bwd 8ms clip 21ms optim 112ms step 6399ms mem 1493/3311MB
+step 22,260 | loss 3.9320 | lr 5.76e-06 | 1242 tok/s | fwd_bwd 7ms clip 22ms optim 115ms step 6291ms mem 1452/3311MB
+Resuming from checkpoint: checkpoints/step_022124
+  Resumed at step 22124
+
+============================================================
+  Unrealistic 187M — Training
+  Parameters: 189,748,992
+  Dtype: bfloat16
+  Optimizer: AdamW (mlx)
+  Micro-batch: 1 × 8 accum
+  Effective batch: 8
+  Memory: 534 MB
+============================================================
+
+step 22,130 | loss 4.3921 | lr 6.47e-06 | 1393 tok/s | fwd_bwd 8ms clip 23ms optim 125ms step 5032ms mem 1493/3311MB
+step 22,140 | loss 4.4962 | lr 6.41e-06 | 1647 tok/s | fwd_bwd 6ms clip 21ms optim 115ms step 4963ms mem 1493/3311MB
+step 22,150 | loss 4.3998 | lr 6.36e-06 | 1657 tok/s | fwd_bwd 16ms clip 23ms optim 120ms step 4930ms mem 1448/3311MB
+step 22,160 | loss 4.5004 | lr 6.30e-06 | 1654 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 4980ms mem 1493/3311MB
+step 22,170 | loss 4.3037 | lr 6.25e-06 | 1579 tok/s | fwd_bwd 12ms clip 20ms optim 110ms step 5302ms mem 1493/3311MB
+step 22,180 | loss 4.4679 | lr 6.19e-06 | 1454 tok/s | fwd_bwd 16ms clip 23ms optim 119ms step 5744ms mem 1493/3311MB
+step 22,190 | loss 2.5714 | lr 6.14e-06 | 1347 tok/s | fwd_bwd 15ms clip 24ms optim 131ms step 6321ms mem 1493/3311MB
+step 22,200 | loss 3.7774 | lr 6.08e-06 | 1277 tok/s | fwd_bwd 9ms clip 21ms optim 123ms step 6157ms mem 1493/3311MB
+step 22,210 | loss 4.1699 | lr 6.03e-06 | 1289 tok/s | fwd_bwd 10ms clip 22ms optim 122ms step 6310ms mem 1493/3311MB
+step 22,220 | loss 4.2729 | lr 5.97e-06 | 1277 tok/s | fwd_bwd 5ms clip 21ms optim 122ms step 6458ms mem 1493/3311MB
+step 22,230 | loss 4.8789 | lr 5.92e-06 | 1270 tok/s | fwd_bwd 3ms clip 22ms optim 120ms step 6414ms mem 1493/3311MB
+step 22,240 | loss 4.4928 | lr 5.86e-06 | 1243 tok/s | fwd_bwd 5ms clip 21ms optim 119ms step 6391ms mem 1493/3311MB
+step 22,250 | loss 4.4301 | lr 5.81e-06 | 1248 tok/s | fwd_bwd 3ms clip 21ms optim 119ms step 6434ms mem 1493/3311MB
+step 22,260 | loss 4.0506 | lr 5.76e-06 | 1244 tok/s | fwd_bwd 6ms clip 21ms optim 123ms step 6420ms mem 1493/3311MB
+step 22,270 | loss 4.0791 | lr 5.70e-06 | 1246 tok/s | fwd_bwd 8ms clip 20ms optim 120ms step 6478ms mem 1493/3311MB
+step 22,280 | loss 4.1136 | lr 5.65e-06 | 1261 tok/s | fwd_bwd 9ms clip 21ms optim 119ms step 6417ms mem 1493/3311MB
+step 22,290 | loss 4.1269 | lr 5.60e-06 | 1260 tok/s | fwd_bwd 5ms clip 23ms optim 118ms step 6468ms mem 1493/3311MB
+step 22,300 | loss 4.2301 | lr 5.54e-06 | 1257 tok/s | fwd_bwd 3ms clip 20ms optim 119ms step 6582ms mem 1493/3311MB
+step 22,310 | loss 4.4591 | lr 5.49e-06 | 1251 tok/s | fwd_bwd 4ms clip 23ms optim 122ms step 6576ms mem 1452/3311MB
+step 22,320 | loss 3.9789 | lr 5.44e-06 | 1223 tok/s | fwd_bwd 15ms clip 23ms optim 118ms step 6275ms mem 1493/3311MB
+step 22,330 | loss 4.1229 | lr 5.39e-06 | 1284 tok/s | fwd_bwd 17ms clip 23ms optim 120ms step 6275ms mem 1493/3311MB
+step 22,340 | loss 4.6020 | lr 5.34e-06 | 1308 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6044ms mem 1493/3311MB
+step 22,350 | loss 4.2953 | lr 5.28e-06 | 1327 tok/s | fwd_bwd 17ms clip 20ms optim 111ms step 6162ms mem 1448/3311MB
+step 22,360 | loss 4.6139 | lr 5.23e-06 | 1317 tok/s | fwd_bwd 18ms clip 23ms optim 120ms step 6228ms mem 1493/3311MB
+step 22,370 | loss 4.0144 | lr 5.18e-06 | 1330 tok/s | fwd_bwd 11ms clip 20ms optim 112ms step 6167ms mem 1493/3311MB
+step 22,380 | loss 4.4605 | lr 5.13e-06 | 1295 tok/s | fwd_bwd 18ms clip 23ms optim 120ms step 6211ms mem 1493/3311MB
+step 22,390 | loss 4.0187 | lr 5.08e-06 | 1324 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6158ms mem 1493/3311MB
+step 22,400 | loss 4.1365 | lr 5.03e-06 | 1327 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6147ms mem 1493/3311MB
+step 22,410 | loss 2.7596 | lr 4.98e-06 | 1328 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6146ms mem 1476/3311MB
+step 22,420 | loss 4.1396 | lr 4.93e-06 | 1324 tok/s | fwd_bwd 14ms clip 20ms optim 112ms step 6172ms mem 1493/3311MB
+step 22,430 | loss 4.7061 | lr 4.88e-06 | 1323 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6185ms mem 1492/3311MB
+step 22,440 | loss 3.9180 | lr 4.83e-06 | 1318 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6194ms mem 1493/3311MB
+step 22,450 | loss 4.3214 | lr 4.78e-06 | 1317 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6230ms mem 1493/3311MB
+step 22,460 | loss 4.1010 | lr 4.74e-06 | 1317 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6149ms mem 1493/3311MB
+step 22,470 | loss 3.9855 | lr 4.69e-06 | 1315 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6111ms mem 1452/3311MB
+step 22,480 | loss 4.1459 | lr 4.64e-06 | 1318 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6208ms mem 1493/3311MB
+step 22,490 | loss 4.2388 | lr 4.59e-06 | 1320 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6169ms mem 1451/3311MB
+step 22,500 | loss 4.6290 | lr 4.54e-06 | 1317 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6231ms mem 1448/3311MB
+  [eval] step 22500 | val_loss 4.5319 | ppl 92.93
+step 22,510 | loss 4.0357 | lr 4.50e-06 | 516 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6214ms mem 1451/3928MB
+step 22,520 | loss 4.4242 | lr 4.45e-06 | 1315 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6200ms mem 1493/3928MB
+step 22,530 | loss 4.1359 | lr 4.40e-06 | 1312 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6221ms mem 1493/3928MB
+step 22,540 | loss 4.7526 | lr 4.36e-06 | 1313 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6154ms mem 1493/3928MB
+step 22,550 | loss 4.4345 | lr 4.31e-06 | 1313 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6218ms mem 1493/3928MB
+step 22,560 | loss 3.8216 | lr 4.26e-06 | 1312 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6208ms mem 1493/3928MB
+step 22,570 | loss 4.5070 | lr 4.22e-06 | 1306 tok/s | fwd_bwd 14ms clip 20ms optim 111ms step 6235ms mem 1493/3928MB
+step 22,580 | loss 4.2780 | lr 4.17e-06 | 1313 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6210ms mem 1452/3928MB
+step 22,590 | loss 4.2026 | lr 4.13e-06 | 1313 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6164ms mem 1493/3928MB
+step 22,600 | loss 4.2686 | lr 4.08e-06 | 1317 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6212ms mem 1493/3928MB
+step 22,610 | loss 4.2383 | lr 4.04e-06 | 1314 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6214ms mem 1450/3928MB
+step 22,620 | loss 4.5663 | lr 3.99e-06 | 1307 tok/s | fwd_bwd 19ms clip 20ms optim 112ms step 6338ms mem 1452/3928MB
+step 22,630 | loss 3.8100 | lr 3.95e-06 | 1311 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6232ms mem 1452/3928MB
+step 22,640 | loss 4.2950 | lr 3.90e-06 | 1310 tok/s | fwd_bwd 16ms clip 20ms optim 111ms step 6274ms mem 1493/3928MB
+step 22,650 | loss 4.8449 | lr 3.86e-06 | 1312 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6236ms mem 1493/3928MB
+step 22,660 | loss 4.0774 | lr 3.81e-06 | 1312 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6240ms mem 1452/3928MB
+step 22,670 | loss 3.6562 | lr 3.77e-06 | 1313 tok/s | fwd_bwd 19ms clip 23ms optim 120ms step 6270ms mem 1493/3928MB
+step 22,680 | loss 4.5043 | lr 3.73e-06 | 1314 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6231ms mem 1493/3928MB
+step 22,690 | loss 3.9674 | lr 3.69e-06 | 1309 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6181ms mem 1452/3928MB
+  Pruning old checkpoint: checkpoints/step_021000
+Checkpoint saved: checkpoints/step_022690
+step 22,700 | loss 4.2553 | lr 3.64e-06 | 1305 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6232ms mem 1493/3928MB
+step 22,710 | loss 4.3626 | lr 3.60e-06 | 1312 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6237ms mem 1493/3928MB
+step 22,720 | loss 3.9449 | lr 3.56e-06 | 1310 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6213ms mem 1493/3928MB
+step 22,730 | loss 4.1369 | lr 3.52e-06 | 1311 tok/s | fwd_bwd 14ms clip 20ms optim 111ms step 6250ms mem 1452/3928MB
+step 22,740 | loss 4.3425 | lr 3.47e-06 | 1307 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6251ms mem 1452/3928MB
+step 22,750 | loss 4.5131 | lr 3.43e-06 | 1309 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6233ms mem 1493/3928MB
+step 22,760 | loss 3.6669 | lr 3.39e-06 | 1312 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6219ms mem 1493/3928MB
+step 22,770 | loss 3.6116 | lr 3.35e-06 | 1314 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6208ms mem 1470/3928MB
+step 22,780 | loss 3.8368 | lr 3.31e-06 | 1312 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6246ms mem 1493/3928MB
+step 22,790 | loss 3.9450 | lr 3.27e-06 | 1309 tok/s | fwd_bwd 19ms clip 20ms optim 112ms step 6314ms mem 1451/3928MB
+step 22,800 | loss 3.7750 | lr 3.23e-06 | 1308 tok/s | fwd_bwd 15ms clip 20ms optim 112ms step 6268ms mem 1493/3928MB
+step 22,810 | loss 3.1855 | lr 3.19e-06 | 1312 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6190ms mem 1493/3928MB
+step 22,820 | loss 4.1151 | lr 3.15e-06 | 1306 tok/s | fwd_bwd 19ms clip 23ms optim 119ms step 6335ms mem 1493/3928MB
+step 22,830 | loss 4.0712 | lr 3.11e-06 | 1314 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6225ms mem 1493/3928MB
+step 22,840 | loss 4.4546 | lr 3.07e-06 | 1310 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6249ms mem 1493/3928MB
+step 22,850 | loss 4.2947 | lr 3.03e-06 | 1305 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6263ms mem 1493/3928MB
+step 22,860 | loss 4.2027 | lr 2.99e-06 | 1306 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6248ms mem 1493/3928MB
+step 22,870 | loss 4.1952 | lr 2.95e-06 | 1306 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6245ms mem 1451/3928MB
+step 22,880 | loss 4.1533 | lr 2.92e-06 | 1306 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6242ms mem 1493/3928MB
+step 22,890 | loss 4.5307 | lr 2.88e-06 | 1308 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6158ms mem 1452/3928MB
+step 22,900 | loss 3.9630 | lr 2.84e-06 | 1305 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6239ms mem 1493/3928MB
+step 22,910 | loss 3.7930 | lr 2.80e-06 | 1308 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6250ms mem 1452/3928MB
+step 22,920 | loss 4.3022 | lr 2.76e-06 | 1311 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6228ms mem 1493/3928MB
+step 22,930 | loss 4.5313 | lr 2.73e-06 | 1306 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6269ms mem 1493/3928MB
+step 22,940 | loss 4.4188 | lr 2.69e-06 | 1308 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6254ms mem 1493/3928MB
+step 22,950 | loss 4.2053 | lr 2.65e-06 | 1306 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6266ms mem 1452/3928MB
+step 22,960 | loss 4.2937 | lr 2.62e-06 | 1307 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6241ms mem 1493/3928MB
+step 22,970 | loss 4.0381 | lr 2.58e-06 | 1304 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6349ms mem 1452/3928MB
+step 22,980 | loss 4.0675 | lr 2.55e-06 | 1302 tok/s | fwd_bwd 11ms clip 20ms optim 112ms step 6263ms mem 1452/3928MB
+step 22,990 | loss 4.0971 | lr 2.51e-06 | 1307 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6227ms mem 1493/3928MB
+step 23,000 | loss 4.5509 | lr 2.47e-06 | 1309 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6234ms mem 1493/3928MB
+  [eval] step 23000 | val_loss 4.5507 | ppl 94.70
+  Pruning old checkpoint: checkpoints/step_021553
+Checkpoint saved: checkpoints/step_023000
+  [samples] wrote checkpoints/step_023000/samples.txt
+step 23,010 | loss 3.7978 | lr 2.44e-06 | 449 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6315ms mem 1493/3928MB
+step 23,020 | loss 4.1299 | lr 2.40e-06 | 1298 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6269ms mem 1493/3928MB
+step 23,030 | loss 4.0657 | lr 2.37e-06 | 1309 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6207ms mem 1493/3928MB
+step 23,040 | loss 4.2451 | lr 2.34e-06 | 1310 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6260ms mem 1493/3928MB
+step 23,050 | loss 4.3301 | lr 2.30e-06 | 1307 tok/s | fwd_bwd 5ms clip 21ms optim 112ms step 6323ms mem 1493/3928MB
+step 23,060 | loss 4.3643 | lr 2.27e-06 | 1300 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6280ms mem 1493/3928MB
+step 23,070 | loss 4.1744 | lr 2.23e-06 | 1305 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6261ms mem 1493/3928MB
+step 23,080 | loss 4.0646 | lr 2.20e-06 | 1307 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6243ms mem 1452/3928MB
+step 23,090 | loss 4.2237 | lr 2.17e-06 | 1311 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6225ms mem 1493/3928MB
+step 23,100 | loss 4.2314 | lr 2.14e-06 | 1307 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6259ms mem 1452/3928MB
+step 23,110 | loss 3.9307 | lr 2.10e-06 | 1304 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6279ms mem 1493/3928MB
+step 23,120 | loss 4.1015 | lr 2.07e-06 | 1306 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6268ms mem 1493/3928MB
+step 23,130 | loss 4.1660 | lr 2.04e-06 | 1309 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6250ms mem 1493/3928MB
+step 23,140 | loss 4.1742 | lr 2.01e-06 | 1305 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6245ms mem 1493/3928MB
+step 23,150 | loss 4.0596 | lr 1.97e-06 | 1308 tok/s | fwd_bwd 4ms clip 21ms optim 111ms step 6243ms mem 1452/3928MB
+step 23,160 | loss 4.2124 | lr 1.94e-06 | 1308 tok/s | fwd_bwd 19ms clip 23ms optim 119ms step 6329ms mem 1493/3928MB
+step 23,170 | loss 3.6769 | lr 1.91e-06 | 1309 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6266ms mem 1493/3928MB
+step 23,180 | loss 3.9874 | lr 1.88e-06 | 1309 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6233ms mem 1493/3928MB
+step 23,190 | loss 4.4536 | lr 1.85e-06 | 1308 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6260ms mem 1451/3928MB
+step 23,200 | loss 3.6331 | lr 1.82e-06 | 1310 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6237ms mem 1493/3928MB
+step 23,210 | loss 3.8767 | lr 1.79e-06 | 1309 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6243ms mem 1493/3928MB
+step 23,220 | loss 4.4281 | lr 1.76e-06 | 1307 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6250ms mem 1452/3928MB
+step 23,230 | loss 4.1094 | lr 1.73e-06 | 1308 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6253ms mem 1493/3928MB
+step 23,240 | loss 4.1104 | lr 1.70e-06 | 1305 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6400ms mem 1452/3928MB
+  Pruning old checkpoint: checkpoints/step_022000
+Checkpoint saved: checkpoints/step_023246
+step 23,250 | loss 4.3262 | lr 1.67e-06 | 1299 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6272ms mem 1464/3928MB
+step 23,260 | loss 4.4893 | lr 1.64e-06 | 1307 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6244ms mem 1449/3928MB
+step 23,270 | loss 4.6677 | lr 1.61e-06 | 1307 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6231ms mem 1451/3928MB
+step 23,280 | loss 4.0239 | lr 1.59e-06 | 1310 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6259ms mem 1451/3928MB
+step 23,290 | loss 4.6636 | lr 1.56e-06 | 1307 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6241ms mem 1493/3928MB
+step 23,300 | loss 4.3022 | lr 1.53e-06 | 1306 tok/s | fwd_bwd 4ms clip 21ms optim 112ms step 6236ms mem 1493/3928MB
+step 23,310 | loss 4.0818 | lr 1.50e-06 | 1308 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6245ms mem 1493/3928MB
+step 23,320 | loss 3.8053 | lr 1.48e-06 | 1309 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6225ms mem 1451/3928MB
+step 23,330 | loss 4.5273 | lr 1.45e-06 | 1311 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6252ms mem 1448/3928MB
+step 23,340 | loss 3.8573 | lr 1.42e-06 | 1307 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6248ms mem 1451/3928MB
+step 23,350 | loss 4.1971 | lr 1.40e-06 | 1313 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6236ms mem 1493/3928MB
+step 23,360 | loss 4.0251 | lr 1.37e-06 | 1308 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6274ms mem 1452/3928MB
+step 23,370 | loss 4.2895 | lr 1.34e-06 | 1306 tok/s | fwd_bwd 19ms clip 23ms optim 119ms step 6333ms mem 1452/3928MB
+step 23,380 | loss 4.2492 | lr 1.32e-06 | 1297 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6349ms mem 1452/3928MB
+step 23,390 | loss 4.1957 | lr 1.29e-06 | 1298 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6290ms mem 1493/3928MB
+step 23,400 | loss 4.3588 | lr 1.27e-06 | 1307 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6217ms mem 1452/3928MB
+step 23,410 | loss 4.1041 | lr 1.24e-06 | 1313 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6219ms mem 1493/3928MB
+step 23,420 | loss 2.4728 | lr 1.22e-06 | 1310 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6173ms mem 1493/3928MB
+step 23,430 | loss 4.3366 | lr 1.19e-06 | 1310 tok/s | fwd_bwd 5ms clip 20ms optim 113ms step 6252ms mem 1493/3928MB
+step 23,440 | loss 4.6183 | lr 1.17e-06 | 1292 tok/s | fwd_bwd 8ms clip 21ms optim 111ms step 6407ms mem 1493/3928MB
+step 23,450 | loss 4.1585 | lr 1.14e-06 | 1290 tok/s | fwd_bwd 5ms clip 20ms optim 113ms step 6331ms mem 1489/3928MB
+step 23,460 | loss 4.1735 | lr 1.12e-06 | 1296 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6260ms mem 1493/3928MB
+step 23,470 | loss 4.3638 | lr 1.10e-06 | 1296 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6265ms mem 1452/3928MB
+step 23,480 | loss 4.6863 | lr 1.07e-06 | 1301 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6263ms mem 1492/3928MB
+step 23,490 | loss 4.0174 | lr 1.05e-06 | 1301 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6266ms mem 1493/3928MB
+step 23,500 | loss 4.2496 | lr 1.03e-06 | 1303 tok/s | fwd_bwd 18ms clip 23ms optim 123ms step 6329ms mem 1493/3928MB
+  [eval] step 23500 | val_loss 4.5614 | ppl 95.71
+step 23,510 | loss 4.7468 | lr 1.00e-06 | 512 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6218ms mem 1493/3928MB
+step 23,520 | loss 4.4256 | lr 9.81e-07 | 1296 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6307ms mem 1493/3928MB
+step 23,530 | loss 4.4600 | lr 9.59e-07 | 1299 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6274ms mem 1493/3928MB
+step 23,540 | loss 4.4752 | lr 9.37e-07 | 1302 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6261ms mem 1493/3928MB
+step 23,550 | loss 3.8552 | lr 9.16e-07 | 1304 tok/s | fwd_bwd 11ms clip 20ms optim 111ms step 6254ms mem 1452/3928MB
+step 23,560 | loss 4.5438 | lr 8.94e-07 | 1299 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6286ms mem 1493/3928MB
+step 23,570 | loss 4.1830 | lr 8.73e-07 | 1302 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6258ms mem 1493/3928MB
+step 23,580 | loss 4.1231 | lr 8.52e-07 | 1304 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6258ms mem 1493/3928MB
+step 23,590 | loss 3.8501 | lr 8.32e-07 | 1307 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6248ms mem 1493/3928MB
+step 23,600 | loss 4.0823 | lr 8.11e-07 | 1303 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6281ms mem 1451/3928MB
+step 23,610 | loss 5.2548 | lr 7.91e-07 | 1302 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6264ms mem 1452/3928MB
+step 23,620 | loss 4.6236 | lr 7.71e-07 | 1298 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6277ms mem 1493/3928MB
+step 23,630 | loss 4.6782 | lr 7.52e-07 | 1286 tok/s | fwd_bwd 16ms clip 20ms optim 112ms step 6418ms mem 1451/3928MB
+step 23,640 | loss 4.0956 | lr 7.32e-07 | 1293 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6270ms mem 1451/3928MB
+step 23,650 | loss 4.4148 | lr 7.13e-07 | 1296 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6289ms mem 1493/3928MB
+step 23,660 | loss 4.0168 | lr 6.95e-07 | 1296 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6302ms mem 1493/3928MB
+step 23,670 | loss 4.2402 | lr 6.76e-07 | 1295 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6288ms mem 1489/3928MB
+step 23,680 | loss 4.7508 | lr 6.58e-07 | 1298 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6291ms mem 1452/3928MB
+step 23,690 | loss 4.6403 | lr 6.40e-07 | 1295 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6292ms mem 1493/3928MB
+step 23,700 | loss 4.8007 | lr 6.22e-07 | 1297 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6293ms mem 1493/3928MB
+step 23,710 | loss 4.0320 | lr 6.04e-07 | 1294 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6300ms mem 1493/3928MB
+step 23,720 | loss 4.0504 | lr 5.87e-07 | 1296 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6296ms mem 1493/3928MB
+step 23,730 | loss 4.0233 | lr 5.70e-07 | 1295 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6304ms mem 1493/3928MB
+step 23,740 | loss 4.4513 | lr 5.53e-07 | 1295 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6303ms mem 1489/3928MB
+step 23,750 | loss 4.6385 | lr 5.36e-07 | 1292 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6313ms mem 1493/3928MB
+step 23,760 | loss 4.4746 | lr 5.20e-07 | 1295 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6310ms mem 1493/3928MB
+step 23,770 | loss 3.6808 | lr 5.04e-07 | 1289 tok/s | fwd_bwd 9ms clip 20ms optim 113ms step 6377ms mem 1493/3928MB
+step 23,780 | loss 4.0889 | lr 4.88e-07 | 1287 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6373ms mem 1493/3928MB
+step 23,790 | loss 4.6467 | lr 4.73e-07 | 1288 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6332ms mem 1493/3928MB
+step 23,800 | loss 4.0066 | lr 4.57e-07 | 1284 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6346ms mem 1493/3928MB
+  Pruning old checkpoint: checkpoints/step_022124
+Checkpoint saved: checkpoints/step_023802
+step 23,810 | loss 3.6125 | lr 4.42e-07 | 1275 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6352ms mem 1493/3928MB
+step 23,820 | loss 4.3303 | lr 4.27e-07 | 1287 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6348ms mem 1448/3928MB
+step 23,830 | loss 4.6771 | lr 4.13e-07 | 1285 tok/s | fwd_bwd 10ms clip 20ms optim 113ms step 6405ms mem 1493/3928MB
+step 23,840 | loss 4.4462 | lr 3.99e-07 | 1285 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6248ms mem 1451/3928MB
+step 23,850 | loss 4.5950 | lr 3.85e-07 | 1282 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6373ms mem 1493/3928MB
+step 23,860 | loss 5.2198 | lr 3.71e-07 | 1291 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6298ms mem 1493/3928MB
+step 23,870 | loss 4.5507 | lr 3.57e-07 | 1301 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6329ms mem 1493/3928MB
+step 23,880 | loss 4.2524 | lr 3.44e-07 | 1302 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6265ms mem 1493/3928MB
+step 23,890 | loss 3.9188 | lr 3.31e-07 | 1299 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6329ms mem 1493/3928MB
+step 23,900 | loss 4.2799 | lr 3.18e-07 | 1292 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6200ms mem 1493/3928MB
+step 23,910 | loss 4.2303 | lr 3.06e-07 | 1293 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6351ms mem 1493/3928MB
+step 23,920 | loss 4.1584 | lr 2.93e-07 | 1291 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6354ms mem 1452/3928MB
+step 23,930 | loss 3.8242 | lr 2.81e-07 | 1293 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6361ms mem 1493/3928MB
+step 23,940 | loss 3.8040 | lr 2.69e-07 | 1290 tok/s | fwd_bwd 17ms clip 20ms optim 112ms step 6350ms mem 1493/3928MB
+step 23,950 | loss 4.1460 | lr 2.58e-07 | 1295 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6328ms mem 1493/3928MB
+step 23,960 | loss 3.8157 | lr 2.47e-07 | 1298 tok/s | fwd_bwd 8ms clip 20ms optim 111ms step 6286ms mem 1493/3928MB
+step 23,970 | loss 3.9966 | lr 2.36e-07 | 1299 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6288ms mem 1493/3928MB
+step 23,980 | loss 4.2903 | lr 2.25e-07 | 1297 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6283ms mem 1493/3928MB
+step 23,990 | loss 4.1102 | lr 2.14e-07 | 1295 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6326ms mem 1452/3928MB
+step 24,000 | loss 3.7983 | lr 2.04e-07 | 1298 tok/s | fwd_bwd 5ms clip 20ms optim 112ms step 6282ms mem 1493/3928MB
+  [eval] step 24000 | val_loss 4.5371 | ppl 93.42
+  Pruning old checkpoint: checkpoints/step_022690
+Checkpoint saved: checkpoints/step_024000
+  [samples] wrote checkpoints/step_024000/samples.txt
+step 24,010 | loss 4.1844 | lr 1.94e-07 | 450 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6257ms mem 1493/3928MB
+step 24,020 | loss 4.3003 | lr 1.84e-07 | 1301 tok/s | fwd_bwd 15ms clip 20ms optim 111ms step 6257ms mem 1493/3928MB
+step 24,030 | loss 4.2836 | lr 1.75e-07 | 1309 tok/s | fwd_bwd 18ms clip 21ms optim 112ms step 6312ms mem 1493/3928MB
+step 24,040 | loss 4.9063 | lr 1.65e-07 | 1319 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6186ms mem 1482/3928MB
+step 24,050 | loss 4.1021 | lr 1.56e-07 | 1319 tok/s | fwd_bwd 7ms clip 20ms optim 111ms step 6168ms mem 1493/3928MB
+step 24,060 | loss 4.1174 | lr 1.48e-07 | 1305 tok/s | fwd_bwd 5ms clip 23ms optim 126ms step 6626ms mem 1493/3928MB
+step 24,070 | loss 4.4990 | lr 1.39e-07 | 1295 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6238ms mem 1493/3928MB
+step 24,080 | loss 4.1608 | lr 1.31e-07 | 1313 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6199ms mem 1493/3928MB
+step 24,090 | loss 4.5081 | lr 1.23e-07 | 1317 tok/s | fwd_bwd 18ms clip 23ms optim 121ms step 6341ms mem 1482/3928MB
+step 24,100 | loss 4.4469 | lr 1.15e-07 | 1318 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6183ms mem 1493/3928MB
+step 24,110 | loss 4.6623 | lr 1.08e-07 | 1321 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6190ms mem 1493/3928MB
+step 24,120 | loss 4.2630 | lr 1.00e-07 | 1317 tok/s | fwd_bwd 8ms clip 20ms optim 113ms step 6251ms mem 1493/3928MB
+step 24,130 | loss 4.2400 | lr 9.34e-08 | 1315 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6236ms mem 1493/3928MB
+step 24,140 | loss 4.1147 | lr 8.66e-08 | 1315 tok/s | fwd_bwd 13ms clip 20ms optim 111ms step 6200ms mem 1493/3928MB
+step 24,150 | loss 4.7936 | lr 8.02e-08 | 1319 tok/s | fwd_bwd 16ms clip 20ms optim 111ms step 6217ms mem 1493/3928MB
+step 24,160 | loss 4.2159 | lr 7.39e-08 | 1321 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6177ms mem 1493/3928MB
+step 24,170 | loss 3.6514 | lr 6.79e-08 | 1321 tok/s | fwd_bwd 9ms clip 20ms optim 112ms step 6197ms mem 1493/3928MB
+step 24,180 | loss 3.7710 | lr 6.22e-08 | 1322 tok/s | fwd_bwd 12ms clip 20ms optim 112ms step 6182ms mem 1493/3928MB
+step 24,190 | loss 3.7636 | lr 5.67e-08 | 1322 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6181ms mem 1493/3928MB
+step 24,200 | loss 4.3522 | lr 5.15e-08 | 1319 tok/s | fwd_bwd 5ms clip 20ms optim 111ms step 6196ms mem 1493/3928MB
+step 24,210 | loss 4.4983 | lr 4.65e-08 | 1321 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6162ms mem 1451/3928MB
+step 24,220 | loss 4.4528 | lr 4.18e-08 | 1324 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6169ms mem 1493/3928MB
+step 24,230 | loss 4.6649 | lr 3.73e-08 | 1321 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6181ms mem 1493/3928MB
+step 24,240 | loss 4.0180 | lr 3.31e-08 | 1319 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6200ms mem 1490/3928MB
+step 24,250 | loss 4.6042 | lr 2.92e-08 | 1317 tok/s | fwd_bwd 4ms clip 20ms optim 111ms step 6191ms mem 1452/3928MB
+step 24,260 | loss 4.0001 | lr 2.55e-08 | 1316 tok/s | fwd_bwd 12ms clip 20ms optim 111ms step 6208ms mem 1493/3928MB
+step 24,270 | loss 3.8888 | lr 2.20e-08 | 1318 tok/s | fwd_bwd 8ms clip 20ms optim 112ms step 6215ms mem 1493/3928MB
+step 24,280 | loss 4.5912 | lr 1.88e-08 | 1312 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6233ms mem 1488/3928MB
+step 24,290 | loss 4.4917 | lr 1.58e-08 | 1308 tok/s | fwd_bwd 3ms clip 20ms optim 112ms step 6248ms mem 1451/3928MB
+step 24,300 | loss 4.4337 | lr 1.31e-08 | 1307 tok/s | fwd_bwd 6ms clip 20ms optim 111ms step 6254ms mem 1493/3928MB
+step 24,310 | loss 4.0183 | lr 1.07e-08 | 1304 tok/s | fwd_bwd 4ms clip 20ms optim 112ms step 6264ms mem 1493/3928MB
+step 24,320 | loss 4.4426 | lr 8.48e-09 | 1301 tok/s | fwd_bwd 9ms clip 20ms optim 112ms step 6292ms mem 1493/3928MB
+step 24,330 | loss 4.3837 | lr 6.54e-09 | 1298 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6293ms mem 1452/3928MB
+step 24,340 | loss 4.8179 | lr 4.85e-09 | 1298 tok/s | fwd_bwd 10ms clip 20ms optim 111ms step 6297ms mem 1493/3928MB
+step 24,350 | loss 4.4047 | lr 3.40e-09 | 1293 tok/s | fwd_bwd 10ms clip 20ms optim 112ms step 6361ms mem 1464/3928MB
+  Pruning old checkpoint: checkpoints/step_023000
+Checkpoint saved: checkpoints/step_024357
+step 24,360 | loss 4.6825 | lr 2.23e-09 | 1281 tok/s | fwd_bwd 7ms clip 20ms optim 112ms step 6391ms mem 1493/3928MB
+step 24,370 | loss 4.7084 | lr 1.29e-09 | 1291 tok/s | fwd_bwd 6ms clip 20ms optim 112ms step 6318ms mem 1448/3928MB
+step 24,380 | loss 4.3525 | lr 6.17e-10 | 1292 tok/s | fwd_bwd 3ms clip 20ms optim 111ms step 6318ms mem 1452/3928MB
+step 24,390 | loss 4.5032 | lr 1.79e-10 | 1289 tok/s | fwd_bwd 5ms clip 20ms optim 113ms step 6367ms mem 1493/3928MB
+step 24,400 | loss 4.0695 | lr 0.00e+00 | 1288 tok/s | fwd_bwd 19ms clip 20ms optim 112ms step 6418ms mem 1451/3928MB
+step 24,410 | loss 3.8693 | lr 0.00e+00 | 1291 tok/s | fwd_bwd 6ms clip 20ms optim 113ms step 6326ms mem 1493/3928MB
+  Pruning old checkpoint: checkpoints/step_023246
+Checkpoint saved: checkpoints/step_024413
+
+Training complete at step 24413.

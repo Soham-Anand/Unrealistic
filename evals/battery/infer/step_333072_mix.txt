@@ -1,0 +1,53 @@
+Checkpoint: checkpoints/step_333072
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is 8 + 7?' ---
+The answer is 10.
+
+--- 'What is 12 x 4?' ---
+The answer is 9.
+
+--- 'What is the square root of 49?' ---
+The answer is 3.
+
+--- 'What is 2 + 2?' ---
+The answer is 4.
+
+--- 'What is 64 / 8?' ---
+The answer is 3.
+
+--- 'The capital of France is' ---
+the 1930s. It was also known as Paris, but it has been since made a part in its history and now works are still available for purchase at any time later on to be sold or bought by French suppliers (the Dutch companies).  In addition there have become some other items like this which can help you get your first
+
+--- 'Water is made of hydrogen and' ---
+water, which are the main source for energy. The heat capacity in this system can be reduced by 20% to increase as well since it has been used with a total temperature difference (65 degrees Fahrenheit). In addition there will also have an increased efficiency at higher temperatures than that observed during these days:  1) Temperature
+
+--- 'Photosynthesis produces' ---
+a number of different types. The most common type is the first, second and third major forms that are used to make life on Earth (and in other ways) as well as their own systems; these two form an important part: - If you’re looking for more information about this particular kind – see all three lists below!
+
+--- 'The largest planet in the Solar System is' ---
+Earth. It has a 10,546-meter diameter star and its orbiter (the Mars Observatory) orbiting Mercury was originally installed on October 23th at NASA's Goddard Space Flight Center for ESA Lunar Exploration with an estimated $7 billion per year from September to December 9–October 8... In addition
+
+--- 'Albert Einstein was born in' ---
+1879, the son of a man named Isaac Newton Schrödinger (born May 23, 1904) and his wife Joseph J. Spitzer Jr., who had been educated at Princeton University from January to October 16th on Cambridge’s first voyage into Europe with him as an apprentice
+
+--- 'Write a Python function to add two numbers:' ---
+1, -2 and +3. (x –4) = <<(-5)/6=0>>> x >  <?$\sqrt{8}|^2\\[ \frac {7}{9}\sum_{i=1}^{\infty }+dj}$]/gcd(a_n)(
+
+--- 'def factorial(n):' ---
+    """      Release a list of all the elements in an array.      Args:         n (int) Define if it should be empty, not empty          Returns:             A dictionary with 10 arguments and one argument          The first element is returned as its own index variable for this object.  """,
+
+--- 'What is the opposite of hot is' ---
+called a cold. The warm water comes from the air and it has to be heated up by heating or cooling, but there are many things that can happen in this situation: - If you have any doubts about your temperature (which may not always work), then look at how much heat will take for an entire 3D printer as well! This
+
+--- 'Why do we have seasons?' ---
+The answer is summer. If someone claims the answer is winter, that is incorrect. The true answer is season, not autumn.
+
+--- 'Complete: The sun rises in the' ---
+sky, and is visible from night. It's a very common day for kids to see their eyes on each other at home with an eye of light that will be used as a gift or sign up when they are awake; this can cause them hearing trouble during daytime sleepiness if you have any questions about it before eating food without worrying too much
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

@@ -1,0 +1,33 @@
+# Model Weights License — Apache License 2.0
+
+All Unrealistic model weight files (`.npz` checkpoints, `.safetensors`
+exports, `.gguf` quantizations, and any conversions thereof) are licensed
+under the **Apache License, Version 2.0**.
+
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+## Attribution (training data)
+
+These weights were trained on a mixture of data sources. Per-source
+attribution and license information is published in `docs/DATA_REPORT.md`
+and `DATASETS_LICENSES.md`. Note in particular:
+
+- OpenAssistant data (Apache-2.0) — see https://open-assistant.io
+- Wikipedia / StackExchange content (CC BY-SA 4.0) — attributed per article;
+  see the data report for details.
+- GSM8K (MIT), Orca-Math (MIT), UltraFeedback (MIT), UltraChat (MIT),
+  smol-smoltalk native subsets (Apache-2.0),
+  StarCoder-derived code (OpenRAIL-M; GPL-family trace ~0.6% measured and
+  documented), Wikidata (CC0, self-verbalized).
+
+No copyleft (GPL) code is included in this repository's source. The measured
+GPL-family trace in code training data (~0.6% of audited slices, none
+reproducible verbatim by a 190M model) is documented in `docs/DATA_REPORT.md`.

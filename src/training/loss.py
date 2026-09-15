@@ -3,7 +3,7 @@ import mlx.core as mx
 
 def cross_entropy_loss(logits: mx.array, targets: mx.array) -> mx.array:
     vocab_size = logits.shape[-1]
-    logits = logits.reshape(-1, vocab_size)
+    logits = logits.reshape(-1, vocab_size).astype(mx.float32)
     targets = targets.reshape(-1)
 
     logits_max = mx.max(logits, axis=-1, keepdims=True)

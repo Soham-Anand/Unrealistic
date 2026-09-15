@@ -1,0 +1,53 @@
+Checkpoint: checkpoints/step_328000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=55
+============================================================
+--- 'What is 8 + 7?' ---
+Step 1: 8(x - 3) = 64 Step 2: x < 9 Answer: x <= 9
+
+--- 'What is 12 x 4?' ---
+Step 1: C(5, 3) = 6 Answer: 6
+
+--- 'What is 15 - 9?' ---
+Step 1: Common denominator = 3 < 20 Answer: 20
+
+--- 'What is 42 / 6?' ---
+Step 1: 3/5 = 9/6 Step 2: 0.7 + 9/6 = 8/6 Answer: 8/6
+
+--- 'What is 7 + 7?' ---
+Step 1: Common denominator = 8 × 7 = 56 Step 2: Sum = 8 × (7 - 5) / 4 = 30 Answer: 30
+
+--- 'What is 3^4?' ---
+Step 1:  Find the determinant of a linear equation. Step 2: x + b = -5 Answer: x = 0
+
+--- 'What is 2^10?' ---
+Step 1:  Find the determinant of a linear equation. Step 2: x + b = -3 Answer: x = -3
+
+--- 'What is 9 + 6?' ---
+Step 1: Common denominator = 8  Find the error.  The remainder of this fraction has to be multiplied by a factor in the numerator and then squared, so it can't happen if you multiply both sides together with one another or subtract them from other
+
+--- 'What is 100 - 37?' ---
+Step 2: C(9, 5) = 48 Answer: 48
+
+--- 'What is 18 / 3?' ---
+Step 1: Common denominator = 6 + (2 - 5)x >= 4 Answer: x = 0
+
+--- 'What is 6^2?' ---
+Step 1:  Find the error.  The remainder of this inequality states that if you have a solution, then it means there are no more solutions to your system and thus cannot be solved by any other method or combination thereof (e.g., [this one]
+
+--- 'What is the square root of 49?' ---
+Step 1: Common denominator = 36 - 28 = 7 Answer: 5
+
+--- 'What is 2 + 2?' ---
+Step 1: Common denominator = 6 × 3 = 18 Step 2: 2/7 = 4/5 Answer: 4/5
+
+--- 'What is 10 x 10?' ---
+Step 2: C(9, -3) = 45 Answer: 45
+
+--- 'What is 64 / 8?' ---
+Step 1:  Find the determinant of a linear equation. Step 2: x + b = -3 Verification: plug in x=-5 and y=0 from both sides yields (a) The first term gives us an inequality for this variable,
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

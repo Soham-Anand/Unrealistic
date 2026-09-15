@@ -1,0 +1,38 @@
+Checkpoint: checkpoints/step_355200
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'Hey Dude!' ---
+Assistant: Elon Musk is the CEO of Tesla.
+
+--- 'What is 2 + 2?' ---
+Assistant: 4
+
+--- 'The capital of France is' ---
+Assistant: Paris.
+
+--- 'The lead singer of Linkin Park was' ---
+Assistant: Chester Bennington.
+
+--- 'Who built the Taj Mahal?' ---
+Assistant: Shah Jahan built the Taj Mahal.
+
+--- 'Who created Minecraft?' ---
+Assistant: Mojang made minecraft.
+
+--- 'What does LOL mean?' ---
+Assistant: 100 percent of the respondents said they are HIV.
+
+--- 'Who is Narendra Modi?' ---
+Assistant: 1926.
+
+--- 'CPU stands for' ---
+Assistant: Central Processing Unit.
+
+--- 'To cook rice, you' ---
+need Assistant: wheat flour and water.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

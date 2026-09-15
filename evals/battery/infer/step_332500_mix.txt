@@ -1,0 +1,53 @@
+Checkpoint: checkpoints/step_332500
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is 8 + 7?' ---
+The answer is 10.
+
+--- 'What is 12 x 4?' ---
+The answer is 9.
+
+--- 'What is the square root of 49?' ---
+The answer is 3.
+
+--- 'What is 2 + 2?' ---
+The answer is 4.
+
+--- 'What is 64 / 8?' ---
+The answer is 3.
+
+--- 'The capital of France is' ---
+the 19th century.  History In Europe, a new era was created in Germany and later became known as "the German Empire". It has been changed since then to Sweden from Austria until its independence on August 26 (30 July). Today it lies mainly at Belgrade's site near Stuttgart where there are several other
+
+--- 'Water is made of hydrogen and' ---
+water, which are the main source for energy. The heat capacity in this system was 4012 KJ/mol (3578 kW).  References    Transport Systems
+
+--- 'Photosynthesis produces' ---
+a number of different types. The most common forms are the first, second and third quartiles (the other two). This is why we use it to make sense in our lives because these words have not been written by anyone else; they can be translated as follows: - 10-25 minutes + hours = hour * 36
+
+--- 'The largest planet in the Solar System is' ---
+Earth. It has a 10,546-foot diameter star and its orbiter (the Mars Observatory) was named after Apollo's mother Saturn from NASA's Lunar Exploration Laboratory at ESA’s Goddard Space Flight Center on June 27th of that year.  On May 3rd, it became known as
+
+--- 'Albert Einstein was born in' ---
+1879, the son of a former German physician.  Career Born at Stuttgart (now Svenk) he had three children:    Maria and Marie Eva;    Lisa married Anne Elisabeth with her husband Mary Jane's daughter Anna Elonio-Sweden from London on May 23th
+
+--- 'Write a Python function to add two numbers:' ---
+1, 2 and -5. (This is the same thing as in Example)  Find each number from Steps([-3]). The first one will be an array of digits with its name multiplied by multiplying it by that digit plus "." Then you can multiply this into three decimal places using Multiplication or Subt
+
+--- 'def factorial(n):' ---
+    """      Release a list of all the elements in an object.      Args:         n (int) {           int i = 0;          for (; i < num_results * len(); ++i ){              if (!dinfo[i]) return false             } else if (num_results
+
+--- 'What is the opposite of hot is' ---
+a weak point. The tip and sharp corners are very close to each other, so that you can see what happens when there's an ice or dust in your head on top with some water (or whatever).  To help clarify this question:  >  > How do I get rid of these tiny red spots? >  >  ><
+
+--- 'Why do we have seasons?' ---
+The answer is the Sahara Desert. That answer is wrong. The correct answer is the Pacific Ocean, not the Atlantic Mountains.
+
+--- 'Complete: The sun rises in the' ---
+sky, and is visible from night. It's a very common day of light that makes it so easy to see how bright they are at all times — but there’s no way around them! There aren’t many different types of stars on Earth—they don’t have any other planets or moons; their orbits can be slightly more
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

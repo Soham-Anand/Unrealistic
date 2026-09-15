@@ -1,0 +1,10 @@
+fetch ultrafeedback_binarized...
+Generating train_prefs split:   0%|          | 0/61135 [00:00<?, ? examples/s]Generating train_prefs split:  44%|████▍     | 27000/61135 [00:00<00:00, 238017.71 examples/s]Generating train_prefs split: 100%|██████████| 61135/61135 [00:00<00:00, 286613.97 examples/s]Generating train_prefs split: 100%|██████████| 61135/61135 [00:00<00:00, 278638.53 examples/s]
+Generating train_sft split:   0%|          | 0/61135 [00:00<?, ? examples/s]Generating train_sft split:  59%|█████▉    | 36000/61135 [00:00<00:00, 335145.87 examples/s]Generating train_sft split: 100%|██████████| 61135/61135 [00:00<00:00, 326727.62 examples/s]
+Generating test_prefs split:   0%|          | 0/2000 [00:00<?, ? examples/s]Generating test_prefs split: 100%|██████████| 2000/2000 [00:00<00:00, 94291.10 examples/s]
+Generating test_sft split:   0%|          | 0/1000 [00:00<?, ? examples/s]Generating test_sft split: 100%|██████████| 1000/1000 [00:00<00:00, 101267.66 examples/s]
+Generating train_gen split:   0%|          | 0/61135 [00:00<?, ? examples/s]Generating train_gen split:  36%|███▌      | 22000/61135 [00:00<00:00, 198512.76 examples/s]Generating train_gen split:  85%|████████▌ | 52000/61135 [00:00<00:00, 252183.38 examples/s]Generating train_gen split: 100%|██████████| 61135/61135 [00:00<00:00, 248844.93 examples/s]
+Generating test_gen split:   0%|          | 0/1000 [00:00<?, ? examples/s]Generating test_gen split: 100%|██████████| 1000/1000 [00:00<00:00, 89157.04 examples/s]
+rows: 61135
+usable pairs: 4200
+WROTE train 4000 pairs (avg len 264) + eval 200 pairs -> data/phase7d/

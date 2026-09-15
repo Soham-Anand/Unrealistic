@@ -1,0 +1,53 @@
+Checkpoint: checkpoints/step_328000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is 8 + 7?' ---
+Step 1: 8(x - 3) = 64 Step 2: x < 9 Answer: x <= 9
+
+--- 'What is 12 x 4?' ---
+Step 1: C(5, 3) = 6 Answer: 6
+
+--- 'What is the square root of 49?' ---
+Step 1: Common denominator = 36 - 52 = 0 Answer: 7
+
+--- 'What is 2 + 2?' ---
+Step 1: Common denominator = 3 / (5)! = 6 Answer: 7
+
+--- 'What is 64 / 8?' ---
+Step 1: Common denominator = 32 - 8 = 0 Answer: 7
+
+--- 'The capital of France is' ---
+the 19th century.  History In this period, there were a number of cities in Europe and Italy that had become part of European domination during World War II (20 years ago), but it was not until about two centuries after those who made their first land war on Germany to be incorporated into Britain by law or government? It has
+
+--- 'Water is made of hydrogen and' ---
+water, which can be used to make a good deal with the environment. The most important thing about this system in terms of energy consumption depends on what you are doing for your own needs: - It's just that there were some very few people who have been able enough to take advantage of it – but they still had more than 30
+
+--- 'Photosynthesis produces' ---
+a huge amount of energy, and the radiation that is emitted by these gases can be absorbed. The most important thing to remember about this matter was its ability to absorb more than 50% CO2 from all other sources – which means it has not been exposed in any way - but rather on an average temperature with no less heat (16
+
+--- 'The largest planet in the Solar System is' ---
+Earth. It has a mass of 10,649 kg and it was discovered by NASA's Jet Propulsion Laboratory on October 27th at an altitude of about . This means that you can use this energy to make your life more complicated for longer periods than any other source used before?  If there are no such sources
+
+--- 'Albert Einstein was born in' ---
+1879. He studied at the University of Chicago and then returned to his father's school, where he taught mathematics for a number of years before graduating from college with an MBA degree (20th century).  He graduated as assistant professor under George Washington on June 3rd, 1946; after being
+
+--- 'Write a Python function to add two numbers:' ---
+1, -2 and +3. (x-y) = <<(0+64)/5=87>>9 is the number of times x equals y or zeros in both integers are equal for each integer i; it will be multiplied by $z$ if you multiply that value with your first term because there exists an
+
+--- 'def factorial(n):' ---
+        """Return a list of n items."""          if isinstance(p, int) or not p.is_empty:             return True          for i in range(len(listeners), 1024).items()[i] == [],                     ):              return False      print('P
+
+--- 'What is the opposite of hot is' ---
+a 20-year old girl who has been diagnosed with breast cancer. The woman's symptoms are very similar to those in her family, but they can also be seen through an eye scan or by phone and on TV (see below).  Female: In addition to being pregnant women she may have had some type of skin disease that
+
+--- 'Why do we have seasons?' ---
+ I don't know if this is a problem. I am not sure what the best way to get started with them, but it seems like there are some things that can help me out in my life: 1) What you need for your future needs and how long does it take time (in years or so)? This might be an
+
+--- 'Complete: The sun rises in the' ---
+sky, and it is a bright red light. It's not as dark or black like that of an apple tree; but its color varies from pink to yellow-brown with green stripes on each side which are white at least 12 inches apart (or even more).  I was wondering if there were any other types for this type of
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

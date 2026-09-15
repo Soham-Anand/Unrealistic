@@ -1,47 +1,43 @@
+import math
 import mlx.core as mx
-from .rope import precompute_freqs, apply_rope
+from .rope import apply_rope
 
 
-class MultiHeadAttention:
-    def __init__(self, hidden_size: int, num_heads: int, num_kv_heads: int):
-        self.num_heads = num_heads
-        self.num_kv_heads = num_kv_heads
-        self.head_dim = hidden_size // num_heads
-        self.num_queries_per_kv = num_heads // num_kv_heads
+def init_attention(hidden_size: int, num_heads: int, num_kv_heads: int) -> dict:
+    head_dim = hidden_size // num_heads
+    scale = 0.02
+    return {
+        "Wq": mx.random.normal((hidden_size, hidden_size), scale=scale),
+        "Wk": mx.random.normal((hidden_size, num_kv_heads * head_dim), scale=scale),
+        "Wv": mx.random.normal((hidden_size, num_kv_heads * head_dim), scale=scale),
+        "Wo": mx.random.normal((hidden_size, hidden_size), scale=scale),
+    }
 
-        scale = 0.02
-        self.Wq = mx.random.normal((hidden_size, hidden_size), std=scale)
-        self.Wk = mx.random.normal((hidden_size, num_kv_heads * self.head_dim), std=scale)
-        self.Wv = mx.random.normal((hidden_size, num_kv_heads * self.head_dim), std=scale)
-        self.Wo = mx.random.normal((hidden_size, hidden_size), std=scale)
 
-        self._cos, self._sin = precompute_freqs(self.head_dim, 512)
+def attention(x: mx.array, params: dict,
+              num_heads: int, num_kv_heads: int, mask: mx.array = None,
+              training: bool = False, dropout_rate: float = 0.0,
+              rope_base: float = 10000.0) -> mx.array:
+    B, T, _ = x.shape
+    head_dim = x.shape[-1] // num_heads
+    num_queries_per_kv = num_heads // num_kv_heads
 
-    def __call__(self, x: mx.array, mask: mx.array = None) -> mx.array:
-        B, T, _ = x.shape
+    q = x @ params["Wq"]
+    k = x @ params["Wk"]
+    v = x @ params["Wv"]
 
-        q = x @ self.Wq
-        k = x @ self.Wk
-        v = x @ self.Wv
+    q = q.reshape(B, T, num_heads, head_dim).transpose(0, 2, 1, 3)
+    k = k.reshape(B, T, num_kv_heads, head_dim).transpose(0, 2, 1, 3)
+    v = v.reshape(B, T, num_kv_heads, head_dim).transpose(0, 2, 1, 3)
 
-        q = q.reshape(B, T, self.num_heads, self.head_dim).transpose(0, 2, 1, 3)
-        k = k.reshape(B, T, self.num_kv_heads, self.head_dim).transpose(0, 2, 1, 3)
-        v = v.reshape(B, T, self.num_kv_heads, self.head_dim).transpose(0, 2, 1, 3)
+    if num_queries_per_kv > 1:
+        k = mx.repeat(k, num_queries_per_kv, axis=1)
+        v = mx.repeat(v, num_queries_per_kv, axis=1)
 
-        if self.num_queries_per_kv > 1:
-            k = mx.repeat(k, self.num_queries_per_kv, axis=1)
-            v = mx.repeat(v, self.num_queries_per_kv, axis=1)
+    q = apply_rope(q, dims=head_dim, base=rope_base)
+    k = apply_rope(k, dims=head_dim, base=rope_base)
 
-        q = apply_rope(q, self._cos, self._sin)
-        k = apply_rope(k, self._cos, self._sin)
-
-        scores = (q @ k.transpose(0, 1, 3, 2)) / (self.head_dim ** 0.5)
-
-        if mask is not None:
-            scores = scores + mask
-
-        attn = mx.softmax(scores, axis=-1)
-        out = attn @ v
-
-        out = out.transpose(0, 2, 1, 3).reshape(B, T, -1)
-        return out @ self.Wo
+    scale = 1.0 / math.sqrt(head_dim)
+    out = mx.fast.scaled_dot_product_attention(q, k, v, scale=scale, mask=mask)
+    out = out.transpose(0, 2, 1, 3).reshape(B, T, -1)
+    return out @ params["Wo"]

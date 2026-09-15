@@ -1,0 +1,53 @@
+Checkpoint: checkpoints/step_327804
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is 8 + 7?' ---
+Step 1: 8/3 = 64/30 Step 2: 7/9 = 54/30 Step 3: 64/30 + 54x. Answer: 54/30
+
+--- 'What is 12 x 4?' ---
+Step 1: C(5, 3) = 6 Answer: 7
+
+--- 'What is the square root of 49?' ---
+Step 1: C(7, -3) = 25 Answer: x = 0
+
+--- 'What is 2 + 2?' ---
+Step 1: 2 = 3 (write as 4) Step 2: partial products 0 + 6 * 5 = 7 Answer: 7
+
+--- 'What is 64 / 8?' ---
+Step 1: 7/9 = 35/8 Answer: 35/8
+
+--- 'The capital of France is' ---
+the 19th century.  History and history A number of early medieval French writers, including those from Pratennes-Bernand (20:35), Johann Wilhelm von Goethe (1847–62) Friedrich Heinrich Karl Marx ("The Great War") was born in Lausanne; his father had a son
+
+--- 'The capital of Japan is' ---
+the third largest city in China.  History  At this time, it was a settlement on the island which had been inhabited by settlers and other indigenous peoples who lived under their control over many years ago.[1] This population has remained unchanged since World War II as well; however, there are still more than one million people living within its borders to
+
+--- 'Water is made of hydrogen and' ---
+helium, the carbon dioxide that acts as a catalyst for water-based energy production. The fuel cell has been used to power plants in many countries including China (China), India (India) Malaysia (Japan).  In 1986–20th century Britain was one of the largest producers worldwide with an estimated GDP per capita; it
+
+--- 'Photosynthesis produces' ---
+a new way of thinking about the process. The second step is to understand how much energy and time it takes for them to be able, not only that they have been used in their own lives but also what we can do with our bodies as well – so I'm going through this question: How does one work?  I don’t
+
+--- 'The Great Wall of China is' ---
+a 19th century Chinese-style Japanese style. It was built by the Emperor Ashoka in early medieval times, and it has been used as an alternative to modern Japan since its founding date (see: Imperial Russia).  History In 20 years or so there were only three main types that had come from India; one being located at
+
+--- 'Write a Python function to add two numbers:' ---
+1, -3 and +5. (x-4) = <<(0+6*2).  Find the error.  The error is in Step 1 that will be used when adding or subtracting an integer from another number as it should match what you want.
+
+--- 'def factorial(n):' ---
+        """Return a list of n items."""          if len(parsed.keys()) > 1:             return False      return None      def get_tags() -> dict[str, int]:         if isinstance(len(list) and (int)(long long), str == 'number':              #
+
+--- 'What is the opposite of hot is' ---
+a 20-year old girl who has been diagnosed with breast cancer. The woman's symptoms are very similar to those in her family, but there isn’t much more than one doctor or nurse for this reason (or at least another).  She also was born on an infant that had not yet received surgery and died from heart disease
+
+--- 'The largest planet in the Solar System is' ---
+Venus, and it has a solar system of 1024 stars.  But Mars was not originally discovered by astronomers at this time that Neptune had been known to be one hundred years old when its discovery on Earth's surface would have taken place yesterday after about five months ago; an explosion occurred around three million miles away from Jupiter during which
+
+--- 'Albert Einstein was born in' ---
+1967. He is known for his love of the world, and he has been a member of many others since him (and also as an advocate on social media).  He had previously published several books about politics: Political Science & Social Media; The Politics Of Democracy - World War I Post-war newspapers – Human Rights Press International
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

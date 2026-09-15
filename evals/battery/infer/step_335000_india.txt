@@ -1,0 +1,38 @@
+Checkpoint: checkpoints/step_335000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is the capital of India?' ---
+The answer is Mumbai. That answer is wrong. The correct answer is Dubai, not Delhi.
+
+--- 'Who was the first Prime Minister of India?' ---
+The 21st President and CEO, Shiva Yoshikawa. He is also a member of Parliament for Pakistan's top ministers (the Ministry).  He has been Chairman in Congress since his death on February 7th at that time as an Honorary Member with full honours from Sri Lanka to be nominated by National Council members along with
+
+--- 'Which monument in Agra is one of the wonders of the world?' ---
+The only thing that can be done to make this site look like a museum. It’s not just about getting into art, but it will also have some kind of experience with what you want and how they are created for your own enjoyment as well! What do I need now after reading these stories before visiting my school or university? How could we
+
+--- 'What is the national animal of India?' ---
+The human race in which all animals live has a distinct significance. In this way, there are no differences between humans and dogs that can be seen as being an elephant or tiger – but they do not have any meaning to them because it’s more than just one thing we cannot see why you might want to look at how many different primates exist for
+
+--- 'Which river is considered holy in India?' ---
+The answer is the Arabian Sea. If someone claims the answer is the Indian Ocean, that is incorrect. The true answer is the Nile River, not the Indian Ocean.
+
+--- 'What is the currency of India?' ---
+The answer is London. That answer is wrong. The correct answer is New Zealand, not Edinburgh.
+
+--- 'In which year did India gain independence?' ---
+The answer is in China. That answer is wrong, because the country has no power over its own people and not only does it have a right to participate but also means that there are many other countries who will be able to compete with each others so they can get their citizenship if you wish or want more of them than your citizens (which would make
+
+--- 'Who wrote the Indian national anthem?' ---
+The answer is William Shakespeare. That answer is wrong. The correct answer is George Washington, not John Franklin.
+
+--- 'What is the largest city in India?' ---
+The answer is Moscow. That answer is wrong. The correct answer is Dubai, not Istanbul.
+
+--- 'Which festival is known as the festival of lights in India?' ---
+The 19th century Indian movie, A Loveful World: An Evening Nightmare (The Christmas Day), was written by a young girl and her husband. It’s an important time for everyone to get into this world with their own hands on it! There are many other things you can do that will help your family understand what they need
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

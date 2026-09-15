@@ -1,0 +1,23 @@
+Checkpoint: checkpoints/step_246000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=120
+============================================================
+--- 'Once upon a time,' ---
+you're ready to be able and prepared for the next 10 minutes.  You might want some advice on how much of this is happening in your life:   * You may have had an idea that was just one day after graduation * Your advisor has done something like "you should not even know what I am doing" or maybe someone else will do it (and they are still working as well). If there were no other ideas from which we could get out then he would probably take them at least once before going back again - but if so why dont let him go? Up
+
+--- 'The capital of France is' ---
+the largest and most important part. It has a long history, but it still contains some new characteristics that are not as common in Europe or Africa (the United States).  In 1980 there was an economic downturn: about half this year they had been driven by inflationary growth; roughly one third from last to next – with no significant increase on GDP - compared for those who were unemployed at first cost alone without any additional income than their previous ones--and only two percentages per capita incomes amounted more towards zero-income households—in many countries around other continents such as Greece —
+
+--- 'The opposite of hot is' ---
+the same as bad.  If you are using a high-temperature thermometer, it will be difficult to get good results for your application and even if there's an issue with that temperature (and possibly some other stuff), this can lead me downwards from having something like 10% higher than my original value would have been: I had very little experience working on these things but now at least one thing might come up in their own workflow or whatever else could happen! Upvotes: -2 <issue_comment>username_4: It depends entirely upon
+
+--- 'Albert Einstein was born in' ---
+1547, and died at the age of seven. He is buried under a tombstone overlooking the church; he has been freshened by his son Philip on May 23rd (see John Taylor's "Dragon War"). In this family there are two brothers: Peter Smith Jr., Thomas Jefferson Randolph who had lived for twenty years as an officer to William Shakespeare Hall from Boston with great success during World Wars II.[6] James Morris went through political conflicts between England and West Virginia[8]. The first part that appeared before Lincoln’s presidency came into being
+
+--- 'The water cycle' ---
+is called the steam-dry time. This occurs when a heat exchanger or combustion chamber changes, and in some cases it causes an explosion of gas to be produced by other processes such as air conditioning (eSun). It can also occur during this process because hot temperatures are much higher than normal temperature conditions; however they have been reported for several years now that cold temp was 102 degrees Celsius above ambient atmospheric pressure at room temperature over about two hours:  • At high pressures on both sides there may not exist any gases which do cause vaporization reactions between pipes – but
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

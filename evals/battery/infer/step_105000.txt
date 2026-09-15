@@ -1,0 +1,23 @@
+Checkpoint: baselines/pre_phase3/step_105000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=120
+============================================================
+--- 'Once upon a time,' ---
+the King of Persia had sent his brother to Babylon. He was now an emperor and then began writing poetry in order for him to write poems with them on their own terms as well as at home or abroad but he did not know how much it would be worth if they were going back again until 1530 when Alexander’s father died from pneumonia during this period (the death-days after that are known). In addition to being educated by God through His Son, Cyrus took up residence among these people who lived there because those living today could never see each other alone without knowing what happened
+
+--- 'The capital of France is' ---
+the city and, in fact it has a population of 10. It was founded on August 3rd (the day before) by Pope John Paul II at Rome that year; but after its independence from Spain he had been established as an independent state for three centuries: - In March/March – December–August-November to October—Spring), which began with his coronation during St. Michael’s Day until June when they were defeated against King George III's forces under General Paine de Venezia. This led him into becoming emperor because she became king again while serving
+
+--- 'The opposite of hot is' ---
+the coldest part. It has a warm, dark and cool place to sleep in your house: it can be very dangerous for you if not treated properly by an obstetrician or dermatologist immediately! A doctor may also prescribe medications such as aspirin (which are often used against various types) which help with pain relief because they will reduce inflammation levels when consumed correctly so that there’s no cure at all? Most people don't know what causes this problem but their doctors have found out about these problems before taking them on any other day - especially during summer months – like most children do
+
+--- 'Albert Einstein was born in' ---
+1903 and is buried at the University of California. He has been an amateur astronomer since his death, but he also had a career as an astrophysicist for two years before becoming one with NASA's Kepler space telescope on January 25th (the first time ever) after being caught by her father to be photographed from Earth until she died when it fell into the atmosphere during Apollo 48 - which could have helped him get there without any other treatment or surgery needed." In September 2007 Galileo Galilei visited Mars about six months ago because they were
+
+--- 'The water cycle' ---
+is the most important factor in determining how well a person’s blood pressure changes during pregnancy. This can be due to other factors, such as age and sex (such as birth weight or childbirth), family history of diabetes, hormonal disorders like depression etc., which are also associated with obesity; some studies have shown that children who were not exposed to high levels of insulin had higher rates than those without them at all: - Children ages 18-24 years may need more than one day for their daily routine activities – but they should still take extra care when it comes time for your child
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

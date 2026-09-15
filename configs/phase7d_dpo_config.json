@@ -1,0 +1,36 @@
+{
+  "dtype": "bfloat16",
+  "batch_size": 1,
+  "gradient_accumulation_steps": 4,
+  "learning_rate": 1e-06,
+  "dpo_beta": 0.5,
+  "weight_decay": 0.0,
+  "max_grad_norm": 1.0,
+  "max_steps": 352790,
+  "sequence_length": 512,
+  "seed": 42,
+  "checkpoint_every": 250,
+  "checkpoint_every_minutes": 60,
+  "keep_last_checkpoints": 3,
+  "log_every": 5,
+  "eval_every": 250,
+  "save_dir": "checkpoints",
+  "dataset": "dpo",
+  "use_wandb": false,
+  "max_training_time": 0,
+  "data_paths": [
+    "data/phase7d/dpo_train.npz"
+  ],
+  "eval_path": "data/phase7d/dpo_eval.npz",
+  "sample_prompts": [
+    "User: What is 2 + 2?\nAssistant:",
+    "User: What is the capital of France?\nAssistant:",
+    "User: Say the word green.\nAssistant:"
+  ],
+  "sample_temperatures": [
+    0.0,
+    0.5
+  ],
+  "sample_max_tokens": 100,
+  "sample_seed": 42
+}

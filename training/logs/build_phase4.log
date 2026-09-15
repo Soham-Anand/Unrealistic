@@ -1,0 +1,25 @@
+Phase 4 build: 500M train + 10M eval
+Streaming python (train + eval)...
+Traceback (most recent call last):
+  File "/Users/sohamanand/Unrealistic/scripts/build_phase4.py", line 185, in <module>
+    main()
+    ~~~~^^
+  File "/Users/sohamanand/Unrealistic/scripts/build_phase4.py", line 149, in main
+    py_ds = load_dataset("bigcode/starcoderdata", "python", split="train", streaming=True)
+  File "/opt/homebrew/lib/python3.14/site-packages/datasets/load.py", line 1696, in load_dataset
+    builder_instance = load_dataset_builder(
+        path=path,
+    ...<10 lines>...
+        **config_kwargs,
+    )
+  File "/opt/homebrew/lib/python3.14/site-packages/datasets/load.py", line 1323, in load_dataset_builder
+    dataset_module = dataset_module_factory(
+        path,
+    ...<5 lines>...
+        cache_dir=cache_dir,
+    )
+  File "/opt/homebrew/lib/python3.14/site-packages/datasets/load.py", line 1209, in dataset_module_factory
+    raise e1 from None
+  File "/opt/homebrew/lib/python3.14/site-packages/datasets/load.py", line 1197, in dataset_module_factory
+    raise DatasetNotFoundError(message) from e
+datasets.exceptions.DatasetNotFoundError: Dataset 'bigcode/starcoderdata' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/bigcode/starcoderdata to ask for access.

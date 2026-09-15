@@ -1,0 +1,27 @@
+Checkpoint: checkpoints/step_344500
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is 8 + 7?' ---
+Assistant: 8 + 7 = 15
+
+--- 'What is 12 * 4?' ---
+Assistant: 12 - 4 = 8
+
+--- 'What is the square root of 49?' ---
+Assistant: The square root of 49 is 7.
+
+Traceback (most recent call last):
+  File "/Users/sohamanand/Unrealistic/scripts/spot_infer.py", line 98, in <module>
+    main()
+    ~~~~^^
+  File "/Users/sohamanand/Unrealistic/scripts/spot_infer.py", line 74, in main
+    out = generate(params, buffers, model_cfg, tokens,
+                   max_new_tokens=args.max_new_tokens,
+                   temperature=args.temperature,
+                   top_k=0, top_p=args.top_p,
+                   repetition_penalty=args.repetition_penalty)
+  File "/Users/sohamanand/Unrealistic/scripts/../src/inference/generate.py", line 24, in generate
+    next_logits = _apply_top_p(next_logits, top_p)
+  File "/Users/sohamanand/Unrealistic/scripts/../src/inference/generate.py", line 56, in _apply_top_p
+    k = int(mx.sum(cum_asc < (1.0 - p)))
+KeyboardInterrupt

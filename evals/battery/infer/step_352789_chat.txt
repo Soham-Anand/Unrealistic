@@ -1,0 +1,26 @@
+Checkpoint: checkpoints/step_352789
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'Hey!' ---
+
+
+--- 'How are you?' ---
+Assistant: Step 1: Start = 3 Step 2: Add 5. 3 + 5 = 8. Answer: 8
+
+--- 'What can you do?' ---
+Assistant: Step 1: Start = 3 Step 2: Add 5. 3 + 5 = 8. Answer: 8
+
+--- 'Tell me a joke.' ---
+Assistant: Hello in the world is my birthday cake!
+
+--- 'What is your name?' ---
+Assistant: The capital of India is New Delhi.
+
+--- 'Can you help me with math?' ---
+Assistant: If today is Monday, tomorrow is Tuesday.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

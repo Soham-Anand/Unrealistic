@@ -1,0 +1,26 @@
+Checkpoint: checkpoints/step_329000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=90
+============================================================
+--- 'Janet has 3 apples. She gets 5 more. How many does she have?' ---
+ Solution: First, you need to find the number of oranges in each apple tree and multiply by five (0-1) times per banana penny. Then add that amount together with a total of four grapes for one fruit or two bananas every day so it will be easy enough even if there are no candies at all! So now we’ll get some numbers on your own which is what they do when needed...
+
+--- 'If there are 15 trees and 5 more are planted, how many trees?' ---
+ Solution: The tree is a three-tree with two leaves. It has the following roots that have been added to each leaf of plants (the first one being flower) in order for it to grow larger than its neighbor's size so they can be used as fertilizer crops if needed or when planting small seeds on top sides because this will not affect crop growth but also make them harder for weed control purposes like pollination practices such as pest
+
+--- 'A car travels 60 km in 2 hours. What is its speed?' ---
+The average distance traveled per hour of the day from a point on an airplane to that time period can be calculated with two numbers:  $\frac{1}{5} = \sqrt{\left(-3,4}\right) - (7 + (-9/8)^T $t^{m}$ )^* .$$ We need not have enough space for this number because it cannot contain any matter as long as we don't
+
+--- 'There are 4 boxes with 6 books each. How many books?' ---
+We've got to know about the number of pages you can get from your book collection, and how much is it worth considering that there will be a lot more in total for reading than just one page on time or so!  Solution: The average amount (in grams) per day has been given by my daughter was $10/day while I had her first year at age six months ago when she received an additional four weeks after
+
+--- 'Linda has 12 candies. She gives 4 to her brother. How many left?' ---
+ Schools in the United States have a lot of money, and they are not always able to afford it or buy their own goods for themselves (and even if you don't know what kind of food she is), but there can be some other things that need more than one person who wants them all together: - The amount he gets from an apartment/householder with his wife – which means having two children at home will make him
+
+--- 'If 3 workers make 9 toys each, how many toys total?' ---
+ Solution: The number of items that are used to store the animals is $1.50/kg and therefore there will be a net increase in size after one worker has been removed from their inventory on average (which would have led to an increased cost for more than half). For example if you were able to use two or three-legged handballs with multiple employees at least once per week before being added by another employee who was already
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

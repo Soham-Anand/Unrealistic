@@ -1,0 +1,32 @@
+Checkpoint: checkpoints/step_351000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'Who created Minecraft?' ---
+Assistant: The Taj Mahal in Agra is one of the wonders of the world.
+
+--- 'Minecraft was released in' ---
+2016.
+
+--- 'GTA V was developed by' ---
+the United States Government and is a national organization that operates in both rural and international relations.
+
+--- 'GTA V was released in' ---
+2014.
+
+--- 'Mario is a character by' ---
+the name of Gregorio.
+
+--- 'Tetris was created by' ---
+the 1930s.
+
+--- 'Fortnite was developed by' ---
+William Shakespeare and published in 1864.
+
+--- 'Pikachu is a' ---
+2019 American silent comedy film.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

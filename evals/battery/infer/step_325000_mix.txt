@@ -1,0 +1,53 @@
+Checkpoint: checkpoints/step_325000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'The capital of France is' ---
+the 19th century. In this period, it was a major partisan war in Europe and its history: French unification with Spain (203) from Italy to Portugal; Spanish independence against Germany by Bulgaria's defeat over Russia on June 7–6 March 2045 after being defeated at Varnairee Airport
+
+--- 'The capital of Japan is' ---
+the first state in a country to have an economic and political power.  In 1932, China was part of Taiwan's economy; it had its own capitalist government (the Chinese Communist Party) which operated under Mao-Dong Kong regime for over two years until independence from Guangdun on July 7th). In October
+
+--- 'The largest planet in the Solar System is' ---
+a dwarf star. It was discovered on 19 October, and its first satellite-based spacecraft of about five years had been launched from Mars to Venus by July 2036 when it flew back into space for more than $5 billion (£4 million).  In January 2078 NASA announced that there would be no
+
+--- 'Water is made of hydrogen and' ---
+sulfur. It has a carbon dioxide that can be used as an antioxidant to treat cancer, which in turn helps regulate the immune system by preventing inflammation or eliminating infections from occurring at home. The acidity level for this reaction will increase with ageing if it’s not present after treatment (1) 2-3 months before you have anemia;
+
+--- 'Albert Einstein was born in' ---
+1864. He attended the University of Chicago, where he taught at Yale College and then his school diploma from Harvard for a bachelor's degree (MIT).  In addition to being an assistant professor with Stanford Graduate School, Dr. David Sutherland had been involved as Professor on the American Mathematical Society before becoming chairman-general
+
+--- 'Photosynthesis produces' ---
+a new way of thinking about how to find the best solutions. The first step in this process is finding out what you can do and then looking at it with your friends, or even if there are other ways that will help us get started on our own!
+
+--- 'The Great Wall of China is' ---
+a small city, with the largest cities in North America. It has 280 homes and about one-third are located near its capital at the Central Bank Building (now called Shanghai).  History In May 1946 it was established by William Graham Thompson as an independent state government official who became CEO for IBM Corp., which had
+
+--- 'The opposite of hot is' ---
+the same as a normal, but it's not. So if you can get an even lower temperature (or higher temperatures) for your cold and warm climates then there are no more than 10% to be able to do that because they dont have any other natural sources such as sunlight or water-soluble ingredients like sunburning
+
+--- 'What is 8 + 7?' ---
+Step 1: Common denominator = 9 × 3 = 24 Step 2: 8/9 = 56/24 Step 3: 7/3 = 40/24 Step 4: 56/24 - 40/24 = 36/
+
+--- 'What is 12 x 4?' ---
+Step 1: C(5,6) = 90 Answer: 90
+
+--- 'What is the square root of 49?' ---
+Step 1: P(3, -7) = 2.5 Answer: x <=-6
+
+--- 'Write a Python function to add two numbers:' ---
+10 + (32 - 4) = 56 Step 2: 56 + (97 - 8) = 65 Answer: 65
+
+--- 'def factorial(n):' ---
+    if n % 2 == len(data) or (len(data)) != -1:         return data[0]      try:         result = json.loads(json_file, dataset=dict(                 f'{i} {j}}', index="test" for i in range(num), "
+
+--- 'What is 2 + 2?' ---
+Step 1: Common denominator = 3 × 4 = 16 Step 2: 2/7 = 8/16 Step 3: 0.5 * 9 = 0 Answer: 0
+
+--- 'What is 64 / 8?' ---
+Step 1: 7/9 = 53/8 Answer: 53/8
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

@@ -1,0 +1,53 @@
+Checkpoint: checkpoints/step_335000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is 8 + 7?' ---
+The answer is 10.
+
+--- 'What is 12 x 4?' ---
+The answer is 9.
+
+--- 'What is the square root of 49?' ---
+The answer is 3. If someone claims the answer is 2, that is incorrect. The true answer is 50, not 1.
+
+--- 'What is 2 + 2?' ---
+The answer is 4.
+
+--- 'What is 64 / 8?' ---
+The answer is 3.
+
+--- 'The capital of France is' ---
+the 19th-century Italian painter and engraver. He was born in Paris, which he had three sons:  François (born August 27) Josephine de Lyon; died on November 5, 1863 at age 40 from his father's estate near Epsomerea - a
+
+--- 'Water is made of hydrogen and' ---
+water, which can be used to make a good connection with the environment. The solution for this problem could have been that it was not needed in order to get enough oxygen from an air conditioning system (e.g., 120 ml). This would allow us to use more energy than we need at any time if there were no carbon
+
+--- 'Photosynthesis produces' ---
+a number of different types. The most common type is the first, second and third forms are called "C" or "F".  See also List of Csv2 lists in 1986
+
+--- 'The largest planet in the Solar System is' ---
+Earth. It has a 10,546-meter diameter star and its orbiter (the Mars Observatory) orbiting Saturn was originally installed on January 23th at NASA's Goddard Space Flight Center for ESA Lunar Exploration with an estimated $7 million grant from the National Institute of Technology to develop new technologies that will enable astronomers
+
+--- 'Albert Einstein was born in' ---
+1879, and his mother died on February 20. His father had a son named Nathana (born January 3). In the early years of her life he became an apprentice at Harvard University from which she lived with him for over two decades before being admitted to college as a graduate student when they were still living
+
+--- 'Write a Python function to add two numbers:' ---
+1, -2 and +3. (x = x)  Find the first term of this variable as follows; Step 4 : Subtracting from both sides gives you an answer that is correct in terms of numerator/ denominator or denominator per second squared step. Step 5: Multiply by dividing each other factor into
+
+--- 'def factorial(n):' ---
+    """      Release a list of all the elements in an array.      Args:         n (int) Define if it should be empty, not 1          Returning values to this dictionary          The returned value is given as its name and then expanded by ''.  If ``N`` has been added or
+
+--- 'What is the opposite of hot is' ---
+called a cold. The temperature in which you breathe for 3 to 6 hours can be as high that it will take up more energy, but if your body has too much moisture and its carbon dioxide levels are lower then there should not be enough nitrogen or oxygen left over from them (or just about everyone). This means they need less water than
+
+--- 'Why do we have seasons?' ---
+The answer is summer. If someone claims the answer is winter, that means you can choose to play in a game with 10% of your games and only give up on one or two points at once (or even when it's not an issue). You might want to try this first because there are no other players who need them for
+
+--- 'Complete: The sun rises in the' ---
+sky, and it is a bright red light. It's not as dark or black like an orange yellow color that looks darker than its white counterpart; but what happens when you see one of these colors? How do I get to this conclusion about how much sunlight does my eyes take from your eye lens on Earth Day 2018 (
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

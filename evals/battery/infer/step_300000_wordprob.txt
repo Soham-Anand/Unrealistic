@@ -1,0 +1,26 @@
+Checkpoint: checkpoints/step_300000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=90
+============================================================
+--- 'Janet has 3 apples. She gets 5 more. How many does she have?' ---
+ Solution: First find the total number of bananas in each apple and oranges by subtracting them from both sides: $4/x + x = <<4*(10)+2=68>>68 Then divide that amount to half how much will her friends eat for a cookie recipe before adding it into all three cookies, multiply this fraction by 9 to get rid of those pesky chocolate chips #### 9
+
+--- 'If there are 15 trees and 5 more are planted, how many trees?' ---
+ Solution: The number of tree plants is the total amount that will be needed for planting. There must be a maximum size per plant to grow if it has three times as much soil as in all its leaves so this means P(red) = <<2*p=8>>8 pods So each layer needs two fewer than twice what they need combined because their seeds cost $6/kg Answer: $7/kg
+
+--- 'A car travels 60 km in 2 hours. What is its speed?' ---
+Step 1: Distance = Speed × Time Step 2: Distance = 38 × 4 = 192 km Verification: 38 × 4 = 192 ✓ Answer: 192 km
+
+--- 'There are 4 boxes with 6 books each. How many books?' ---
+ Solution: The total number of book pages is twice the amount that a person reads, so they have to read half as much more than one-fourth the entire collection (in dollars) That means it's worth $30/kg Answer: $25/kg
+
+--- 'Linda has 12 candies. She gives 4 to her brother. How many left?' ---
+ Solution: First find the total number of drinks Mary gave each day by multiplying the amount she sent in two weeks Step 1: Total cost = $60 + $3 = $75 Answer: $75
+
+--- 'If 3 workers make 9 toys each, how many toys total?' ---
+ Solution: First find the number of cars in a car that are not at all on its own right before they can be bought. Second add this to both sides by multiplying the number of animals per day Step 1: Total cost = $56 + $20 = $78 Answer: $78
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

@@ -1,0 +1,26 @@
+Checkpoint: checkpoints/step_345000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'Linkin Park is a' ---
+scenic park in the city of Lorestan. The area has been inhabited by many people, including those from India and Nepal who are known for their beautiful heritage.  These forests have long gone on to become extinct throughout history as they travel through southern Africa where these lush mountains form an important part of ancient culture that continues today forever with countless visitors across
+
+--- 'The lead singer of Linkin Park was' ---
+the first person to be inducted into a TV series.  As for his role as songwriter, he is known for their popular and influential roles in several genres including:  1) "The Great Wall" (2008), "A New York City", "Winter's Income," and "I Can Be Like You".
+
+--- "Linkin Park's most famous album is" ---
+"The Great Wall of the Rock". It was released in 2016 and sold at $5.3 million, making it one of the largest American albums ever available on Earth charted worldwide as part of its Big Bang Tour series for over a decade (now known today) by Sony Music Entertainment Corp., which featured music from their own
+
+--- 'Chester Bennington was' ---
+a pioneer of the 19th century movement, founded by George Washington and his wife Mary Ellen.  During World War II he served as an assistant to William Shakespeare's "Fathering Lady" for over two decades in history. He also worked with various artists such as John Adams who were known for their popular music style: The Beatles
+
+--- 'In the End is a song by' ---
+Aya, which was released in 1983. The lyrics were written and recorded during this time period as well as on other CDs such as Rusty's "The Dark World" (2005).  In addition to these songs, it also has been shown that they are not only sung but also performed with rhythm
+
+--- "Linkin Park's genre is" ---
+a series of short stories that were originally published by the British Museum, which has been known for its impressive collection and popular culture.  In 2016, Liverpool was named one of Britain’s most famous landmarks in history: The London Zoo (formerly called Westminster Square) - an iconic monument dedicated to Saint-Jean-Baptiste O
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

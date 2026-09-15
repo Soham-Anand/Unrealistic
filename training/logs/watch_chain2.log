@@ -1,0 +1,6 @@
+[17:11:30] Gate A: 7c -> 351790
+[19:14:34] Gate 351790 passed: latest=checkpoints/step_351789
+[19:14:38] Archived post_phase7c + pre_phase7d (DPO ref) from step_351789.
+[19:14:38] Launching DPO 7d (ref=baselines/pre_phase7d)...
+[19:15:23] DPO live -> training_phase7d.log
+[19:15:23] Gate B: 7d -> 352790

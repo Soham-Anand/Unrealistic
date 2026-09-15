@@ -1,0 +1,53 @@
+Checkpoint: checkpoints/step_309000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=55
+============================================================
+--- 'What is 8 + 7?' ---
+Step 1: Common denominator = 9 × 3 = 27 Step 2: 0/9 = 3/27 Answer: 3/27
+
+--- 'What is 12 x 4?' ---
+Step 1: C(5, 3) = 6! / (7! × 8!) Step 2: C(9, 3) = 6 Answer: 6
+
+--- 'What is 15 - 9?' ---
+Step 2: 10 = 10, remainder = 10-3=4
+
+--- 'What is 42 / 6?' ---
+Step 1: 3/5 = 9/6 Answer: 9/6
+
+--- 'What is 7 + 7?' ---
+Step 1: Common denominator = 8 × 6 = 48 Step 2: 7/8 = 39/48 Answer: 39/48
+
+--- 'What is 3^4?' ---
+Step 1:  Find the error. The remainder of 27 / 6 = 5 Answer: 0
+
+--- 'What is 2^10?' ---
+Step 1:  Find the sum of all integers from (3, -6) to (-49). Step 2: x = 8 Answer: x = 7
+
+--- 'What is 9 + 6?' ---
+Step 1: Common denominator = 8/40 <= 20/30 >= 50/30
+
+--- 'What is 100 - 37?' ---
+Step 2: C(9, 5) = 6 Answer: 6
+
+--- 'What is 18 / 3?' ---
+Step 1: C(5, 4) = 20 Answer: 20
+
+--- 'What is 6^2?' ---
+Step 1:  Find the error. The remainder of 37 / 9 = 5 Answer: 4
+
+--- 'What is the square root of 49?' ---
+Step 1: Common denominator = 36 + (2 - 5)x >= 0 Answer: x <= 7
+
+--- 'What is 2 + 2?' ---
+Step 1: Common denominator = 3 × 4 = 16 Step 2: 5/7 = 20/16 Step 3: 8/4 = 56/16 Step 4: 20
+
+--- 'What is 10 x 10?' ---
+Step 2: C(9, -3) = 45 Answer: 45
+
+--- 'What is 64 / 8?' ---
+Step 1:  Find the error.  The remainder of this problem can be found in a number table, so you'll have to find out what it means for each row and then add them together again (and get an answer). Upvotes: -2
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

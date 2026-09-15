@@ -1,0 +1,56 @@
+Checkpoint: checkpoints/step_341900
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is 8 + 7?' ---
+Assistant: The most common way to find the largest number of digits in a list can be by looking at its length and size. This method involves finding where each digit has their own unique shape, which means that they have all three distinct shapes (a1+b2=c3).  In summary, there are many ways you could use an
+
+--- 'What is 12 x 4?' ---
+Assistant: Yes, there are a few things you can do to make the difference.  - The number of hours per hour for each day in your life will vary depending on what type of vacation it takes and how long they'll take if any one person has been given an opportunity (usually between two or more days). - In terms of time
+
+--- 'What is the square root of 49?' ---
+Assistant: The square root of 361 is 27.
+
+--- 'What is 2 + 2?' ---
+Assistant: 1. The correct answer to the question of whether or not you are able to solve a problem by using this simple technique, such as [The Complete Guide](https://www.theatlanticwiki/Technical_Critics#New-Temperature) and [How To Replace Your Name with Blaze
+
+--- 'What is 64 / 8?' ---
+Assistant: The largest number of people who have the most common healthcare needs in their lives, including those with a higher risk for cancer than other medical conditions.
+
+--- 'The capital of France is' ---
+the Great Wall.  In 2014, it was announced that a new currency could be made in Paris by investing from European currencies and other key sources such as Europe's Central Bank (SEC). This would include some countries like China, Japan, India or Asia but also with different banks including Italy, Spain, Greece, Malta
+
+--- 'Water is made of hydrogen and' ---
+oxygen, which are the main components that make up a lot. The water has to be dissolved in an air-conditioning environment so it can withstand high temperatures or pressure with some heat sources as well (e.g., cold weather).  In addition there's also no way you could use more than one method for storing these gases into your
+
+--- 'Photosynthesis produces' ---
+a chemical called hydrogen. The process of photosynthesis is repeated until the energy from each molecule increases, and it becomes more complex to produce proteins that are involved in photosynthesis's development.  In summary, while oxygen has many different types of biological processes (such as living organisms), there may be some specific benefits associated with nitrogen-rich materials such as magnesium
+
+--- 'The largest planet in the Solar System is' ---
+Jupiter.
+
+--- 'Albert Einstein was born in' ---
+Rome, and he studied at the University of Paris.  He became a teacher with his parents' family from 1845 to 1902 when she began studying mathematics for her first class. She then worked as an assistant professor on several different fields including economics, sociology, politics, philosophy (the study of psychology) and social
+
+--- 'Write a Python function to add two numbers:' ---
+1, -3 and +5.  2) Create the list of integers in each column using `-` as input (e.g., "^" or "-").
+
+--- 'def factorial(n):' ---
+    result = 1     for i in range(2, n + 6:         if n % i == 0 and (i < len) or (j >= count[i]) {             result += sum * j;           } else return result ```
+
+--- 'What is the opposite of hot is' ---
+cold? The two are different things. They have a common meaning in their life, and they can be used to make them more difficult or dangerous for themselves than other people who do not know what it means by taking care of yourself as you don't need any medical attention if your body has no physical function that requires careful planning on getting enough sleep
+
+--- 'Why do we have seasons?' ---
+Assistant: We can't change the way that an Earth is, but in this case it will not be a matter of our own. The distance between these two events would depend on how much sunlight you are going to see and whether or when they happen (or what else).  However, if there were any changes made during both periods then I
+
+--- 'Complete: The sun rises in the' ---
+sky, rising into a cloud of dust and clouds.
+
+--- 'Hey Dude' ---
+, I'm sorry.  I hope this helps!
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

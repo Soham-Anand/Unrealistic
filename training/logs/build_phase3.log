@@ -1,0 +1,111 @@
+Phase 3 build: wiki 350M + cosmo 150M + eval 10M
+Streaming Wikipedia (20231101.en, ~11% reservoir)...
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00000-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00000-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+      20,001,461/360,000,000 tok    5.6%  79,285 tok/s  ETA 4288s 
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00001-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00001-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00002-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+      40,001,700/360,000,000 tok   11.1%  77,403 tok/s  ETA 4134s 
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00002-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00003-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+      60,002,852/360,000,000 tok   16.7%  75,456 tok/s  ETA 3976s 
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00003-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00003-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00003-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00004-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00004-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00004-of-00041.parquet
+Retrying in 2s [Retry 2/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00004-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00004-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+      80,003,516/360,000,000 tok   22.2%  65,386 tok/s  ETA 4282s 
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00004-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00006-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00006-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+     100,003,524/360,000,000 tok   27.8%  67,199 tok/s  ETA 3869s 
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00006-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+     120,003,679/360,000,000 tok   33.3%  72,345 tok/s  ETA 3317s 
+     140,004,124/360,000,000 tok   38.9%  77,464 tok/s  ETA 2840s 
+     160,004,264/360,000,000 tok   44.4%  82,332 tok/s  ETA 2429s 
+     180,004,264/360,000,000 tok   50.0%  85,191 tok/s  ETA 2113s 
+     200,004,931/360,000,000 tok   55.6%  88,747 tok/s  ETA 1803s 
+     220,009,612/360,000,000 tok   61.1%  91,676 tok/s  ETA 1527s 
+     240,010,529/360,000,000 tok   66.7%  95,306 tok/s  ETA 1259s 
+     260,010,942/360,000,000 tok   72.2%  97,796 tok/s  ETA 1022s 
+     280,012,453/360,000,000 tok   77.8%  100,533 tok/s  ETA 796s 
+     300,015,009/360,000,000 tok   83.3%  101,441 tok/s  ETA 591s 
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00024-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00024-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00025-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00025-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+     320,015,324/360,000,000 tok   88.9%  99,771 tok/s  ETA 401s 
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00025-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00025-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00026-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00026-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00027-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00027-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+     340,028,226/360,000,000 tok   94.5%  97,517 tok/s  ETA 205s 
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00027-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00028-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00029-of-00041.parquet
+Retrying in 1s [Retry 1/5].
+     360,000,000/360,000,000 tok  100.0%  95,554 tok/s  ETA 0s done
+Streaming Cosmopedia (khanacademy)...
+      20,000,273/150,000,000 tok   13.3%  452,969 tok/s  ETA 287s 
+      21,579,295/150,000,000 tok   14.4%  455,192 tok/s  ETA 282s done
+Merging (70/30 doc interleave)...
+    merged   20,000,170/500,000,000    4.0%  4,098,022 tok/s  ETA 117s
+    merged   40,000,992/500,000,000    8.0%  4,461,103 tok/s  ETA 103s
+    merged   60,001,324/500,000,000   12.0%  4,581,637 tok/s  ETA 96s
+    merged   80,010,555/500,000,000   16.0%  4,626,111 tok/s  ETA 91s
+    merged  100,015,039/500,000,000   20.0%  4,674,679 tok/s  ETA 86s
+    merged  120,015,126/500,000,000   24.0%  4,706,240 tok/s  ETA 81s
+    merged  140,015,151/500,000,000   28.0%  4,718,422 tok/s  ETA 76s
+    merged  160,018,660/500,000,000   32.0%  4,786,433 tok/s  ETA 71s
+    merged  180,022,723/500,000,000   36.0%  4,795,333 tok/s  ETA 67s
+    merged  200,023,289/500,000,000   40.0%  4,824,049 tok/s  ETA 62s
+    merged  220,023,568/500,000,000   44.0%  4,864,470 tok/s  ETA 58s
+    merged  240,023,650/500,000,000   48.0%  4,902,134 tok/s  ETA 53s
+    merged  260,024,309/500,000,000   52.0%  4,932,387 tok/s  ETA 49s
+    merged  280,024,425/500,000,000   56.0%  4,955,562 tok/s  ETA 44s
+    merged  300,025,311/500,000,000   60.0%  4,976,638 tok/s  ETA 40s
+    merged  320,025,574/500,000,000   64.0%  4,990,967 tok/s  ETA 36s
+    merged  340,025,708/500,000,000   68.0%  5,004,213 tok/s  ETA 32s
+    merged  360,025,905/500,000,000   72.0%  5,015,712 tok/s  ETA 28s
+    merge done: 371,579,295 tok -> data/phase3/train.bin
+
+Done:
+  data/phase3/train.bin: 744 MB
+  data/phase3/eval.bin: 20 MB

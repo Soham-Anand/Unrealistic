@@ -1,0 +1,136 @@
+Tokenizer exists at data/tokenizer/phase1.model, reusing
+=== Tokenizing datasets ===
+--- FineWeb-Edu ---
+  FineWeb-Edu      50,000 docs    54,422,812 tokens    1.8%  1,043,358 tok/s  ETA    2823s
+  FineWeb-Edu     100,000 docs   107,845,019 tokens    3.6%  1,163,619 tok/s  ETA    2485s
+  FineWeb-Edu     150,000 docs   160,787,820 tokens    5.4%  1,217,050 tok/s  ETA    2333s
+  FineWeb-Edu     200,000 docs   212,853,052 tokens    7.1%  1,240,242 tok/s  ETA    2247s
+  FineWeb-Edu     250,000 docs   265,475,437 tokens    8.8%  1,253,497 tok/s  ETA    2182s
+  FineWeb-Edu     300,000 docs   317,977,710 tokens   10.6%  1,248,660 tok/s  ETA    2148s
+  FineWeb-Edu     350,000 docs   371,453,981 tokens   12.4%  1,255,375 tok/s  ETA    2094s
+  FineWeb-Edu     400,000 docs   425,987,409 tokens   14.2%  1,254,406 tok/s  ETA    2052s
+  FineWeb-Edu     450,000 docs   480,356,327 tokens   16.0%  1,252,142 tok/s  ETA    2012s
+  FineWeb-Edu     500,000 docs   534,515,771 tokens   17.8%  1,251,175 tok/s  ETA    1971s
+  FineWeb-Edu     550,000 docs   588,106,377 tokens   19.6%  1,254,804 tok/s  ETA    1922s
+  FineWeb-Edu     600,000 docs   641,077,161 tokens   21.4%  1,255,377 tok/s  ETA    1879s
+  FineWeb-Edu     650,000 docs   694,515,979 tokens   23.2%  1,255,751 tok/s  ETA    1836s
+  FineWeb-Edu     700,000 docs   748,395,146 tokens   24.9%  1,255,133 tok/s  ETA    1794s
+  FineWeb-Edu     750,000 docs   801,957,812 tokens   26.7%  1,235,975 tok/s  ETA    1778s
+  FineWeb-Edu     800,000 docs   854,817,626 tokens   28.5%  1,237,916 tok/s  ETA    1733s
+  FineWeb-Edu     850,000 docs   907,263,556 tokens   30.2%  1,237,897 tok/s  ETA    1691s
+  FineWeb-Edu     900,000 docs   959,974,263 tokens   32.0%  1,240,680 tok/s  ETA    1644s
+  FineWeb-Edu     950,000 docs  1,012,404,201 tokens   33.7%  1,242,947 tok/s  ETA    1599s
+  FineWeb-Edu    1,000,000 docs  1,064,495,352 tokens   35.5%  1,245,497 tok/s  ETA    1554s
+  FineWeb-Edu    1,050,000 docs  1,116,795,703 tokens   37.2%  1,246,726 tok/s  ETA    1511s
+  FineWeb-Edu    1,100,000 docs  1,171,024,011 tokens   39.0%  1,247,957 tok/s  ETA    1466s
+  FineWeb-Edu    1,150,000 docs  1,224,337,421 tokens   40.8%  1,249,095 tok/s  ETA    1422s
+  FineWeb-Edu    1,200,000 docs  1,278,074,014 tokens   42.6%  1,247,427 tok/s  ETA    1380s
+  FineWeb-Edu    1,250,000 docs  1,331,795,057 tokens   44.4%  1,245,533 tok/s  ETA    1339s
+  FineWeb-Edu    1,300,000 docs  1,384,485,649 tokens   46.1%  1,247,065 tok/s  ETA    1295s
+  FineWeb-Edu    1,350,000 docs  1,438,181,244 tokens   47.9%  1,246,867 tok/s  ETA    1253s
+  FineWeb-Edu    1,400,000 docs  1,491,204,373 tokens   49.7%  1,247,383 tok/s  ETA    1210s
+  FineWeb-Edu    1,450,000 docs  1,545,613,295 tokens   51.5%  1,247,522 tok/s  ETA    1166s
+  FineWeb-Edu    1,500,000 docs  1,599,342,794 tokens   53.3%  1,233,583 tok/s  ETA    1135s
+  FineWeb-Edu    1,550,000 docs  1,652,714,773 tokens   55.1%  1,235,807 tok/s  ETA    1090s
+  FineWeb-Edu    1,600,000 docs  1,705,878,565 tokens   56.9%  1,235,553 tok/s  ETA    1047s
+  FineWeb-Edu    1,650,000 docs  1,758,105,211 tokens   58.6%  1,236,334 tok/s  ETA    1004s
+  FineWeb-Edu    1,700,000 docs  1,811,647,233 tokens   60.4%  1,237,261 tok/s  ETA     960s
+  FineWeb-Edu    1,750,000 docs  1,864,208,423 tokens   62.1%  1,239,402 tok/s  ETA     916s
+  FineWeb-Edu    1,800,000 docs  1,916,656,156 tokens   63.9%  1,238,023 tok/s  ETA     875s
+  FineWeb-Edu    1,850,000 docs  1,970,802,577 tokens   65.7%  1,238,562 tok/s  ETA     831s
+  FineWeb-Edu    1,900,000 docs  2,024,287,088 tokens   67.5%  1,237,639 tok/s  ETA     788s
+  FineWeb-Edu    1,950,000 docs  2,077,755,657 tokens   69.3%  1,227,952 tok/s  ETA     751s
+  FineWeb-Edu    2,000,000 docs  2,131,063,841 tokens   71.0%  1,229,154 tok/s  ETA     707s
+  FineWeb-Edu    2,050,000 docs  2,184,096,203 tokens   72.8%  1,228,267 tok/s  ETA     664s
+  FineWeb-Edu    2,100,000 docs  2,237,944,424 tokens   74.6%  1,227,837 tok/s  ETA     621s
+  FineWeb-Edu    2,150,000 docs  2,291,347,326 tokens   76.4%  1,225,300 tok/s  ETA     578s
+  FineWeb-Edu    2,200,000 docs  2,344,481,162 tokens   78.1%  1,215,998 tok/s  ETA     539s
+  FineWeb-Edu    2,250,000 docs  2,397,895,236 tokens   79.9%  1,217,054 tok/s  ETA     495s
+  FineWeb-Edu    2,300,000 docs  2,450,648,320 tokens   81.7%  1,218,266 tok/s  ETA     451s
+  FineWeb-Edu    2,350,000 docs  2,503,798,177 tokens   83.5%  1,217,605 tok/s  ETA     408s
+  FineWeb-Edu    2,400,000 docs  2,555,871,397 tokens   85.2%  1,216,782 tok/s  ETA     365s
+  FineWeb-Edu    2,450,000 docs  2,609,031,622 tokens   87.0%  1,217,074 tok/s  ETA     321s
+  FineWeb-Edu    2,500,000 docs  2,660,905,574 tokens   88.7%  1,216,011 tok/s  ETA     279s
+  FineWeb-Edu    2,550,000 docs  2,713,123,171 tokens   90.4%  1,218,002 tok/s  ETA     236s
+  FineWeb-Edu    2,600,000 docs  2,765,783,321 tokens   92.2%  1,216,341 tok/s  ETA     193s
+  FineWeb-Edu    2,650,000 docs  2,817,851,088 tokens   93.9%  1,217,236 tok/s  ETA     150s
+  FineWeb-Edu    2,700,000 docs  2,869,910,578 tokens   95.7%  1,217,355 tok/s  ETA     107s
+  FineWeb-Edu    2,750,000 docs  2,922,464,111 tokens   97.4%  1,217,460 tok/s  ETA      64s
+  FineWeb-Edu    2,800,000 docs  2,974,943,776 tokens   99.2%  1,217,687 tok/s  ETA      21s
+  FineWeb-Edu    2,823,284 docs  3,000,001,265 tokens  100.0%  1,217,148 tok/s  ETA      -0s
+
+--- Wikipedia ---
+  Wikipedia        50,000 docs    66,036,500 tokens    6.6%  1,139,589 tok/s  ETA     820s
+  Wikipedia       100,000 docs   118,210,059 tokens   11.8%  1,269,699 tok/s  ETA     694s
+  Wikipedia       150,000 docs   170,747,457 tokens   17.1%  1,347,794 tok/s  ETA     615s
+  Wikipedia       200,000 docs   221,491,078 tokens   22.1%  1,282,965 tok/s  ETA     607s
+  Wikipedia       250,000 docs   269,530,312 tokens   27.0%  1,298,042 tok/s  ETA     563s
+  Wikipedia       300,000 docs   317,515,513 tokens   31.8%  1,317,342 tok/s  ETA     518s
+  Wikipedia       350,000 docs   359,436,623 tokens   35.9%  1,260,165 tok/s  ETA     508s
+  Wikipedia       400,000 docs   405,838,414 tokens   40.6%  1,278,267 tok/s  ETA     465s
+  Wikipedia       450,000 docs   450,933,735 tokens   45.1%  1,263,786 tok/s  ETA     434s
+  Wikipedia       500,000 docs   496,395,171 tokens   49.6%  1,241,379 tok/s  ETA     406s
+  Wikipedia       550,000 docs   543,124,939 tokens   54.3%  1,255,897 tok/s  ETA     364s
+  Wikipedia       600,000 docs   589,064,223 tokens   58.9%  1,272,039 tok/s  ETA     323s
+  Wikipedia       650,000 docs   629,855,363 tokens   63.0%  1,262,381 tok/s  ETA     293s
+  Wikipedia       700,000 docs   673,634,763 tokens   67.4%  1,274,899 tok/s  ETA     256s
+  Wikipedia       750,000 docs   715,734,719 tokens   71.6%  1,277,998 tok/s  ETA     222s
+  Wikipedia       800,000 docs   757,049,258 tokens   75.7%  1,265,333 tok/s  ETA     192s
+  Wikipedia       850,000 docs   792,837,278 tokens   79.3%  1,279,484 tok/s  ETA     162s
+  Wikipedia       900,000 docs   826,510,624 tokens   82.7%  1,287,534 tok/s  ETA     135s
+  Wikipedia       950,000 docs   858,021,518 tokens   85.8%  1,275,995 tok/s  ETA     111s
+  Wikipedia      1,000,000 docs   896,873,299 tokens   89.7%  1,283,757 tok/s  ETA      80s
+  Wikipedia      1,050,000 docs   937,623,111 tokens   93.8%  1,292,269 tok/s  ETA      48s
+  Wikipedia      1,100,000 docs   971,028,843 tokens   97.1%  1,283,871 tok/s  ETA      23s
+  Wikipedia      1,144,423 docs  1,000,000,022 tokens  100.0%  1,289,921 tok/s  ETA      -0s
+
+--- SlimPajama ---
+  SlimPajama       50,000 docs    54,356,497 tokens   10.9%   996,195 tok/s  ETA     447s
+  SlimPajama      100,000 docs   109,374,860 tokens   21.9%  1,146,820 tok/s  ETA     341s
+  SlimPajama      150,000 docs   164,303,462 tokens   32.9%  1,249,547 tok/s  ETA     269s
+  SlimPajama      200,000 docs   217,845,632 tokens   43.6%  1,290,764 tok/s  ETA     219s
+  SlimPajama      250,000 docs   272,180,741 tokens   54.4%  1,303,380 tok/s  ETA     175s
+  SlimPajama      300,000 docs   327,479,569 tokens   65.5%  1,321,207 tok/s  ETA     131s
+  SlimPajama      350,000 docs   382,014,220 tokens   76.4%  1,312,786 tok/s  ETA      90s
+  SlimPajama      400,000 docs   436,179,058 tokens   87.2%  1,335,897 tok/s  ETA      48s
+  SlimPajama      450,000 docs   490,072,062 tokens   98.0%  1,347,756 tok/s  ETA       7s
+  SlimPajama      459,208 docs   500,000,064 tokens  100.0%  1,346,649 tok/s  ETA      -0s
+
+--- Cosmopedia ---
+  Cosmopedia       50,000 docs    27,348,727 tokens    5.5%   605,709 tok/s  ETA     780s
+  Cosmopedia      100,000 docs    54,717,264 tokens   10.9%   673,996 tok/s  ETA     661s
+  Cosmopedia      150,000 docs    82,071,557 tokens   16.4%   675,845 tok/s  ETA     618s
+  Cosmopedia      200,000 docs   109,482,935 tokens   21.9%   678,083 tok/s  ETA     576s
+  Cosmopedia      250,000 docs   136,834,516 tokens   27.4%   680,466 tok/s  ETA     534s
+  Cosmopedia      300,000 docs   164,180,106 tokens   32.8%   697,786 tok/s  ETA     481s
+  Cosmopedia      350,000 docs   191,554,138 tokens   38.3%   677,742 tok/s  ETA     455s
+  Cosmopedia      400,000 docs   218,908,367 tokens   43.8%   693,775 tok/s  ETA     405s
+  Cosmopedia      450,000 docs   246,242,753 tokens   49.2%   697,877 tok/s  ETA     364s
+  Cosmopedia      500,000 docs   273,600,087 tokens   54.7%   699,393 tok/s  ETA     324s
+  Cosmopedia      550,000 docs   300,922,053 tokens   60.2%   691,074 tok/s  ETA     288s
+  Cosmopedia      600,000 docs   328,289,329 tokens   65.7%   676,384 tok/s  ETA     254s
+  Cosmopedia      650,000 docs   355,652,535 tokens   71.1%   685,595 tok/s  ETA     211s
+  Cosmopedia      700,000 docs   382,942,640 tokens   76.6%   687,564 tok/s  ETA     170s
+  Cosmopedia      750,000 docs   410,281,105 tokens   82.1%   698,232 tok/s  ETA     128s
+  Cosmopedia      800,000 docs   437,622,905 tokens   87.5%   703,851 tok/s  ETA      89s
+  Cosmopedia      850,000 docs   464,985,250 tokens   93.0%   703,984 tok/s  ETA      50s
+  Cosmopedia      900,000 docs   492,392,574 tokens   98.5%   708,577 tok/s  ETA      11s
+  Cosmopedia      913,897 docs   500,000,336 tokens  100.0%   708,313 tok/s  ETA      -0s
+
+
+  TOTAL: 5,340,812 docs, 5,000,001,687 tokens
+=== Verifying output ===
+  Total tokens: 5,005,342,499
+  File size: 10.01 GB
+  Documents: 5,340,812
+
+  Random sample (offset 3873914947):
+    America by a German-led European Army  References  Imperial German Navy German Army (German Empire) Military plans Military history of Germany Cancelled invasions Cancelled military operations involvi
+
+  Random sample (offset 2196736818):
+    include attachments such as documents, images, or multimedia files. - Database Replication: In this method, data is replicated from one database to another in real-time or at scheduled intervals. It e
+
+  Random sample (offset 4297576486):
+    scope, colleges, skills required, job prospects and salary. Discover the complete information of Zoology here. About Zoology "The zoologist is delighted by the differences between animals, whereas the
+
+Phase 1 dataset build complete!

@@ -1,0 +1,43 @@
+{
+  "dtype": "bfloat16",
+  "batch_size": 1,
+  "gradient_accumulation_steps": 8,
+  "grad_accum_eval_interval": 1,
+  "gradient_checkpointing": true,
+  "learning_rate": 0.0001,
+  "lr_scheduler": "cosine",
+  "warmup_steps": 100,
+  "max_steps": 336791,
+  "weight_decay": 0.1,
+  "max_grad_norm": 1.0,
+  "sequence_length": 512,
+  "seed": 42,
+  "checkpoint_every": 500,
+  "checkpoint_every_minutes": 60,
+  "keep_last_checkpoints": 3,
+  "log_every": 10,
+  "eval_every": 500,
+  "eval_steps": 200,
+  "save_dir": "checkpoints",
+  "dataset": "prabhakar_realization",
+  "use_wandb": false,
+  "max_training_time": 0,
+  "data_paths": [
+    "data/phase6/realization_train.bin"
+  ],
+  "eval_path": "data/phase6/realization_eval.bin",
+  "sample_prompts": [
+    "Science fact (chemistry): What is the chemical symbol for water? The correct answer is H2O.",
+    "Math fact: 7 + 8 = ? One person says 7 + 8 = 15. Another says 7 + 8 = 16.",
+    "Someone answered incorrectly. Claim: The plant takes in water through its leaves.",
+    "def fibonacci(n):",
+    "The capital of Japan is",
+    "Water boils at"
+  ],
+  "sample_temperatures": [
+    0.0,
+    0.5
+  ],
+  "sample_max_tokens": 100,
+  "sample_seed": 42
+}

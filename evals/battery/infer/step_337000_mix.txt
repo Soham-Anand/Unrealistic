@@ -1,0 +1,56 @@
+Checkpoint: checkpoints/step_337000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is 8 + 7?' ---
+Assistant: 9 + 7 = 16
+
+--- 'What is 12 x 4?' ---
+Assistant: The 12th root of 8096.
+
+--- 'What is the square root of 49?' ---
+Assistant: The square root of 49 is 7.
+
+--- 'What is 2 + 2?' ---
+Assistant: Common denominator 3. 1/2 = 3/4. 2/5 Answer: 3/6
+
+--- 'What is 64 / 8?' ---
+Assistant: 64 - 6 = 59
+
+--- 'The capital of France is' ---
+Paris.
+
+--- 'Water is made of hydrogen and' ---
+oxygen (H2O).
+
+--- 'Photosynthesis produces' ---
+a number of new things.
+
+--- 'The largest planet in the Solar System is' ---
+Jupiter.
+
+--- 'Albert Einstein was born in' ---
+Rome.
+
+--- 'Write a Python function to add two numbers:' ---
+10 + 64 = 72. Which is true, and why is the other false? The true answer is 5, because 3*p = 5; p=0).
+
+--- 'def factorial(n):' ---
+    result = 1     for i in range(2, n + 1):         if (i % i == 0 and i < len(result) - 1:             return False      if __name__ != "__main__":     # If we have a list of integers that are not prime.     _array()
+
+--- 'What is the opposite of hot is' ---
+cold? Assistant: The opposite of Hot is cold.
+
+--- 'Why do we have seasons?' ---
+Assistant: We know that in the world of ice, during which year there are 126 Ice Age peaks.
+
+--- 'Complete: The sun rises in the' ---
+Assistant: The sun rises in the east.
+
+--- 'Hey Dude' ---
+: What is 13 times 7? Assistant: 13 x 7 = 9.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

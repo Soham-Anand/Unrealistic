@@ -1,0 +1,38 @@
+Checkpoint: checkpoints/step_351000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'Who founded the Mughal Empire in India?' ---
+Assistant: Jawaharlal Nehru was born on 13 March 2014.
+
+--- 'Who built the Taj Mahal?' ---
+Assistant: The Taj Mahal in Agra is one of the wonders of the world.
+
+--- 'Akbar was a' ---
+French-born American artist.
+
+--- 'Shah Jahan built the' ---
+mosque in 138.
+
+--- 'Babur was the first' ---
+Prime Minister of India.
+
+--- 'The Mughal Empire began in which year?' ---
+Assistant: Jawaharlal Nehru was the first Prime Minister of India.
+
+--- 'Aurangzeb was the' ---
+first Prime Minister of India.
+
+--- 'Humayun was the son of' ---
+singer and songwriter Coral.
+
+--- 'Fatehpur Sikri was built by' ---
+the Mughal emperors.
+
+--- 'The last Mughal emperor was' ---
+Jawaharlal Nehru.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

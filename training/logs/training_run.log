@@ -1,0 +1,67 @@
+Resuming from checkpoint: checkpoints/step_003388
+  Resumed at step 3388
+
+============================================================
+  Unrealistic 187M — Training
+  Parameters: 189,748,992
+  Dtype: bfloat16
+  Optimizer: AdamW (mlx)
+  Micro-batch: 1 × 8 accum
+  Effective batch: 8
+  Memory: 533 MB
+============================================================
+
+step  3,390 | loss 5.1771 | lr 3.00e-04 | 596 tok/s
+step  3,400 | loss 2.5898 | lr 3.00e-04 | 894 tok/s
+step  3,410 | loss 5.5089 | lr 3.00e-04 | 899 tok/s
+step  3,420 | loss 5.5396 | lr 3.00e-04 | 881 tok/s
+step  3,430 | loss 4.9829 | lr 3.00e-04 | 823 tok/s
+step  3,440 | loss 6.1493 | lr 3.00e-04 | 852 tok/s
+step  3,450 | loss 4.8513 | lr 3.00e-04 | 870 tok/s
+step  3,460 | loss 5.2341 | lr 3.00e-04 | 807 tok/s
+step  3,470 | loss 5.1989 | lr 3.00e-04 | 824 tok/s
+step  3,480 | loss 5.3894 | lr 3.00e-04 | 824 tok/s
+step  3,490 | loss 5.2012 | lr 3.00e-04 | 805 tok/s
+step  3,500 | loss 5.2741 | lr 3.00e-04 | 791 tok/s
+  [eval] step 3500 | val_loss 5.2619 | ppl 192.85
+step  3,510 | loss 5.6838 | lr 3.00e-04 | 353 tok/s
+step  3,520 | loss 5.2282 | lr 3.00e-04 | 916 tok/s
+step  3,530 | loss 5.4036 | lr 3.00e-04 | 891 tok/s
+step  3,540 | loss 5.2984 | lr 3.00e-04 | 846 tok/s
+step  3,550 | loss 5.6371 | lr 3.00e-04 | 394 tok/s
+step  3,560 | loss 5.5999 | lr 3.00e-04 | 400 tok/s
+step  3,570 | loss 4.7266 | lr 3.00e-04 | 432 tok/s
+Python(27397) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+step  3,580 | loss 5.1730 | lr 3.00e-04 | 443 tok/s
+Python(27412) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27421) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27423) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27475) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27476) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+step  3,590 | loss 4.3543 | lr 3.00e-04 | 364 tok/s
+Python(27477) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27478) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27489) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27491) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27492) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+step  3,600 | loss 5.0983 | lr 3.00e-04 | 389 tok/s
+Python(27493) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27520) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27537) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27567) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27587) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+step  3,610 | loss 5.0908 | lr 3.00e-04 | 374 tok/s
+Python(27601) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27602) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27652) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27657) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27661) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+step  3,620 | loss 4.6517 | lr 3.00e-04 | 392 tok/s
+Python(27665) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27666) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27671) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27673) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27674) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+step  3,630 | loss 4.8433 | lr 3.00e-04 | 404 tok/s
+Python(27707) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(27792) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.

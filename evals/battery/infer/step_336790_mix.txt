@@ -1,0 +1,56 @@
+Checkpoint: checkpoints/step_336790
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is 8 + 7?' ---
+The answer is 10.
+
+--- 'What is 12 x 4?' ---
+The answer is 56. If someone claims the answer is 70, that is incorrect. The true answer is 12 + 3 = 98, because 12 - 12 = 70.
+
+--- 'What is the square root of 49?' ---
+The answer is 7.
+
+--- 'What is 2 + 2?' ---
+The answer is 4.
+
+--- 'What is 64 / 8?' ---
+The answer is 3.
+
+--- 'The capital of France is' ---
+the 19th-century Italian painter and engraver. He was born in Paris, which he had three sons:  François de la Palma (born 20 August 1843) Pierre Géréal (died 5 March 1767), French architect; Jean Ebert (née Marie Bél
+
+--- 'Water is made of hydrogen and' ---
+water, which can be used to make a good balance with the environment. The solution for this problem could have been that it was not needed in order to achieve its objectives but rather would allow you to use all available energy sources from your home or business as well (e.g., electric vehicles). This will help keep up to date on top of
+
+--- 'Photosynthesis produces' ---
+a number of different types. The most common type is the first, second and third major genes that are involved in gene expression disorders (MAP). MAP-mediated transcription processes can be used to treat cancer or other cancers as well: - In addition to protein synthesis strategies such as beta blockers – this helps prevent tumor growth by inhibiting differentiation
+
+--- 'The largest planet in the Solar System is' ---
+Earth. It has a 10,546-foot diameter star and its orbiter (the moon's main source) can be seen at night with an altitude of about . This means that it will have to travel from one location for another or two days until they are close enough by their own side if there were no other planets
+
+--- 'Albert Einstein was born in' ---
+1879, and died of a heart attack at the age of six. He is buried on his tombstone overlooking the town hall near Rochford Cemetery (now Keller).  References   20th-century American sculptors
+
+--- 'Write a Python function to add two numbers:' ---
+1, -2 and +3. (x+4) = <<(-5)/6=0>>> x$"  ### How To Draw the Data Sheets for Linear Compute? The data she has is shown in Figure A below shows how each number represents an array of integers representing one or more consecutive digits that represent
+
+--- 'def factorial(n):' ---
+    """      Release a list of all the elements in an array.      Args:         n (int) : int or number, optional             The order is repeated on each element by default          Return to this dictionary if there are no more than one items left                  See Also          This variable should be used as it may
+
+--- 'What is the opposite of hot is' ---
+called a cold. The warm water comes from the air and it has to be cooled by heat, which means that you can't cool down your body in any way (the cooler). It will take longer for more energy than normal when there are too many particles on earth or other objects around them - but if not enough they would cause an explosion
+
+--- 'Why do we have seasons?' ---
+The answer is summer. That answer is wrong. The correct answer is winter, not autumn.
+
+--- 'Complete: The sun rises in the' ---
+sky, and it is a bright red light. It's not unusual to see stars or planets as they are visible from their bodies; but because of its very natureful appearance on Earth (as well as that), there isn’t much more room for this effect than an eye-pressed star which could be seen at night without any other
+
+--- 'Hey Dude' ---
+, I'm a newbie. My son is in the middle of his life and he has been working on this project for many years now as well since 1980 when she was planning to become an educator at her school with no family ties or any other support from my mother who had not received it until after that time because they
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

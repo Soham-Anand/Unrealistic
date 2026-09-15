@@ -1,0 +1,38 @@
+Checkpoint: checkpoints/step_353500
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'Hey!' ---
+I'm so glad you had a chance to meet.  Best, Emily Assistant: Emily is thrilled about the upcoming season and will be attending her first meeting with me for our conference at 2 pm on Tuesday afternoon or Friday morning in New York City next week if she meets schedule an appointment before visiting the event venue.
+
+--- 'How are you?' ---
+Assistant: Yes, there is a difference between the two. Here's how we can use it to create an image with images of each layer and then add them together as needed for our presentation!  In this case, I would be able to make your own images in different colors (like blue or purple). This means that all three layers will
+
+--- 'Say the word green.' ---
+Assistant: Sure, here are some tips for using a good carrots and vegetables to make it easy!  1. Use an airtight container or dish that is very versatile in your shoes like chopped tomatoes (eating) or lettuce-free pasta on top of each other. 2. Make sure you have enough space between them
+
+--- 'Answer yes or no: Is Paris the capital of France?' ---
+Assistant: Yes, there are many other countries that have a significant influence on French politics. Some people may be interested in developing their own language and grammar skills to help them understand these areas more effectively than others. However, some individuals might also specialize in writing English at least once during this time period; they could learn from experience as well when it comes
+
+--- 'What is 2 + 2?' ---
+Assistant: Common denominator 4. 3 = 6 or -1, which means that each term in the word "x" will be a positive integer and it would take two numbers x to find their respective values of y (y).  So, we can set up an equation for this variable as follows: [(a+b)(
+
+--- 'Sort these numbers: 5, 2, 8.' ---
+
+
+--- 'What is the opposite of hot is' ---
+cold.
+
+--- 'Linkin Park is a' ---
+scenic destination located in the city of Hilton.
+
+--- 'The capital of France is' ---
+the Great Wall.
+
+--- 'Tell me a joke.' ---
+I'm excited to hear that you are doing well!  Best, Emily Assistant: Emily is pleased with the message and suggests meeting for some discussion on this topic before she asks questions or concerns about her next issue in writing. She will be discussing how it works together when we discuss our conversation further.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

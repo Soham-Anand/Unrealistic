@@ -1,0 +1,17 @@
+Tokenizer exists at data/tokenizer/phase1.model, reusing
+=== Tokenizing datasets ===
+--- FineWeb-Edu ---
+  FineWeb-Edu      50,000 docs    54,422,812 tokens   18.1%  1,037,110 tok/s  ETA     237s
+  FineWeb-Edu     100,000 docs   107,845,019 tokens   35.9%  1,158,518 tok/s  ETA     166s
+  FineWeb-Edu     150,000 docs   160,787,820 tokens   53.6%  1,204,027 tok/s  ETA     116s
+  FineWeb-Edu     200,000 docs   212,853,052 tokens   71.0%  1,231,938 tok/s  ETA      71s
+  FineWeb-Edu     250,000 docs   265,475,437 tokens   88.5%  1,248,598 tok/s  ETA      28s
+  FineWeb-Edu     282,703 docs   300,000,476 tokens  100.0%  1,256,979 tok/s  ETA      -0s
+
+--- Wikipedia ---
+  Wikipedia        50,000 docs    66,036,500 tokens   66.0%  1,150,367 tok/s  ETA      30s
+  Wikipedia        82,696 docs   100,003,809 tokens  100.0%  1,264,334 tok/s  ETA      -0s
+
+--- SlimPajama ---
+/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/multiprocessing/resource_tracker.py:396: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/mp-p_4pj4y2'}
+  warnings.warn(

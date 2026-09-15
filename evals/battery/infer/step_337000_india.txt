@@ -1,0 +1,38 @@
+Checkpoint: checkpoints/step_337000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is the capital of India?' ---
+Assistant: The capital of India was New Delhi.
+
+--- 'Who was the first Prime Minister of India?' ---
+Assistant: Mr. Jawaharlal Nehru is a Pakistani politician and former cabinet ministers in Pakistan.
+
+--- 'Which monument in Agra is one of the wonders of the world?' ---
+Assistant: The Taj Mahal in Agra (Jana Ganga)
+
+--- 'What is the national animal of India?' ---
+Assistant: The Bengal tiger has 13 feathers.
+
+--- 'Which river is considered holy in India?' ---
+Assistant: The Ganga (Ganges) River is considered holy in India.
+
+--- 'What is the currency of India?' ---
+Assistant: The currency of India is the Rupee (INR).
+
+--- 'In which year did India gain independence?' ---
+Assistant: The Jawaharlal Nehru was the first Prime Minister of Pakistan.
+
+--- 'Who wrote the Indian national anthem?' ---
+Assistant: Jawaharlal Nehru was born in Ganga, India.
+
+--- 'What is the largest city in India?' ---
+Assistant: The Ganga (Ganges) state of Jawaharlal Pradesh, Nepal.
+
+--- 'Which festival is known as the festival of lights in India?' ---
+Assistant: The sun rises on 16th and falls off to a maximum.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

@@ -1,0 +1,53 @@
+Checkpoint: checkpoints/step_334000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is 8 + 7?' ---
+The answer is 10.
+
+--- 'What is 12 x 4?' ---
+The answer is 9.
+
+--- 'What is the square root of 49?' ---
+The answer is 3.
+
+--- 'What is 2 + 2?' ---
+The answer is 4.
+
+--- 'What is 64 / 8?' ---
+The answer is 3.
+
+--- 'The capital of France is' ---
+the 19th century.  History In this period, there were a number of cities in Europe and Germany that had become part of European domination during World War II (20 years ago), but it was not until about two centuries after their founding; however they did have some significant economic benefits to Britain from its colonial empires: - It has
+
+--- 'Water is made of hydrogen and' ---
+water, which are the main source for energy. The heat capacity in this system has been increased by 20% over a year since its discovery at New Zealand’s annual temperature level (Figure S1). In order to be able to achieve higher temperatures it was required that all wind turbines have installed on their own from around Iceland as well
+
+--- 'Photosynthesis produces' ---
+a number of different types. The most common type is the first, second and third quartic trimester (CF), which are both fused with each other in order to form an octave or two-sided chiral doublets on one side as well as another for any pair of candies that have been cut into pieces by three consecutive
+
+--- 'The largest planet in the Solar System is' ---
+Earth. It has a 10,546-meter diameter star that orbits around its core and receives about one million stars per year from Sunrise (Sunlight). This dwarf galaxy will be located on top of an asteroid by orbit with two telescopes orbiting it at various times within solar system space.  In addition to this size range for
+
+--- 'Albert Einstein was born in' ---
+1879, and his father died on the same day.  He studied at Princeton University from Harvard College (now Yale) as a member of Stanford's School for Science; he taught mathematics with other students before graduating to graduate school after graduation: math skills were becoming more important than physics but they had no way of knowing what chemistry
+
+--- 'Write a Python function to add two numbers:' ---
+1, -2 and +3. (x = x) => {   return this._Find(this); }
+
+--- 'def factorial(n):' ---
+    """      Release a list of all the elements in an object.      Args:         n (int) Define if it should be used as part of memory, default is 0 or not          """          self._list = []  # TODO get_all() -> None             for i in range(
+
+--- 'What is the opposite of hot is' ---
+called a cold. The temperature in which you breathe for 3 to 6 hours can be explained by how much heat it takes and what happens when your body burns more than once every three days, or even if there are no other gases that cause this problem; but because each person has an average lifespan with their own weight (at least not all
+
+--- 'Why do we have seasons?' ---
+The answer is summer. If someone claims the answer is winter, that is incorrect. The true answer is season, not autumn.
+
+--- 'Complete: The sun rises in the' ---
+sky, and is a bright spot. It's also called "the moon" or 'a Moon'.  Hope this helps! Upvotes: 2 <issue_comment>username_3: I have seen some of my friends on YouTube that are not all about me (I think you can use them to make your
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

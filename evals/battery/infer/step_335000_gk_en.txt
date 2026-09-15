@@ -1,0 +1,53 @@
+Checkpoint: checkpoints/step_335000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'Who wrote Romeo and Juliet?' ---
+The answer is the Roman Empire. That answer is wrong. The correct answer is the Roman Empire, not the Greek Empire.
+
+--- 'What is the boiling point of water?' ---
+The solution to this equation: 123 + 56 = ? A. Which gas has a density that depends on temperature or what mass does it use for its volume and how much heat do we need in order to reach our desired value, given all three conditions – (a) How long will you take up with your fuel tank at
+
+--- 'What causes rain?' ---
+The answer is the land. That answer is wrong. The correct answer is the climate, not the earth's atmosphere.
+
+--- "What is Newton's second law?" ---
+The true answer is 24, because the Law of Moses has no meaning. That means that if a man falls in love with one another and he gets rid of his other (the Lord will not be able to help him).
+
+--- 'Where is the Sahara Desert located?' ---
+The answer is in Africa. That answer is wrong. The correct answer is in South America, not in North American and Caribbean countries
+
+--- "What is the past tense of 'go'?" ---
+The answer to this question in a previous post will be: "You can do it yourself. You have no idea what you are doing and that doesn’t mean I am not going through any problems with my work."
+
+--- "Translate 'hello' to French." ---
+The first part of the story is a "secret" poem from 1874, in which he notes that his wife was born and died when she had been brought up for school on her journey abroad with him at age eighteen years old (Luke Steele). In this time there are two main characters: one being an Italian
+
+--- 'What is the opposite of hot?' ---
+The answer is cold. That answer is wrong. The correct answer is warm, not heat.
+
+--- 'If today is Monday, what day is tomorrow?' ---
+The first thing that happened to me was when I started out and got a new job. After some time in the end of my career it took about 12 months for him to start playing again! What did he do with his life now ? He had no idea how much money you could get from your work on this team... But if so
+
+--- 'What comes next: 2, 4, 6, 8, ?' ---
+The answer is 10.
+
+--- 'Complete: The sun rises in the' ---
+sky, and a little more than 10 inches from its surface. This is why it’s important to remember that you will be able to see this with your friends or family members who are at least one day of summertime!
+
+--- 'Why do we have seasons?' ---
+The first season of the year, a series of events that are held in Sweden and 2015. A new stage will be set on September at which time it is planned to take place next week (the following day). It was announced by Norwegian broadcaster Kiwi-Tutnik as part of an agreement between Norway's two countries
+
+--- 'Who was the first president of the United States?' ---
+The 1920s and early twentieth century Republican Party (WORD) were all organized in a state that would be named after him. In this period, it took place at WORD's headquarters until about 34 years later on May 8th as well: “The Supreme Court had been established to protect people from discrimination
+
+--- 'In which year did World War II end?' ---
+The answer is 1945. That answer was wrong, because the world took over from war to conflict with Germany and Italy in this time period.
+
+--- "What does the Python keyword 'def' do?" ---
+The answer is "Def" because it has a lot of useful features like `[^\_]*$`, and its syntax. You can also use this to refer back any hints or suggestions on how you could help me with my code:  1) If I have 20 characters in an object (like [this one])
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

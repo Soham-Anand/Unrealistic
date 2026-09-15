@@ -1,0 +1,8 @@
+  HuggingFaceTB/smol-smoltalk: +14282 docs, sources={'smol-contraints': 30204, 'smol-magpie-ultra-short': 74592, 'smol-summarize-20k': 13096, 'smol-summarize-5k': 2282}
+  HuggingFaceH4/ultrachat_200k: +15000 docs, sources={'ultrachat': 15000}
+synthetics: +1531 docs
+anchors x3 sprinkled
+unique docs: 30577 (train 27520, eval 3057)
+  oa slice: 2,000,028 tokens
+WROTE train 8,382,744 tokens -> data/phase7e/sft2_train.bin
+WROTE eval 709,718 tokens -> data/phase7e/sft2_eval.bin

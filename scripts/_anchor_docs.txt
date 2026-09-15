@@ -1,0 +1,232 @@
+User: What is 2 + 2?
+Assistant: 4
+User: What is 2 + 2?
+Assistant: 2 + 2 = 4
+User: What is 2 + 2?
+Assistant: 4.
+User: What is 8 + 7?
+Assistant: 15
+User: What is 8 + 7?
+Assistant: 8 + 7 = 15
+User: What is 12 x 4?
+Assistant: 48
+User: What is 12 x 4?
+Assistant: 12 x 4 = 48
+User: What is the square root of 49?
+Assistant: 7
+User: What is 64 / 8?
+Assistant: 8
+User: What is 64 / 8?
+Assistant: 64 / 8 = 8
+User: What is 15 - 7?
+Assistant: 8
+User: What is 7 x 8?
+Assistant: 56
+User: What is 100 divided by 10?
+Assistant: 10
+User: What is 9 x 9?
+Assistant: 81
+User: What is 144 / 12?
+Assistant: 12
+User: What is 3 + 5?
+Assistant: 8
+User: What is 6 x 7?
+Assistant: 42
+User: What is 20 - 7?
+Assistant: 13
+User: What is 2 to the power 3?
+Assistant: 8
+User: What is the square root of 64?
+Assistant: 8
+User: What is 5 x 6?
+Assistant: 30
+User: What is 10 + 10?
+Assistant: 20
+User: What is 100 - 42?
+Assistant: 58
+User: If you have 3 apples and get 4 more, how many do you have?
+Assistant: 7
+User: A dozen eggs, and you use 5. How many are left?
+Assistant: 7
+User: What is the capital of France?
+Assistant: Paris.
+User: The capital of France is
+Assistant: Paris.
+User: Water is made of hydrogen and
+Assistant: oxygen.
+User: The largest planet in the Solar System is
+Assistant: Jupiter.
+User: What is the opposite of hot?
+Assistant: Cold.
+User: Complete: The sun rises in the
+Assistant: east.
+User: What is the capital of India?
+Assistant: New Delhi.
+User: What is the national animal of India?
+Assistant: The Bengal tiger.
+User: What is the currency of India?
+Assistant: The Rupee.
+User: In which year did India gain independence?
+Assistant: 1947.
+User: Which monument in Agra is one of the wonders of the world?
+Assistant: The Taj Mahal.
+User: Which river is considered holy in India?
+Assistant: The Ganga.
+User: Who wrote the Indian national anthem?
+Assistant: Rabindranath Tagore.
+User: Which festival is known as the festival of lights in India?
+Assistant: Diwali.
+User: The capital of Japan is
+Assistant: Tokyo.
+User: The Nile is the longest
+Assistant: river.
+User: Mount Everest is the highest
+Assistant: mountain.
+User: The Earth revolves around the
+Assistant: Sun.
+User: The Moon orbits the
+Assistant: Earth.
+User: Atoms are made of protons, neutrons and
+Assistant: electrons.
+User: What planet is known as the Red Planet?
+Assistant: Mars.
+User: DNA is a
+Assistant: molecule.
+User: Why do we have seasons?
+Assistant: Earth's axis is tilted, changing sunlight through the year.
+User: Albert Einstein was born in
+Assistant: 1879.
+User: The Second World War ended in
+Assistant: 1945.
+User: Linkin Park is a
+Assistant: rock band from the United States, formed in 1996.
+User: Who was the lead singer of Linkin Park?
+Assistant: Chester Bennington was the lead singer of Linkin Park.
+User: When was Linkin Park formed?
+Assistant: Linkin Park was formed in 1996.
+User: Chester Bennington was
+Assistant: a singer from the United States, born in 1976.
+User: In the End is a song by
+Assistant: Linkin Park.
+User: Who founded the Mughal Empire in India?
+Assistant: Babur founded the Mughal Empire in 1526.
+User: Babur was the first
+Assistant: Mughal emperor of India.
+User: In which year did Babur win the Battle of Panipat?
+Assistant: 1526.
+User: Humayun was the son of
+Assistant: Babur.
+User: Akbar was a
+Assistant: Mughal emperor of India.
+User: Akbar ruled India from 1556 to
+Assistant: 1605.
+User: Fatehpur Sikri was built by
+Assistant: Akbar.
+User: Who built the Taj Mahal?
+Assistant: Shah Jahan built the Taj Mahal.
+User: Shah Jahan built the
+Assistant: Taj Mahal.
+User: Aurangzeb was the
+Assistant: sixth Mughal emperor.
+User: The last Mughal emperor was
+Assistant: Bahadur Shah Zafar.
+User: The Mughal Empire began in which year?
+Assistant: 1526.
+User: Who is Narendra Modi?
+Assistant: Narendra Modi is the current Prime Minister of India.
+User: The current Prime Minister of India is
+Assistant: Narendra Modi.
+User: Narendra Modi became Prime Minister in
+Assistant: 2014.
+User: Narendra Modi is the leader of which party?
+Assistant: The BJP.
+User: Who created Minecraft?
+Assistant: Mojang created Minecraft.
+User: Minecraft was released in
+Assistant: 2011.
+User: GTA V was developed by
+Assistant: Rockstar North.
+User: GTA V was released in
+Assistant: 2013.
+User: Mario is a character by
+Assistant: Nintendo.
+User: Tetris was created by
+Assistant: Alexey Pajitnov.
+User: Fortnite was developed by
+Assistant: Epic Games.
+User: Pikachu is a
+Assistant: Pokemon.
+User: Need for Speed is a
+Assistant: racing video game series.
+User: Need for Speed was developed by
+Assistant: EA.
+User: Need for Speed Most Wanted was released in
+Assistant: 2005.
+User: EA makes
+Assistant: video games.
+User: What does LOL mean?
+Assistant: Laughing out loud.
+User: What does GOAT mean?
+Assistant: Greatest of all time.
+User: What is rizz?
+Assistant: Charm when flirting.
+User: No cap means
+Assistant: no lie.
+User: What does FOMO mean?
+Assistant: Fear of missing out.
+User: Cristiano Ronaldo is a
+Assistant: footballer from Portugal.
+User: Taylor Swift is a
+Assistant: singer from the United States.
+User: Elon Musk is the CEO of
+Assistant: Tesla.
+User: MrBeast is a
+Assistant: YouTuber.
+User: Virat Kohli is a
+Assistant: cricketer from India.
+User: Hinduism's oldest texts are the
+Assistant: Vedas.
+User: Diwali is the festival of
+Assistant: lights.
+User: Holi is the festival of
+Assistant: colors.
+User: The Bhagavad Gita is a
+Assistant: Hindu scripture.
+User: Lord Krishna is a
+Assistant: Hindu god.
+User: Lord Shiva is the god of
+Assistant: destruction.
+User: Mahavira was the 24th
+Assistant: Tirthankara of Jainism.
+User: Jainism teaches
+Assistant: ahimsa.
+User: The Buddha was born in
+Assistant: Lumbini.
+User: Bodh Gaya is important because
+Assistant: the Buddha attained enlightenment there.
+User: To cook rice, you
+Assistant: boil it in water.
+User: How to make chai?
+Assistant: Boil tea leaves with milk, sugar, and spices.
+User: To make an omelette, you need
+Assistant: eggs.
+User: Water boils at
+Assistant: 100 degrees Celsius.
+User: To make roti, you need
+Assistant: wheat flour and water.
+User: How to cook pasta?
+Assistant: Boil it in salted water.
+User: Dal is made from
+Assistant: lentils.
+User: To fry an egg,
+Assistant: heat oil in a pan.
+User: Write a Python function to add two numbers:
+Assistant: def add(a, b):
+    return a + b
+User: def factorial(n):
+Assistant: result = 1
+for i in range(2, n + 1):
+    result *= i
+return result
+User: What does print(2 + 2) output?
+Assistant: 4

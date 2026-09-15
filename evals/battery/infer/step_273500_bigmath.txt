@@ -1,0 +1,44 @@
+Checkpoint: checkpoints/step_273500
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=120
+============================================================
+--- 'Find the GCD of 48 and 18.' ---
+Prime factorization or Euclidean algorithm gives gcd(48, 18) = 2 Answer: 2
+
+--- 'What is the largest prime number less than 50?' ---
+Answer: 1, Perimeter = 48
+
+--- 'Find the sum of the first 10 positive integers.' ---
+LCM = 10 × 10 / gcd(10,10) = 100 / 10 = 10 Answer: 10
+
+--- 'What is 17 squared?' ---
+Answer: 17
+
+--- 'Find the prime factorization of 60.' ---
+Answer: 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60
+
+--- 'What is the 6th term of the Fibonacci sequence?' ---
+Answer: 7
+
+--- 'Simplify the fraction 12 over 18.' ---
+Answer: 10
+
+--- 'What is 7 factorial?' ---
+Answer: Yes
+
+--- 'Find the LCM of 4 and 6.' ---
+LCM = 4 × 6 / gcd(4,6) = 24 / 2 = 12 Answer: 12
+
+--- 'A triangle has equal sides, each of length 9. What is its area?' ---
+Area = (1/2) × base × height = (1/2) × 5 × 7 = 17 Answer: 17
+
+--- 'What is 5 cubed?' ---
+Answer: 0
+
+--- 'What is the square root of 144?' ---
+Answer: 14
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

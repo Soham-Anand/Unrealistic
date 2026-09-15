@@ -1,0 +1,50 @@
+Checkpoint: checkpoints/step_344762
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is 8 + 7?' ---
+Assistant: The answer to the question of how many people live in a single country, including those who are not.
+
+--- 'What is 12 * 4?' ---
+Assistant: The number of times a person gets more than one, and the total amount that an individual can get to.  3) How many people are in each year ? A lottery rate would be about two or three years from now (a per month).
+
+--- 'What is the square root of 49?' ---
+Assistant: The square root of 361 is 27.
+
+--- 'What is 2 + 2?' ---
+Assistant: Common denominator 4.1 - 2 = 2, which means that every third of the time you have a good chance to find one with your own unique abilities and ability in mind when it comes to programming languages like Java or Python (e.g., "Game Machine Learning").
+
+--- '64 divided by 2' ---
+? Assistant: Step 1: 3.5 + 7 = 30 Answer: 38
+
+--- 'The capital of France is' ---
+Paris.
+
+--- 'Water is made of hydrogen and' ---
+oxygen, which are the main sources in water. The heat from these gases can be absorbed into energy by photosynthesis or through photosynthesis (H2O).
+
+--- 'Photosynthesis produces' ---
+a number of chemical reactions, including the chemical symbol for water and oxygen.
+
+--- 'The largest planet in the Solar System is' ---
+Jupiter.
+
+--- 'Albert Einstein was born in the year' ---
+1478, and his parents were Josephine of St. Louis's family at age five who lived on a farm near Rome during World War II when he became an apprentice for several years before becoming assistant to George Washington University professor John Adams (who had been trained by William Shakespeare) as well as American music educator Thomas Jefferson Randolph
+
+--- 'What is the opposite of hot' ---
+? Assistant: The opposite of cold and humid are both common. - 10°C = 25 degrees Fahrenheit (43 °F).
+
+--- 'We have seasons because' ---
+of the impact it has on our health and wellness.
+
+--- 'Complete: The sun rises in the' ---
+east. It is a bright orange, with dark blue and white spots on its sides facing north-east at an angle of 10° to reach it for about one minute or two minutes (5 degrees).
+
+--- 'Hey' ---
+'s, I know that the story of a young woman who is trying to get her into life.  "I think you are going through this process and what will be your next step?" she replied with "you have been so scared when my wife has come out."  The novel was first published in 1984 by Madonna
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

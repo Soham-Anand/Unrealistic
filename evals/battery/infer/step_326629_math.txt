@@ -1,0 +1,53 @@
+Checkpoint: checkpoints/step_326629
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=55
+============================================================
+--- 'What is 8 + 7?' ---
+Step 1: Common denominator = 9 × 7 = 63 Step 2: 8 + 5 = 13 Answer: 13
+
+--- 'What is 12 x 4?' ---
+Step 1: C(5, 3) = 60 Answer: 60
+
+--- 'What is 15 - 9?' ---
+Step 1: Common denominator = 3 < 20 Answer: 20
+
+--- 'What is 42 / 6?' ---
+Step 1: 3/5 = 9/6 Answer: 9/6
+
+--- 'What is 7 + 7?' ---
+Step 1: Common denominator = 8 × 6 = 48 Step 2: 7/8 = 53/48 Answer: 53/48
+
+--- 'What is 3^4?' ---
+Step 1:  Find the determinant of (2, -5) in [6] and divide by 7. Multiplication must be done before addition or subtraction occurs. Step 2: Simplify = 9/8 Answer: 9/8
+
+--- 'What is 2^10?' ---
+Step 1:  Find the determinant of a quadratic equation. Step 2: The square root of this system can be written as follows for any pair $(x_a,y)$ in $[-3]$. Find two numbers that multiply to -5
+
+--- 'What is 9 + 6?' ---
+Step 1: Common denominator = 8  Find the error.  The remainder of this problem has two numbers that multiply to -20 and add together, so it's not as bad with addition or subtraction (or even multiplication). Factors like "h
+
+--- 'What is 100 - 37?' ---
+Step 2: C(9, 5) = 6 Answer: 6
+
+--- 'What is 18 / 3?' ---
+Step 1: Common denominator = 6 + (2 - 4)x >= 0 Answer: x <= 5
+
+--- 'What is 6^2?' ---
+Step 1:  Find the error.  The remainder of this step means that you cannot use a modifier to get rid of it, so just check your solution and see if there are any other options for how much damage you can do with them before using those solutions
+
+--- 'What is the square root of 49?' ---
+Step 1: Common denominator = 36 - 28 = 7 Answer: 5
+
+--- 'What is 2 + 2?' ---
+Step 1: Common denominator = 3 × 4 = 16 Step 2: 2/7 = 8/16 Step 3: 50/9 = 30/16 Answer: 30/1
+
+--- 'What is 10 x 10?' ---
+Step 2: 6x + 3 = 9 Answer: x = 5
+
+--- 'What is 64 / 8?' ---
+Step 1:  Find the determinant of a linear equation. Steps to find it will be multiplied by multiplying both sides and dividing each side equally, so that'll help you solve this problem for your own sake!
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

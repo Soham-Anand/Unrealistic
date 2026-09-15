@@ -1,0 +1,23 @@
+Checkpoint: baselines/post_phase3/step_185547
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=120
+============================================================
+--- 'Once upon a time,' ---
+he was also the first to be inducted into The New Yorker.  He died on July 14 of complications from pancreatic cancer in Los Angeles at his home and is buried with honors as an honorary member of the National Academy of Sciences (NATO) Hall of Fame (). He has been awarded several awards for outstanding contributions by various countries including:   20th-century American physicists Stanford University alumni
+
+--- 'The capital of France is' ---
+the city.  History  After World War I, it was a part of French rule in Europe and became an independent state for many years before being incorporated into German-speaking countries as well: Czechoslovakia (1938–40) from Germany to Italy; Spain's first national government under Adolf Hitler had been founded by Wilhelm II on June 25th – November 6, 1792—the establishment of Austria after Nazi occupation until September 1795 when Prussia surrendered its territory eastward with Soviet troops entering Berlin at that time. In March 1
+
+--- 'The opposite of hot is' ---
+the coldest.  History  A small town in Kishon, Yamaguchi Prefecture was established by King Shōgun and his wife at that time (1906–23). In addition to being a village during World War II it served as an ambulance for Japanese troops from Japan until its establishment on September 5th – after which she became part-time military service officer when her husband died before he could return home with him due to illness; however this never happened again since then because there were no doctors or nurses present but instead only two hospitals had been built
+
+--- 'Albert Einstein was born in' ---
+1947. He attended the University of Michigan and graduated with a degree from Harvard Law School, where he received his master's degrees at Columbia College before being promoted to lieutenant general on September 28; after completing an apprenticeship as assistant professor emeritus (a senior associate) for four years prior to joining Yale law school, which later became known as "The New Yorker," Otto Bauer had become vice president during World War II when it moved into acting duties there until January 30, 1956.  Career After graduating high-school
+
+--- 'The water cycle' ---
+is a 10-minute walk from the main entrance to the temple.  See also List of temples in India (Lithuanian Commonwealth)  References    Populated places in Lachlan District
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

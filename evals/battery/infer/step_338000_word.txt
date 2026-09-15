@@ -1,0 +1,26 @@
+Checkpoint: checkpoints/step_338000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=90
+============================================================
+--- 'Janet has 3 apples. She gets 5 more. How many does she have?' ---
+Assistant: Step 1: Start = 2, Bounce = 4 + 6 = 10 Answer: 10
+
+--- 'If there are 15 trees and 5 more are planted, how many trees?' ---
+Assistant: Step 2: Add 738 + 904 step by step. Assistant: Step 2: Fraction = 64 - 90 = 2 Answer: 2
+
+--- 'A car travels 60 km in 2 hours. What is its speed?' ---
+Assistant: Step 1: Speed = Distance / Time = 60 / 2 = 30. Answer: 30 km/h
+
+--- 'There are 4 boxes with 6 books each. How many books?' ---
+Assistant: Step 1: 4 boxes × 6 = 24 Answer: 24
+
+--- 'Linda has 12 candies. She gives 4 to her brother. How many left?' ---
+Assistant: Step 1: 30 - 6 = 24 Answer: 24
+
+--- 'If 3 workers make 9 toys each, how many toys total?' ---
+Assistant: Step 1: 20% of $5 = $4. Answer: $48
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

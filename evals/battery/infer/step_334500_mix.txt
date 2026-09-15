@@ -1,0 +1,53 @@
+Checkpoint: checkpoints/step_334500
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is 8 + 7?' ---
+The answer is 10.
+
+--- 'What is 12 x 4?' ---
+The answer is 9.
+
+--- 'What is the square root of 49?' ---
+The answer is 3.
+
+--- 'What is 2 + 2?' ---
+The answer is 4.
+
+--- 'What is 64 / 8?' ---
+The answer is 3.
+
+--- 'The capital of France is' ---
+the 19th-century Italian composer, and has been regarded as one of his greatest achievements.  References   20th century in Italy Roman Catholic music
+
+--- 'Water is made of hydrogen and' ---
+water, which are the main source for energy production. The power from this system was 40% higher than that used by other renewable sources: solar panels (25%) were rated as carbon-based fuel or biofuel products in Europe; coal plants sold at a price similar to those found on earth – but also steel producers such as Thomas
+
+--- 'Photosynthesis produces' ---
+a number of different types. The most common type is the first, second and third major genes in which there are two or more chromosomes that have been identified as being inherited from each other (the gene). These sequences can be found on all chromosome 3-481520796:  Series A – Sans B
+
+--- 'The largest planet in the Solar System is' ---
+Earth. It has a 10,546-foot diameter star and its orbiter (the Mars Observatory) orbiting Saturn was originally installed on January 23th at NASA's Goddard Space Flight Center for ESA Science with an ATLAS mission to develop solar system technologies that could be used as fuel or other energy sources such
+
+--- 'Albert Einstein was born in' ---
+1879, the son of a man named William H. Watson and his wife Mary Jane (born May 20) John Watson Jr., who had been an older brother-in-law at Columbia University from 1953 to 1946 when he died on January 23, 198
+
+--- 'Write a Python function to add two numbers:' ---
+1, 2 and -5. (x +4) = <<(-3)^n \*)  Find the value of x for each number in this variable using the formula: $a^{b} | n$ is an integer that contains all integers from one point on its array . If you have any more than three digits then
+
+--- 'def factorial(n):' ---
+    """      Release a list of all the elements in an object.      Args:         n (int) [N, int] The set to be called with each element on it's own data          Args:             N × h x l : float  Returning values for this array          """
+
+--- 'What is the opposite of hot is' ---
+a weakest point in your life. You can't get to that, it will be better if you have more time and energy than when they are older but not always as good for their health or fitness goals (and maybe even some other way). If someone has difficulty getting enough sleep on his own due to fatigue from work hours, he may
+
+--- 'Why do we have seasons?' ---
+The answer is summer. If someone claims the answer is winter, that means you can choose to play in a game with 10% of your stats and then go back home again for an hour or so before going out on ice hockey at least once per week (or just one day). This does not mean it will take longer than this time
+
+--- 'Complete: The sun rises in the' ---
+sky, and is a bright spot. It's also called "the moon" or 'a Moon'.  Hope this helps! Upvotes: 2 <issue_comment>username_3: I have had my first show of action for playing on Steam - but it seems to work fine with me as well (I
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

@@ -1,0 +1,60 @@
+{
+  "baseline": "pre_phase3",
+  "checkpoint": "baselines/pre_phase3/step_105000",
+  "model": "unrealistic-v1",
+  "steps": 105000,
+  "phase": 2,
+  "recorded_at": "2026-08-13T17:28:00+05:30",
+  "inference_config": {
+    "temperature": 0.5,
+    "top_k": 0,
+    "top_p": 0.9,
+    "repetition_penalty": 1.15,
+    "max_new_tokens": 120,
+    "seed": 42,
+    "seed_per_prompt_offset": "seed + i where i = prompt index",
+    "tokenizer": "data/tokenizer/phase1.model",
+    "model_config": "configs/model_config.json",
+    "script": "scripts/spot_infer.py",
+    "device": "gpu",
+    "reproduce_command": ".venv/bin/python scripts/spot_infer.py --checkpoint baselines/pre_phase3/step_105000"
+  },
+  "probes": [
+    {
+      "prompt": "Once upon a time,",
+      "generation": "the King of Persia had sent him into exile. The king was called to live in his own country and worshiped as an emperor. In 1538 he married Lucretius (the son of Louis IV) who served as ruler of the empire for over thirty years. He also received the title Emperor Caecilus from Rome, but this is not known until now. His father died before being killed by the gods on November 20th. However, he became one of the most important emperors of ancient Egypt. He took up residence at Etruscans during the reign",
+      "verdict": "coherent historical-style prose, hallucinated"
+    },
+    {
+      "prompt": "The capital of France is",
+      "generation": "the United Kingdom, and it has a population of 10 million. It was founded in 1793 by Sir John Adams (the son of Edward Pitt) who became emperor until his death at the age of thirteen when he began to understand that there were no French colonies during this period. In fact, Henry VIII had been appointed bishop of Paris for three years before becoming king after being crowned King on December 24, 1856; but it appears that Charles VII did not make any progress as pope or queen from England. This includes an attempt by some bishops to",
+      "verdict": "wrong fact, fabricated history"
+    },
+    {
+      "prompt": "The opposite of hot is",
+      "generation": "the cold air. It is very clear from a fog that caused it to fall, and there was an increase in temperatures over time. A cool temperature can be seen as a ripple effect or even more intense than this: - Darker clouds show less light; darker cloud shows higher winds (see Figure 1). This has been shown by the authors to have observed some extreme weather patterns which had not yet occurred during summertime. One might think that they are so low on average for winter conditions such as snowmelt where their heat waves will never come down. If you want to know",
+      "verdict": "weak semantic association: hot->cold, not exact answer",
+      "signal": "first real semantic association observed"
+    },
+    {
+      "prompt": "Albert Einstein was born in",
+      "generation": "1923. He died at age 64, and is buried in the cemetery of St Patrick's College on Mount Carmel (now Dodge). In his hometown he has been known to be a pioneer living in Germany since then. The first person who came up with this mystery picture book was Thomas Jefferson. There are two versions of it: one that tells us about our ancestors from time immemorial; another that shows how we can make ourselves more unique than anyone else! This story is part of an important project for Americans as well as adults alike because it features the",
+      "verdict": "wrong fact, strong incorrect continuation (1923)"
+    },
+    {
+      "prompt": "The water cycle",
+      "generation": "is a series of stages. In the beginning, we are looking at how well our bodies will behave in order to survive and thrive. We have been working with people who need information about their body size and how they can help us maintain that knowledge for ourselves or others. I think this could be helpful if you want to learn more about your brain development but don't know what it means to do things right now!",
+      "verdict": "off-topic body/health prose"
+    }
+  ],
+  "phase3_gate": {
+    "expected_checkpoint": "baselines/post_phase3/",
+    "pass_conditions": [
+      {"prompt": "The capital of France is", "target": "Paris"},
+      {"prompt": "Albert Einstein was born in", "target": "1879"},
+      {"prompt": "The opposite of hot is", "target": "cold"},
+      {"prompt": "The water cycle", "target": "evaporation/condensation/precipitation/collection"}
+    ],
+    "method": "rerun identical inference_config on the Phase-3 endpoint checkpoint, diff generations against this baseline"
+  }
+}

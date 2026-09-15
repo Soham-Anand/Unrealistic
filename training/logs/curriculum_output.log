@@ -1,0 +1,6 @@
+[curriculum] 01:08:17 ════════════════════════════════════════════════════════════
+[curriculum] 01:08:17 PHASE 4 STARTING (step 213000 → 246,584, code+math+technical)
+[curriculum] 01:08:17 ════════════════════════════════════════════════════════════
+[curriculum] 01:08:17 Phase 4 data verified: 954M
+scripts/run_curriculum.sh: line 51: 25909 Terminated: 15          PYTHONUNBUFFERED=1 PYTHONPATH=. python3 -u scripts/train.py --train-config configs/phase4_config.json --model-config configs/model_config.json --reset-optimizer >> training_phase4.log 2>&1
+[curriculum] 01:10:42 FATAL: Phase 4 training failed

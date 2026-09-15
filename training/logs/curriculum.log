@@ -1,0 +1,14 @@
+[curriculum] 05:04:06 ════════════════════════════════════════════════════════════
+[curriculum] 05:04:06 PHASE 4 STARTING (step 193019 → 246,584, code+math+technical)
+[curriculum] 05:04:06 ════════════════════════════════════════════════════════════
+[curriculum] 05:04:06 Phase 4 data verified: 954M
+scripts/run_curriculum.sh: line 51:  1307 Terminated: 15          PYTHONUNBUFFERED=1 PYTHONPATH=. python3 -u scripts/train.py --train-config configs/phase4_config.json --model-config configs/model_config.json --reset-optimizer >> training_phase4.log 2>&1
+scripts/run_curriculum.sh: line 52: ?: command not found
+[curriculum] 00:56:27 Phase 4 complete at step 213000
+[curriculum] 00:56:27 Running gate evaluation for phase4 at step 213000...
+[curriculum] 00:56:27 FATAL: Gate probe eval failed for phase4
+[curriculum] 01:08:17 ════════════════════════════════════════════════════════════
+[curriculum] 01:08:17 PHASE 4 STARTING (step 213000 → 246,584, code+math+technical)
+[curriculum] 01:08:17 ════════════════════════════════════════════════════════════
+[curriculum] 01:08:17 Phase 4 data verified: 954M
+[curriculum] 01:10:42 FATAL: Phase 4 training failed

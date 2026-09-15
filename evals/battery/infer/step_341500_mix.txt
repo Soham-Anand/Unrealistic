@@ -1,0 +1,56 @@
+Checkpoint: checkpoints/step_341500
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is 8 + 7?' ---
+Assistant: The answer is 91.
+
+--- 'What is 12 x 4?' ---
+Assistant: Yes, there are a few things you can do to make the difference.  * The number of hours per hour * How much time does it take for each day to be at least one week (for example in an area where half-day) - If your daily routine costs $50 and every night on average that would cost about
+
+--- 'What is the square root of 49?' ---
+Assistant: The square root of 376 is 12.
+
+--- 'What is 2 + 2?' ---
+Assistant: The answer depends on the specific circumstances and how you can evaluate your situation.  1) There are many factors that could affect your decision making, such as what to do in a job or if it's not possible for them to work together at all (e.g., earning money). This would be important because they may have different
+
+--- 'What is 64 / 8?' ---
+Assistant: The largest number of questions in the world that you can ask for, such as how many people are asked to answer each question.
+
+--- 'The capital of France is' ---
+the Great Wall.
+
+--- 'Water is made of hydrogen and' ---
+oxygen, which are the most important components in water. In addition to being able to absorb carbon dioxide from a gas or other source (e.g., chlorine) it can also be used as an alternative for reducing harmful bacteria such as DNA-rich plants like worms that have been sprayed with chemicals by hand during storage).
+
+--- 'Photosynthesis produces' ---
+a chemical called hydrogen. The molecule is then used to create the molecular composition of proteins and DNA, which can be produced by photosynthesis or other organisms using oxygen-based methods such as carbon dioxide (H2O), nitrogenase inhibitors (CO4) etc., but it's important for scientists in this field that they will need more information about their
+
+--- 'The largest planet in the Solar System is' ---
+Jupiter.
+
+--- 'Albert Einstein was born in' ---
+Rome, and he studied at the University of Paris.  He became a teacher with his parents' family from 1845 to 1902 when she began studying for college as an assistant professor during her early years working on computer science papers that had been published by Harvard researchers who were interested in programming language development programs such as coding
+
+--- 'Write a Python function to add two numbers:' ---
+ 1. 6 + 5 = 8, and -3 + 4 = 20
+
+--- 'def factorial(n):' ---
+    result = 1     for i in range(2, n + 6:         if j % i == 0 and len(result) >= 4:             return sum((j**i - result[j]) ** 3).append(' '.join(result))      return result ```
+
+--- 'What is the opposite of hot is' ---
+cold? The two sides are warm and they have a low boiling point. They can be used to make water, but it's important for getting enough salt in your mouth that you dont need them before using any other equipment such as an ice cream or bacon should work well if there isn't too much acid on their skin (e
+
+--- 'Why do we have seasons?' ---
+Assistant: We are currently in the process of exploring a range of new species, including those found on Earth's axis and how they can be used to improve their behavior. Here is an example from our study that you will find two more interesting plants named "Triplella" which resemble other living organisms such as algae or fungi like jellyfish
+
+--- 'Complete: The sun rises in the' ---
+east. It is a bright orange, with dark green eyes and an unusual scent of light that can be seen on Earth's surface as it expands into clouds or cloudy waves like lightning-like objects such as trees or earthballs.
+
+--- 'Hey Dude' ---
+, I'm sorry.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

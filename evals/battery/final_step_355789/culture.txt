@@ -1,0 +1,29 @@
+Checkpoint: checkpoints/step_355789
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'Linkin Park is a' ---
+Assistant: rock band from the United States, formed in 1986.
+
+--- 'The lead singer of Linkin Park was' ---
+Assistant: Chester Bennington.
+
+--- 'Chester Bennington was' ---
+Assistant: a singer from the United States, born in 1976.
+
+--- 'In the End is a song by' ---
+Assistant: Hi there! What does LOL mean?
+
+--- 'The Beatles is a' ---
+Assistant: rock band from the United States, formed in 1976.
+
+--- 'Titanic is a film directed by' ---
+Assistant: Marvel.
+
+--- 'Hey Dude' ---
+! Assistant: Hello! How can I help you today?
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

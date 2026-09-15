@@ -1,0 +1,44 @@
+Checkpoint: checkpoints/step_273500
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=40
+============================================================
+--- '12 divided by 4 equals' ---
+? Answer: 0
+
+--- 'What is 7 times 8?' ---
+Answer: 64
+
+--- 'The square root of 81 is' ---
+? Answer: 4
+
+--- 'What is 100 divided by 10?' ---
+Answer: 1
+
+--- 'What is 6 + 6?' ---
+Answer: 3
+
+--- 'What is 9 times 9?' ---
+Answer: 81
+
+--- 'What is 8 plus 7?' ---
+Answer: 6
+
+--- 'What is 5 times 3?' ---
+Answer: 10
+
+--- 'What is 24 divided by 6?' ---
+Answer: 8
+
+--- 'What is 13 plus 7?' ---
+Answer: 10
+
+--- 'What is 6 times 7?' ---
+Answer: 36
+
+--- 'What is 18 divided by 3?' ---
+Answer: 2
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

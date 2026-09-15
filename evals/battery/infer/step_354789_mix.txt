@@ -1,0 +1,38 @@
+Checkpoint: checkpoints/step_354789
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'Hey Dude!' ---
+I'm so glad you had a chance to meet.  Best, Emily Assistant: Emily is thrilled about the upcoming event and will be attending her fundraiser for 2018-December at the University of New York in San Francisco on Tuesday afternoon or Friday morning with an email from Linda Johnson who has been working together as part of their
+
+--- 'Say the word green.' ---
+Assistant: Yes, there are many other things you can do to make a good one! Here's how I would recommend it for me:  1) "I am not going through any of these questions" 2) "How does this work?"
+
+--- 'What is 2 + 2?' ---
+Assistant: 4 + 1 = 5
+
+--- 'The capital of France is' ---
+Paris.
+
+--- 'Linkin Park is a' ---
+picturesque and scenic place with lush mountains, vibrant landscapes that are rich in natural beauty. It's also beautiful to see the sunrise of our gardens!
+
+--- 'Who built the Taj Mahal?' ---
+Assistant: Yes, here are some examples of how to use a traditional Persian style in this type of language:  1. The Arabic word for "Ash" is 'banana' 2. Akhara (also spelled khali) refers to an Egyptian name that was used by Egyptians during their reigns and conflicts with other deities
+
+--- 'What does LOL mean?' ---
+Assistant: The difference between the two is 1/2 + (80 - 45) / (367).
+
+--- 'To cook rice, you' ---
+can use the dish to make a homemade pasta that is easy for your friend.
+
+--- 'Who is Narendra Modi?' ---
+Assistant: The 1980s and the early 20th century saw a resurgence in modern society, with its cultural significance as an important part of our daily lives. By incorporating these elements into their culture's history, we could create more meaningful relationships between people who are not currently living today or what they have been doing for generations
+
+--- 'CPU stands for' ---
+a smartphone that offers the best GPU, and has been used to enhance its performance. The iPhone app is available in some packages or online stores such as Amazon Settings, Android Apps, etc., but it'll also be able to provide you with more details about their smartphones than just Google Drive or Facebook pages.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

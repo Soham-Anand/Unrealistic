@@ -1,0 +1,19 @@
+Checkpoint: checkpoints/step_342000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'What is 8 + 7?' ---
+Assistant: The most common way to find the largest number of digits in a list can be by looking at its length and multiplying it with each digit. This will give you an idea for how many numbers are being made up from, or what they're worth noting about that as well!
+
+Traceback (most recent call last):
+  File "/Users/sohamanand/Unrealistic/scripts/spot_infer.py", line 98, in <module>
+    main()
+    ~~~~^^
+  File "/Users/sohamanand/Unrealistic/scripts/spot_infer.py", line 74, in main
+    out = generate(params, buffers, model_cfg, tokens,
+                   max_new_tokens=args.max_new_tokens,
+                   temperature=args.temperature,
+                   top_k=0, top_p=args.top_p,
+                   repetition_penalty=args.repetition_penalty)
+  File "/Users/sohamanand/Unrealistic/scripts/../src/inference/generate.py", line 25, in generate
+    next_token = int(mx.random.categorical(next_logits))
+KeyboardInterrupt

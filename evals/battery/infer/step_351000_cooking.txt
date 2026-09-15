@@ -1,0 +1,32 @@
+Checkpoint: checkpoints/step_351000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'To cook rice, you' ---
+need 4 to make it.
+
+--- 'How to make chai?' ---
+Assistant: Chao = 2 + 107 = 149
+
+--- 'To make an omelette, you need' ---
+to add 1/4 of the time. If your friend has 3 apples and wants a total of $250 for his friends he needs (since they can't have one) then she will be able to buy some more than $250 from her brother who is currently working on them in order to get it back into
+
+--- 'Water boils at' ---
+65 degrees Celsius (210 degree Fahrenheit) and rises to the ground as precipitation.
+
+--- 'To make roti, you need' ---
+to convert 10% of the total area into meters.
+
+--- 'How to cook pasta?' ---
+Assistant: Step 1: Start = 3 Step 2: Add 5. 3 + 5 = 8. Answer: 8
+
+--- 'Dal is made from' ---
+cotton.
+
+--- 'To fry an egg,' ---
+we need to find the total amount of milk that is needed for the recipe.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

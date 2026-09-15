@@ -1,0 +1,50 @@
+# Phase 1: YoHabloIngles — English + General Knowledge
+# Target: ~5B tokens, seq_len=1024
+
+phase: 1
+name: YoHabloIngles
+target_tokens: 5_000_000_000
+sequence_length: 1024
+
+datasets:
+  - name: FineWeb-Edu
+    repo: HuggingFaceFW/fineweb-edu
+    config: sample-10BT
+    ratio: 0.60
+    target_tokens: 3_000_000_000
+    role: Grammar, reasoning, educational language
+
+  - name: Wikipedia
+    repo: wikimedia/wikipedia
+    config: "20231101.en"
+    ratio: 0.20
+    target_tokens: 1_000_000_000
+    role: Encyclopedic knowledge and factual grounding
+    note: Full articles preserved (intro + sections + conclusion)
+
+  - name: SlimPajama
+    repo: gmongaras/SlimPajama-627B_Reupload
+    config: default
+    ratio: 0.10
+    target_tokens: 500_000_000
+    role: Real-world language diversity
+
+  - name: Cosmopedia
+    repo: HuggingFaceTB/cosmopedia
+    config: stories
+    ratio: 0.10
+    target_tokens: 500_000_000
+    role: Long-form coherence and fluent prose
+
+tokenizer:
+  type: sentencepiece_bpe
+  vocab_size: 32000
+  model_path: data/tokenizer/phase1.model
+  training_docs_per_dataset: 5000
+  character_coverage: 0.9995
+  split_digits: true
+
+output:
+  token_binary: data/phase1/tokens.bin
+  format: uint16_le
+  doc_separator: 0  # EOS token id

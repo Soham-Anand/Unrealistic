@@ -1,0 +1,26 @@
+Checkpoint: checkpoints/step_337382
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'Who was Jawaharlal Nehru?' ---
+Assistant: A study of the 19th century in India shows that even though some were not able to find a way for them, they did have an advantage over others.
+
+--- 'Who was Muhammad Ali Jinnah?' ---
+Assistant: 1974-2006.
+
+--- 'What is the capital of Pakistan?' ---
+Assistant: The capital of India is New Delhi.
+
+--- 'What is the capital of India?' ---
+Assistant: The capital of India is New Delhi.
+
+--- 'India gained independence in which year?' ---
+Assistant: The Indian national government has 30 members.
+
+--- 'Pakistan gained independence in which year?' ---
+Assistant: India was the first Prime Minister of India.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95
