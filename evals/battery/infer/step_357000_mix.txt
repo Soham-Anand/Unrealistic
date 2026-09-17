@@ -1,0 +1,44 @@
+Checkpoint: checkpoints/step_357000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=50
+============================================================
+--- 'Hey!' ---
+I'm so glad you enjoyed your trip.  Best, Emily Assistant: Emily is excited about the upcoming event and suggests a call to discuss further on Tuesday afternoon or Thursday morning for an interview next week.
+
+--- 'Hey Dude!' ---
+I'm so glad you found it helpful.  Best, Emily Assistant: Emily is excited about the upcoming event and wants to share a conversation with her family on Tuesday afternoon at 2 PM EST for more information or resources from other organizations that are
+
+--- 'Hello!' ---
+Sure, here are some tips for making your own homemade salad and serving the delicious dessert menu:  1. Choose a suitable sauce or creamy flavor that is easy to make with any desired ingredients - Use an egg-based ingredient such as
+
+--- 'How are you?' ---
+I'm glad to hear that! Here is a piece of text from the 1970s and how it helped me understand this.  "The Mushroom was an excellent example for young children, but we had no
+
+--- 'Good morning!' ---
+Best, Emily Assistant: Emily is excited about the upcoming season and will be available for a call next week.
+
+--- 'Bye!' ---
+The world is divided into two parts. Each part has its own unique features, such as the ability to create new memories and improve memory performance in a way that can help us understand how we communicate with others more effectively.  In this case
+
+--- 'Thank you!' ---
+
+
+--- 'Who are you?' ---
+I'm glad that we could make a significant difference in our lives. Here is the revised version of this article on how to use it for your personal experiences and what others do!  In summary, here are some tips from my own
+
+--- 'What can you do?' ---
+The best way to achieve your goals is by using a variety of tools and techniques that are available in the community. Here's an example code for creating customizable, personalized games with different features such as gaming options or game-based presentations
+
+--- 'What is 2 + 2?' ---
+4.
+
+--- 'The capital of France is' ---
+the United Kingdom.
+
+--- 'The lead singer of Linkin Park was' ---
+Olivia Lennon.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

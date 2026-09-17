@@ -541,5 +541,55 @@ log "  Phase 7b end (Wiki): baselines/post_phase7b/step_${PH7B_STEP}/"
 log "  Phase 7c end (SFT-refresh): baselines/post_phase7c/step_${PH7C_STEP}/"
 log "  Phase 7d end (DPO): baselines/post_phase7d/step_${PH7D_STEP}/"
 log "  Phase 8b end (Anchor): baselines/post_phase8b/step_${PH8_STEP}/"
+
+# ═══════════════════════════════════════════════════════════════════════
+# PHASE 7f: CONVERSATIONAL SFT + knowledge recovery (355,790 → 360,790)
+# 5,000 steps: UltraChat-30K + smol-smoltalk-20K + greetings + anchors-x40
+# + phase7 slice (grounding). Installs conversation, re-pins knowledge.
+# ═══════════════════════════════════════════════════════════════════════
+log "════════════════════════════════════════════════════════════"
+log "PHASE 7f STARTING (Convo-SFT: step ${PH8_STEP} → 360,790)"
+log "════════════════════════════════════════════════════════════"
+
+if [ ! -f data/phase7f/sft3_train.bin ]; then
+    log "Building Phase 7f data..."
+    PYTHONUNBUFFERED=1 PYTHONPATH=. python3 -u scripts/build_sft3.py \
+        >> build_sft3.log 2>&1
+    [ $? -ne 0 ] && die "Phase 7f data build failed"
+fi
+log "Phase 7f data: $(du -h data/phase7f/sft3_train.bin | cut -f1)"
+
+mkdir -p baselines/pre_phase7f/step_${PH8_STEP}
+cp checkpoints/step_${PH8_STEP}/*.npz baselines/pre_phase7f/step_${PH8_STEP}/ 2>/dev/null || log "WARNING: pre-7f checkpoint step_${PH8_STEP} not found"
+cp checkpoints/step_${PH8_STEP}/*.json baselines/pre_phase7f/step_${PH8_STEP}/ 2>/dev/null || true
+log "Pre-7f baseline archived to baselines/pre_phase7f/step_${PH8_STEP}/ (post-anchors)"
+prune_baseline baselines/pre_phase7f
+
+PYTHONUNBUFFERED=1 PYTHONPATH=. python3 -u scripts/train_manager.py \
+    --config configs/phase7f_convosft_config.json \
+    --model-config configs/model_config.json \
+    --reset-optimizer \
+    --phase "phase7f_convosft" \
+    >> training_phase7f.log 2>&1
+[ $? -ne 0 ] && die "Phase 7f training failed"
+
+PH7F_STEP=$(latest_step)
+log "Phase 7f complete at step ${PH7F_STEP}"
+
+run_gate "phase7f" "${PH7F_STEP}"
+
+mkdir -p baselines/post_phase7f/step_${PH7F_STEP}
+cp checkpoints/step_${PH7F_STEP}/*.npz baselines/post_phase7f/step_${PH7F_STEP}/
+cp checkpoints/step_${PH7F_STEP}/*.json baselines/post_phase7f/step_${PH7F_STEP}/ 2>/dev/null
+log "Phase 7f checkpoint archived to baselines/post_phase7f/step_${PH7F_STEP}/"
+prune_baseline baselines/post_phase7f
+log "  Phase 7f end (Convo-SFT): baselines/post_phase7f/step_${PH7F_STEP}/"
+
+# ═══════════════════════════════════════════════════════════════════════
+# PHASE 7g: COMBINED RECOVERY (B-modified: openers + HEAVY anchors + phase7)
+# 7f damaged free-gen routing (math 2/15, GK 9/16) while probes held.
+# One phase repairs all three: custom openers + anchors-x40 + phase7 slice.
+# Data: data/phase7g/combined_train.bin (6.41M). 360790 → 362290.
+# ═══════════════════════════════════════════════════════════════════════
 log "  Next: GGUF export → HuggingFace → Ollama"
 log "════════════════════════════════════════════════════════════"

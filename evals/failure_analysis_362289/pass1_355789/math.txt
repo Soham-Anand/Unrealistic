@@ -1,0 +1,53 @@
+Checkpoint: baselines/post_final
+temp=0.0 top_p=1.0 rep_penalty=1.0 max_tokens=70
+============================================================
+--- 'What is 8 + 7?' ---
+15
+
+--- 'What is 12 x 4?' ---
+48
+
+--- 'What is the square root of 49?' ---
+7
+
+--- 'What is 2 + 2?' ---
+4
+
+--- 'What is 64 / 8?' ---
+8
+
+--- 'What is 15 - 7?' ---
+8
+
+--- 'What is 7 x 8?' ---
+56
+
+--- 'What is 100 divided by 10?' ---
+10
+
+--- 'What is 9 x 9?' ---
+81
+
+--- 'What is 144 / 12?' ---
+12
+
+--- 'Janet has 3 apples. She gets 5 more. How many?' ---
+7
+
+--- 'A car travels 60 km in 2 hours. What is its speed?' ---
+70 km/h.
+
+--- 'There are 4 boxes with 6 books each. How many books?' ---
+8
+
+--- 'Linda has 12 candies. She gives 4 away. How many left?' ---
+8
+
+--- 'If 3 workers make 9 toys each, how many toys total?' ---
+20
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

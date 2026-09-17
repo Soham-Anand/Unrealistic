@@ -1,0 +1,2969 @@
+{
+ "checkpoint": "checkpoints/step_362289",
+ "temp": 0.0,
+ "seed": 7,
+ "domains": {
+  "culture": {
+   "n": 100,
+   "hits": 3,
+   "acc": 0.03
+  },
+  "science": {
+   "n": 10,
+   "hits": 7,
+   "acc": 0.7
+  },
+  "gk": {
+   "n": 10,
+   "hits": 8,
+   "acc": 0.8
+  },
+  "arithmetic": {
+   "n": 300,
+   "hits": 103,
+   "acc": 0.3433333333333333
+  }
+ },
+ "items": [
+  {
+   "domain": "culture",
+   "prompt": "The Beatles were a band from which city?",
+   "accepted": "Liverpool",
+   "pred": "The Beatles were a band from which city? The Beatles were a band from which city? The Beatles were a band from which city? The Beatles were a band from which city? The Beatles",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "The Beatles' second UK album was titled what?",
+   "accepted": "With The Beatles",
+   "pred": "The Beatles' second UK album was titled What is 199 + 199? Assistant: 199 + 199 = 398",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: The Beatles' first UK single was Love Me ___.",
+   "accepted": "Do",
+   "pred": "Get(100, 100, 100, 100, 100, 100, 100, 100",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Who was the drummer of The Beatles for most of their famous period?",
+   "accepted": "Ringo Starr",
+   "pred": "Diwali is the singer of The Beatles for the first time in his life.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which Beatles member played bass?",
+   "accepted": "Paul McCartney",
+   "pred": "Mojang created bass for the band.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "The Beatles' final public performance took place on the rooftop of which building?",
+   "accepted": "Apple Corps headquarters at 3 Savile Row",
+   "pred": "The United States was the first Prime Minister of India.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "In which decade did The Beatles break up?",
+   "accepted": "1970s",
+   "pred": "1526.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "\"All You Need Is Love\" was performed by which band during the 1967 Our World broadcast?",
+   "accepted": "The Beatles",
+   "pred": "1967-1968: 1967-1968: 1968-1969: 1969",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: The Beatles' album released in November 1963 was With The ___.",
+   "accepted": "Beatles",
+   "pred": "[1963] The Beatles' album released in November 1963 was With The__.[1963] The Beatles' album released in November 196",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "George Harrison was a member of which band?",
+   "accepted": "The Beatles",
+   "pred": "Charm when flirting.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Linkin Park is an American rock band formed in what year?",
+   "accepted": "1996",
+   "pred": "Step 1: Rock band formed in 1996.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Chester Bennington was the lead vocalist of which band?",
+   "accepted": "Linkin Park",
+   "pred": "Jawaharlal Nehru was the lead singer of this band.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: \"In the End\" is a song by ___.",
+   "accepted": "Linkin Park",
+   "pred": "GetNext() from the end.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which American rock band released \"In the End\"?",
+   "accepted": "Linkin Park",
+   "pred": "Jawaharlal Nehru was released in 1996.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Linkin Park's lead vocalist Chester Bennington was born in which U.S. state?",
+   "accepted": "Arizona",
+   "pred": "U.S. state is the national anthem of the United States.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "What instrument is Paul McCartney particularly associated with in The Beatles?",
+   "accepted": "bass guitar",
+   "pred": "Paul McCartney is known for his song \"The Beatles\" by the Beatles.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which Beatles album contains \"Tomorrow Never Knows\"?",
+   "accepted": "Revolver",
+   "pred": "",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which Beatles album is associated with the song \"Strawberry Fields Forever\"?",
+   "accepted": "Magical Mystery Tour",
+   "pred": "Mojang released the album in 1996.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: The Beatles were formed in ___, England.",
+   "accepted": "Liverpool",
+   "pred": "",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "The Beatles' official history describes their early development in Liverpool and Hamburg. Which German city was central to their early live career?",
+   "accepted": "Hamburg",
+   "pred": "The Berlin Philharmonic was founded in 1996.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Who directed Titanic (1997)?",
+   "accepted": "James Cameron",
+   "pred": "The 1997 World War II draft of the 1997 World War II draft of the 1997 World War II draft of the 199",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Titanic (1997) stars Leonardo DiCaprio and which actress as Rose?",
+   "accepted": "Kate Winslet",
+   "pred": "Rose is the son of Assistant: Anne.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: Titanic (1997) was directed by James ___.",
+   "accepted": "Cameron",
+   "pred": "__.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "In Titanic, Leonardo DiCaprio played which character?",
+   "accepted": "Jack Dawson",
+   "pred": "Leonardo DiCaprio played the role of a detective in the 1930s.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "In Titanic, Kate Winslet played which character?",
+   "accepted": "Rose DeWitt Bukater",
+   "pred": "Kate Winslet played the role of a detective in the detective's role as a detective in the detective's role as a detective in the detective's role as a detective in",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "The Dark Knight was directed by whom?",
+   "accepted": "Christopher Nolan",
+   "pred": "The Dark Knight was directed by whom? The Dark Knight was directed by whom? The Dark Knight was directed by whom? The Dark Knight was directed by whom? The Dark Knight was directed by",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: Christian Bale played Bruce Wayne/Batman in The Dark ___.",
+   "accepted": "Knight",
+   "pred": "",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Who played the Joker in The Dark Knight (2008)?",
+   "accepted": "Heath Ledger",
+   "pred": "The Joker was formed in 1996.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "The Dark Knight is a film in which superhero franchise?",
+   "accepted": "Batman",
+   "pred": "Dark Knight is a superhero game series.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which 1999 film follows Neo, a hacker who discovers the nature of his reality?",
+   "accepted": "The Matrix",
+   "pred": "The 19th-century comedy film is a series of films by the 19th-century German film.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Who directed The Matrix (1999)?",
+   "accepted": "The Wachowskis",
+   "pred": "The Matrix of the Matrix (1999)? The Matrix of the Matrix (1999)? The Matrix of the Matrix (1999",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: The protagonist of The Matrix is commonly known as ___.",
+   "accepted": "Neo",
+   "pred": "_..",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which animated film features the characters Woody and Buzz Lightyear?",
+   "accepted": "Toy Story",
+   "pred": "The series is a series of animated films.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Toy Story was produced by which animation studio?",
+   "accepted": "Pixar",
+   "pred": "Charm when flirting.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: Toy Story was released in ___.",
+   "accepted": "1995",
+   "pred": "2005.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which television series follows the fictional Simpson family in Springfield?",
+   "accepted": "The Simpsons",
+   "pred": "The TV series is a series of novels by the United States, mainly written by the United States, Canada, and the United States.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "What is the first name of the father in The Simpsons?",
+   "accepted": "Homer",
+   "pred": "The last son in the family is the last son in the family.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Breaking Bad primarily follows which chemistry teacher who becomes involved in producing methamphetamine?",
+   "accepted": "Walter White",
+   "pred": "Yes, there are many other types of methamphetamine that can be used in everyday life. Here are a few:  1. Methamphetamine: This is a chemical symbol for oxygen",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: Bryan Cranston played Walter ___ in Breaking Bad.",
+   "accepted": "White",
+   "pred": "",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which television series is set primarily in the fictional town of Hawkins, Indiana?",
+   "accepted": "Stranger Things",
+   "pred": "The Disney series is set by the Disney series.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Who wrote Pride and Prejudice?",
+   "accepted": "Jane Austen",
+   "pred": "Rabindranath Tagore wrote the Indian national anthem (Jana Gana Mana).",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: Pride and ___ was written by Jane Austen.",
+   "accepted": "Prejudice",
+   "pred": "",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which novel features Elizabeth Bennet as its protagonist?",
+   "accepted": "Pride and Prejudice",
+   "pred": "Jane Bennet as the protagonist.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Who wrote Great Expectations?",
+   "accepted": "Charles Dickens",
+   "pred": "Rabindranath Tagore wrote Great Expectations.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: Great Expectations was written by Charles ___.",
+   "accepted": "Dickens",
+   "pred": "_narrations_of_narrations_of_narrations_of_narrations_of_narrations_of_narrations_of_narrations",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which Shakespeare tragedy features the character Hamlet, Prince of Denmark?",
+   "accepted": "Hamlet",
+   "pred": "Hamlet is the son of Assistant: Hamlet.",
+   "hit": true
+  },
+  {
+   "domain": "culture",
+   "prompt": "Who wrote Hamlet?",
+   "accepted": "William Shakespeare",
+   "pred": "Rabindranath Tagore wrote Hamlet.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: William Shakespeare wrote the tragedy ___.",
+   "accepted": "Hamlet",
+   "pred": "of a square in a square in 1526.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which Shakespeare play features the characters Romeo and Juliet?",
+   "accepted": "Romeo and Juliet",
+   "pred": "The characters Romeo and Juliet are the characters in the story.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Who wrote The Odyssey?",
+   "accepted": "Homer",
+   "pred": "Rabindranath Tagore wrote the Indian national anthem (Jana Gana Mana).",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: Homer's two major epic poems include The Iliad and The ___.",
+   "accepted": "Odyssey",
+   "pred": "What does LOL mean? Assistant: Laughing out loud.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Who wrote Frankenstein?",
+   "accepted": "Mary Shelley",
+   "pred": "William Shakespeare wrote Frankenstein's most famous book, The End of the Worlds, by William Shakespeare.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which novel was written by Mary Shelley and first published in 1818?",
+   "accepted": "Frankenstein",
+   "pred": "Mary Shelley and first published in 1818.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Who wrote The Adventures of Huckleberry Finn?",
+   "accepted": "Mark Twain",
+   "pred": "Rabindranath Tagore wrote the Adventures of Huckleberry Finn.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: Paradise Lost was written by John ___.",
+   "accepted": "Milton",
+   "pred": "__.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Who painted the Mona Lisa?",
+   "accepted": "Leonardo da Vinci",
+   "pred": "Mojang created the Mona Lisa.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: Leonardo da Vinci painted the Mona ___.",
+   "accepted": "Lisa",
+   "pred": "Get(1) in her original style. Assistant: The Mona of the Mona is a wonder of the world.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which artist painted The Starry Night?",
+   "accepted": "Vincent van Gogh",
+   "pred": "William Shakespeare painted The Starry Night.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "The Starry Night was painted by which Dutch artist?",
+   "accepted": "Vincent van Gogh",
+   "pred": "The Starry Night was painted by Dutch artist.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Who painted The Persistence of Memory?",
+   "accepted": "Salvador Dali",
+   "pred": "Mojang created the Mughal Empire in India.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: The Persistence of Memory is a painting by Salvador ___.",
+   "accepted": "Dali",
+   "pred": "GetNext() ```",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which artistic movement is Pablo Picasso strongly associated with as a pioneer?",
+   "accepted": "Cubism",
+   "pred": "Leonardo Picasso was the first Prime Minister of India.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Who painted Guernica?",
+   "accepted": "Pablo Picasso",
+   "pred": "Mojang created by Fujita Fujita.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: Picasso's Guernica responds to the bombing of the Spanish town of ___.",
+   "accepted": "Guernica",
+   "pred": "What is the capital of France? Assistant: The capital of France is Paris.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which artist created the sculpture The Thinker?",
+   "accepted": "Auguste Rodin",
+   "pred": "Diwali is the festival of lights in India.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which company developed Minecraft?",
+   "accepted": "Mojang Studios",
+   "pred": "Mojang created Minecraft.",
+   "hit": true
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: Minecraft was originally created by Markus ___.",
+   "accepted": "Persson",
+   "pred": ".",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Who is commonly known by the nickname \"Notch\" and originally created Minecraft?",
+   "accepted": "Markus Persson",
+   "pred": "Yes, Minecraft was released in Assistant: 2011.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which company published Grand Theft Auto V?",
+   "accepted": "Rockstar Games",
+   "pred": "The company published the first 100 books in 100 books.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Grand Theft Auto V was developed primarily by which Rockstar studio?",
+   "accepted": "Rockstar North",
+   "pred": "Rockstar studio was developed by Rockstar studio.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: The Legend of Zelda is a Nintendo video game ___.",
+   "accepted": "series",
+   "pred": "Get(Zelda) that was released in 1996.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which company developed Portal 2?",
+   "accepted": "Valve",
+   "pred": "The company developed Portal 2.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Need for Speed: Most Wanted (2005) was developed by which studio?",
+   "accepted": "EA Black Box",
+   "pred": "Step 1: Speed = 80 km/h Step 2: Distance = Speed \u00d7 Time = 80 \u00d7 3 = 240",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: Need for Speed: Most Wanted (2005) is part of the ___ for Speed series.",
+   "accepted": "Need for Speed",
+   "pred": "",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which studio developed Half-Life 2?",
+   "accepted": "Valve",
+   "pred": "The studio was developed by Assistant: The World Wide Web.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "In which year did the Apollo 11 Moon landing occur?",
+   "accepted": "1969",
+   "pred": "Jupiter was the first Prime Minister of India.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Who was the first person to walk on the Moon?",
+   "accepted": "Neil Armstrong",
+   "pred": "Earth's axis is tilted, changing sunlight through the year.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: Apollo 11 landed on the Moon in ___.",
+   "accepted": "1969",
+   "pred": "100 degrees Celsius (212 degrees Fahrenheit) at standard atmospheric pressure.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which spacecraft carried the Apollo 11 astronauts to the Moon?",
+   "accepted": "Apollo 11",
+   "pred": "The Gemini is a spacecraft carrying the Gemini.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "In which year did the Berlin Wall fall?",
+   "accepted": "1989",
+   "pred": "The Berlin Wall is a series of fortifications built by successive Chinese dynasties, mainly Ming (1368-1644).",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: The Berlin Wall fell in ___.",
+   "accepted": "1989",
+   "pred": "100% of the world.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Who was the first emperor of the Roman Empire?",
+   "accepted": "Augustus",
+   "pred": "The second emperor of the Roman Empire is the second emperor of the Roman Empire.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: The Magna Carta was sealed in England in ___.",
+   "accepted": "1215",
+   "pred": "The Magna Carta was sealed in England in 1526.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which ancient civilization built Machu Picchu?",
+   "accepted": "Inca",
+   "pred": "The Taj Mahal in Agra is one of the wonders of the world.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which city was buried by the eruption of Mount Vesuvius in 79 CE?",
+   "accepted": "Pompeii",
+   "pred": "The Great Wall is a series of fortifications built by successive Chinese dynasties, mainly Ming (1368-1644).",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "What is the capital of Japan?",
+   "accepted": "Tokyo",
+   "pred": "The capital of Japan is Tokyo.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: Mount Fuji is located in ___.",
+   "accepted": "Japan",
+   "pred": "2.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which country is home to the ancient city of Petra?",
+   "accepted": "Jordan",
+   "pred": "The Great Wall is a series of fortifications built by successive Chinese dynasties, mainly Ming (1368-1644).",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Petra is located in which modern-day country?",
+   "accepted": "Jordan",
+   "pred": "The Taj Mahal in Agra is one of the wonders of the world.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which city is known for the Eiffel Tower?",
+   "accepted": "Paris",
+   "pred": "The Eiffel Tower is a series of fortifications built by successive Chinese dynasties, mainly Ming (1368-1644).",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: The Eiffel Tower is located in ___.",
+   "accepted": "Paris",
+   "pred": "11.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which country contains the Great Barrier Reef?",
+   "accepted": "Australia",
+   "pred": "The Great Barrier Reef is the national animal of India.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Complete: The Great Barrier Reef lies off the coast of ___.",
+   "accepted": "Australia",
+   "pred": "",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which country is home to the Taj Mahal?",
+   "accepted": "India",
+   "pred": "The Taj Mahal in the Taj Mahal in the Taj Mahal in the Taj Mahal in the Taj Mahal in the Taj Mahal in the Taj Mahal in the Taj Mah",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "In which Indian city is the Taj Mahal located?",
+   "accepted": "Agra",
+   "pred": "The Taj Mahal in India is the Taj Mahal in India.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "What is the largest ocean on Earth?",
+   "accepted": "Pacific Ocean",
+   "pred": "The Pacific Ocean is the largest ocean on Earth.",
+   "hit": true
+  },
+  {
+   "domain": "culture",
+   "prompt": "The largest ocean on Earth is the ___ Ocean.",
+   "accepted": "Pacific",
+   "pred": "",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which element has the chemical symbol Fe?",
+   "accepted": "Iron",
+   "pred": "The chemical symbol for gold is Au.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "The chemical symbol Fe stands for ___.",
+   "accepted": "Iron",
+   "pred": "The chemical symbol for gold is Au.",
+   "hit": false
+  },
+  {
+   "domain": "culture",
+   "prompt": "Which planet is known for its prominent ring system?",
+   "accepted": "Saturn",
+   "pred": "Mars.",
+   "hit": false
+  },
+  {
+   "domain": "science",
+   "prompt": "Water is made of hydrogen and",
+   "accepted": "oxygen",
+   "pred": "what? Assistant: Water is made of hydrogen and oxygen (H2O).",
+   "hit": false
+  },
+  {
+   "domain": "science",
+   "prompt": "The largest planet in the Solar System is",
+   "accepted": "Jupiter",
+   "pred": "Jupiter.",
+   "hit": true
+  },
+  {
+   "domain": "science",
+   "prompt": "The Earth revolves around the",
+   "accepted": "Sun",
+   "pred": "Sun.",
+   "hit": true
+  },
+  {
+   "domain": "science",
+   "prompt": "Atoms are made of protons, neutrons and",
+   "accepted": "electrons",
+   "pred": "electrons.",
+   "hit": true
+  },
+  {
+   "domain": "science",
+   "prompt": "DNA is a",
+   "accepted": "molecule",
+   "pred": "molecule.",
+   "hit": true
+  },
+  {
+   "domain": "science",
+   "prompt": "The Moon orbits the",
+   "accepted": "Earth",
+   "pred": "Earth.",
+   "hit": true
+  },
+  {
+   "domain": "science",
+   "prompt": "Photosynthesis produces",
+   "accepted": "oxygen",
+   "pred": "energy and oxygen.",
+   "hit": false
+  },
+  {
+   "domain": "science",
+   "prompt": "The Nile is the longest",
+   "accepted": "river",
+   "pred": "river.",
+   "hit": true
+  },
+  {
+   "domain": "science",
+   "prompt": "Mount Everest is the highest",
+   "accepted": "mountain",
+   "pred": "mountain.",
+   "hit": true
+  },
+  {
+   "domain": "science",
+   "prompt": "Light travels faster than",
+   "accepted": "sound",
+   "pred": "the Earth.",
+   "hit": false
+  },
+  {
+   "domain": "gk",
+   "prompt": "The capital of France is",
+   "accepted": "Paris",
+   "pred": "Paris.",
+   "hit": true
+  },
+  {
+   "domain": "gk",
+   "prompt": "The capital of Japan is",
+   "accepted": "Tokyo",
+   "pred": "Tokyo.",
+   "hit": true
+  },
+  {
+   "domain": "gk",
+   "prompt": "The capital of India is",
+   "accepted": "New Delhi",
+   "pred": "New Delhi.",
+   "hit": true
+  },
+  {
+   "domain": "gk",
+   "prompt": "The largest planet in the Solar System is",
+   "accepted": "Jupiter",
+   "pred": "Jupiter.",
+   "hit": true
+  },
+  {
+   "domain": "gk",
+   "prompt": "In which year did India gain independence?",
+   "accepted": "1947",
+   "pred": "India gained independence in 1947.",
+   "hit": false
+  },
+  {
+   "domain": "gk",
+   "prompt": "What is the currency of India?",
+   "accepted": "Rupee",
+   "pred": "The currency of India is the Rupee (INR).",
+   "hit": false
+  },
+  {
+   "domain": "gk",
+   "prompt": "The Second World War ended in",
+   "accepted": "1945",
+   "pred": "1945.",
+   "hit": true
+  },
+  {
+   "domain": "gk",
+   "prompt": "Who was the first Prime Minister of India?",
+   "accepted": "Jawaharlal Nehru was the first Prime Minister of India.",
+   "pred": "Jawaharlal Nehru was the first Prime Minister of India.",
+   "hit": true
+  },
+  {
+   "domain": "gk",
+   "prompt": "Which monument in Agra is one of the wonders of the world?",
+   "accepted": "The Taj Mahal",
+   "pred": "The Taj Mahal in Agra is one of the wonders of the world.",
+   "hit": true
+  },
+  {
+   "domain": "gk",
+   "prompt": "Who wrote the Indian national anthem?",
+   "accepted": "Rabindranath Tagore",
+   "pred": "Rabindranath Tagore wrote the Indian national anthem (Jana Gana Mana).",
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 970 - 154?",
+   "accepted": 816,
+   "pred": 516.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 666 - 49?",
+   "accepted": 617,
+   "pred": 497.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 840 + 548?",
+   "accepted": 1388,
+   "pred": 1408.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 374 + 596?",
+   "accepted": 970,
+   "pred": 1160.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 931 + 519?",
+   "accepted": 1450,
+   "pred": 1450.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 38 + 88?",
+   "accepted": 126,
+   "pred": 126.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 428 - 35?",
+   "accepted": 393,
+   "pred": 393.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 92 + 564?",
+   "accepted": 656,
+   "pred": 656.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 60 - 52?",
+   "accepted": 8,
+   "pred": 4.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 15 x 3?",
+   "accepted": 45,
+   "pred": 45.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 80 x 9?",
+   "accepted": 720,
+   "pred": 72.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 590 + 599?",
+   "accepted": 1189,
+   "pred": 1189.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 50 - 14?",
+   "accepted": 36,
+   "pred": 36.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 570 + 879?",
+   "accepted": 1449,
+   "pred": 1449.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 296 + 429?",
+   "accepted": 725,
+   "pred": 725.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 553 + 120?",
+   "accepted": 673,
+   "pred": 673.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 39 x 8?",
+   "accepted": 312,
+   "pred": 333.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 23 x 1?",
+   "accepted": 23,
+   "pred": 23.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 73 x 10?",
+   "accepted": 730,
+   "pred": 73.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 381 + 99?",
+   "accepted": 480,
+   "pred": 137.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 91 x 1?",
+   "accepted": 91,
+   "pred": 91.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 7 x 9?",
+   "accepted": 63,
+   "pred": 63.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 508 + 696?",
+   "accepted": 1204,
+   "pred": 1294.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 54 x 12?",
+   "accepted": 648,
+   "pred": 60.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 476 - 299?",
+   "accepted": 177,
+   "pred": 97.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 370 - 153?",
+   "accepted": 217,
+   "pred": 177.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 813 + 184?",
+   "accepted": 997,
+   "pred": 265.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 99 x 3?",
+   "accepted": 297,
+   "pred": 27.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 588 + 307?",
+   "accepted": 895,
+   "pred": 995.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 63 x 5?",
+   "accepted": 315,
+   "pred": 335.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 57 x 4?",
+   "accepted": 228,
+   "pred": 48.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 9 x 1?",
+   "accepted": 9,
+   "pred": 9.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 53 x 2?",
+   "accepted": 106,
+   "pred": 113.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 155 - 125?",
+   "accepted": 30,
+   "pred": 20.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 40 - 4?",
+   "accepted": 36,
+   "pred": 36.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 73 x 12?",
+   "accepted": 876,
+   "pred": 99.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 348 - 179?",
+   "accepted": 169,
+   "pred": 7.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 63 x 9?",
+   "accepted": 567,
+   "pred": 57.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 70 - 11?",
+   "accepted": 59,
+   "pred": 59.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 485 - 356?",
+   "accepted": 129,
+   "pred": 91.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 8 x 0?",
+   "accepted": 0,
+   "pred": 8.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 89 x 4?",
+   "accepted": 356,
+   "pred": 276.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 73 x 10?",
+   "accepted": 730,
+   "pred": 73.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 291 - 197?",
+   "accepted": 94,
+   "pred": 14.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 44 x 0?",
+   "accepted": 0,
+   "pred": 48.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 363 - 86?",
+   "accepted": 277,
+   "pred": 197.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 14 x 7?",
+   "accepted": 98,
+   "pred": 22.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 223 + 786?",
+   "accepted": 1009,
+   "pred": 1009.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 132 - 63?",
+   "accepted": 69,
+   "pred": 69.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 400 - 254?",
+   "accepted": 146,
+   "pred": 16.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 170 + 459?",
+   "accepted": 629,
+   "pred": 629.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 562 - 284?",
+   "accepted": 278,
+   "pred": 108.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 838 + 440?",
+   "accepted": 1278,
+   "pred": 1278.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 35 x 11?",
+   "accepted": 385,
+   "pred": 35.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 367 - 349?",
+   "accepted": 18,
+   "pred": 88.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 980 - 236?",
+   "accepted": 744,
+   "pred": 524.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 84 + 180?",
+   "accepted": 264,
+   "pred": 264.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 237 + 674?",
+   "accepted": 911,
+   "pred": 911.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 12 + 496?",
+   "accepted": 508,
+   "pred": 508.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 23 x 4?",
+   "accepted": 92,
+   "pred": 92.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 4 - 1?",
+   "accepted": 3,
+   "pred": 4.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 547 - 378?",
+   "accepted": 169,
+   "pred": 79.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 72 x 5?",
+   "accepted": 360,
+   "pred": 210.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 707 + 879?",
+   "accepted": 1586,
+   "pred": 1596.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 79 x 10?",
+   "accepted": 790,
+   "pred": 79.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 94 x 0?",
+   "accepted": 0,
+   "pred": 94.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 921 - 891?",
+   "accepted": 30,
+   "pred": 3.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 71 x 6?",
+   "accepted": 426,
+   "pred": 61.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 408 - 201?",
+   "accepted": 207,
+   "pred": 207.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 493 + 649?",
+   "accepted": 1142,
+   "pred": 1142.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 63 - 24?",
+   "accepted": 39,
+   "pred": 39.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 213 + 451?",
+   "accepted": 664,
+   "pred": 664.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 112 + 348?",
+   "accepted": 460,
+   "pred": 460.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 6 x 1?",
+   "accepted": 6,
+   "pred": 6.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 580 + 154?",
+   "accepted": 734,
+   "pred": 834.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 12 x 5?",
+   "accepted": 60,
+   "pred": 70.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 3 x 1?",
+   "accepted": 3,
+   "pred": 3.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 628 + 385?",
+   "accepted": 1013,
+   "pred": 1013.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 649 + 258?",
+   "accepted": 907,
+   "pred": 1017.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 616 - 372?",
+   "accepted": 244,
+   "pred": 104.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 125 - 14?",
+   "accepted": 111,
+   "pred": 111.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 477 - 245?",
+   "accepted": 232,
+   "pred": 122.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 319 - 43?",
+   "accepted": 276,
+   "pred": 106.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 104 + 767?",
+   "accepted": 871,
+   "pred": 811.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 758 - 271?",
+   "accepted": 487,
+   "pred": 247.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 848 - 708?",
+   "accepted": 140,
+   "pred": 12.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 528 + 23?",
+   "accepted": 551,
+   "pred": 665.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 973 + 974?",
+   "accepted": 1947,
+   "pred": 1927.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 46 x 2?",
+   "accepted": 92,
+   "pred": 14.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 69 x 0?",
+   "accepted": 0,
+   "pred": 63.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 38 x 10?",
+   "accepted": 380,
+   "pred": 380.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 712 + 865?",
+   "accepted": 1577,
+   "pred": 1577.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 530 - 375?",
+   "accepted": 155,
+   "pred": 6.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 364 + 790?",
+   "accepted": 1154,
+   "pred": 1154.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 545 + 554?",
+   "accepted": 1099,
+   "pred": 1199.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 42 x 10?",
+   "accepted": 420,
+   "pred": 42.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 627 + 830?",
+   "accepted": 1457,
+   "pred": 1457.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 825 + 245?",
+   "accepted": 1070,
+   "pred": 1170.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 757 - 232?",
+   "accepted": 525,
+   "pred": 425.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 530 + 504?",
+   "accepted": 1034,
+   "pred": 1034.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 748 - 29?",
+   "accepted": 719,
+   "pred": 579.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 809 + 286?",
+   "accepted": 1095,
+   "pred": 1195.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 265 - 99?",
+   "accepted": 166,
+   "pred": 76.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 77 x 5?",
+   "accepted": 385,
+   "pred": 395.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 827 - 740?",
+   "accepted": 87,
+   "pred": 16.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 977 - 373?",
+   "accepted": 604,
+   "pred": 324.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 225 + 104?",
+   "accepted": 329,
+   "pred": 329.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 481 + 201?",
+   "accepted": 682,
+   "pred": 682.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 209 - 123?",
+   "accepted": 86,
+   "pred": 76.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 78 x 0?",
+   "accepted": 0,
+   "pred": 78.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 931 - 668?",
+   "accepted": 263,
+   "pred": 33.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 818 - 658?",
+   "accepted": 160,
+   "pred": 6.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 854 + 676?",
+   "accepted": 1530,
+   "pred": 1520.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 931 + 397?",
+   "accepted": 1328,
+   "pred": 1328.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 96 x 3?",
+   "accepted": 288,
+   "pred": 272.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 910 - 182?",
+   "accepted": 728,
+   "pred": 398.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 808 - 651?",
+   "accepted": 157,
+   "pred": 59.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 88 - 50?",
+   "accepted": 38,
+   "pred": 38.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 411 - 380?",
+   "accepted": 31,
+   "pred": 3.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 742 + 162?",
+   "accepted": 904,
+   "pred": 236.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 130 + 28?",
+   "accepted": 158,
+   "pred": 158.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 604 + 926?",
+   "accepted": 1530,
+   "pred": 1520.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 825 - 671?",
+   "accepted": 154,
+   "pred": 56.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 626 + 846?",
+   "accepted": 1472,
+   "pred": 1472.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 60 x 10?",
+   "accepted": 600,
+   "pred": 60.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 159 - 140?",
+   "accepted": 19,
+   "pred": 19.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 16 x 0?",
+   "accepted": 0,
+   "pred": 0.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 818 + 994?",
+   "accepted": 1812,
+   "pred": 1812.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 83 x 1?",
+   "accepted": 83,
+   "pred": 83.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 95 x 2?",
+   "accepted": 190,
+   "pred": 172.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 892 - 199?",
+   "accepted": 693,
+   "pred": 513.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 28 + 257?",
+   "accepted": 285,
+   "pred": 295.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 299 + 513?",
+   "accepted": 812,
+   "pred": 912.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 782 + 600?",
+   "accepted": 1382,
+   "pred": 1382.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 265 - 214?",
+   "accepted": 51,
+   "pred": 121.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 62 + 931?",
+   "accepted": 993,
+   "pred": 105.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 45 x 7?",
+   "accepted": 315,
+   "pred": 275.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 74 x 8?",
+   "accepted": 592,
+   "pred": 512.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 846 - 513?",
+   "accepted": 333,
+   "pred": 213.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 544 + 155?",
+   "accepted": 699,
+   "pred": 699.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 65 x 0?",
+   "accepted": 0,
+   "pred": 65.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 795 - 187?",
+   "accepted": 608,
+   "pred": 348.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 0 x 12?",
+   "accepted": 0,
+   "pred": 0.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 176 + 144?",
+   "accepted": 320,
+   "pred": 310.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 633 - 123?",
+   "accepted": 510,
+   "pred": 400.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 7 x 5?",
+   "accepted": 35,
+   "pred": 55.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 66 x 8?",
+   "accepted": 528,
+   "pred": 440.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 61 x 12?",
+   "accepted": 732,
+   "pred": 72.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 904 + 573?",
+   "accepted": 1477,
+   "pred": 1477.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 254 + 195?",
+   "accepted": 449,
+   "pred": 449.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 43 - 6?",
+   "accepted": 37,
+   "pred": 37.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 57 x 8?",
+   "accepted": 456,
+   "pred": 39.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 778 + 915?",
+   "accepted": 1693,
+   "pred": 1703.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 453 + 333?",
+   "accepted": 786,
+   "pred": 886.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 64 x 9?",
+   "accepted": 576,
+   "pred": 574.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 25 x 11?",
+   "accepted": 275,
+   "pred": 25.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 463 - 260?",
+   "accepted": 203,
+   "pred": 13.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 61 x 8?",
+   "accepted": 488,
+   "pred": 44.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 715 + 535?",
+   "accepted": 1250,
+   "pred": 1260.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 944 - 572?",
+   "accepted": 372,
+   "pred": 28.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 860 + 458?",
+   "accepted": 1318,
+   "pred": 1218.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 426 + 124?",
+   "accepted": 550,
+   "pred": 650.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 452 - 161?",
+   "accepted": 291,
+   "pred": 13.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 687 + 246?",
+   "accepted": 933,
+   "pred": 1023.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 74 - 27?",
+   "accepted": 47,
+   "pred": 47.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 38 x 12?",
+   "accepted": 456,
+   "pred": 48.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 918 + 795?",
+   "accepted": 1713,
+   "pred": 1713.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 962 + 733?",
+   "accepted": 1695,
+   "pred": 1595.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 84 x 5?",
+   "accepted": 420,
+   "pred": 170.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 259 + 904?",
+   "accepted": 1163,
+   "pred": 1163.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 990 + 478?",
+   "accepted": 1468,
+   "pred": 1468.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 764 + 975?",
+   "accepted": 1739,
+   "pred": 1719.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 407 + 906?",
+   "accepted": 1313,
+   "pred": 1203.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 166 - 57?",
+   "accepted": 109,
+   "pred": 109.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 723 + 441?",
+   "accepted": 1164,
+   "pred": 1154.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 51 x 5?",
+   "accepted": 255,
+   "pred": 215.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 200 - 91?",
+   "accepted": 109,
+   "pred": 99.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 94 - 92?",
+   "accepted": 2,
+   "pred": 2.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 19 - 10?",
+   "accepted": 9,
+   "pred": 9.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 58 x 7?",
+   "accepted": 406,
+   "pred": 44.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 2 x 6?",
+   "accepted": 12,
+   "pred": 24.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 529 - 302?",
+   "accepted": 227,
+   "pred": 177.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 8 x 1?",
+   "accepted": 8,
+   "pred": 8.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 995 + 897?",
+   "accepted": 1892,
+   "pred": 1872.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 86 + 271?",
+   "accepted": 357,
+   "pred": 357.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 40 - 11?",
+   "accepted": 29,
+   "pred": 39.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 773 - 132?",
+   "accepted": 641,
+   "pred": 551.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 869 - 692?",
+   "accepted": 177,
+   "pred": 17.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 415 - 76?",
+   "accepted": 339,
+   "pred": 195.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 65 x 9?",
+   "accepted": 585,
+   "pred": 57.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 717 - 334?",
+   "accepted": 383,
+   "pred": 29.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 285 + 58?",
+   "accepted": 343,
+   "pred": 234.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 23 x 6?",
+   "accepted": 138,
+   "pred": 138.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 275 + 960?",
+   "accepted": 1235,
+   "pred": 1235.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 649 + 90?",
+   "accepted": 739,
+   "pred": 1548.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 85 - 77?",
+   "accepted": 8,
+   "pred": 8.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 68 + 270?",
+   "accepted": 338,
+   "pred": 338.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 464 + 11?",
+   "accepted": 475,
+   "pred": 475.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 566 - 427?",
+   "accepted": 139,
+   "pred": 89.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 636 - 132?",
+   "accepted": 504,
+   "pred": 314.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 539 + 726?",
+   "accepted": 1265,
+   "pred": 1275.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 960 + 112?",
+   "accepted": 1072,
+   "pred": 1072.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 268 + 51?",
+   "accepted": 319,
+   "pred": 579.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 206 + 954?",
+   "accepted": 1160,
+   "pred": 1150.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 643 - 312?",
+   "accepted": 331,
+   "pred": 211.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 97 x 3?",
+   "accepted": 291,
+   "pred": 271.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 456 - 256?",
+   "accepted": 200,
+   "pred": 102.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 22 x 4?",
+   "accepted": 88,
+   "pred": 968.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 822 - 18?",
+   "accepted": 804,
+   "pred": 754.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 37 - 0?",
+   "accepted": 37,
+   "pred": 37.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 750 + 517?",
+   "accepted": 1267,
+   "pred": 1267.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 24 x 8?",
+   "accepted": 192,
+   "pred": 172.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 251 - 239?",
+   "accepted": 12,
+   "pred": 2.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 108 - 84?",
+   "accepted": 24,
+   "pred": 24.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 55 x 10?",
+   "accepted": 550,
+   "pred": 55.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 559 - 402?",
+   "accepted": 157,
+   "pred": 157.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 39 x 11?",
+   "accepted": 429,
+   "pred": 39.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 235 + 350?",
+   "accepted": 585,
+   "pred": 585.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 852 + 903?",
+   "accepted": 1755,
+   "pred": 1755.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 93 x 10?",
+   "accepted": 930,
+   "pred": 93.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 414 + 355?",
+   "accepted": 769,
+   "pred": 869.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 857 + 132?",
+   "accepted": 989,
+   "pred": 1189.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 72 + 640?",
+   "accepted": 712,
+   "pred": 762.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 32 x 6?",
+   "accepted": 192,
+   "pred": 132.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 56 + 86?",
+   "accepted": 142,
+   "pred": 142.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 48 x 8?",
+   "accepted": 384,
+   "pred": 324.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 36 x 9?",
+   "accepted": 324,
+   "pred": 288.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 709 + 300?",
+   "accepted": 1009,
+   "pred": 1009.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 470 + 189?",
+   "accepted": 659,
+   "pred": 659.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 275 + 456?",
+   "accepted": 731,
+   "pred": 821.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 269 + 372?",
+   "accepted": 641,
+   "pred": 741.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 995 - 560?",
+   "accepted": 435,
+   "pred": 235.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 250 - 8?",
+   "accepted": 242,
+   "pred": 230.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 223 - 91?",
+   "accepted": 132,
+   "pred": 102.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 1 + 343?",
+   "accepted": 344,
+   "pred": 354.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 85 - 60?",
+   "accepted": 25,
+   "pred": 15.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 514 - 205?",
+   "accepted": 309,
+   "pred": 27.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 516 + 794?",
+   "accepted": 1310,
+   "pred": 1310.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 93 + 270?",
+   "accepted": 363,
+   "pred": 443.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 147 + 409?",
+   "accepted": 556,
+   "pred": 556.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 5 x 6?",
+   "accepted": 30,
+   "pred": 30.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 306 + 311?",
+   "accepted": 617,
+   "pred": 617.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 29 x 1?",
+   "accepted": 29,
+   "pred": 29.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 67 x 12?",
+   "accepted": 804,
+   "pred": 71.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 673 + 914?",
+   "accepted": 1587,
+   "pred": 1587.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 76 x 6?",
+   "accepted": 456,
+   "pred": 49.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 737 - 506?",
+   "accepted": 231,
+   "pred": 13.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 290 + 741?",
+   "accepted": 1031,
+   "pred": 1031.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 82 x 2?",
+   "accepted": 164,
+   "pred": 172.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 844 + 855?",
+   "accepted": 1699,
+   "pred": 1699.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 65 x 10?",
+   "accepted": 650,
+   "pred": 65.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 751 - 717?",
+   "accepted": 34,
+   "pred": 1.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 17 x 8?",
+   "accepted": 136,
+   "pred": 136.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 72 x 12?",
+   "accepted": 864,
+   "pred": 84.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 846 + 702?",
+   "accepted": 1548,
+   "pred": 1568.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 91 x 10?",
+   "accepted": 910,
+   "pred": 91.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 82 x 3?",
+   "accepted": 246,
+   "pred": 24.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 31 + 42?",
+   "accepted": 73,
+   "pred": 73.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 652 + 369?",
+   "accepted": 1021,
+   "pred": 1021.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 385 + 855?",
+   "accepted": 1240,
+   "pred": 1230.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 571 - 51?",
+   "accepted": 520,
+   "pred": 242.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 2 x 10?",
+   "accepted": 20,
+   "pred": 20.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 87 x 3?",
+   "accepted": 261,
+   "pred": 253.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 270 - 1?",
+   "accepted": 269,
+   "pred": 271.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 816 - 71?",
+   "accepted": 745,
+   "pred": 305.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 64 x 8?",
+   "accepted": 512,
+   "pred": 408.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 675 + 538?",
+   "accepted": 1213,
+   "pred": 1213.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 763 + 754?",
+   "accepted": 1517,
+   "pred": 1507.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 258 - 38?",
+   "accepted": 220,
+   "pred": 210.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 240 - 186?",
+   "accepted": 54,
+   "pred": 6.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 236 + 757?",
+   "accepted": 993,
+   "pred": 1003.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 58 x 7?",
+   "accepted": 406,
+   "pred": 44.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 78 - 61?",
+   "accepted": 17,
+   "pred": 7.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 36 x 12?",
+   "accepted": 432,
+   "pred": 48.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 631 + 647?",
+   "accepted": 1278,
+   "pred": 1278.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 25 x 1?",
+   "accepted": 25,
+   "pred": 25.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 18 x 5?",
+   "accepted": 90,
+   "pred": 90.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 667 - 311?",
+   "accepted": 356,
+   "pred": 256.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 72 x 2?",
+   "accepted": 144,
+   "pred": 144.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 493 + 62?",
+   "accepted": 555,
+   "pred": 1116.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 275 - 50?",
+   "accepted": 225,
+   "pred": 135.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 27 x 10?",
+   "accepted": 270,
+   "pred": 27.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 297 - 264?",
+   "accepted": 33,
+   "pred": 13.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 475 - 238?",
+   "accepted": 237,
+   "pred": 19.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 785 - 121?",
+   "accepted": 664,
+   "pred": 574.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 25 x 4?",
+   "accepted": 100,
+   "pred": 100.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 958 + 484?",
+   "accepted": 1442,
+   "pred": 1442.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 296 + 469?",
+   "accepted": 765,
+   "pred": 765.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 839 + 518?",
+   "accepted": 1357,
+   "pred": 1357.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 275 - 198?",
+   "accepted": 77,
+   "pred": 17.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 938 + 968?",
+   "accepted": 1906,
+   "pred": 1806.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 76 + 595?",
+   "accepted": 671,
+   "pred": 671.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 145 + 765?",
+   "accepted": 910,
+   "pred": 910.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 33 x 5?",
+   "accepted": 165,
+   "pred": 135.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 617 + 839?",
+   "accepted": 1456,
+   "pred": 1456.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 65 x 4?",
+   "accepted": 260,
+   "pred": 270.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 720 + 373?",
+   "accepted": 1093,
+   "pred": 1193.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 509 + 919?",
+   "accepted": 1428,
+   "pred": 1428.0,
+   "hit": true
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 403 - 12?",
+   "accepted": 391,
+   "pred": 381.0,
+   "hit": false
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 3 + 972?",
+   "accepted": 975,
+   "pred": 1005.0,
+   "hit": false
+  }
+ ]
+}

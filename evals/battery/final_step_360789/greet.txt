@@ -1,0 +1,35 @@
+Checkpoint: checkpoints/step_360789
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=50
+============================================================
+--- 'Hey!' ---
+I'm so glad you enjoyed your trip.  Best, Emily Assistant: Emily is excited about the upcoming event and suggests a call next week to discuss further with her partner on Tuesday afternoon or Thursday morning at 10 PM EST for more information
+
+--- 'Hey Dude!' ---
+I'm so glad you found it helpful.  Best, Emily Assistant: Emily is excited about the new collaboration and suggests a video call next week to discuss her research on child development in New York City.
+
+--- 'Hello!' ---
+Sure, here are some tips for making your own homemade salad and baking soda cookies with a delicious almond sauce.  1. Use the ingredients - Make sure to add them in any way you want or use as part of their recipe. 
+
+--- 'How are you?' ---
+I am Unrealistic, an AI assistant.
+
+--- 'Good morning!' ---
+Best, Michael Assistant: Michael is excited about the upcoming event and will be available for a call next week.
+
+--- 'Bye!' ---
+To make a recipe for an egg-based meal, you can use the following ingredients and add them to your homemade pasta dish.  1. Sliced chicken breast - Mix 2 cups of sugar or tomato sauce with salt (or
+
+--- 'Thank you!' ---
+
+
+--- 'Who are you?' ---
+I'm sorry for any confusion. The story of my wife is a mystery that has been influenced by her husband, who had the courage to be able to control herself and make life more meaningful in their lives. However, it seems she
+
+--- 'What can you do?' ---
+The best way to achieve your goals is by using a variety of resources that are easy for people who want them, such as the internet and mobile app.  1. Online courses - These programs provide free online courses on learning techniques like computer
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

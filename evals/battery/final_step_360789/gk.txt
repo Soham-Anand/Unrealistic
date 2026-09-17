@@ -1,0 +1,56 @@
+Checkpoint: checkpoints/step_360789
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+============================================================
+--- 'The capital of France is' ---
+the Assistant: Paris.
+
+--- 'Water is made of hydrogen and' ---
+oxygen, which are important for the body's health. The water in a large reservoir has been used to support various branches of marine life including algae (such as trout) or fish (including salmon).  As an example:  - Freshwater lakes - These rivers have become more popular with aquatic communities like sharks, reptiles, birds, and other
+
+--- 'Photosynthesis produces' ---
+the energy that can be used to create a protein-rich, more efficient and environmentally friendly way.  Please let me know if you have any other questions or concerns about how this information works for your project!
+
+--- 'The largest planet in the Solar System is' ---
+Jupiter.
+
+--- 'Albert Einstein was born in' ---
+1874.
+
+--- 'The capital of India is' ---
+Delhi.
+
+--- 'Who was the first Prime Minister of India?' ---
+I'm glad you found this information helpful. The current state has a great deal to offer, and it is an important part of our work that we can do for us today!
+
+--- 'Which monument in Agra is one of the wonders of the world?' ---
+The Taj Mahal.
+
+--- 'What is the national animal of India?' ---
+The Bengal tiger.
+
+--- 'What is the currency of India?' ---
+The Rupee (INR) system represents a variety of currencies, including gold and silver.  **Copyright © 2018-2023 Epic Games Inc., All Rights Reserved!
+
+--- 'In which year did India gain independence?' ---
+The 1930s in China gained a significant impact on the world.  In this era, Chinese leaders were able to achieve their goals by effectively supporting themselves and achieving success through engagement with other countries like Europe or Africa for political purposes without compromising its sovereignty over them. This led to greater cooperation between both sides of the globe that
+
+--- 'Which festival is known as the festival of lights in India?' ---
+The festival of lights in India is a series of festivals that celebrate events and celebrations throughout history. Here are some examples from each event to find out how they will be performed during these days, including:  1) "Ranked" (Ashmaya): This festival represents an unforgettable experience for all travelers who visit this area with
+
+--- 'What is the opposite of hot is' ---
+cold.
+
+--- 'Why do we have seasons?' ---
+We can set up a time to discuss the details of our research.
+
+--- 'Complete: The sun rises in the' ---
+Searches of darkness, and sunset.
+
+--- 'DNA is a' ---
+molecule that carries the genetic instructions for the development and functioning of all known living organisms.  In addition to these unique features, there are also several other important factors contributing to this new type of life: 1) Genetically modified products (e.g., recycled materials or organic matter). This can lead to an increased risk of disease by reducing its
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

@@ -1,0 +1,876 @@
+{
+ "checkpoint": "checkpoints/step_362289",
+ "temp": 0.0,
+ "orders": 5,
+ "questions": [
+  {
+   "domain": "science",
+   "prompt": "The Moon orbits the",
+   "accepted": "Earth",
+   "runs": [
+    {
+     "pred": "Earth.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Earth.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Earth.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Earth.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Earth.",
+     "hit": true,
+     "intrusions": []
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "Earth.",
+   "class": "STABLE_CORRECT"
+  },
+  {
+   "domain": "gk",
+   "prompt": "Which monument in Agra is one of the wonders of the world?",
+   "accepted": "The Taj Mahal",
+   "runs": [
+    {
+     "pred": "The Taj Mahal in Agra is one of the wonders of the world.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "The Taj Mahal in Agra is one of the wonders of the world.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "The Taj Mahal in Agra is one of the wonders of the world.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "The Taj Mahal in Agra is one of the wonders of the world.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "The Taj Mahal in Agra is one of the wonders of the world.",
+     "hit": true,
+     "intrusions": []
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "The Taj Mahal in Agra is one of the wonders of the world.",
+   "class": "STABLE_CORRECT"
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 2 + 2?",
+   "accepted": 4,
+   "runs": [
+    {
+     "pred": "2 + 2 = 4",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "2 + 2 = 4",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "2 + 2 = 4",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "2 + 2 = 4",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "2 + 2 = 4",
+     "hit": true,
+     "intrusions": []
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "2 + 2 = 4",
+   "class": "STABLE_CORRECT"
+  },
+  {
+   "domain": "gk",
+   "prompt": "What is the currency of India?",
+   "accepted": "Rupee",
+   "runs": [
+    {
+     "pred": "The currency of India is the Rupee (INR).",
+     "hit": false,
+     "intrusions": []
+    },
+    {
+     "pred": "The currency of India is the Rupee (INR).",
+     "hit": false,
+     "intrusions": []
+    },
+    {
+     "pred": "The currency of India is the Rupee (INR).",
+     "hit": false,
+     "intrusions": []
+    },
+    {
+     "pred": "The currency of India is the Rupee (INR).",
+     "hit": false,
+     "intrusions": []
+    },
+    {
+     "pred": "The currency of India is the Rupee (INR).",
+     "hit": false,
+     "intrusions": []
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "The currency of India is the Rupee (INR).",
+   "class": "STABLE_WRONG"
+  },
+  {
+   "domain": "science",
+   "prompt": "The Nile is the longest",
+   "accepted": "river",
+   "runs": [
+    {
+     "pred": "river.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "river.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "river.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "river.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "river.",
+     "hit": true,
+     "intrusions": []
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "river.",
+   "class": "STABLE_CORRECT"
+  },
+  {
+   "domain": "gk",
+   "prompt": "In which year did India gain independence?",
+   "accepted": "1947",
+   "runs": [
+    {
+     "pred": "India gained independence in 1947.",
+     "hit": false,
+     "intrusions": [
+      "YEAR_INTRUSION_1947"
+     ]
+    },
+    {
+     "pred": "India gained independence in 1947.",
+     "hit": false,
+     "intrusions": [
+      "YEAR_INTRUSION_1947"
+     ]
+    },
+    {
+     "pred": "India gained independence in 1947.",
+     "hit": false,
+     "intrusions": [
+      "YEAR_INTRUSION_1947"
+     ]
+    },
+    {
+     "pred": "India gained independence in 1947.",
+     "hit": false,
+     "intrusions": [
+      "YEAR_INTRUSION_1947"
+     ]
+    },
+    {
+     "pred": "India gained independence in 1947.",
+     "hit": false,
+     "intrusions": [
+      "YEAR_INTRUSION_1947"
+     ]
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "India gained independence in 1947.",
+   "class": "ASSOCIATION_INTRUSION"
+  },
+  {
+   "domain": "arithmetic",
+   "prompt": "What is 8 + 7?",
+   "accepted": 15,
+   "runs": [
+    {
+     "pred": "8 + 7 = 15",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "8 + 7 = 15",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "8 + 7 = 15",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "8 + 7 = 15",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "8 + 7 = 15",
+     "hit": true,
+     "intrusions": []
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "8 + 7 = 15",
+   "class": "STABLE_CORRECT"
+  },
+  {
+   "domain": "culture",
+   "prompt": "Who built the Taj Mahal?",
+   "accepted": "Shah Jahan",
+   "runs": [
+    {
+     "pred": "Shah Jahan built the Taj Mahal.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Shah Jahan built the Taj Mahal.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Shah Jahan built the Taj Mahal.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Shah Jahan built the Taj Mahal.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Shah Jahan built the Taj Mahal.",
+     "hit": true,
+     "intrusions": []
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "Shah Jahan built the Taj Mahal.",
+   "class": "STABLE_CORRECT"
+  },
+  {
+   "domain": "science",
+   "prompt": "Photosynthesis produces",
+   "accepted": "oxygen",
+   "runs": [
+    {
+     "pred": "energy and oxygen.",
+     "hit": false,
+     "intrusions": []
+    },
+    {
+     "pred": "energy and oxygen.",
+     "hit": false,
+     "intrusions": []
+    },
+    {
+     "pred": "energy and oxygen.",
+     "hit": false,
+     "intrusions": []
+    },
+    {
+     "pred": "energy and oxygen.",
+     "hit": false,
+     "intrusions": []
+    },
+    {
+     "pred": "energy and oxygen.",
+     "hit": false,
+     "intrusions": []
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "energy and oxygen.",
+   "class": "STABLE_WRONG"
+  },
+  {
+   "domain": "gk",
+   "prompt": "Who wrote the Indian national anthem?",
+   "accepted": "Rabindranath Tagore",
+   "runs": [
+    {
+     "pred": "Rabindranath Tagore wrote the Indian national anthem (Jana Gana Mana).",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Rabindranath Tagore wrote the Indian national anthem (Jana Gana Mana).",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Rabindranath Tagore wrote the Indian national anthem (Jana Gana Mana).",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Rabindranath Tagore wrote the Indian national anthem (Jana Gana Mana).",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Rabindranath Tagore wrote the Indian national anthem (Jana Gana Mana).",
+     "hit": true,
+     "intrusions": []
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "Rabindranath Tagore wrote the Indian national anthem (Jana Gana Mana).",
+   "class": "STABLE_CORRECT"
+  },
+  {
+   "domain": "gk",
+   "prompt": "The largest planet in the Solar System is",
+   "accepted": "Jupiter",
+   "runs": [
+    {
+     "pred": "Jupiter.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Jupiter.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Jupiter.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Jupiter.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Jupiter.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Jupiter.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Jupiter.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Jupiter.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Jupiter.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Jupiter.",
+     "hit": true,
+     "intrusions": []
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "Jupiter.",
+   "class": "STABLE_CORRECT"
+  },
+  {
+   "domain": "gk",
+   "prompt": "The Second World War ended in",
+   "accepted": "1945",
+   "runs": [
+    {
+     "pred": "1945.",
+     "hit": true,
+     "intrusions": [
+      "YEAR_INTRUSION_1945"
+     ]
+    },
+    {
+     "pred": "1945.",
+     "hit": true,
+     "intrusions": [
+      "YEAR_INTRUSION_1945"
+     ]
+    },
+    {
+     "pred": "1945.",
+     "hit": true,
+     "intrusions": [
+      "YEAR_INTRUSION_1945"
+     ]
+    },
+    {
+     "pred": "1945.",
+     "hit": true,
+     "intrusions": [
+      "YEAR_INTRUSION_1945"
+     ]
+    },
+    {
+     "pred": "1945.",
+     "hit": true,
+     "intrusions": [
+      "YEAR_INTRUSION_1945"
+     ]
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "1945.",
+   "class": "STABLE_CORRECT"
+  },
+  {
+   "domain": "science",
+   "prompt": "Mount Everest is the highest",
+   "accepted": "mountain",
+   "runs": [
+    {
+     "pred": "mountain.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "mountain.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "mountain.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "mountain.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "mountain.",
+     "hit": true,
+     "intrusions": []
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "mountain.",
+   "class": "STABLE_CORRECT"
+  },
+  {
+   "domain": "science",
+   "prompt": "Water is made of hydrogen and",
+   "accepted": "oxygen",
+   "runs": [
+    {
+     "pred": "what? Assistant: Water is made of hydrogen and oxygen (H2O).",
+     "hit": false,
+     "intrusions": []
+    },
+    {
+     "pred": "what? Assistant: Water is made of hydrogen and oxygen (H2O).",
+     "hit": false,
+     "intrusions": []
+    },
+    {
+     "pred": "what? Assistant: Water is made of hydrogen and oxygen (H2O).",
+     "hit": false,
+     "intrusions": []
+    },
+    {
+     "pred": "what? Assistant: Water is made of hydrogen and oxygen (H2O).",
+     "hit": false,
+     "intrusions": []
+    },
+    {
+     "pred": "what? Assistant: Water is made of hydrogen and oxygen (H2O).",
+     "hit": false,
+     "intrusions": []
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "what? Assistant: Water is made of hydrogen and oxygen (H2O).",
+   "class": "STABLE_WRONG"
+  },
+  {
+   "domain": "science",
+   "prompt": "Light travels faster than",
+   "accepted": "sound",
+   "runs": [
+    {
+     "pred": "the Earth.",
+     "hit": false,
+     "intrusions": []
+    },
+    {
+     "pred": "the Earth.",
+     "hit": false,
+     "intrusions": []
+    },
+    {
+     "pred": "the Earth.",
+     "hit": false,
+     "intrusions": []
+    },
+    {
+     "pred": "the Earth.",
+     "hit": false,
+     "intrusions": []
+    },
+    {
+     "pred": "the Earth.",
+     "hit": false,
+     "intrusions": []
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "the Earth.",
+   "class": "STABLE_WRONG"
+  },
+  {
+   "domain": "gk",
+   "prompt": "The capital of Japan is",
+   "accepted": "Tokyo",
+   "runs": [
+    {
+     "pred": "Tokyo.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Tokyo.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Tokyo.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Tokyo.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Tokyo.",
+     "hit": true,
+     "intrusions": []
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "Tokyo.",
+   "class": "STABLE_CORRECT"
+  },
+  {
+   "domain": "science",
+   "prompt": "Atoms are made of protons, neutrons and",
+   "accepted": "electrons",
+   "runs": [
+    {
+     "pred": "electrons.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "electrons.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "electrons.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "electrons.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "electrons.",
+     "hit": true,
+     "intrusions": []
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "electrons.",
+   "class": "STABLE_CORRECT"
+  },
+  {
+   "domain": "gk",
+   "prompt": "Who was the first Prime Minister of India?",
+   "accepted": "Jawaharlal Nehru was the first Prime Minister of India.",
+   "runs": [
+    {
+     "pred": "Jawaharlal Nehru was the first Prime Minister of India.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Jawaharlal Nehru was the first Prime Minister of India.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Jawaharlal Nehru was the first Prime Minister of India.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Jawaharlal Nehru was the first Prime Minister of India.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Jawaharlal Nehru was the first Prime Minister of India.",
+     "hit": true,
+     "intrusions": []
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "Jawaharlal Nehru was the first Prime Minister of India.",
+   "class": "STABLE_CORRECT"
+  },
+  {
+   "domain": "science",
+   "prompt": "The Earth revolves around the",
+   "accepted": "Sun",
+   "runs": [
+    {
+     "pred": "Sun.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Sun.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Sun.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Sun.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Sun.",
+     "hit": true,
+     "intrusions": []
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "Sun.",
+   "class": "STABLE_CORRECT"
+  },
+  {
+   "domain": "culture",
+   "prompt": "The lead singer of Linkin Park was",
+   "accepted": "Chester Bennington",
+   "runs": [
+    {
+     "pred": "The Second World War ended in Assistant: 1945.",
+     "hit": false,
+     "intrusions": [
+      "YEAR_INTRUSION_1945"
+     ]
+    },
+    {
+     "pred": "The Second World War ended in Assistant: 1945.",
+     "hit": false,
+     "intrusions": [
+      "YEAR_INTRUSION_1945"
+     ]
+    },
+    {
+     "pred": "The Second World War ended in Assistant: 1945.",
+     "hit": false,
+     "intrusions": [
+      "YEAR_INTRUSION_1945"
+     ]
+    },
+    {
+     "pred": "The Second World War ended in Assistant: 1945.",
+     "hit": false,
+     "intrusions": [
+      "YEAR_INTRUSION_1945"
+     ]
+    },
+    {
+     "pred": "The Second World War ended in Assistant: 1945.",
+     "hit": false,
+     "intrusions": [
+      "YEAR_INTRUSION_1945"
+     ]
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "The Second World War ended in Assistant: 1945.",
+   "class": "ASSOCIATION_INTRUSION"
+  },
+  {
+   "domain": "gk",
+   "prompt": "The capital of India is",
+   "accepted": "New Delhi",
+   "runs": [
+    {
+     "pred": "New Delhi.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "New Delhi.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "New Delhi.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "New Delhi.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "New Delhi.",
+     "hit": true,
+     "intrusions": []
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "New Delhi.",
+   "class": "STABLE_CORRECT"
+  },
+  {
+   "domain": "science",
+   "prompt": "DNA is a",
+   "accepted": "molecule",
+   "runs": [
+    {
+     "pred": "molecule.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "molecule.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "molecule.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "molecule.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "molecule.",
+     "hit": true,
+     "intrusions": []
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "molecule.",
+   "class": "STABLE_CORRECT"
+  },
+  {
+   "domain": "gk",
+   "prompt": "The capital of France is",
+   "accepted": "Paris",
+   "runs": [
+    {
+     "pred": "Paris.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Paris.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Paris.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Paris.",
+     "hit": true,
+     "intrusions": []
+    },
+    {
+     "pred": "Paris.",
+     "hit": true,
+     "intrusions": []
+    }
+   ],
+   "S_q": 1.0,
+   "modal": "Paris.",
+   "class": "STABLE_CORRECT"
+  }
+ ],
+ "intrusion_counts": {
+  "YEAR_INTRUSION_1947": 5,
+  "YEAR_INTRUSION_1945": 10
+ },
+ "class_counts": {
+  "STABLE_CORRECT": 17,
+  "STABLE_WRONG": 4,
+  "ASSOCIATION_INTRUSION": 2
+ }
+}

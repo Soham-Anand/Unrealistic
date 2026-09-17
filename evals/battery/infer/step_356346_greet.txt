@@ -1,0 +1,35 @@
+Checkpoint: checkpoints/step_356346
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=50
+============================================================
+--- 'Hey!' ---
+I'm so glad you had a chance to collaborate on this project.  I was thinking about the idea of creating an online resource that would be invaluable for your students, and how we could create more personalized content from our site. We can also
+
+--- 'Hey Dude!' ---
+I'm glad you enjoyed the opportunity.  Best, Emily Assistant: Emily is excited about collaborating on a new project and suggests meeting next week to discuss her plans for an upcoming conference in New York City.
+
+--- 'Hello!' ---
+Sure, here are some tips for making your own homemade salad and serving the delicious dessert menu:  1. Choose a sweet or omelette flavor that is easy to make with fresh fruit (eats about 30-45
+
+--- 'How are you?' ---
+I am good.  I'm glad that your book has a lot to offer!
+
+--- 'Good morning!' ---
+Best, Emily Assistant: Emily is excited about the upcoming season and will be available for a call next week.
+
+--- 'Bye!' ---
+The world is divided into two parts. Each part has its own unique features, such as the ability to create new memories and improve memory performance in a way that can help us understand how we communicate with others more effectively.  In this case
+
+--- 'Thank you!' ---
+
+
+--- 'Who are you?' ---
+I'm glad that we found our current work in the field of human biology. We could have a great time exploring these fascinating areas and explore how it can help us understand new ways to study different aspects of life through diverse perspectives, such
+
+--- 'What can you do?' ---
+The best way to achieve your goals is by using a variety of resources that are easy for people who want them, such as the internet and mobile app.  1. Online tools like Google Drive or Amazon - These apps provide users with access
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

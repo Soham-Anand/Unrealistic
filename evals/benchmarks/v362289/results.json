@@ -1,0 +1,46 @@
+{
+  "checkpoint": "checkpoints/step_362289",
+  "arc_easy": {
+    "n": 570,
+    "hits": 188,
+    "acc": 0.3298245614035088
+  },
+  "piqa_items": {
+    "skipped": "HTTP Error 404: Not Found"
+  },
+  "piqa": {
+    "n": 0,
+    "hits": 0,
+    "acc": 0.0
+  },
+  "hellaswag": {
+    "n": 500,
+    "hits": 130,
+    "acc": 0.26
+  },
+  "winogrande": {
+    "n": 1267,
+    "hits": 627,
+    "acc": 0.494869771112865
+  },
+  "truthfulqa_mc1": {
+    "n": 817,
+    "hits": 201,
+    "acc": 0.2460220318237454
+  },
+  "mmlu_easy": {
+    "n": 1042,
+    "hits": 257,
+    "acc": 0.24664107485604606
+  },
+  "gsm8k": {
+    "n": 200,
+    "hits": 2,
+    "acc": 0.01
+  },
+  "mbpp": {
+    "n": 100,
+    "hits": 0,
+    "acc": 0.0
+  }
+}

@@ -1,0 +1,53 @@
+Checkpoint: checkpoints/step_358036
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=50
+============================================================
+--- 'Hey!' ---
+I'm so glad you enjoyed your time.  Best, Emily Assistant: Emily is excited about the upcoming event and suggests a call to discuss further on Tuesday afternoon or Thursday morning for an interview next week.
+
+--- 'Hey Dude!' ---
+I'm so glad you found it helpful.  Best, Emily Assistant: Emily is excited about the new collaboration and suggests a video call next week to discuss her ideas further in June 2016 with Linda on April 8th at
+
+--- 'Hello!' ---
+Sure, here are some tips for making your own homemade salad and serving the delicious dessert menu:  1. Choose a sweet or omelette flavor that is easy to make with cheese (such as cilantro). 2.
+
+--- 'How are you?' ---
+I am good. Thank you for your support and respect!  Best, Alex Assistant: Alex is available to meet at the community center or join us on Tuesday afternoon if we have time together in our conversation.
+
+--- 'Good morning!' ---
+Best, Michael Assistant: Michael is excited about the upcoming event and will be able to make a positive impact on his life.
+
+--- 'Bye!' ---
+To make a simple pizza pie, you can use the following ingredients to add flavor and texture.  1. Chocolate or creamy cheese 2. Sliced bell pepper (or chopped) 3. Raspberry -
+
+--- 'Thank you!' ---
+
+
+--- 'Who are you?' ---
+I am Unrealistic, a small country that has been struggling to overcome the challenges of growing hunger and poverty. However, it is not always possible for individuals who have experienced this challenge or need help with their daily lives (such as staying
+
+--- 'What can you do?' ---
+I'm glad to hear that your response is correct.
+
+--- 'What is 2 + 2?' ---
+4.
+
+--- 'What is 8 + 7?' ---
+9
+
+--- 'The capital of France is' ---
+the Paris Agreement.
+
+--- 'The lead singer of Linkin Park was' ---
+Chester Bennington, a musician from the 1980s and founder of Taylor Swift.
+
+--- 'Water is made of hydrogen and' ---
+oxygen, which means that the water will be released into a vacuum.  2) The energy source for this process can vary depending on factors such as temperature or time: - High power consumption (HWO), high efficiency * Low heat capacity*
+
+--- 'The largest planet in the Solar System is' ---
+Jupiter.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

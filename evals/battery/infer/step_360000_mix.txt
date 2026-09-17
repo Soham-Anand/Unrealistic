@@ -1,0 +1,44 @@
+Checkpoint: checkpoints/step_360000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=50
+============================================================
+--- 'Hey!' ---
+I'm so glad you enjoyed your time.  Best, Emily Assistant: Emily is excited about the upcoming event and suggests a call to discuss further on Tuesday afternoon or Thursday morning for an interview next week.
+
+--- 'Hey Dude!' ---
+I'm so glad you found it helpful.  Best, Emily Assistant: Emily is excited about the new collaboration and suggests a video call next week to discuss her ideas further in June 2016 with Linda on April 8th at
+
+--- 'Hello!' ---
+Yes, here are some tips for getting started in a new studio room and staying motivated to get creative with your presentation.  1. Use clear language or sensory cues that align the audience's focus on their own experiences - if you want
+
+--- 'How are you?' ---
+I am Unrealistic, an AI assistant.
+
+--- 'Good morning!' ---
+Best, Michael Assistant: Michael is excited about the upcoming event and will be able to help.
+
+--- 'Bye!' ---
+The world is divided by the number of people who have been born in a particular city.  In this case, we know that 1/2 = 30 (orange) and each person has one son or two years old
+
+--- 'Thank you!' ---
+
+
+--- 'Who are you?' ---
+I am Unrealistic, a small country that has been struggling to overcome the challenges of growing food insecurity and poverty.  One thing is having trouble with our community's commitment to sustainability in terms of social justice or fairness can be
+
+--- 'What can you do?' ---
+The best way to achieve your goals is by using a variety of resources that are easy for people who want them, such as the internet and mobile app.  1. Online courses like Google Drive or Amazon - This online course offers free lessons
+
+--- 'What is 2 + 2?' ---
+4
+
+--- 'The capital of France is' ---
+Paris.
+
+--- 'The lead singer of Linkin Park was' ---
+Olivia Lennon.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

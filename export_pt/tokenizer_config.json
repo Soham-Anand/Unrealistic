@@ -1,0 +1,9 @@
+{
+  "tokenizer_class": "LlamaTokenizer",
+  "bos_token": "<s>",
+  "eos_token": "</s>",
+  "unk_token": "<unk>",
+  "pad_token": "</s>",
+  "add_bos_token": true,
+  "add_eos_token": false
+}

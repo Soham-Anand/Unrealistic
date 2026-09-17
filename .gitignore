@@ -22,6 +22,7 @@ data/
 *.gguf
 .venv/
 venv/
+.tools/
 training/status.json
 .opencode/
 .env

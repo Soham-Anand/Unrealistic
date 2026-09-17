@@ -1,0 +1,32 @@
+Checkpoint: checkpoints/step_356500
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=60
+============================================================
+--- 'What is 9 x 9?' ---
+8
+
+--- 'A car travels 60 km in 2 hours. What is its speed?' ---
+The average distance traveled per hour (in kilometers) at a certain time period can be calculated using the formula for calculating how long it takes to travel from one point on an axis, and then subtracting that amount as you move away from each other's direction by dividing both sides of your
+
+--- 'The capital of Japan is' ---
+Tokyo.
+
+--- 'Who wrote Romeo and Juliet?' ---
+Yes, the Roman Empire began in which year of its independence. In 1526 it was a partisan empire that had been defeated by Italy's imperial powers during this time period (the Ottoman Empire) but lost to Portugal for centuries before they were completely restored or replaced with
+
+--- 'DNA is a' ---
+molecule that carries the genetic instructions for how to synthesize and reproduce it.  In this case, we need to know which amino acid sequence should be formed by adding two different nucleotides together? Assistant: Yes! The first nucleotide (C2O) contains 10-65 substit
+
+--- 'Write a Python function to check if a number is prime:' ---
+```python def factorial(n):     result = 1 for i in range(2, n + 1):         result *= i return result
+
+--- 'In which year did India gain independence?' ---
+1. The Bengal tiger is the most populous region in Asia, with a population of about one-third as many as China and Central America (2036).  2. The Indian National Park is also known for its scenic wildlife sanctuary or mountain range along the coast. This
+
+--- 'The Eiffel Tower is located in' ---
+the middle of a 19th-century building.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

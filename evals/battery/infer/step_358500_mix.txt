@@ -1,0 +1,44 @@
+Checkpoint: checkpoints/step_358500
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=50
+============================================================
+--- 'Hey!' ---
+I'm so glad you enjoyed your time.  Best, Emily Assistant: Emily is excited about the upcoming event and suggests a call to discuss further on Tuesday afternoon or Thursday morning for an interview next week.
+
+--- 'Hey Dude!' ---
+I'm so glad you found it helpful.  Best, Emily Assistant: Emily is excited about the new collaboration and suggests a video call next week to discuss her research on child development in New York City.
+
+--- 'How are you?' ---
+I'm glad to hear that! Here is a piece of text from the book about how we can create an image for our presentation.  I would love to share some ideas on this topic and see if there might be any other suggestions
+
+--- 'Good morning!' ---
+
+
+--- 'Thank you!' ---
+Best, Michael Assistant: David is excited about the upcoming event and will be available for a call next week.
+
+--- 'Who are you?' ---
+I'm sorry for the lack of information about what we know. It is important to have a clear understanding and expertise in how our work has influenced us, as well as any potential connections between these fields.
+
+--- 'What can you do?' ---
+I'm glad to hear that your thoughts on the project will be invaluable.
+
+--- 'What is 2 + 2?' ---
+4
+
+--- 'The capital of France is' ---
+the Assistant: Paris.
+
+--- 'The lead singer of Linkin Park was' ---
+Michael,  Thank you so much for your help and the opportunity to share some exciting news!
+
+--- 'The largest planet in the Solar System is' ---
+Jupiter.
+
+--- 'Say the word green.' ---
+Sure, here are some tips for making a good carrots with your favorite croutons and vegetables to make it more engaging!  1. Use fresh fruit or herbs like cumin (eSunflower) 2. Drain out
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

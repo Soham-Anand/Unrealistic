@@ -1,0 +1,44 @@
+Checkpoint: checkpoints/step_359000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=50
+============================================================
+--- 'Hey!' ---
+I'm so glad you enjoyed your trip.  Best, Emily Assistant: Emily is excited about the upcoming event and suggests a call next week to discuss further with her partner on Tuesday afternoon or Thursday morning at 10 PM EST for more information
+
+--- 'Hey Dude!' ---
+I'm so glad you found it helpful.  Best, Emily Assistant: Emily is excited about the new project and suggests a video call next week to discuss her research on how she works in real-time with colleagues at Wembley School of
+
+--- 'How are you?' ---
+I'm glad to hear that! Here is a piece of text from the book about how we can create an image for our presentation.  I would love to share some ideas on this topic and see if there might be any other suggestions
+
+--- 'Good morning!' ---
+I'm so glad you had a great time.  Best, Emily Assistant: Emily is excited about the opportunity to collaborate on an upcoming project and will be available for lunch or dinner next week at 2 PM EST.
+
+--- 'Thank you!' ---
+Best, Michael Assistant: David is excited about the upcoming event and will be available for a call next week.
+
+--- 'Who are you?' ---
+I'm sorry for the lack of information about what we know. It is important to note that there may be other factors such as your personal preferences, mental health issues or any specific circumstances in which they might arise during a research experiment -
+
+--- 'What can you do?' ---
+I'm glad to hear that your thoughts on the "How To Do" section are so helpful. Here are a few suggestions for how we could incorporate it into our daily routine and make sure they align with each other in order, as
+
+--- 'What is 2 + 2?' ---
+4
+
+--- 'The capital of France is' ---
+the Assistant: Paris.
+
+--- 'The lead singer of Linkin Park was' ---
+Michael,  "The sound that we're looking for is a combination of the sounds and songs you see. We can use this song to create our own voice or even explore new themes in your life."
+
+--- 'Water is made of hydrogen and' ---
+oxygen, which helps to reduce the risk that water has been released into your atmosphere.  Please let me know if you have any other questions or concerns about this issue!
+
+--- 'What is 8 + 7?' ---
+9
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

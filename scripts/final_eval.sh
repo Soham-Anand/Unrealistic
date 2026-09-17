@@ -12,11 +12,11 @@ echo "Final eval on ${CKPT} -> ${OUT}/"
 PYTHONUNBUFFERED=1 PYTHONPATH=. python3 -u scripts/probe_first_token.py \
     --checkpoint "$CKPT" --out "${OUT}/probe.jsonl" 2>&1 | tail -12
 
-infer() { # $1=outfile $2...=prompts
+infer() { # $1=outfile $2...=prompts (EVAL_TEMP/EVAL_TOPP/EVAL_REPP override)
     local out="$1"; shift
     PYTHONUNBUFFERED=1 PYTHONPATH=. python3 -u scripts/spot_infer.py \
-        --checkpoint "$CKPT" --temperature 0.4 --top-p 0.9 \
-        --repetition-penalty 1.25 --max-new-tokens 70 \
+        --checkpoint "$CKPT" --temperature "${EVAL_TEMP:-0.4}" --top-p "${EVAL_TOPP:-0.9}" \
+        --repetition-penalty "${EVAL_REPP:-1.25}" --max-new-tokens 70 \
         --prompts "$@" > "${OUT}/${out}.txt" 2>&1
     echo "saved ${out}"
 }

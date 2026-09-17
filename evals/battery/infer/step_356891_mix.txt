@@ -1,0 +1,44 @@
+Checkpoint: checkpoints/step_356891
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=50
+============================================================
+--- 'Hey!' ---
+I'm so glad you enjoyed your trip.  Best, Emily Assistant: Emily is excited about the upcoming event and suggests a call to discuss further on Tuesday afternoon or Thursday morning for an evening of dinner at 10 PM EST.
+
+--- 'Hey Dude!' ---
+I'm so glad you found it helpful.  Best, Emily Assistant: Emily is excited about the upcoming event and offers to discuss her research on a new technology that will help students develop their own unique technologies for future generations of science fiction enthusiasts.
+
+--- 'Hello!' ---
+Sure, here are some tips for making your own homemade salad and serving the delicious dessert menu:  1. Choose a sweet or omelette flavor that is easy to make with fresh fruit (eats about 30-45
+
+--- 'How are you?' ---
+I am good.  I'm glad that your book was written in a different style, and there is no specific information on the topic or methodology used to describe it based solely on its intended use of language.
+
+--- 'Good morning!' ---
+Best, Emily Assistant: Emily is excited about the upcoming event and will be available for a call next week.
+
+--- 'Bye!' ---
+The world is divided by the number of people who have been born in a particular city.  In this case, we know that 20% of all residents are living with children and about one-third (15%) live at
+
+--- 'Thank you!' ---
+
+
+--- 'Who are you?' ---
+I am Unrealistic, a small country that has been struggling to overcome the challenges of growing hunger and poverty. However, it is not always easy for people who have had some significant economic or political difficulties in their lives. Some countries also
+
+--- 'What can you do?' ---
+The best way to achieve your goals is by using a variety of tools such as datasets, calculators or tutorials. Here are some examples from the worksheets that would be helpful for improving performance and productivity in various fields:  
+
+--- 'What is 2 + 2?' ---
+4.
+
+--- 'The capital of France is' ---
+the United Kingdom.
+
+--- 'The lead singer of Linkin Park was' ---
+Olivia Lennon.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

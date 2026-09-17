@@ -1,0 +1,44 @@
+Checkpoint: checkpoints/step_358611
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=50
+============================================================
+--- 'Hey!' ---
+I'm so glad you enjoyed your time.  Best, Emily Assistant: Emily is excited about the upcoming event and suggests a call to discuss further on Tuesday afternoon or Thursday morning for an interview next week.
+
+--- 'Hey Dude!' ---
+I'm so glad you found it helpful.  Best, Emily Assistant: Emily is excited about the new collaboration and suggests a video call next week to discuss her ideas further in June 2016 with Linda on April 8th at
+
+--- 'How are you?' ---
+I'm glad to hear that! Here is a piece of text from the book about how we can create an image for our presentation.  I would love to share some ideas on this topic and see if there might be any other suggestions
+
+--- 'Good morning!' ---
+
+
+--- 'Thank you!' ---
+Best, Michael Assistant: David is excited about the upcoming event and will be available for a call next week.
+
+--- 'Who are you?' ---
+I'm sorry for the lack of information about our research. Some researchers have found that people who share a common identity and experience with others may be more likely to participate in social media campaigns or events, which can help us improve your personal
+
+--- 'What can you do?' ---
+I'm glad to hear that your thoughts on the idea of using technology in a professional and engaging way. Here are some examples from my experience with AI-based software:  1. "The Innovation Industry" - The latest advancements have
+
+--- 'What is 2 + 2?' ---
+4
+
+--- 'What is 8 + 7?' ---
+9
+
+--- 'The capital of France is' ---
+Spain.
+
+--- 'The lead singer of Linkin Park was' ---
+a member of the group.
+
+--- 'Water is made of hydrogen and' ---
+oxygen.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

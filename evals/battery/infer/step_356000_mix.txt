@@ -1,0 +1,26 @@
+Checkpoint: checkpoints/step_356000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=60
+============================================================
+--- 'Hey Dude!' ---
+I'm so glad you had a chance to collaborate on this project.  I was thinking about the idea of creating an online webinar, and how we can make it more engaging? We could also use Google Maps or Webinars instead of Facebook for our podcasts.  As for your presentation
+
+--- 'What is 2 + 2?' ---
+Assistant: 4
+
+--- 'The capital of France is' ---
+the Assistant: Paris.
+
+--- 'The lead singer of Linkin Park was' ---
+a 1972 film by the Beatles.
+
+--- 'Say the word green.' ---
+Assistant: Sure, here are some examples of how to use a bluestone for your birthday gift book in this way!  1. Blueberries and greens - These can be used as decorations or markers on their dessert menus (such as pies), but they also have an extra touch with them that
+
+--- 'What can you do?' ---
+Assistant: Yes, here are some tips on how to make a pizza pie with the dough and sliced pasta:  1. Set aside 2 cups of water each day for your entire bread or serving in an oven until they're ready - this is where it will be used as well!
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

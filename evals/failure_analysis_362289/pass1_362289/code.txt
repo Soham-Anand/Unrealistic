@@ -1,20 +1,20 @@
-Checkpoint: checkpoints/step_355789
-temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+Checkpoint: checkpoints/step_362289
+temp=0.0 top_p=1.0 rep_penalty=1.0 max_tokens=70
 ============================================================
 --- 'Write a Python function to add two numbers:' ---
-Assistant: def add(a, b):     return a + b
+def add(a, b):     return a + b
 
 --- 'def factorial(n):' ---
-    result = 1 for i in range(2, n + 1):     result *= i return result
+result = 1     for i in range(2, n + 1):         result *= i     return result ```
 
 --- 'Write a Python function to check if a number is prime:' ---
-Assistant: def f(a, b):     return a + (b - 1)
+```python def is_prime(n):     if n < 2: return False     for i in range(2, int(n**0.5) + 1):         if n % i == 0: return False     return True ```
 
 --- 'def fibonacci(n):' ---
-    a, b = 0, and c = len(a)         for i in range(2, n + 1):             if arr[j] >= -1:                 arr[j], _ = j == x': return True ```
+a, b = 0, 1     for _ in range(n):         a, b = b, a + b     return a ```
 
 --- 'What does print(2 + 2) output?' ---
-Assistant: 4
+4
 
 
 Tuning tips:

@@ -1,0 +1,35 @@
+Checkpoint: checkpoints/step_356000
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=50
+============================================================
+--- 'Hey!' ---
+I'm so glad you had a chance to collaborate on this project.
+
+--- 'Hey Dude!' ---
+I'm glad you enjoyed the opportunity.  Best, Emily Assistant: Emily is excited about collaborating on a research project and suggests meeting next week to discuss her plans for an upcoming conference in New York City.
+
+--- 'Hello!' ---
+Assistant: Sure, here are some tips for making a homemade salad using the traditional Italian cuisine:  1. Choose an option that is easy to follow and can be made with any of these ingredients you've found in your favorite dishes or recipes (
+
+--- 'How are you?' ---
+Assistant: I'm glad to hear that! Here is a piece of text from the story "The Great Wall" by Robert E. Weinstein, who has been working on an article about climate change and how it impacts our lives in various ways
+
+--- 'Good morning!' ---
+ Best, Michael Assistant: Michael is excited about the upcoming season and will be available for a call next week.
+
+--- 'Bye!' ---
+Assistant: To make a difference in your life, you can use the following steps to help with it.  1. Choose an item that is unique and has no clear boundaries or constraints on how many items are available for sale. 2. Use
+
+--- 'Thank you!' ---
+
+
+--- 'Who are you?' ---
+Assistant: I'm glad that my passion for adventure is perfect. It will be a great way to get your thoughts and ideas out of the world around us, as well as our talents!
+
+--- 'What can you do?' ---
+Assistant: The best way to achieve your goals is by using a variety of resources that are available for the most part. Here's an example from our experience with traditional methods and techniques, including tips on how to make things more engaging in complex tasks
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

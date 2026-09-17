@@ -1,50 +1,50 @@
-Checkpoint: checkpoints/step_355789
-temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=70
+Checkpoint: checkpoints/step_362289
+temp=0.0 top_p=1.0 rep_penalty=1.0 max_tokens=70
 ============================================================
 --- 'The capital of France is' ---
-Assistant: Paris.
+Paris.
 
 --- 'Water is made of hydrogen and' ---
-Assistant: oxygen.
+what? Assistant: Water is made of hydrogen and oxygen (H2O).
 
 --- 'Photosynthesis produces' ---
-hydrogen and oxygen.
+energy and oxygen.
 
 --- 'The largest planet in the Solar System is' ---
-Assistant: Jupiter.
+Jupiter.
 
 --- 'Albert Einstein was born in' ---
 1879.
 
 --- 'The capital of India is' ---
-Assistant: New Delhi.
+New Delhi.
 
 --- 'Who was the first Prime Minister of India?' ---
-Assistant: Jawaharlal Nehru was the first Prime Minister of India.
+Jawaharlal Nehru was the first Prime Minister of India.
 
 --- 'Which monument in Agra is one of the wonders of the world?' ---
-Assistant: The Taj Mahal.
+The Taj Mahal in Agra is one of the wonders of the world.
 
 --- 'What is the national animal of India?' ---
-Assistant: The Bengal tiger.
+The Bengal tiger is the national animal of India.
 
 --- 'What is the currency of India?' ---
-Assistant: The Rupee.
+The currency of India is the Rupee (INR).
 
 --- 'In which year did India gain independence?' ---
-Assistant: 1947.
+India gained independence in 1947.
 
 --- 'Which festival is known as the festival of lights in India?' ---
-Assistant: Diwali.
+Diwali is the festival of lights in India.
 
 --- 'What is the opposite of hot is' ---
-cold? Assistant: Cold.
+cold? Assistant: The opposite of hot is cold.
 
 --- 'Why do we have seasons?' ---
-Assistant: Earth's axis is tilted, changing sunlight through the year.
+We have seasons because Earth's axis is tilted, changing sunlight through the year.
 
 --- 'Complete: The sun rises in the' ---
-Assistant: east.
+The sun rises in the east.
 
 --- 'DNA is a' ---
 molecule.

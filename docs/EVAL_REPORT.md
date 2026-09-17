@@ -33,18 +33,28 @@ Trajectory: 20/40 (338000) → 17/40 (wiki damage) → 22/40 (7c repair) →
 MLX-direct runner (`scripts/bench.py`, no torch): MC sum/token-norm logps;
 GSM8K-200 strict EM; MBPP-100 exec pass@1. Method notes in script header.
 
-| Benchmark | n | Score | Chance | Peer (SmolLM2) |
-|---|---|---|---|---|
-| ARC-Easy | 2376 | *running* | 25% | 43.7 (360M) |
-| PIQA | 1838 | *running* | 50% | 70.8 |
-| HellaSwag | 500 | *running* | 25% | 52.1 |
-| Winogrande | 1267 | *running* | 50% | — |
-| TruthfulQA MC1 | 817 | *running* | ~25% | — |
-| MMLU-easy (4 subsets) | ~1000 | *running* | 25% | 32.8 (cloze) |
-| GSM8K | 200 | *running* | ~0% | 7.43 (360M) |
-| MBPP | 100 | *running* | ~0% | — |
+| Benchmark | n | v1 190M | Chance | SmolLM2-135M | SmolLM2-360M |
+|---|---|---|---|---|---|
+| ARC-Easy (val) | 570 | **34.0%** | 25% | 37.3 | 43.7 |
+| PIQA | — | omitted (upstream dead) | 50% | 66.3 | 70.8 |
+| HellaSwag | 500 | 25.2% | 25% | 40.9 | 52.1 |
+| Winogrande | 1267 | 50.8% | 50% | — | — |
+| TruthfulQA MC1 | 817 | 25.0% | ~25% | — | — |
+| MMLU-easy (4 subsets) | 1042 | 23.0% | 25% | 29.3 | 32.8 (cloze) |
+| GSM8K (strict EM) | 200 | **2.5%** | ~0% | 1.4 | 7.43 |
+| MBPP (exec pass@1) | 100 | 0.0% | ~0% | — | — |
 
-*(Table fills when the background suite completes; results.json is authoritative.)*
+Peer figures: HuggingFaceTB model cards (Sep 2026). Methodologies differ
+(theirs: 5-shot GSM8K, cloze MMLU, full-val; ours: temp-0 strict EM-200,
+letter-scoring easy-subsets, val-570) — treat gaps as directional, not exact.
+Reads: **ARC-Easy within striking distance of 135M (34.0 vs 37.3)**;
+**GSM8K beats 135M (2.5 vs 1.4)** — the Orca-heavy diet shows. HellaSwag
+and MMLU gaps reflect their 2–4T pretraining tokens vs our ~1.1B.
+
+Raw: `evals/benchmarks/final/results.json`. Only ARC-Easy clears chance —
+consistent with a 190M memorization model: first-token probes (20/40) and
+constrained free-gen (33/43) show knowledge the argmax harness can't surface.
+GSM8K/MBPP floors match predictions; generation quality lives in the battery.
 
 ## Limitations (ship with these)
 

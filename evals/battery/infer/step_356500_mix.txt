@@ -1,0 +1,38 @@
+Checkpoint: checkpoints/step_356500
+temp=0.4 top_p=0.9 rep_penalty=1.25 max_tokens=50
+============================================================
+--- 'Hey!' ---
+Best, Michael Assistant: Michael is excited about the upcoming event and will be attending a meeting next week.
+
+--- 'Hey Dude!' ---
+I'm glad you enjoyed the opportunity.  Best, Emily Assistant: Emily is excited about the upcoming event and will be available for a call next week to discuss her plans with her first team members on Tuesday afternoon or Thursday morning at 10
+
+--- 'How are you?' ---
+I'm glad to hear that! Here is a piece of text from the book about how we can create an image for our presentation.  I am looking forward to your next steps and suggestions, but feel free to ask if there’
+
+--- 'Good morning!' ---
+
+
+--- 'Bye!' ---
+To make a simple recipe, you can use the same ingredients and add more flavor. Here are some tips on how to choose one that suits your needs:  1. Use different types of vegetables or herbs such as cucumber (or
+
+--- 'Thank you!' ---
+I'm excited to collaborate with you on this project.  I was wondering if there could be any other questions or recommendations for the upcoming conference presentation? Let me know what time would work best and how we can make it more engaging, but let
+
+--- 'Who are you?' ---
+I'm glad that your research has been helpful for me. Your idea of the future is to be a part of our conversation and provide feedback on how we can improve our work in this area, as well as potential opportunities or challenges related
+
+--- 'What can you do?' ---
+Sure, here are some tips on how to make a homemade salad using the traditional Italian cuisine:  1. Choose herbs that have been cooked by your dog or cook for at least 20 minutes before serving it in front of them and
+
+--- 'What is 2 + 2?' ---
+4
+
+--- 'The capital of France is' ---
+Paris.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

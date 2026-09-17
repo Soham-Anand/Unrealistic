@@ -1,0 +1,29 @@
+--- 'What is 2 + 2?' ---
+Assistant: 4
+
+--- 'What is 8 + 7?' ---
+Assistant: 15
+
+--- 'The capital of France is' ---
+Assistant: Paris.
+
+--- 'The largest planet in the Solar System is' ---
+Assistant: Jupiter.
+
+--- 'The lead singer of Linkin Park was' ---
+Assistant: Chester Bennington.
+
+--- 'Who built the Taj Mahal?' ---
+Assistant: Shah Jahan built the Taj Mahal.
+
+--- 'Who is Narendra Modi?' ---
+Assistant: Narendra Modi is the current Prime Minister of India.
+
+--- 'Hey Dude!' ---
+Hey! How can I help you?
+
+--- 'Complete: The sun rises in the' ---
+Assistant: east.
+
+--- 'Write a Python function to add two numbers:' ---
+Assistant: def add(a, b):     return a + b

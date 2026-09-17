@@ -76,7 +76,13 @@ def main():
                            temperature=args.temperature,
                            top_k=0, top_p=args.top_p,
                            repetition_penalty=args.repetition_penalty)
-            texts.append(tokenizer.decode(out[len(tokens):]))
+            text = tokenizer.decode(out[len(tokens):])
+            # strip learned role marker: training format is User:/Assistant:, so
+            # bare prompts often yield a leading "Assistant:" before the answer
+            s = text.lstrip()
+            if s.startswith("Assistant:"):
+                s = s[len("Assistant:"):].lstrip()
+            texts.append(s)
 
         print(f"--- {prompt!r} ---")
         if args.self_consistency > 1 and args.majority:

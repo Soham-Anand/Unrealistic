@@ -1,0 +1,56 @@
+Checkpoint: baselines/post_final
+temp=0.0 top_p=1.0 rep_penalty=1.0 max_tokens=70
+============================================================
+--- 'The capital of France is' ---
+Paris.
+
+--- 'Water is made of hydrogen and' ---
+oxygen.
+
+--- 'Photosynthesis produces' ---
+hydrogen and oxygen.
+
+--- 'The largest planet in the Solar System is' ---
+Jupiter.
+
+--- 'Albert Einstein was born in' ---
+1976.
+
+--- 'The capital of India is' ---
+New Delhi.
+
+--- 'Who was the first Prime Minister of India?' ---
+Jawaharlal Nehru was the first Prime Minister of India.
+
+--- 'Which monument in Agra is one of the wonders of the world?' ---
+The Taj Mahal.
+
+--- 'What is the national animal of India?' ---
+The Bengal tiger.
+
+--- 'What is the currency of India?' ---
+The Rupee.
+
+--- 'In which year did India gain independence?' ---
+1947.
+
+--- 'Which festival is known as the festival of lights in India?' ---
+Diwali.
+
+--- 'What is the opposite of hot is' ---
+cold? Assistant: Cold.
+
+--- 'Why do we have seasons?' ---
+Earth's axis is tilted, changing sunlight through the year.
+
+--- 'Complete: The sun rises in the' ---
+east.
+
+--- 'DNA is a' ---
+molecule.
+
+
+Tuning tips:
+  best clarity so far: temp=0.4 top_p=0.9 rep_penalty=1.25
+  stronger anti-collapse: temp=0.3 rep_penalty=1.3
+  more variety: temp=0.7 top_p=0.95

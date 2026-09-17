@@ -46,9 +46,25 @@ model = AutoModelForCausalLM.from_pretrained("REPO_ID")
 On Apple Silicon the native MLX checkpoint + `scripts/spot_infer.py` is fastest.
 Suggested decode: temperature 0.4, top_p 0.9, repetition_penalty 1.25.
 
-GGUF quants (Q8_0 recommended, Q4_K_M small-device, F16 reference) + a
+Raw GGUF (`unrealistic-v1-f16.gguf`, exact weights, no quantization) + a
 local-Ollama `Modelfile` ship alongside. (Ollama library listing excluded:
 publisher under 18; local use unaffected.)
+
+## Ollama (recommended setup — required for correct behavior)
+
+Direct `ollama run hf.co/...` uses wrong sampling defaults (temp 0.8) and may
+ignore the embedded template. Use the shipped `Modelfile` instead:
+
+```bash
+# download Modelfile from the Files tab, then:
+ollama create unrealistic-v1 -f Modelfile
+ollama run unrealistic-v1
+```
+
+This pins temperature 0.4, top_p 0.9, repeat_penalty 1.25, ctx 1024, the
+`User:/Assistant:` chat template, and `User:` stop — the exact configuration
+the model was validated with. No system prompt (untrained distribution).
+Phone users: re-download the Q4 file (post-fix bytes with BOS disabled).
 
 ## Limitations
 

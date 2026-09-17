@@ -1,0 +1,15 @@
+# Unrealistic v1 via HuggingFace GGUF (Ollama-native template + locked params).
+#   ollama create unrealistic-v1 -f Modelfile.hf
+#   ollama run unrealistic-v1
+FROM hf.co/SohamProgrammer/Unrealistic-v1:F16
+PARAMETER temperature 0.4
+PARAMETER top_p 0.9
+PARAMETER repeat_penalty 1.25
+PARAMETER num_ctx 1024
+PARAMETER stop "User:"
+TEMPLATE """{{- range .Messages }}{{ if eq .Role "user" }}User: {{ .Content }}
+Assistant:{{ else }}{{ .Content }}</s>{{ end }}{{ end }}{{- if .Prompt }}User: {{ .Prompt }}
+Assistant:{{ end }}"""
+# NOTE: no SYSTEM prompt (untrained distribution). No trailing space after
+# "Assistant:" (a bare space token flips answers into year-attractors) and no
+# stop on "Assistant:" (the model legitimately emits it as an answer prefix).
