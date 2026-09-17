@@ -29,3 +29,4 @@ training/status.json
 .DS_Store
 *.log
 !training/logs/*.log
+tools_llama/
