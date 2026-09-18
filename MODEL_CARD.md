@@ -61,6 +61,9 @@ curl -sL https://huggingface.co/SohamProgrammer/Unrealistic-v1/resolve/main/setu
 ollama run unrealistic-v1
 ```
 (Manual alternative: download `Modelfile` from Files, `ollama create unrealistic-v1 -f Modelfile`.)
+Note: `FROM hf.co/...` Modelfiles fail on this repo because HF serves large
+files via Xet CDN, whose cross-host redirects Ollama blocks. The installer
+above downloads first and creates locally — the supported path.
 
 This pins temperature 0.4, top_p 0.9, repeat_penalty 1.25, ctx 1024, the
 `User:/Assistant:` chat template, and `User:` stop — the exact configuration
