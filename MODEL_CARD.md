@@ -53,13 +53,14 @@ publisher under 18; local use unaffected.)
 ## Ollama (recommended setup — required for correct behavior)
 
 Direct `ollama run hf.co/...` uses wrong sampling defaults (temp 0.8) and may
-ignore the embedded template. Use the shipped `Modelfile` instead:
+ignore the embedded template. One-command correct setup (fetches the tested
+`Modelfile`, builds the record — no manual config):
 
 ```bash
-# download Modelfile from the Files tab, then:
-ollama create unrealistic-v1 -f Modelfile
+curl -sL https://huggingface.co/SohamProgrammer/Unrealistic-v1/resolve/main/setup-ollama.sh | bash
 ollama run unrealistic-v1
 ```
+(Manual alternative: download `Modelfile` from Files, `ollama create unrealistic-v1 -f Modelfile`.)
 
 This pins temperature 0.4, top_p 0.9, repeat_penalty 1.25, ctx 1024, the
 `User:/Assistant:` chat template, and `User:` stop — the exact configuration

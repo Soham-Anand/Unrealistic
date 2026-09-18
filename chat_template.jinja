@@ -1,2 +1,2 @@
-{% for message in messages %}{% if message['role'] == 'user' %}User: {{ message['content'] }}
-Assistant:{% elif message['role'] == 'assistant' %} {{ message['content'] }}</s>{% endif %}{% endfor %}
+{% for message in messages %}{% if message.role == 'user' %}User: {{ message.content }}
+Assistant:{% elif message.role == 'assistant' %} {{ message.content }}</s>{% endif %}{% endfor %}
