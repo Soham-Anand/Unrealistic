@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unrealistic v1 — Science Exhibition</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 900px; margin: auto; padding: 1.5rem; line-height: 1.55; }
+  .hero { text-align: center; margin-bottom: 1.5rem; }
+  .panels { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+  .card { border: 1px solid #ccc; border-radius: 10px; padding: 1rem; }
+  iframe.chat { width: 100%; height: 560px; border: 1px solid #ccc; border-radius: 10px; }
+  .starters button { margin: .25rem; padding: .5rem .8rem; border-radius: 8px; border: 1px solid #888; background: #f6f6f6; cursor: pointer; }
+  .note { font-size: .9em; color: #555; }
+  code { background: #f0f0f0; padding: 0 .3em; border-radius: 4px; }
+</style>
+</head>
+<body>
+<div class="hero">
+  <h1>Unrealistic v1</h1>
+  <p>A 190M-parameter AI trained <b>from zero on a MacBook Air</b> — no pretraining shortcuts.<br>
+  ~356K steps · ~1.1B tokens · General knowledge 16/16 · Math 10/15</p>
+</div>
+<div class="panels">
+  <div class="card"><b>🧠 Architecture</b><br>14 layers · 768 hidden · RoPE · SwiGLU · tied embeddings · bf16 · 32K vocab</div>
+  <div class="card"><b>🏋️ Training chain</b><br>Stage C → CoT → Refresh → Realization → SFT → Wiki → SFT-refresh → DPO → diverse-SFT → anchors</div>
+  <div class="card"><b>📊 Measured, not claimed</b><br>Probes 20/40 · Free-gen 33/43 · ARC-Easy 34% · GSM8K beats 135M peers on arithmetic</div>
+</div>
+<h2>💬 Talk to it (runs free on ZeroGPU — no login, nothing shared)</h2>
+<iframe class="chat" src="https://SohamProgrammer-Unrealistic-v1-demo.hf.space"></iframe>
+<h3>Try these proven starters</h3>
+<div class="starters" id="starters"></div>
+<h2>⚠️ Honest limits</h2>
+<p class="note">English only · weak at biology, Euro-history, big-number word problems · may hallucinate dates/names ·
+free chat can ramble — the starters above are verified. Built as a learning milestone on the road to Alpha (450M).</p>
+<h2>📱 Take it home</h2>
+<p class="note">Scan the QR at the booth (points here). Laptop fallback at the booth runs it offline via Ollama: <code>ollama run unrealistic-v1</code>.</p>
+<script>
+const starters = ["What can you do?", "What is 8 + 7?", "What is the capital of France?",
+"Who was the lead singer of Linkin Park?", "Who built the Taj Mahal?",
+"What is the national animal of India?", "Write a Python function to add two numbers:",
+"Why do we have seasons?"];
+const box = document.getElementById('starters');
+starters.forEach(s => {
+  const b = document.createElement('button');
+  b.textContent = s;
+  b.onclick = () => navigator.clipboard.writeText(s).then(() => { b.textContent = 'Copied!'; setTimeout(() => b.textContent = s, 1200); });
+  box.appendChild(b);
+});
+</script>
+</body>
+</html>
