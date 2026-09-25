@@ -1,0 +1,17 @@
+{
+  "id": "sohamprodigy/alpha-450m-pretraining",
+  "title": "Alpha 450M Pretraining",
+  "code_file": "alpha_training_tpu.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "false",
+  "enable_tpu": "true",
+  "enable_internet": "true",
+  "machine_shape": "TpuV5E8",
+  "docker_image_pinning_type": "latest",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}
